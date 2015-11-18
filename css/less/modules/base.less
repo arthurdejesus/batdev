@@ -1,0 +1,44 @@
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: @ProximaNova;
+  font-family: "proxima-nova",sans-serif;
+  font-weight: 400;
+}
+
+//Fonts
+@ProximaNova: 'ProximaNova', sans-serif;
+@ProximaLight: 'ProximaNovaLight', sans-serif;
+@ProximaBold: 'ProximaNovaBold', sans-serif;
+@ProximaSemiBold: 'ProximaNovaSemibold', sans-serif;
+
+// Transition
+@transition-3s: all ease-in-out .3s;
+
+p {
+  font-size: 18px;
+  color: #616060;
+  font-weight: 300;
+  line-height: 1.8;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  .transition(@transition-3s);
+}
+
+ul {
+  text-align: center;
+  display: block;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    display: inline-block ;
+  }
+}
+

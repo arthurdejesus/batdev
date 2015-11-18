@@ -1,0 +1,54 @@
+.btn-primary {
+  background-color: #2bcaf5;
+  //font-family: @ProximaBold;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 15px 45px;
+  border-radius: 35px;
+  border: 2px dashed transparent;
+
+  &:hover {
+    border: 2px dashed #2bcaf5;
+    background-color: transparent;
+    color: #2bcaf5;
+  }
+}
+
+.btn-learn-more {
+  font-size: 16px;
+  color: #23a1dc;
+
+  &:after {
+    content: '\e901';
+    display: inline-block;
+    font-family: icomoon;
+    line-height: 1.42857143;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    margin: 0 8px;
+    vertical-align: text-bottom;
+  }
+}
+
+.btn-down {
+  display: block;
+  position: absolute;
+  bottom: 5em;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 1;
+
+  .arrow-down {
+    background-image: url(../images/arrow-down.png);
+    background-repeat: no-repeat;
+    height: 25px;
+    width: 40px;
+    display: block;
+    margin: 0 auto;
+  }
+}
