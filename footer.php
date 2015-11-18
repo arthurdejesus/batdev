@@ -1,6 +1,5 @@
 <footer>
     <div class="footer">
-
         <div class="footer-gray">
             <div class="container-fluid">
                 <div class="col-md-3">

@@ -82,3 +82,25 @@
     padding: 10px 45px;
   }
 }
+
+.single-list {
+  text-align: left;
+  li {
+    p {
+      padding-left: 28px;
+      position: relative;
+      line-height: 30px;
+      max-width: 100%;
+
+      &:before {
+        content: '';
+        border-radius: 50px;
+        position: absolute;
+        border: 5px solid #2bcaf5;
+        top: 50%;
+        .translate(-50%, -50%);
+        left: 5px;
+      }
+    }
+  }
+}

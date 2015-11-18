@@ -100,3 +100,68 @@
     color: #fff;
   }
 }
+
+.product-section {
+  position: relative;
+  overflow-x: hidden;
+}
+
+.section-black {
+  background-color: #000;
+  color: #fff;
+}
+
+.section--portfolio {
+  a {
+    position: relative;
+    -webkit-transition: color,0.6s,ease-in;
+    -moz-transition: color,0.6s,ease-in;
+    transition: color,0.6s,ease-in;
+    display: block;
+
+    .overlay, .overlay-portfolio {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      display: block;
+      top: 0;
+      left: 0;
+      z-index: 2;
+      background-color: rgba(0,0,0,0.40);
+      -webkit-transition: background-color 1s ease;
+      -moz-transition: background-color 1s ease;
+      transition: background-color 1s ease;
+    }
+
+    &:hover {
+      -webkit-transition: color,0.6s,ease-out;
+      -moz-transition: color,0.6s,ease-out;
+      transition: color,0.6s,ease-out;
+
+      .grid-content {
+        .grid-border {
+          width: 40%;
+        }
+      }
+
+      .overlay, .overlay-portfolio {
+        opacity: 0.95;
+        background-color: #2bcaf5;
+        -webkit-transition: all 1s ease-in-out;
+        -moz-transition: all 1s ease-in-out;
+        transition: all 1s ease-in-out;
+        -webkit-transform: translateZ(0);
+        visibility: visible;
+        -webkit-backface-visibility: hidden;
+      }
+    }
+  }
+
+  .grid-content {
+    .grid-border {
+      -webkit-transition: width 1s ease;
+      -moz-transition: width 1s ease;
+      transition: width 1s ease;
+    }
+  }
+}
