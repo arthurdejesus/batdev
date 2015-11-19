@@ -74,7 +74,50 @@
             </div>
             <div class="col-md-4">
                 <div class="sidebar">
+                        <div class="post-list">
+                            <ul>
+                            <li>
+                                <div class="sidebar-img" style="background-image: url('images/news-img/news-img-1.jpg');"></div>
+                                <div class="sidebar-description">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="sidebar-img" style="background-image: url('images/news-img/news-img-2.jpg');"></div>
+                                <div class="sidebar-description">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="sidebar-img" style="background-image: url('images/news-img/news-img-3.jpg');"></div>
+                                <div class="sidebar-description">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="sidebar-img" style="background-image: url('images/news-img/news-img-4.jpg');"></div>
+                                <div class="sidebar-description">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="sidebar-img" style="background-image: url('images/news-img/news-img-5.jpg');"></div>
+                                <div class="sidebar-description">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor </p>
+                                </div>
+                            </li>
+                        </ul>
+                        </div>
 
+                        <div class="latest-update">
+                            <h3>Get the  Latest Updates</h3>
+                            <form role="form">
+                                  <div class="form-group">
+                                    <input type="email" class="form-control" id="email" placeholder="Email address">
+                                  </div>    
+                                  <button type="submit" class="btn btn-primary">Submit</button>
+                                </form>
+                        </div>
                 </div>
             </div>
         </div>
