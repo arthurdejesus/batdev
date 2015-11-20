@@ -111,6 +111,46 @@
   color: #fff;
 }
 
+.section--black {
+  background-attachment: fixed;
+  position: relative;
+
+  h3 {
+    color: #fff;
+  }
+
+  .description {
+    p {
+      color: #626262 !important;
+    }
+  }
+
+  .process-grid-item-title {
+    color: #d6d6d6 !important;
+  }
+
+  .process-grid-description {
+    p {
+      color: #636363 !important;
+    }
+  }
+
+  .content, .process-grid {
+    position: relative;
+  }
+
+  &:before {
+    content: '';
+    background: #000;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: .97;
+  }
+}
+
 .section--portfolio {
   a {
     position: relative;
@@ -171,4 +211,71 @@
       transition: width 1s ease;
     }
   }
+
+  //.col-md-4:nth-child(2) {
+  //  a {
+  //    &:hover {
+  //      .overlay-portfolio{
+  //        background-color: #c5a47e;
+  //      }
+  //    }
+  //  }
+  //}
+  //
+  //.col-md-4:nth-child(3) {
+  //  a {
+  //    &:hover {
+  //      .overlay-portfolio {
+  //        background-color: #f5bf68;
+  //      }
+  //    }
+  //  }
+  //}
+  //
+  //.col-md-4:nth-child(4) {
+  //  a {
+  //    &:hover {
+  //      .overlay-portfolio {
+  //        background: #c5a47e;
+  //      }
+  //    }
+  //  }
+  //}
+
+  //@colors:
+  //#E74C3C
+  //#C0392B
+  //#E67E22
+  //#D35400
+  //#F1C40F
+  //#F39C12
+  //#2ECC71
+  //#27AE60
+  //#1ABC9C
+  //#16A085
+  //#3498DB
+  //#2980B9
+  //#9B59B6
+  //#8E44AD
+  //#34495E
+  //#2C3E50;
+  //
+  //@overlay: overlay-portfolio;
+  //
+  //  .make-rainbow(@colors, @overlay);
+  //
+  //  .make-rainbow(@colors, @tag) {
+  //    @next: ~;
+  //    @n: length(@colors);
+  //    .-; .-(@i: 1) {
+  //    @{tag} {
+  //      &:hover {
+  //        background-color: extract(@colors, @i);
+  //      }
+  //      @{next} when (@i < @n) {
+  //        .-(@i + 1);
+  //      }
+  //    }
+  //  }
+  //}
 }

@@ -22,16 +22,12 @@
             pager: false
         });
     });
-
-    $(function() {
-        $(".scroll").click(function(e) {
-            e.preventDefault();
-            $.scrollify("move",$(this).attr("href"));
-        });
-    });
-
 })(window, document, jQuery);
 
-$('.grid-product-list .grid-we-do-item:even .product-content').addClass("text-left");
-$('.grid-product-list .grid-we-do-item:odd .product-content').addClass("text-right");
+$('.grid-product-list .grid-we-do-item:odd .product-content').addClass("text--right");
 
+$(".scroll").click(function(e) {
+    e.preventDefault();
+    $.scrollify.move($(this).attr("href"));
+    //$.scrollify("move",$(this).attr("href"));
+});
