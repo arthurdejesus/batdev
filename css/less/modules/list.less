@@ -3,11 +3,15 @@
       a {
         font-size: 20px;
         color: #2bcaf5;
-        padding: 13px;
+        padding: 21px 13px;
+        line-height: 0;
         display: block;
+        .scale(1,1);
 
         &:hover, &:focus {
           text-decoration: none;
+          color: #fff;
+           .scale(1.1,1.1);
         }
       }
     }
@@ -173,4 +177,12 @@
               padding: 10px 20px;
           }
 }
+}
+
+.bat-sites-list {
+  li {
+    a {
+      display: inline-block;
+    }
+  }
 }
