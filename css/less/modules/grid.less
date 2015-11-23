@@ -78,6 +78,7 @@
 
   .grid-we-do-item {
     padding-bottom: 10px;
+    height: 100%;
 
     &:hover {
       .grid-we-do-img {
@@ -156,11 +157,11 @@
 
 .grid-product-list {
   .grid-wrap-black {
-    height: 1000px!important;
+    height: 100%!important;
     position: relative;
 
     .grid--img {
-      height: 1000px!important;
+      height: 100%!important;
       background-attachment: fixed;
     }
   }
@@ -171,6 +172,7 @@
     -webkit-transition: background-color 1s ease;
     -moz-transition: background-color 1s ease;
     transition: background-color 1s ease;
+    display: block;
 
     &:hover {
       &:before {
@@ -191,6 +193,13 @@
       height: 100%;
       position: absolute;
       .opacity(.4)
+    }
+  }
+
+  .grid-we-do-img-wrap {
+    a {
+      height: 100%;
+      width: 100%;
     }
   }
 }
@@ -214,6 +223,7 @@
       top: 50%;
       .translate(0, -50%);
       bottom: initial;
+      z-index: 1;
 
       h2 {
         font-size: 80px;
@@ -249,7 +259,7 @@
     right: 0;
     .translate(0, -50%);
     top: 50%;
-    z-index: 1;
+    z-index: 2;
 
     ul {
       li {
@@ -282,32 +292,6 @@
 
           &:hover, &:focus {
             text-decoration: none;
-          }
-        }
-
-        a.scroll.active {
-          .planning-icon {
-            border-color: #2bcaf5;
-
-            .icon-bar {
-              color: #2bcaf5;
-            }
-          }
-
-          h5 {
-            color: #2bcaf5;
-          }
-
-          .design-icon {
-            background: url('../images/icons/icon-design-active.png') no-repeat;
-          }
-
-          .deployment-icon {
-            background: url('../images/icons/icon-deployment-active.png') no-repeat;
-          }
-
-          .guarantee-icon {
-            background: url('../images/icons/icon-guarantee-active.png') no-repeat;
           }
         }
 
@@ -353,6 +337,36 @@
           height: 36px;
         }
       }
+
+      .current  {
+            a {
+                        .planning-icon {
+            border-color: #2bcaf5;
+
+            .icon-bar {
+              color: #2bcaf5;
+            }
+          }
+
+          h5 {
+            color: #2bcaf5;
+          }
+
+          .design-icon {
+            background: url('../images/icons/icon-design-active.png') no-repeat;
+          }
+
+          .deployment-icon {
+            background: url('../images/icons/icon-deployment-active.png') no-repeat;
+          }
+
+          .guarantee-icon {
+            background: url('../images/icons/icon-guarantee-active.png') no-repeat;
+          }
+            }
+      }
+
+
     }
   }
 
@@ -461,6 +475,53 @@ body.deployment {
     }
     h5 {
       color: #2bcaf5!important;
+    }
+  }
+}
+
+.product-list-wrap {
+  .grid-we-do-img-wrap {
+    a {
+      &:hover {
+            .btn-primary {
+              border: 2px dashed #2bcaf5;
+              background-color: transparent;
+              color: #2bcaf5;
+            }
+      }
+    }
+  }
+}
+
+
+
+.product-section {
+
+         .grid--img {
+            &:before {
+                .transition(all ease-in-out .3s);
+            }
+          }
+
+      &:hover {
+          .grid--img {
+            &:before {
+                .opacity(0.4);
+            }
+          }
+
+    }
+}
+
+
+.product-design {
+      &:before  {
+     .transition(all ease-in-out .3s);
+    }
+
+  &:hover {
+    &:before  {
+      .opacity(0);
     }
   }
 }

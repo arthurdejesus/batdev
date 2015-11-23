@@ -22,7 +22,7 @@
                             <a href="#" class="btn btn-primary">Read More</a>
                         </div>
 
-                        <div class="news-list-item">
+                        <div class="news-list-item hideme">
                             <h4 class="news-list-item-title">Lorem ipsum dolor sit amet, consectur</h4>
                             <div class="news-list-item-img">
                                 <img src="images/news-img/news-img-2.jpg">
@@ -34,7 +34,7 @@
                             <a href="#" class="btn btn-primary">Read More</a>
                         </div>
 
-                        <div class="news-list-item">
+                        <div class="news-list-item hideme">
                             <h4 class="news-list-item-title">Lorem ipsum dolor sit amet, consectur</h4>
                             <div class="news-list-item-img">
                                 <img src="images/news-img/news-img-3.jpg">
@@ -46,7 +46,7 @@
                             <a href="#" class="btn btn-primary">Read More</a>
                         </div>
 
-                        <div class="news-list-item">
+                        <div class="news-list-item hideme">
                             <h4 class="news-list-item-title">Lorem ipsum dolor sit amet, consectur</h4>
                             <div class="news-list-item-img">
                                 <img src="images/news-img/news-img-4.jpg">
@@ -58,7 +58,7 @@
                             <a href="#" class="btn btn-primary">Read More</a>
                         </div>
 
-                        <div class="news-list-item">
+                        <div class="news-list-item hideme">
                             <h4 class="news-list-item-title">Lorem ipsum dolor sit amet, consectur</h4>
                             <div class="news-list-item-img">
                                 <img src="images/news-img/news-img-5.jpg">

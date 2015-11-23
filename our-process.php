@@ -2,8 +2,8 @@
 <div class="grid-product-list grid-we-do m-0 p-0 product-list-holder our-process-holder">
     <div class="process-list">
         <ul class="process--list">
-            <li>
-                <a href="#planning" class="scroll" id="planning">
+            <li class="current">
+                <a href="#planning" class="scroll">
                     <i class="planning-icon">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -15,26 +15,26 @@
                 </a>
             </li>
             <li>
-                <a href="#design" class="scroll" id="design">
+                <a href="#design" class="scroll" >
                     <div class="design-icon"></div>
                     <h5>Design</h5>
                 </a>
             </li>
             <li>
-                <a href="#deployment" class="scroll" id="deployment">
+                <a href="#deployment" class="scroll" >
                     <div class="deployment-icon"></div>
                     <h5>Deployment</h5>
                 </a>
             </li>
             <li>
-                <a href="#guarantee" class="scroll" id="guarantee">
+                <a href="#guarantee" class="scroll">
                     <div class="guarantee-icon"></div>
                     <h5>Our Guarantee</h5>
                 </a>
             </li>
         </ul>
     </div>
-    <section class="product-section" data-section-name="planning">
+    <section class="product-section" data-section-name="planning" id="planning">
         <div class="grid-we-do-item p-0">
             <div class="grid-we-do-img-wrap grid-wrap-black">
                 <div class="grid--img" style="background-image:url('images/our-process/our-process-1.jpg');"></div>
@@ -50,7 +50,7 @@
         </div>
         <a href="#design" class="btn-down scroll"><span class="arrow-down"></span></a>
     </section>
-    <section class="product-section" data-section-name="design">
+    <section class="product-section product-design" data-section-name="design" id="design">
         <div class="grid-we-do-item p-0">
             <div class="grid-we-do-img-wrap grid-wrap-black">
                 <div class="grid--img" style="background-image:url('images/our-process/our-process-2.jpg');"></div>
@@ -62,7 +62,7 @@
             </div>
         </div>
     </section>
-    <section class="product-section" data-section-name="deployment">
+    <section class="product-section" data-section-name="deployment" id="deployment">
         <div class="grid-we-do-item p-0">
             <div class="grid-we-do-img-wrap grid-wrap-black">
                 <div class="grid--img" style="background-image:url('images/our-process/our-process-3.jpg');"></div>
@@ -71,10 +71,11 @@
                     <div class="gap-15"></div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                 </div>
+
             </div>
         </div>
     </section>
-    <section class="product-section" data-section-name="guarantee">
+    <section class="product-section" data-section-name="guarantee" id="guarantee">
         <div class="grid-we-do-item p-0">
             <div class="grid-we-do-img-wrap grid-wrap-black">
                 <div class="grid--img" style="background-image:url('images/our-process/our-process-5.jpg');"></div>
@@ -174,7 +175,11 @@
 <script>
     $(".product-section").css({"height":$(window).height()});
     $.scrollify({
-        section:".product-section",
+        section:".prsectionoduct-",
         sectionName : "section-name"
+    });
+
+    $.scrollify.disable({
+        section:"section-warning"
     });
 </script>
