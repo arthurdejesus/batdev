@@ -16,10 +16,10 @@
                 </div>
             </div>
 
-            <a href="#" class="btn-down"><span class="arrow-down"></span></a>
+            <a href="#toBottom" class="btn-down"><span class="arrow-down"></span></a>
         </div>
 
-        <div class="section section-intro">
+        <div class="section section-intro" id="toBottom">
             <div class="container">
                 <div class="col-md-6">
                     <div class="content">

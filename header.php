@@ -29,34 +29,28 @@
 
 <header>
     <div class="header">
-<!--        <div class="top-header">-->
-<!--            <div class="container-fluid">-->
-<!--                <ul class="social-media social-media-top">-->
-<!--                    <li><a href="#"><span class="icon-facebook"></span></a></li>-->
-<!--                    <li><a href="#"><span class="icon-google-plus"></span></a></li>-->
-<!--                    <li><a href="#"><span class="icon-twitter"></span></a></li>-->
-<!--                    <li><a href="#"><span class="icon-pinterest"></span></a></li>-->
-<!--                </ul>-->
-<!--                <p>Call: 972-475-0092</p>-->
-<!--                <p class="phone-icon"><span class="icon-phone"></span></p>-->
-<!--            </div>-->
-<!--        </div>-->
+        <div class="top-header">
+            <div class="container-fluid">
+                <ul class="social-media social-media-top">
+                    <li><a href="#"><span class="icon-facebook"></span></a></li>
+                    <li><a href="#"><span class="icon-google-plus"></span></a></li>
+                    <li><a href="#"><span class="icon-twitter"></span></a></li>
+                    <li><a href="#"><span class="icon-pinterest"></span></a></li>
+                </ul>
+                <p>Call: 972-475-0092</p>
+                <p class="phone-icon"><span class="icon-phone"></span></p>
+            </div>
+        </div>
         <nav class="navbar navbar-default navbar-menu">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
+                <div class="navbar-header-menu">
                     <a class="navbar-brand" href="index.php"><img src="images/logo.png"></a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
+                <div class="navbar-collapse-menu">
+                    <ul class="nav navbar-nav-menu">
                         <li><a href="about.php">About Us</a></li>
                         <li><a href="products.php">Products</a></li>
                         <li><a href="portfolio.php">Portfolio</a></li>
