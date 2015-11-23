@@ -3,7 +3,9 @@
     <section class="product-section">
         <div class="grid-we-do-item p-0">
             <div class="grid-we-do-img-wrap grid-wrap-black">
-                <div class="grid--img" style="background-image:url('images/products/product-1.jpg');"></div>
+                <a href="">
+                    <div class="grid--img" style="background-image:url('images/products/product-1.jpg');"></div>
+                </a>
                 <div class="product-content">
                     <h2>Trampoline Parks</h2>
                     <div class="gap-30"></div>
@@ -15,7 +17,9 @@
     <section class="product-section">
         <div class="grid-we-do-item p-0">
             <div class="grid-we-do-img-wrap grid-wrap-black">
-                <div class="grid--img" style="background-image:url('images/products/product-2.jpg');"></div>
+                <a href="">
+                    <div class="grid--img" style="background-image:url('images/products/product-2.jpg');"></div>
+                </a>
                 <div class="product-content">
                     <h2>Ninja Course</h2>
                     <div class="gap-30"></div>
@@ -27,7 +31,9 @@
     <section class="product-section">
         <div class="grid-we-do-item p-0">
             <div class="grid-we-do-img-wrap grid-wrap-black">
-                <div class="grid--img" style="background-image:url('images/products/product-3.jpg');"></div>
+                <a href="">
+                    <div class="grid--img" style="background-image:url('images/products/product-3.jpg');"></div>
+                </a>
                 <div class="product-content">
                     <h2>Sky Park</h2>
                     <div class="gap-30"></div>
