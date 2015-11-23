@@ -1,4 +1,4 @@
-<footer>
+<footer class="footer-section">
     <div class="footer">
         <div class="footer-gray">
             <div class="container-fluid">

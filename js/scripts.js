@@ -54,5 +54,30 @@ $('.grid-product-list .grid-we-do-item:odd .product-content').addClass("text--ri
 $(".scroll").click(function(e) {
     e.preventDefault();
     $.scrollify.move($(this).attr("href"));
-    //$.scrollify("move",$(this).attr("href"));
+});
+
+$(".process-list li a").on('click', function(e){
+    $(".process-list .active").removeClass('active');
+    $(this).addClass('active');
+    e.preventDefault();
+});
+
+var bodyEl = $("body");
+$(window).on("scroll", function() {
+    var scrollTop = $(this).scrollTop();
+    $(".our-process-holder section").each(function() {
+        var el = $(this),
+            className = el.attr("data-section-name");
+        if (el.offset().top < scrollTop) {
+            var lastClass = bodyEl.attr("class").split(' ').pop();
+            bodyEl.removeClass(lastClass);
+            bodyEl.addClass(className);
+        }
+        else {
+            bodyEl.removeClass(className);
+            if(!bodyEl.attr("class")) {
+                bodyEl.addClass("is-shown");
+            }
+        }
+    });
 });
