@@ -1,1 +1,4 @@
 config.codekit
+.idea
+.git
+.codekit-cache

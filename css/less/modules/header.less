@@ -14,7 +14,6 @@
 .top-header {
   text-align: right;
   background-color: #292929;
-  overflow: hidden;
 
   p {
     font-size: 20px;
@@ -29,7 +28,7 @@
   .social-media-top {
     float: right;
     border-left: 1px solid #3e3e3e;
-    padding: 0 3px 0 26px;
+    padding: 4px 3px 4px 26px;
   }
 
   .phone-icon {
@@ -44,7 +43,7 @@
   padding: 0;
   border: 0;
   border-radius: 0;
-  .navbar-header-menu {
+  .navbar-header {
     .navbar-brand {
       max-width: 300px;
       height: auto;
@@ -56,14 +55,9 @@
     }
   }
 
-  .navbar-collapse-menu{
-    .navbar-nav-menu {
-      float: right!important;
-    margin-right: -15px;
-
+  .navbar-collapse {
+    .navbar-nav {
       li {
-        display: inline-block;
-
         a {
           font-size: 17px;
           color: #fff;
@@ -71,23 +65,9 @@
 
           &:hover, &:focus {
             color: #2bcaf5;
-            background-color: transparent;
           }
         }
       }
     }
   }
-}
-
-.navbar-animated {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: #000;
-    z-index: 99;
-
-    .top-header {
-      height: 0;
-    }
 }

@@ -2,8 +2,8 @@
 <div class="grid-product-list grid-we-do m-0 p-0 product-list-holder our-process-holder">
     <div class="process-list">
         <ul class="process--list">
-            <li class="current">
-                <a href="#planning" class="scroll">
+            <li>
+                <a href="#planning" class="scroll" id="planning">
                     <i class="planning-icon">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -15,33 +15,33 @@
                 </a>
             </li>
             <li>
-                <a href="#design" class="scroll" >
+                <a href="#design" class="scroll" id="design">
                     <div class="design-icon"></div>
                     <h5>Design</h5>
                 </a>
             </li>
             <li>
-                <a href="#deployment" class="scroll" >
+                <a href="#deployment" class="scroll" id="deployment">
                     <div class="deployment-icon"></div>
                     <h5>Deployment</h5>
                 </a>
             </li>
             <li>
-                <a href="#guarantee" class="scroll">
+                <a href="#guarantee" class="scroll" id="guarantee">
                     <div class="guarantee-icon"></div>
                     <h5>Our Guarantee</h5>
                 </a>
             </li>
         </ul>
     </div>
-    <section class="product-section" data-section-name="planning" id="planning">
+    <section class="product-section" data-section-name="planning">
         <div class="grid-we-do-item p-0">
             <div class="grid-we-do-img-wrap grid-wrap-black">
                 <div class="grid--img" style="background-image:url('images/our-process/our-process-1.jpg');"></div>
                 <div class="product-content">
                     <h2>Planning</h2>
                     <div class="gap-15"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
                 <div class="product-img">
                     <img src="images/our-process/our-process-img.png" alt="">
@@ -50,32 +50,31 @@
         </div>
         <a href="#design" class="btn-down scroll"><span class="arrow-down"></span></a>
     </section>
-    <section class="product-section product-design" data-section-name="design" id="design">
+    <section class="product-section" data-section-name="design">
         <div class="grid-we-do-item p-0">
             <div class="grid-we-do-img-wrap grid-wrap-black">
                 <div class="grid--img" style="background-image:url('images/our-process/our-process-2.jpg');"></div>
                 <div class="product-content">
                     <h2>Design</h2>
                     <div class="gap-15"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
             </div>
         </div>
     </section>
-    <section class="product-section" data-section-name="deployment" id="deployment">
+    <section class="product-section" data-section-name="deployment">
         <div class="grid-we-do-item p-0">
             <div class="grid-we-do-img-wrap grid-wrap-black">
                 <div class="grid--img" style="background-image:url('images/our-process/our-process-3.jpg');"></div>
                 <div class="product-content">
                     <h2>Deployment</h2>
                     <div class="gap-15"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
-
             </div>
         </div>
     </section>
-    <section class="product-section" data-section-name="guarantee" id="guarantee">
+    <section class="product-section" data-section-name="guarantee">
         <div class="grid-we-do-item p-0">
             <div class="grid-we-do-img-wrap grid-wrap-black">
                 <div class="grid--img" style="background-image:url('images/our-process/our-process-5.jpg');"></div>
@@ -84,8 +83,7 @@
                         <div class="content">
                             <h3 class="primary-title">Our Trusted Process</h3>
                             <div class="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
                             </div>
                         </div>
                         <div class="process-grid">
@@ -94,17 +92,14 @@
                                     <div class="process-grid-item">
                                         <div class="process-grid-item-icon">
                                             <img src="images/process-home/process-icon-1.png">
-
                                         </div>
                                         <h4 class="process-grid-item-title">Lifetime Support</h4>
                                         <div class="process-grid-description">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                                            </p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
                                         </div>
                                         <a href="#" class="btn-learn-more">Learn More</a>
                                     </div>
                                 </li>
-
                                 <li>
                                     <div class="process-grid-item">
                                         <div class="process-grid-item-icon">
@@ -112,13 +107,11 @@
                                         </div>
                                         <h4 class="process-grid-item-title">Safety Compliance</h4>
                                         <div class="process-grid-description">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                                            </p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
                                         </div>
                                         <a href="#" class="btn-learn-more">Learn More</a>
                                     </div>
                                 </li>
-
                                 <li>
                                     <div class="process-grid-item">
                                         <div class="process-grid-item-icon">
@@ -126,13 +119,11 @@
                                         </div>
                                         <h4 class="process-grid-item-title">Turn-Key </h4>
                                         <div class="process-grid-description">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                                            </p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
                                         </div>
                                         <a href="#" class="btn-learn-more">Learn More</a>
                                     </div>
                                 </li>
-
                                 <li>
                                     <div class="process-grid-item">
                                         <div class="process-grid-item-icon">
@@ -140,8 +131,7 @@
                                         </div>
                                         <h4 class="process-grid-item-title">Inventory Systems</h4>
                                         <div class="process-grid-description">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                                            </p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
                                         </div>
                                         <a href="#" class="btn-learn-more">Learn More</a>
                                     </div>
@@ -150,7 +140,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
@@ -165,7 +154,7 @@
                 <div class="description">
                     <p>Landing on the head or neck can cause serious injury, paralysis,
                         or death, even when landing in the middle of the bed.
-                        Use trampoline only with mature, knowledgeable supervision.  </p>
+                        Use trampoline only with mature, knowledgeable supervision.</p>
                 </div>
             </div>
         </div>
@@ -173,13 +162,9 @@
 </div>
 <?php include 'footer.php'; ?>
 <script>
-    $(".product-section").css({"height":$(window).height()});
-    $.scrollify({
-        section:".prsectionoduct-",
-        sectionName : "section-name"
-    });
-
-    $.scrollify.disable({
-        section:"section-warning"
-    });
+$(".product-section").css({"height":$(window).height()});
+$.scrollify({
+    section:".product-section",
+    sectionName : "section-name"
+});
 </script>
