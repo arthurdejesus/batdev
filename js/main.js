@@ -2495,21 +2495,34 @@
 
     });
 
+    $('.grid-product-list .grid-we-do-item:odd .product-content').addClass("text--right");
+
+    $(".scroll").click(function(e) {
+        e.preventDefault();
+        $.scrollify.move($(this).attr("href"));
+    });
+
+    $(".process-list li a").on('click', function(e){
+        $(".process-list .active").removeClass('active');
+        $(this).addClass('active');
+        e.preventDefault();
+    });
+
+
+    $( 'document' ).ready(function() {
+        // Timeout for crypto text
+        setTimeout( function() {
+            $( '.text-effects' ).fadeIn( 'slow' );
+            SPY.text('text-math');
+        }, 800);
+    });
+
 
 })(window, document, jQuery);
 
-$('.grid-product-list .grid-we-do-item:odd .product-content').addClass("text--right");
 
-$(".scroll").click(function(e) {
-    e.preventDefault();
-    $.scrollify.move($(this).attr("href"));
-});
 
-$(".process-list li a").on('click', function(e){
-    $(".process-list .active").removeClass('active');
-    $(this).addClass('active');
-    e.preventDefault();
-});
+
 
 var bodyEl = $("body");
 $(window).on("scroll", function() {
@@ -2545,7 +2558,6 @@ $(function() {
         }
     });
 });
-
 window.onload = function() {
     document.body.className += ' loaded'
 };
@@ -2573,12 +2585,5 @@ var SPY = function() {
 }();
 
 
-$( 'document' ).ready(function() {
-    // Timeout for crypto text
-    setTimeout( function() {
-        $( '.text-effects' ).fadeIn( 'slow' );
-        SPY.text('text-math');
-    }, 800);
-});
 
 

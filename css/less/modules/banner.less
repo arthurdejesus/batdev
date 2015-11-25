@@ -140,8 +140,15 @@
 
 }
 
+.single-prod-banner {
+  overflow: hidden;
+}
+
 .banner-single {
   background-attachment: initial;
+  .translate3d(0,0,0);
+  .scale(1.25);
+
   &:before {
     background-color: transparent;
   }
@@ -158,4 +165,9 @@
   }
 
 
+}
+.loaded .banner-single {
+  .scale(1);
+  //transition: transform 0.8s ease-out, height 0.2s linear;
+  .transition(6.5s ease-out transform);
 }
