@@ -34,12 +34,21 @@
     }
 
     $(window).scroll(function () {
-        $('.section-animate').each(function () {
+        $('.section-animate, .product-section').each(function () {
             if (isScrolledIntoView(this) === true) {
                 $(this).addClass('section-animation');
             }
         });
+    });
 
+    $(window).ready(function () {
+        $('.section-animate, .product-section').each(function () {
+            if (isScrolledIntoView(this) === true) {
+                $(this).addClass('section-animation');
+            } else {
+                $(this).removeClass('section-animation');
+            }
+        });
     });
 
     $('.grid-product-list .grid-we-do-item:odd .product-content').addClass("text--right");

@@ -1715,7 +1715,7 @@
 		"disableJavascript": 0,
 		"fileType": 1,
 		"ieCompatibility": 1,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/less\/modules\/media-queries.less",
 		"outputAbbreviatedPath": "\/css\/less\/css\/media-queries.css",

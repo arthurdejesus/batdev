@@ -24,11 +24,9 @@
 .section-warning {
   background-position: center center;
   background-size: cover;
-  background-attachment: fixed;
   background-repeat: no-repeat;
   padding: 60px 0;
   position: relative;
-  z-index: 1;
 
   &:before {
     content: '';
@@ -165,27 +163,6 @@
   }
 }
 
-//.our-process-holder {
-//  [data-section-name="design"] {
-//    .grid--img {
-//      &:before {
-//        background: #185195;
-//        width: 50%;
-//        .opacity(.9);
-//        right: 0;
-//      }
-//    }
-//  }
-//
-//  [data-section-name="deployment"] {
-//    .grid--img {
-//      &:before {
-//        width: 50%;
-//        .opacity(.9);
-//      }
-//    }
-//  }
-//}
 
 .section--portfolio {
   a {
@@ -268,4 +245,9 @@
     .transition(all .5s ease-in-out 2s);
     left: 0;
   }
+}
+
+.warning-section {
+  height: 854px !important;
+  z-index: 2;
 }
