@@ -4,7 +4,7 @@
         <h2 class="banner-title">Portfolio</h2>
     </div>
 </div>
-<div class="section section-intro">
+<div class="section section-intro section-portfolio-intro">
     <div class="container">
         <div class="content text-center">
             <h3 class="primary-title">What We Do</h3>

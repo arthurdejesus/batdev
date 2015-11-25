@@ -1,44 +1,50 @@
 <?php include 'header.php'; ?>
-<div class="grid-product-list grid-we-do m-0 p-0 product-list-holder">
-    <section class="product-section">
+<div class="grid-product-list grid-we-do m-0 p-0 product-list-holder product-wrap">
+    <section class="product-section" data-section-name="trampoline-parks">
         <div class="grid-we-do-item p-0">
             <div class="grid-we-do-img-wrap grid-wrap-black">
-                <a href="">
+                <a href="#">
                     <div class="grid--img" style="background-image:url('images/products/product-1.jpg');"></div>
+
+                    <div class="product-content">
+                        <h2>Trampoline Parks</h2>
+                        <div class="gap-30"></div>
+                        <button class="btn btn-primary">Learn More</button>
+                    </div>
                 </a>
-                <div class="product-content">
-                    <h2>Trampoline Parks</h2>
-                    <div class="gap-30"></div>
-                    <a href="#" class="btn btn-primary">Learn More</a>
-                </div>
+
             </div>
         </div>
     </section>
-    <section class="product-section">
+    <section class="product-section" data-section-name="ninja-course">
         <div class="grid-we-do-item p-0">
             <div class="grid-we-do-img-wrap grid-wrap-black">
-                <a href="">
+                <a href="#">
                     <div class="grid--img" style="background-image:url('images/products/product-2.jpg');"></div>
+
+                    <div class="product-content">
+                        <h2>Ninja Course</h2>
+                        <div class="gap-30"></div>
+                        <button class="btn btn-primary">Learn More</button>
+                    </div>
                 </a>
-                <div class="product-content">
-                    <h2>Ninja Course</h2>
-                    <div class="gap-30"></div>
-                    <a href="#" class="btn btn-primary">Learn More</a>
-                </div>
+
             </div>
         </div>
     </section>
-    <section class="product-section">
+    <section class="product-section" data-section-name="sky-park">
         <div class="grid-we-do-item p-0">
             <div class="grid-we-do-img-wrap grid-wrap-black">
-                <a href="">
+                <a href="#">
                     <div class="grid--img" style="background-image:url('images/products/product-3.jpg');"></div>
+
+                    <div class="product-content">
+                        <h2>Sky Park</h2>
+                        <div class="gap-30"></div>
+                        <button href="#" class="btn btn-primary">Learn More</button>
+                    </div>
                 </a>
-                <div class="product-content">
-                    <h2>Sky Park</h2>
-                    <div class="gap-30"></div>
-                    <a href="#" class="btn btn-primary">Learn More</a>
-                </div>
+
             </div>
         </div>
     </section>

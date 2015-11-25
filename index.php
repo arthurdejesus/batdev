@@ -10,7 +10,7 @@
 
             <div class="banner-caption">
                 <div class="container">
-                    <h2 class="banner-title">Premium <span>Trampoline Parks</span></h2>
+                        <h2 class="banner-title">Premium <span>Trampoline Parks</span></h2>
                     <p class="blue-title">Made in the USA <img src="images/flag.jpg"></p>
                     <a href="#" class="btn btn-primary prl-60">See Our Work</a>
                 </div>
@@ -19,7 +19,7 @@
             <a href="#toBottom" class="btn-down"><span class="arrow-down"></span></a>
         </div>
 
-        <div class="section section-intro" id="toBottom">
+        <div class="section section-animate section-intro" id="toBottom">
             <div class="container">
                 <div class="col-md-6">
                     <div class="content">
@@ -69,7 +69,7 @@
             </div>
         </div>
 
-        <div class="section section-tagline text-center">
+        <div class="section section-animate section-tagline text-center">
             <div class="container">
                 <div class="content">
                     <h3 class="primary-title">Custom Built Trampoline Parks</h3>
@@ -104,7 +104,7 @@
             </div>
         </div>
 
-        <div class="section section-innovation" style="background-image: url('images/bg-innovation.jpg');">
+        <div class="section section-animate section-innovation" style="background-image: url('images/bg-innovation.jpg');">
             <div class="content-left">
                 <h3 class="primary-title">innovation<br>
                     has  no limits</h3>

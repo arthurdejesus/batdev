@@ -29,18 +29,18 @@
 
 <header>
     <div class="header">
-<!--        <div class="top-header">-->
-<!--            <div class="container-fluid">-->
-<!--                <ul class="social-media social-media-top">-->
-<!--                    <li><a href="#"><span class="icon-facebook"></span></a></li>-->
-<!--                    <li><a href="#"><span class="icon-google-plus"></span></a></li>-->
-<!--                    <li><a href="#"><span class="icon-twitter"></span></a></li>-->
-<!--                    <li><a href="#"><span class="icon-pinterest"></span></a></li>-->
-<!--                </ul>-->
-<!--                <p>Call: 972-475-0092</p>-->
-<!--                <p class="phone-icon"><span class="icon-phone"></span></p>-->
-<!--            </div>-->
-<!--        </div>-->
+        <div class="top-header">
+            <div class="container-fluid">
+                <ul class="social-media social-media-top">
+                    <li><a href="#"><span class="icon-facebook"></span></a></li>
+                    <li><a href="#"><span class="icon-google-plus"></span></a></li>
+                    <li><a href="#"><span class="icon-twitter"></span></a></li>
+                    <li><a href="#"><span class="icon-pinterest"></span></a></li>
+                </ul>
+                <p>Call: 972-475-0092</p>
+                <p class="phone-icon"><span class="icon-phone"></span></p>
+            </div>
+        </div>
         <nav class="navbar navbar-default navbar-menu">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->

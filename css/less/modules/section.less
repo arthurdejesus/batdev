@@ -3,6 +3,9 @@
 
   .content {
     padding-bottom: 2em;
+    left: -1000%;
+    position: relative;
+    .transition(all ease-in-out 2s);
   }
 
 }
@@ -78,6 +81,9 @@
     max-width: 550px;
     text-align: right;
     padding-left: 5em;
+    position: relative;
+    left: -1000%;
+    .transition(all ease-in-out 2s);
   }
 
   .btn-primary {
@@ -92,6 +98,12 @@
 .section-about-intro {
   padding-bottom: 15em;
   padding-top: 7em;
+
+  .content {
+    left: 0;
+    .opacity(0);
+    .transition(all .4s 2s linear;);
+  }
 }
 
 .section-we-do {
@@ -232,5 +244,17 @@
       -moz-transition: width 1s ease;
       transition: width 1s ease;
     }
+  }
+}
+
+.section-intro.section-animation {
+  .content {
+    left: 0;
+  }
+}
+
+.section-innovation.section-animation  {
+  .content-left {
+    left: 0;
   }
 }
