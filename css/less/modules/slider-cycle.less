@@ -4,6 +4,80 @@
   margin: 0px auto;
   position: relative;
   overflow: hidden;
+
+  .carousel-indicators {
+    position: relative;
+    bottom: initial;
+    left: initial;
+    margin: auto;
+    width: 100%;
+
+    &:before {
+      content: ' ';
+      position: absolute;
+      left: 50%;
+      top: 0;
+      display: block;
+      width: 100%;
+      height: 10px;
+      .translate(-50%,0);
+      background: #e1e1e1;
+      border-radius: 10px;
+    }
+
+    li {
+      content: ' ';
+      position: absolute;
+      display: inline-block;
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      border: 1px solid #d2d2d2;
+      z-index: 10;
+      margin: -5px 0 0!important;
+      background: #fff;
+      opacity: 0;
+      left: 0;
+
+      &:before {
+        content: '';
+        background: #09B7E7;
+        width: 12px;
+        height: 12px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        .translate(-50%,-50%);
+        border-radius: 50%;
+      }
+
+    }
+
+    li.active {
+      opacity: 1;
+    }
+
+    li:nth-child(2) {
+      left: 50%;
+      .translate(-50%,0);
+    }
+
+    li:nth-child(3) {
+      right: 0;
+      left: initial;
+    }
+  }
+  .transition-timer-carousel-progress-bar {
+    height: 10px;
+    background-color: #b5b5b5;
+    width: 0;
+    margin: 0;
+    border: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+  }
 }
 
 .pc_container .pc_item {
@@ -59,31 +133,4 @@
       background-image: linear-gradient(to right, #04B3E3 0%, #0AB8E8 100%);
     }
   }
-}
-
-.pc_container .pc_bar_container, .pc_bar_container_overflow {
-  position: absolute;
-  bottom: 0;
-  color: white;
-  width: 100%;
-  z-index: 90;
-}
-
-.pc_bar_container_underflow {
-  width: 90000px;
-}
-
-.left, .center, .right {
-  background-position: left;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  font-size: 1px;
-  float: left;
-}
-
-.bar {
-  background-position: left;
-  overflow: hidden;
-  font-size: 1px;
-  float: left;
 }

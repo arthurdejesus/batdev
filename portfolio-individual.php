@@ -12,8 +12,8 @@
             <div class="col-md-6">
                 <div class="single-img-holder" style="background-image: url('images/products/prod-single-1.jpg')"></div>
             </div>
-            <div class="col-md-6">
-                <div class="single-about">
+            <div class="col-md-6 animatedParent animateOnce">
+                <div class="single-about animated fadeInUpShort slow">
                     <h3>About the Project</h3>
                     <div class="gap-30"></div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
@@ -22,17 +22,17 @@
         </div>
     </div>
 </div>
-<div class="section-single-desc pb-9 section-black">
+<div class="section-single-desc pb-9 section-black animatedParent animateOnce" data-sequence="500">
     <div class="container">
         <div class="col-md-4">
-            <div class="single-about single-typograph">
+            <div class="single-about single-typograph animated fadeInUpShort slow" data-id="1">
                 <h3>The Challenge</h3>
                 <div class="gap-25"></div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
         </div>
         <div class="col-md-4">
-            <div class="single-about single-typograph">
+            <div class="single-about single-typograph animated fadeInUpShort slow" data-id="2">
                 <h3>The Result</h3>
                 <div class="gap-25"></div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
@@ -41,7 +41,7 @@
             </div>
         </div>
         <div class="col-md-4">
-            <div class="single-about single-typograph">
+            <div class="single-about single-typograph animated fadeInUpShort slow" data-id="3">
                 <h3>Services</h3>
                 <div class="gap-25"></div>
                 <ul class="single-list">
@@ -91,10 +91,10 @@
     <div class="grid-we-do-item p-0">
         <div class="grid-we-do-img-wrap grid-wrap-black">
             <div class="grid--img" style="background-image:url('images/prod-banner-bottom.jpg');"></div>
-            <div class="grid-content">
-                <p>“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.”</p>
+            <div class="grid-content animatedParent animateOnce">
+                <p class="animated fadeInUpShort slow">“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.”</p>
                 <div class="gap-30"></div>
-                <span>SARA HARPER, DIRECTOR OF MARKETING</span>
+                <span class="animated fadeInUpShort slow delay-250">SARA HARPER, DIRECTOR OF MARKETING</span>
             </div>
         </div>
     </div>

@@ -10,7 +10,7 @@
 
             <div class="banner-caption">
                 <div class="container">
-                        <h2 class="banner-title">Premium <span>Trampoline Parks</span></h2>
+                        <h2 class="banner-title banner-opacity">Premium <span>Trampoline Parks</span></h2>
                     <p class="blue-title">Made in the USA <img src="images/flag.jpg"></p>
                     <a href="#" class="btn btn-primary prl-60">See Our Work</a>
                 </div>
@@ -80,70 +80,73 @@
             </div>
         </div>
     </div>
+    <div class="section-featured pc_container">
+        <div class="carousel-featured">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="pc_item item active" style="background-image: url('images/custom-img.jpg');">
+                        <div class="desc">
+                            <div class="pc--desc">
+                                <h1>C U S T O M D E S I G N</h1>
+                                <div class="gap-30"></div>
+                                <p>BAT's design & engineering team
+                                    guides you through the entire process.</p>
+                                <div class="gap-30"></div>
+                                <a href="#" class="btn btn-primary prl-60 white-btn-bg">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pc_item item" style="background-image: url('images/custom-img.jpg');">
+                        <div class="desc">
+                            <div class="pc--desc">
+                                <h1>C U S T O M D E S I G N</h1>
+                                <div class="gap-30"></div>
+                                <p>BAT's design & engineering team
+                                    guides you through the entire process.</p>
+                                <div class="gap-30"></div>
+                                <a href="#" class="btn btn-primary prl-60 white-btn-bg">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pc_item item" style="background-image: url('images/custom-img.jpg');">
+                        <div class="desc">
+                            <div class="pc--desc">
+                                <h1>C U S T O M D E S I G N</h1>
+                                <div class="gap-30"></div>
+                                <p>BAT's design & engineering team
+                                    guides you through the entire process.</p>
+                                <div class="gap-30"></div>
+                                <a href="#" class="btn btn-primary prl-60 white-btn-bg">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-
-<!--    <div id="presentation_container" class="pc_container">-->
-<!--        <div class="pc_item" style="background-image: url('images/custom-img.jpg');">-->
-<!--            <div class="desc">-->
-<!--                <div class="pc--desc">-->
-<!--                    <h1>C U S T O M D E S I G N</h1>-->
-<!--                    <div class="gap-30"></div>-->
-<!--                    <p>BAT's design & engineering team-->
-<!--                        guides you through the entire process.</p>-->
-<!--                </div>-->
-<!---->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div class="pc_item" style="background-image: url('images/custom-img.jpg');">-->
-<!--            <div class="desc">-->
-<!--                <div class="pc--desc">-->
-<!--                    <h1>C U S T O M D E S I G N</h1>-->
-<!--                    <div class="gap-30"></div>-->
-<!--                    <p>BAT's design & engineering team-->
-<!--                        guides you through the entire process.</p>-->
-<!--                </div>-->
-<!---->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div class="pc_item" style="background-image: url('images/custom-img.jpg');">-->
-<!--            <div class="desc">-->
-<!--                <div class="pc--desc">-->
-<!--                    <h1>C U S T O M D E S I G N</h1>-->
-<!--                    <div class="gap-30"></div>-->
-<!--                    <p>BAT's design & engineering team-->
-<!--                        guides you through the entire process.</p>-->
-<!--                </div>-->
-<!---->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-
-<!---->
-<!--    <div class="gap-100"></div>-->
-    <!--        <div class="section-featured">-->
-    <!--            <div class="carousel-featured">-->
-    <!--                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">-->
-    <!--                    <!-- Indicators -->
-    <!--                    <ol class="carousel-indicators">-->
-    <!--                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>-->
-    <!--                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>-->
-    <!--                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>-->
-    <!--                    </ol>-->
-    <!---->
-    <!--                    <!-- Wrapper for slides -->
-    <!--                    <div class="carousel-inner" role="listbox">-->
-    <!--                        <div class="item active" style="background-image: url('images/progress-img.jpg');">-->
-    <!--                        </div>-->
-    <!--                        <div class="item" style="background-image: url('images/progress-img.jpg');">-->
-    <!--                        </div>-->
-    <!--                        <div class="item" style="background-image: url('images/progress-img.jpg');">-->
-    <!--                        </div>-->
-    <!--                    </div>-->
-    <!--                </div>-->
-    <!--            </div>-->
-    <!--        </div>-->
+                <div class="container">
+                    <div class="gap-100"></div>
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        <hr class="transition-timer-carousel-progress-bar"></hr>
+                    </ol>
+                    <div class="gap-30"></div>
+                    <ul class="pc-list">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"><h3>Planning</h3></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"><h3>Custom Design</h3></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"><h3>Deployment</h3></li>
+                    </ul>
+                    <div class="gap-100"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="gap-100"></div>
 
     <div class="section section-animate section-innovation" style="background-image: url('images/bg-innovation.jpg');">
+        <div class="overlay overlay-portfolio overlay-section"></div>
         <div class="content-left">
             <h3 class="primary-title">innovation<br>
                 has  no limits</h3>

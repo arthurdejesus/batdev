@@ -57,12 +57,15 @@
     font-size: 90px;
     color: #fff;
     text-transform: uppercase;
-    .opacity(0);
     .transition(all .4s 1s linear);
 
     span {
       display: block;
     }
+  }
+
+  .banner-opacity {
+    .opacity(0);
   }
 
   .blue-title {
@@ -154,9 +157,10 @@
   }
 }
 
+
 .is-shown {
   .banner-caption,
-  .banner-title,
+  .banner-opacity,
   .blue-title,
   .btn-primary,
   .btn-down,
@@ -164,11 +168,9 @@
   .section-portfolio-intro .content {
     .opacity(1);
   }
-
-
 }
+
 .loaded .banner-single {
   .scale(1);
-  //transition: transform 0.8s ease-out, height 0.2s linear;
   .transition(6.5s ease-out transform);
 }

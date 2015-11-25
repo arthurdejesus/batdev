@@ -104,3 +104,27 @@
     }
   }
 }
+
+.pc-list {
+  position: relative;
+  text-align: left;
+
+  li {
+    display: inline-block;
+    position: absolute;
+    cursor: pointer;
+
+    h3 {
+      color: #575757;
+    }
+  }
+
+  li:nth-child(2){
+    left: 50%;
+    transform: translate(-50%,0%);
+  }
+
+  li:last-child{
+    right: 0;
+  }
+}
