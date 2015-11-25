@@ -165,6 +165,6 @@
 $(".product-section").css({"height":$(window).height()});
 $.scrollify({
     section:".product-section",
-    sectionName : "section-name"
+    sectionName : "section-name",
 });
 </script>
