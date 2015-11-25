@@ -10,7 +10,7 @@
 
             <div class="banner-caption">
                 <div class="container">
-                        <h2 class="banner-title">Premium <span>Trampoline Parks</span></h2>
+                        <h2 class="banner-title banner-opacity">Premium <span>Trampoline Parks</span></h2>
                     <p class="blue-title">Made in the USA <img src="images/flag.jpg"></p>
                     <a href="#" class="btn btn-primary prl-60">See Our Work</a>
                 </div>
