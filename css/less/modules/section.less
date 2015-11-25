@@ -3,9 +3,10 @@
 
   .content {
     padding-bottom: 2em;
-    left: -1000%;
+    left: -35%;
     position: relative;
-    .transition(all ease-in-out 2s);
+    .transition(all .5s ease-in-out 1s);
+    .opacity(0);
   }
 
 }
@@ -81,9 +82,10 @@
     max-width: 550px;
     text-align: right;
     padding-left: 5em;
+    left: -20%;
     position: relative;
-    left: -1000%;
-    .transition(all ease-in-out 2s);
+    .transition(all .5s ease-in-out 1s);
+    .opacity(0);
   }
 
   .btn-primary {
@@ -92,7 +94,7 @@
 }
 
 .section-tagline {
-  padding-bottom: 6em;
+  padding-bottom: 8em;
 }
 
 .section-about-intro {
@@ -100,9 +102,9 @@
   padding-top: 7em;
 
   .content {
-    left: 0;
+    .transition(all .5s ease-in-out 2s);
     .opacity(0);
-    .transition(all .4s 2s linear;);
+    left: 0;
   }
 }
 
@@ -250,11 +252,20 @@
 .section-intro.section-animation {
   .content {
     left: 0;
+    .opacity(1);
   }
 }
 
 .section-innovation.section-animation  {
   .content-left {
+    left: 0;
+    .opacity(1);
+  }
+}
+
+.section-portfolio-intro {
+  .content {
+    .transition(all .5s ease-in-out 2s);
     left: 0;
   }
 }

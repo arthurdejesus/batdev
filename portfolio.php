@@ -8,8 +8,6 @@
     <div class="container">
         <div class="content text-center">
             <h3 class="primary-title">What We Do</h3>
-        </div>
-        <div class="content text-center">
             <div class="description">
                 <p class="mw-70">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>

@@ -118,8 +118,8 @@
 <!--        </div>-->
 <!--    </div>-->
 
-
-    <div class="gap-100"></div>
+<!---->
+<!--    <div class="gap-100"></div>-->
     <!--        <div class="section-featured">-->
     <!--            <div class="carousel-featured">-->
     <!--                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">-->
