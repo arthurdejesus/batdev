@@ -2955,19 +2955,86 @@
             pager: false
         });
     });
+
+    function isScrolledIntoView(elem) {
+        var docViewTop = $(window).scrollTop();
+        var docViewBottom = docViewTop + $(window).height();
+
+        var elemTop = $(elem).offset().top;
+        var elemBottom = elemTop + $(elem).height();
+
+        return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+    }
+
+    $(window).scroll(function () {
+        $('.section-animate').each(function () {
+            if (isScrolledIntoView(this) === true) {
+                $(this).addClass('section-animation');
+            }
+        });
+
+    });
+
+    $('.grid-product-list .grid-we-do-item:odd .product-content').addClass("text--right");
+
+    $(".scroll").click(function(e) {
+        e.preventDefault();
+        $.scrollify.move($(this).attr("href"));
+    });
+
+    $(".process-list li a").on('click', function(e){
+        $(".process-list .active").removeClass('active');
+        $(this).addClass('active');
+        e.preventDefault();
+    });
+
+
+    $( 'document' ).ready(function() {
+        // Timeout for crypto text
+        setTimeout( function() {
+            $( '.text-effects' ).fadeIn( 'slow' );
+            SPY.text('text-math');
+        }, 800);
+    });
+
+    /* Every time the window is scrolled ... */
+    $(window).scroll( function(){
+
+        /* Check the location of each desired element */
+        $('.hideme').each( function(i){
+
+            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+            /* If the object is completely visible in the window, fade it it */
+            if( bottom_of_window > bottom_of_object ){
+
+                $(this).animate({'opacity':'1'},500);
+
+            }
+
+        });
+
+    });
+
+    $(function() {
+        $('a[href=#goto-down]').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+
+
 })(window, document, jQuery);
 
-$('.grid-product-list .grid-we-do-item:odd .product-content').addClass("text--right");
-
-$(".scroll").click(function(e) {
-    $.scrollify.move($(this).attr("href"));
-});
-
-$(".process-list li a").on('click', function(e){
-    $(".process-list .active").removeClass('active');
-    $(this).addClass('active');
-    e.preventDefault();
-});
 
 var bodyEl = $("body");
 $(window).on("scroll", function() {

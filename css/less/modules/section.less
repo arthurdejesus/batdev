@@ -3,6 +3,10 @@
 
   .content {
     padding-bottom: 2em;
+    left: -35%;
+    position: relative;
+    .transition(all .5s ease-in-out 1s);
+    .opacity(0);
   }
 
 }
@@ -83,7 +87,10 @@
     max-width: 550px;
     text-align: right;
     padding-left: 5em;
+    left: -20%;
     position: relative;
+    .transition(all .5s ease-in-out 1s);
+    .opacity(0);
   }
 
   .btn-primary {
@@ -92,12 +99,18 @@
 }
 
 .section-tagline {
-  padding-bottom: 6em;
+  padding-bottom: 8em;
 }
 
 .section-about-intro {
   padding-bottom: 15em;
   padding-top: 7em;
+
+  .content {
+    .transition(all .5s ease-in-out 2s);
+    .opacity(0);
+    left: 0;
+  }
 }
 
 .section-we-do {
@@ -262,5 +275,26 @@
     background-color: transparent!important;
     border: 2px dashed #fff!important;
     color: #fff!important;
+  }
+}
+
+.section-intro.section-animation {
+  .content {
+    left: 0;
+    .opacity(1);
+  }
+}
+
+.section-innovation.section-animation  {
+  .content-left {
+    left: 0;
+    .opacity(1);
+  }
+}
+
+.section-portfolio-intro {
+  .content {
+    .transition(all .5s ease-in-out 2s);
+    left: 0;
   }
 }

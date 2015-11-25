@@ -1,24 +1,24 @@
 <?php include 'header.php'; ?>
-    <div class="banner-slider">
-        <ul class="bxslider">
-            <li style="background-image: url('images/banner-img/slider1.jpg')"></li>
-            <li style="background-image: url('images/banner-img/slider2.jpg')"></li>
-            <li style="background-image: url('images/banner-img/slider3.jpg')"></li>
-            <li style="background-image: url('images/banner-img/slider4.jpg')"></li>
-            <li style="background-image: url('images/banner-img/slider5.jpg')"></li>
-        </ul>
+        <div class="banner-slider">
+            <ul class="bxslider">
+                <li style="background-image: url('images/banner-img/slider1.jpg')"></li>
+                <li style="background-image: url('images/banner-img/slider2.jpg')"></li>
+                <li style="background-image: url('images/banner-img/slider3.jpg')"></li>
+                <li style="background-image: url('images/banner-img/slider4.jpg')"></li>
+                <li style="background-image: url('images/banner-img/slider5.jpg')"></li>
+            </ul>
 
-        <div class="banner-caption">
-            <div class="container">
-                <h2 class="banner-title"><spa class="animated fadeInDownShort slow go delay-500">Premium </span><span class="animated fadeInUpShort slow go delay-500">Trampoline Parks</span></h2>
-                <p class="blue-title">Made in the USA <img src="images/flag.jpg"></p>
-                <a href="#" class="btn btn-primary prl-60">See Our Work</a>
+            <div class="banner-caption">
+                <div class="container">
+                        <h2 class="banner-title">Premium <span>Trampoline Parks</span></h2>
+                    <p class="blue-title">Made in the USA <img src="images/flag.jpg"></p>
+                    <a href="#" class="btn btn-primary prl-60">See Our Work</a>
+                </div>
             </div>
+            <a href="#goto-down" class="btn-down"><span class="arrow-down"></span></a>
         </div>
-        <a href="#" class="btn-down"><span class="arrow-down"></span></a>
-    </div>
 
-    <div class="section section-intro">
+    <div class="section section-animate section-intro" id="goto-down">
         <div class="container">
             <div class="col-md-6">
                 <div class="content">
@@ -68,13 +68,14 @@
         </div>
     </div>
 
-    <div class="section section-tagline text-center">
-        <div class="container">
-            <div class="content">
-                <h3 class="primary-title">Custom Built Trampoline Parks</h3>
-                <h4 class="blue-title">Made in the USA <img src="images/flag.jpg"></h4>
-                <div class="description">
-                    <p>From A to Z, Best American Trampolines leads you through the entire process</p>
+        <div class="section section-animate section-tagline text-center">
+            <div class="container">
+                <div class="content">
+                    <h3 class="primary-title">Custom Built Trampoline Parks</h3>
+                    <h4 class="blue-title">Made in the USA <img src="images/flag.jpg"></h4>
+                    <div class="description">
+                        <p>From A to Z, Best American Trampolines leads you through the entire process</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -144,7 +145,7 @@
     </div>
     <div class="gap-100"></div>
 
-    <div class="section section-innovation" style="background-image: url('images/bg-innovation.jpg');">
+    <div class="section section-animate section-innovation" style="background-image: url('images/bg-innovation.jpg');">
         <div class="overlay overlay-portfolio overlay-section"></div>
         <div class="content-left">
             <h3 class="primary-title">innovation<br>
@@ -226,7 +227,7 @@
                     </li>
                 </ul>
             </div>
-        </div>
+         </div>
     </div>
 
     <div class="section-warning" style="background-image: url('images/bg-warning.jpg');">

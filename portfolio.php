@@ -4,12 +4,10 @@
         <h2 class="banner-title text-effects" id="text-math">Portfolio</h2>
     </div>
 </div>
-<div class="section section-intro">
+<div class="section section-intro section-portfolio-intro">
     <div class="container">
         <div class="content text-center">
             <h3 class="primary-title">What We Do</h3>
-        </div>
-        <div class="content text-center">
             <div class="description">
                 <p class="mw-70">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
