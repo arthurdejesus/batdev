@@ -17,10 +17,10 @@
         </div>
     </div>
 </div>
-<div class="section--portfolio">
+<div class="section--portfolio overlay--effects">
     <div class="grid-we-do p-0 m-0">
         <div class="col-md-4 p-0">
-            <a href="portfolio-individual.php">
+            <a class="overlay--hover" href="portfolio-individual.php">
                 <div class="grid-we-do-item p-0">
                     <div class="grid-we-do-img-wrap grid-wrap-black">
                         <div class="grid--img" style="background-image:url('images/portfolio-img/portfolio-1.jpg');"></div>
@@ -35,7 +35,7 @@
             </a>
         </div>
         <div class="col-md-4 p-0">
-            <a href="portfolio-individual.php">
+            <a class="overlay--hover" href="portfolio-individual.php">
                 <div class="grid-we-do-item p-0">
                     <div class="grid-we-do-img-wrap grid-wrap-black">
                         <div class="grid--img" style="background-image:url('images/portfolio-img/portfolio-2.jpg');"></div>
@@ -50,7 +50,7 @@
             </a>
         </div>
         <div class="col-md-4 p-0">
-            <a href="portfolio-individual.php">
+            <a class="overlay--hover" href="portfolio-individual.php">
                 <div class="grid-we-do-item p-0">
                     <div class="grid-we-do-img-wrap grid-wrap-black">
                         <div class="grid--img" style="background-image:url('images/portfolio-img/portfolio-3.jpg');"></div>
@@ -65,7 +65,7 @@
             </a>
         </div>
         <div class="col-md-4 p-0">
-            <a href="portfolio-individual.php">
+            <a class="overlay--hover" href="portfolio-individual.php">
                 <div class="grid-we-do-item p-0">
                     <div class="grid-we-do-img-wrap grid-wrap-black">
                         <div class="grid--img" style="background-image:url('images/portfolio-img/portfolio-4.jpg');"></div>
@@ -80,7 +80,7 @@
             </a>
         </div>
         <div class="col-md-4 p-0">
-            <a href="portfolio-individual.php">
+            <a class="overlay--hover" href="portfolio-individual.php">
                 <div class="grid-we-do-item p-0">
                     <div class="grid-we-do-img-wrap grid-wrap-black">
                         <div class="grid--img" style="background-image:url('images/portfolio-img/portfolio-5.jpg');"></div>
@@ -95,7 +95,7 @@
             </a>
         </div>
         <div class="col-md-4 p-0">
-            <a href="portfolio-individual.php">
+            <a class="overlay--hover" href="portfolio-individual.php">
                 <div class="grid-we-do-item p-0">
                     <div class="grid-we-do-img-wrap grid-wrap-black">
                         <div class="grid--img" style="background-image:url('images/portfolio-img/portfolio-6.jpg');"></div>
@@ -110,7 +110,7 @@
             </a>
         </div>
         <div class="col-md-4 p-0">
-            <a href="portfolio-individual.php">
+            <a class="overlay--hover" href="portfolio-individual.php">
                 <div class="grid-we-do-item p-0">
                     <div class="grid-we-do-img-wrap grid-wrap-black">
                         <div class="grid--img" style="background-image:url('images/portfolio-img/portfolio-7.jpg');"></div>
@@ -125,7 +125,7 @@
             </a>
         </div>
         <div class="col-md-4 p-0">
-            <a href="portfolio-individual.php">
+            <a class="overlay--hover" href="portfolio-individual.php">
                 <div class="grid-we-do-item p-0">
                     <div class="grid-we-do-img-wrap grid-wrap-black">
                         <div class="grid--img" style="background-image:url('images/portfolio-img/portfolio-8.jpg');"></div>
@@ -140,7 +140,7 @@
             </a>
         </div>
         <div class="col-md-4 p-0">
-            <a href="portfolio-individual.php">
+            <a class="overlay--hover" href="portfolio-individual.php">
                 <div class="grid-we-do-item p-0">
                     <div class="grid-we-do-img-wrap grid-wrap-black">
                         <div class="grid--img" style="background-image:url('images/portfolio-img/portfolio-9.jpg');"></div>

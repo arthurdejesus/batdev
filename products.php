@@ -1,6 +1,6 @@
 <?php include 'header.php'; ?>
 <div class="grid-product-list grid-we-do m-0 p-0 product-list-holder">
-    <section class="product-section">
+    <section class="product-section animatedParent animateOnce">
         <div class="grid-we-do-item p-0">
             <div class="grid-we-do-img-wrap grid-wrap-black">
                 <a href="">

@@ -161,7 +161,7 @@
     position: relative;
 
     .grid--img {
-      height: 100%!important;
+      height: 100vh!important;
       background-attachment: fixed;
     }
   }
@@ -356,10 +356,6 @@
       }
     }
   }
-
-  .btn-down {
-    bottom: 8em;
-  }
 }
 
 .product-content {
@@ -464,4 +460,9 @@ body.deployment {
       color: #2bcaf5!important;
     }
   }
+}
+
+.show-scale {
+  .scale(1.1,1.1);
+  .transition(@transition-3s);
 }
