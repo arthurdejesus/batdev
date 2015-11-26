@@ -1,11 +1,21 @@
 <?php include 'header.php'; ?>
         <div class="banner-slider animatedParent animateOnce">
             <ul class="bxslider">
-                <li style="background-image: url('images/banner-img/slider1.jpg')"></li>
-                <li style="background-image: url('images/banner-img/slider2.jpg')"></li>
-                <li style="background-image: url('images/banner-img/slider3.jpg')"></li>
-                <li style="background-image: url('images/banner-img/slider4.jpg')"></li>
-                <li style="background-image: url('images/banner-img/slider5.jpg')"></li>
+                <li>
+                    <div class="banner-slider-image" style="background-image: url('images/banner-img/slider1.jpg')"></div>
+                </li>
+                <li>
+                    <div class="banner-slider-image" style="background-image: url('images/banner-img/slider2.jpg')"></div>
+                </li>
+                <li>
+                    <div class="banner-slider-image" style="background-image: url('images/banner-img/slider3.jpg')"></div>
+                </li>
+                <li>
+                    <div class="banner-slider-image" style="background-image: url('images/banner-img/slider4.jpg')"></div>
+                </li>
+                <li>
+                    <div class="banner-slider-image" style="background-image: url('images/banner-img/slider5.jpg')"></div>
+                </li>
             </ul>
 
             <div class="banner-caption">

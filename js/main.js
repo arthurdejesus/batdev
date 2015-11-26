@@ -2947,12 +2947,19 @@
         });
 
         $('.bxslider').bxSlider({
+            onSlideAfter: function (currentSlideNumber, totalSlideQty, currentSlideHtmlObject) {
+                $('.active-slide').removeClass('active-slide');
+                $('.bxslider > li').eq(currentSlideHtmlObject).addClass('active-slide')
+            },
+            onSliderLoad: function () {
+                $('.bxslider > li').eq(1).addClass('active-slide')
+            },
             auto: true,
             autoControls: false,
             speed: 1000,
             mode: 'fade',
             randomStart: true,
-            pager: false
+            pager: true
         });
 
         $(document).ready(function(){
