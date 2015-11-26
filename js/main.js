@@ -2956,33 +2956,6 @@
         });
     });
 
-    function isScrolledIntoView(elem) {
-        var docViewTop = $(window).scrollTop();
-        var docViewBottom = docViewTop + $(window).height();
-
-        var elemTop = $(elem).offset().top;
-        var elemBottom = elemTop + $(elem).height();
-
-        return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
-    }
-
-    $(window).scroll(function () {
-        $('.section-animate, .product-section').each(function () {
-            if (isScrolledIntoView(this) === true) {
-                $(this).addClass('section-animation');
-            }
-        });
-    });
-
-    $(window).ready(function () {
-        $('.section-animate, .product-section').each(function () {
-            if (isScrolledIntoView(this) === true) {
-                $(this).addClass('section-animation');
-            } else {
-                $(this).removeClass('section-animation');
-            }
-        });
-    });
 
     $('.grid-product-list .grid-we-do-item:odd .product-content').addClass("text--right");
 
@@ -3006,25 +2979,6 @@
         }, 800);
     });
 
-    /* Every time the window is scrolled ... */
-    $(window).scroll( function(){
-
-        /* Check the location of each desired element */
-        $('.hideme').each( function(i){
-
-            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
-            var bottom_of_window = $(window).scrollTop() + $(window).height();
-
-            /* If the object is completely visible in the window, fade it it */
-            if( bottom_of_window > bottom_of_object ){
-
-                $(this).animate({'opacity':'1'},500);
-
-            }
-
-        });
-
-    });
 
     $(function() {
         $('a[href=#goto-down]').click(function() {

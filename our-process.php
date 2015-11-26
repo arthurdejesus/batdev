@@ -38,7 +38,7 @@
         <div class="grid-we-do-item p-0">
             <div class="grid-we-do-img-wrap grid-wrap-black">
                 <div class="grid--img" style="background-image:url('images/our-process/our-process-1.jpg');"></div>
-                <div class="product-content">
+                <div class="product-content FadeLeft">
                     <h2>Planning</h2>
                     <div class="gap-15"></div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -146,17 +146,17 @@
 </div>
 
 <section class="warning-section product-section" data-section-name="warning">
-    <div class="section-warning" style="background-image: url('images/bg-warning.jpg');">
+    <div class="section-warning animatedParent animateOnce" style="background-image: url('images/bg-warning.jpg');">
         <div class="container">
             <div class="col-md-5">
-                <h3 class="warning-title">Warning<img src="images/warning-icon.png"></h3>
+                <h3 class="warning-title animated fadeInLeft slow">Warning<img src="images/warning-icon.png"></h3>
             </div>
             <div class="col-md-7">
-                <div class="content">
+                <div class="content animated fadeInRight slow">
                     <div class="description">
                         <p>Landing on the head or neck can cause serious injury, paralysis,
                             or death, even when landing in the middle of the bed.
-                            Use trampoline only with mature, knowledgeable supervision.</p>
+                            Use trampoline only with mature, knowledgeable supervision.  </p>
                     </div>
                 </div>
             </div>

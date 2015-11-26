@@ -4,11 +4,11 @@
         <h2 class="banner-title text-effects" id="text-math">Portfolio</h2>
     </div>
 </div>
-<div class="section section-intro section-portfolio-intro">
+<div class="section section-intro section-portfolio-intro animatedParent animateOnce">
     <div class="container">
         <div class="content text-center">
-            <h3 class="primary-title">What We Do</h3>
-            <div class="description">
+            <h3 class="primary-title animated fadeInUpShort slow">What We Do</h3>
+            <div class="description animated fadeInUpShort slow delay-250">
                 <p class="mw-70">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
             </div>
@@ -154,20 +154,20 @@
         </div>
     </div>
 </div>
-<div class="section-warning" style="background-image: url('images/bg-warning.jpg');">
-    <div class="container">
-        <div class="col-md-5">
-            <h3 class="warning-title">Warning<img src="images/warning-icon.png"></h3>
-        </div>
-        <div class="col-md-7">
-            <div class="content">
-                <div class="description">
-                    <p>Landing on the head or neck can cause serious injury, paralysis,
-                        or death, even when landing in the middle of the bed.
-                        Use trampoline only with mature, knowledgeable supervision.  </p>
+    <div class="section-warning animatedParent animateOnce" style="background-image: url('images/bg-warning.jpg');">
+        <div class="container">
+            <div class="col-md-5">
+                <h3 class="warning-title animated fadeInLeft slow">Warning<img src="images/warning-icon.png"></h3>
+            </div>
+            <div class="col-md-7">
+                <div class="content animated fadeInRight slow">
+                    <div class="description">
+                        <p>Landing on the head or neck can cause serious injury, paralysis,
+                            or death, even when landing in the middle of the bed.
+                            Use trampoline only with mature, knowledgeable supervision.  </p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 <?php include 'footer.php'; ?>
