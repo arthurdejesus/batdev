@@ -114,7 +114,7 @@
                     <div class="pc_item item active" style="background-image: url('images/custom-img.jpg');">
                         <div class="desc">
                             <div class="pc--desc">
-                                <h1>P L A N N I N G</h1>
+                                <h1>PLANNING</h1>
                                 <div class="gap-30"></div>
                                 <p>BAT's design & engineering team
                                     guides you through the entire process.</p>
@@ -126,7 +126,7 @@
                     <div class="pc_item item" style="background-image: url('images/custom-img.jpg');">
                         <div class="desc">
                             <div class="pc--desc">
-                                <h1>C U S T O M <br>D E S I G N</h1>
+                                <h1>CUSTOM <br>DESIGN</h1>
                                 <div class="gap-30"></div>
                                 <p>BAT's design & engineering team
                                     guides you through the entire process.</p>
@@ -138,7 +138,7 @@
                     <div class="pc_item item" style="background-image: url('images/custom-img.jpg');">
                         <div class="desc">
                             <div class="pc--desc">
-                                <h1>C U S T O M <br>D E S I G N</h1>
+                                <h1>DEPLOYMENT</h1>
                                 <div class="gap-30"></div>
                                 <p>BAT's design & engineering team
                                     guides you through the entire process.</p>
