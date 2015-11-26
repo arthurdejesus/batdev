@@ -4,17 +4,17 @@
         <h2 class="banner-title text-effects" id="text-math">Contact Us</h2>
     </div>
 </div>
-<div class="section section-intro">
+<div class="section section-intro section-contact-intro animatedParent animateOnce">
     <div class="container">
-        <div class="content text-center">
+        <div class="content text-center animated fadeInUp slow">
             <h3 class="primary-title">Send us a Message</h3>
         </div>
     </div>
 </div>
-<div class="section-contact pb-9">
+<div class="section-contact pb-9 animatedParent animateOnce">
     <div class="container">
         <div class="col-md-6">
-            <div class="contact-content-holder">
+            <div class="contact-content-holder animated fadeInUp slow">
                 <div class="contact-content">
                     <p>Local DFW customers call</p>
                     <span>972-475-0092</span>
@@ -43,7 +43,7 @@
             </div>
         </div>
         <div class="col-md-6">
-            <div class="contact-form">
+            <div class="contact-form animated fadeInUp slow">
                 <form>
                     <div class="form-group">
                         <input type="text" class="form-control" placeholder="Full Name">
@@ -63,20 +63,20 @@
         </div>
     </div>
 </div>
-<div class="section-warning" style="background-image: url('images/bg-warning.jpg');">
-    <div class="container">
-        <div class="col-md-5">
-            <h3 class="warning-title">Warning<img src="images/warning-icon.png"></h3>
-        </div>
-        <div class="col-md-7">
-            <div class="content">
-                <div class="description">
-                    <p>Landing on the head or neck can cause serious injury, paralysis,
-                        or death, even when landing in the middle of the bed.
-                        Use trampoline only with mature, knowledgeable supervision.  </p>
+    <div class="section-warning animatedParent animateOnce" style="background-image: url('images/bg-warning.jpg');">
+        <div class="container">
+            <div class="col-md-5">
+                <h3 class="warning-title animated fadeInLeft slow">Warning<img src="images/warning-icon.png"></h3>
+            </div>
+            <div class="col-md-7">
+                <div class="content animated fadeInRight slow">
+                    <div class="description">
+                        <p>Landing on the head or neck can cause serious injury, paralysis,
+                            or death, even when landing in the middle of the bed.
+                            Use trampoline only with mature, knowledgeable supervision.  </p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 <?php include 'footer.php'; ?>

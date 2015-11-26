@@ -1,12 +1,7 @@
 .section-intro {
-  position: relative;
 
   .content {
     padding-bottom: 2em;
-    left: -35%;
-    position: relative;
-    .transition(all .5s ease-in-out 1s);
-    .opacity(0);
   }
 
 }
@@ -24,7 +19,6 @@
 .section-warning {
   background-position: center center;
   background-size: cover;
-  background-attachment: fixed;
   background-repeat: no-repeat;
   padding: 60px 0;
   position: relative;
@@ -87,10 +81,6 @@
     max-width: 550px;
     text-align: right;
     padding-left: 5em;
-    left: -20%;
-    position: relative;
-    .transition(all .5s ease-in-out 1s);
-    .opacity(0);
   }
 
   .btn-primary {
@@ -105,12 +95,6 @@
 .section-about-intro {
   padding-bottom: 15em;
   padding-top: 7em;
-
-  .content {
-    .transition(all .5s ease-in-out 2s);
-    .opacity(0);
-    left: 0;
-  }
 }
 
 .section-we-do {
@@ -124,6 +108,10 @@
 .product-section {
   position: relative;
   overflow-x: hidden;
+  min-width: 1024px;
+  min-height: 768px;
+
+
 }
 
 .section-black {
@@ -171,6 +159,12 @@
 }
 
 .overlay--effects {
+
+  .grid-wrap-black .grid--img {
+    .scale(1,1);
+    .transition(all ease-in-out 0.6s)
+  }
+
   .overlay--hover {
     position: relative;
     -webkit-transition: color,0.6s,ease-in;
@@ -192,6 +186,10 @@
         -webkit-transform: translateZ(0);
         visibility: visible;
         -webkit-backface-visibility: hidden;
+      }
+
+      .grid-wrap-black .grid--img {
+        .scale(1.1,1.1);
       }
     }
   }
@@ -278,23 +276,9 @@
   }
 }
 
-.section-intro.section-animation {
-  .content {
-    left: 0;
-    .opacity(1);
-  }
+
+.warning-section {
+  height: 854px !important;
+  z-index: 2;
 }
 
-.section-innovation.section-animation  {
-  .content-left {
-    left: 0;
-    .opacity(1);
-  }
-}
-
-.section-portfolio-intro {
-  .content {
-    .transition(all .5s ease-in-out 2s);
-    left: 0;
-  }
-}

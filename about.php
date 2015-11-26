@@ -10,14 +10,14 @@
     <img src="images/triangle.svg">
 </div>
 
-<div class="section section-intro section-about-intro">
+<div class="section section-intro section-about-intro animatedParent animateOnce">
     <div class="container">
         <div class="col-md-4">
-            <div class="content">
+            <div class="content animated fadeInLeft slow">
                 <h3 class="primary-title">History</h3>
             </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 animated fadeInRight slow delay-250">
             <div class="content">
                 <div class="description">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
@@ -31,13 +31,13 @@
     <img src="images/triangle-black.svg">
 </div>
 
-<div class="section section-we-do text-center">
+<div class="section section-we-do text-center animatedParent animateOnce">
     <div class="container">
         <div class="content">
-            <h3 class="primary-title">What We Do</h3>
+            <h3 class="primary-title animated fadeInUp slow">What We Do</h3>
         </div>
 
-        <div class="grid-we-do">
+        <div class="grid-we-do animated fadeInUp slow delay-250">
             <div class="col-md-6">
                 <div class="grid-we-do-item">
                     <div class="grid-we-do-img-wrap">
@@ -81,14 +81,14 @@
 
 </div>
 
-<div class="section section-leadership text-center">
+<div class="section section-leadership text-center animatedParent animateOnce">
     <div class="container">
         <div class="content">
-            <h3 class="primary-title">Leadership</h3>
+            <h3 class="primary-title animated fadeInUp slow">Leadership</h3>
         </div>
         <div class="grid-leader">
             <div class="col-md-8">
-                <div class="content">
+                <div class="content animated fadeInLeft slow">
                     <h4 class="grid-leader-title">John Doe</h4>
                     <div class="description">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
@@ -96,7 +96,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="grid-circle-wrap">
+                <div class="grid-circle-wrap animated fadeInRight slow">
                     <img src="images/leadership-img.jpg">
                 </div>
             </div>
@@ -104,13 +104,13 @@
     </div>
 </div>
 
-    <div class="section-warning" style="background-image: url('images/bg-warning.jpg');">
+    <div class="section-warning animatedParent animateOnce" style="background-image: url('images/bg-warning.jpg');">
         <div class="container">
             <div class="col-md-5">
-                <h3 class="warning-title">Warning<img src="images/warning-icon.png"></h3>
+                <h3 class="warning-title animated fadeInLeft slow">Warning<img src="images/warning-icon.png"></h3>
             </div>
             <div class="col-md-7">
-                <div class="content">
+                <div class="content animated fadeInRight slow">
                     <div class="description">
                         <p>Landing on the head or neck can cause serious injury, paralysis,
                             or death, even when landing in the middle of the bed.
