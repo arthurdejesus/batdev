@@ -3092,26 +3092,33 @@ jQuery('.section-innovation a').hover(function () {
     jQuery(this).parents(".section-innovation").removeClass("section-overlay");
 });
 
+//Progress bar
 $(document).ready(function(){
-    var percent = 0, bar = $('.transition-timer-carousel-progress-bar'), crsl = $('#carousel-example-generic');
+    var barInterval = '',
+        percent = 0,
+        bar = $('.transition-timer-carousel-progress-bar'),
+        crsl = $('#carousel-example-generic');
     function progressBarCarousel() {
         bar.css({width:percent+'%'});
-        percent = percent +0.5;
-        if (percent > 100) {
-            percent = 0;
+        percent = percent + 0.5;
+        if (Math.ceil(percent) == 50 || Math.ceil(percent) > 100) {
             crsl.carousel('next');
+            if (Math.ceil(percent) > 100) {
+                percent = 0;
+                clearInterval(barInterval);
+            }
         }
     }
     crsl.carousel({
         interval: false,
         pause: true
-    }).on('slid.bs.carousel', function () {percent=0;});var barInterval = setInterval(progressBarCarousel, 30);
-    crsl.hover(
-        function(){
-            clearInterval(barInterval);
-        },
-        function(){
+    }).on('slid.bs.carousel', function () {
+        if (Math.ceil(percent) == 0) {
+            crsl.carousel('next')
+            bar.css({width:percent+'%'});
             barInterval = setInterval(progressBarCarousel, 30);
-        })
+        }
+    });
+    barInterval = setInterval(progressBarCarousel, 30);
 });
 
