@@ -34,59 +34,65 @@
             </li>
         </ul>
     </div>
-    <section class="product-section" data-section-name="planning">
+    <section class="product-section animatedParent" data-section-name="planning">
         <div class="grid-we-do-item p-0">
             <div class="grid-we-do-img-wrap grid-wrap-black">
                 <div class="grid--img" style="background-image:url('images/our-process/our-process-1.jpg');"></div>
-                <div class="product-content FadeLeft">
+                <div class="product-content animated fadeInLeft slow go">
                     <h2>Planning</h2>
                     <div class="gap-15"></div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
-                <div class="product-img">
+                <div class="product-img animated fadeInRight slow go">
                     <img src="images/our-process/our-process-img.png" alt="">
                 </div>
             </div>
         </div>
         <a href="#design" class="btn-down scroll"><span class="arrow-down"></span></a>
     </section>
-    <section class="product-section" data-section-name="design">
+    <section class="product-section animatedParent" data-section-name="design">
         <div class="grid-we-do-item p-0">
             <div class="grid-we-do-img-wrap grid-wrap-black">
                 <div class="grid--img" style="background-image:url('images/our-process/our-process-2.jpg');"></div>
                 <div class="product-content">
-                    <h2>Design</h2>
+                    <h2 class="animated fadeInRight slow go">Design</h2>
                     <div class="gap-15"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p class="animated fadeInRight slow delay-250 go">Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit,
+                        sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
             </div>
         </div>
     </section>
-    <section class="product-section" data-section-name="deployment">
+    <section class="product-section animatedParent" data-section-name="deployment">
         <div class="grid-we-do-item p-0">
             <div class="grid-we-do-img-wrap grid-wrap-black">
                 <div class="grid--img" style="background-image:url('images/our-process/our-process-3.jpg');"></div>
                 <div class="product-content">
-                    <h2>Deployment</h2>
+                    <h2 class="animated fadeInLeft slow go">Deployment</h2>
                     <div class="gap-15"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p class="animated fadeInLeft slow delay-250 go">Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit,
+                        sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
             </div>
         </div>
     </section>
-    <section class="product-section" data-section-name="guarantee">
+    <section class="product-section animatedParent animateOnce" data-section-name="guarantee">
         <div class="grid-we-do-item p-0">
             <div class="grid-we-do-img-wrap grid-wrap-black">
                 <div class="grid--img" style="background-image:url('images/our-process/our-process-5.jpg');"></div>
                 <div class="section section-process text-center section--process">
                     <div class="container">
                         <div class="content">
-                            <h3 class="primary-title">Our Trusted Process</h3>
-                            <div class="description">
+                            <h3 class="primary-title animated fadeInUp slow">Our Trusted Process</h3>
+                            <div class="description animated fadeInUp delay-250 slow">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
                             </div>
                         </div>
-                        <div class="process-grid">
+                        <div class="process-grid animated fadeInUp delay-500 slow">
                             <ul>
                                 <li>
                                     <div class="process-grid-item">

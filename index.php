@@ -50,22 +50,38 @@
     </div>
 
     <div class="section-portfolio">
-        <div class="portfolio-item-grid" style="background-image: url(images/portfolio-home/portfolio-1.jpg);">
+        <div class="portfolio-item-grid-wrap">
+            <div class="portfolio-item-grid" style="background-image: url(images/portfolio-home/portfolio-1.jpg);"></div>
             <div class="btn-portfolio"><a href="#" class="btn btn-primary">our process</a></div>
             <div class="btn-portfolio-hover"><a href="#">our process</a></div>
+
         </div>
-        <div class="portfolio-item-grid" style="background-image: url(images/portfolio-home/portfolio-2.jpg);">
+
+        <div class="portfolio-item-grid-wrap">
+            <div class="portfolio-item-grid" style="background-image: url(images/portfolio-home/portfolio-2.jpg);"></div>
             <div class="btn-portfolio"><a href="#" class="btn btn-primary">our portfolio</a></div>
             <div class="btn-portfolio-hover"><a href="#">our portfolio</a></div>
+
         </div>
-        <div class="portfolio-item-grid" style="background-image: url(images/portfolio-home/portfolio-3.jpg);">
+
+        <div class="portfolio-item-grid-wrap">
+            <div class="portfolio-item-grid" style="background-image: url(images/portfolio-home/portfolio-3.jpg);"></div>
             <div class="btn-portfolio"><a href="#" class="btn btn-primary">attractions</a></div>
             <div class="btn-portfolio-hover"><a href="#">attractions</a></div>
+
         </div>
-        <div class="portfolio-item-grid" style="background-image: url(images/portfolio-home/portfolio-4.jpg);">
+
+
+        <div class="portfolio-item-grid-wrap">
+            <div class="portfolio-item-grid" style="background-image: url(images/portfolio-home/portfolio-4.jpg);"></div>
             <div class="btn-portfolio"><a href="#" class="btn btn-primary">entertainment centers</a></div>
             <div class="btn-portfolio-hover"><a href="#">entertainment centers</a></div>
+
         </div>
+
+
+
+
     </div>
 
         <div class="section section-tagline text-center animatedParent animateOnce">

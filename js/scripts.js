@@ -21,6 +21,34 @@
             randomStart: true,
             pager: false
         });
+
+        $(document).ready(function(){
+            var nav = $('.navbar-menu');
+
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 62) {
+                    nav.addClass("navbar-fixed-top");
+                } else {
+                    nav.removeClass("navbar-fixed-top");
+                }
+            });
+        });
+
+    });
+
+    $(function() {
+        $('a[href=#goto-down]').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
     });
 
 
@@ -47,20 +75,7 @@
     });
 
 
-    $(function() {
-        $('a[href=#goto-down]').click(function() {
-            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
-        });
-    });
+
 
 
 })(window, document, jQuery);

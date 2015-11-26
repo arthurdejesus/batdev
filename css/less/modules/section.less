@@ -1,5 +1,4 @@
 .section-intro {
-  position: relative;
 
   .content {
     padding-bottom: 2em;
@@ -159,6 +158,12 @@
 }
 
 .overlay--effects {
+
+  .grid-wrap-black .grid--img {
+    .scale(1,1);
+    .transition(all ease-in-out 0.6s)
+  }
+
   .overlay--hover {
     position: relative;
     -webkit-transition: color,0.6s,ease-in;
@@ -180,6 +185,10 @@
         -webkit-transform: translateZ(0);
         visibility: visible;
         -webkit-backface-visibility: hidden;
+      }
+
+      .grid-wrap-black .grid--img {
+        .scale(1.1,1.1);
       }
     }
   }

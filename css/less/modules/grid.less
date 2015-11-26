@@ -1,15 +1,16 @@
-.portfolio-item-grid {
-  background-color: #000000;
-  float: left;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+.portfolio-item-grid-wrap {
   height: 500px;
   width: 50%;
   position: relative;
   overflow: hidden;
+  float: left;
+
+  .btn-primary {
+    .opacity(1);
+  }
 
   &:hover {
+
     .btn-portfolio {
       .opacity(0);
       z-index: -1;
@@ -25,11 +26,22 @@
     .btn-primary {
       .opacity(0);
     }
-  }
 
-  .btn-primary {
-    .opacity(1);
+    .portfolio-item-grid {
+      .scale(1.1,1.1);
+    }
   }
+}
+
+.portfolio-item-grid {
+  background-color: #000000;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  .scale(1,1);
+  .transition(@transition-3s);
 }
 
 .btn-portfolio, .btn-portfolio-hover {
