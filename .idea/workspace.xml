@@ -2,22 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a3a9d62-9166-4554-8d03-58555b6c8518" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.php" afterPath="$PROJECT_DIR$/about.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/less/modules/banner.less" afterPath="$PROJECT_DIR$/css/less/modules/banner.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/less/modules/buttons.less" afterPath="$PROJECT_DIR$/css/less/modules/buttons.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.codekit" afterPath="$PROJECT_DIR$/config.codekit" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/less/modules/footer.less" afterPath="$PROJECT_DIR$/css/less/modules/footer.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/less/modules/grid.less" afterPath="$PROJECT_DIR$/css/less/modules/grid.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/less/modules/header.less" afterPath="$PROJECT_DIR$/css/less/modules/header.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.php" afterPath="$PROJECT_DIR$/contact.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/less/modules/media-queries.less" afterPath="$PROJECT_DIR$/css/less/modules/media-queries.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news.php" afterPath="$PROJECT_DIR$/news.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio-individual.php" afterPath="$PROJECT_DIR$/portfolio-individual.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio.php" afterPath="$PROJECT_DIR$/portfolio.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/scripts.js" afterPath="$PROJECT_DIR$/js/scripts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/less/modules/section.less" afterPath="$PROJECT_DIR$/css/less/modules/section.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/less/modules/slider-cycle.less" afterPath="$PROJECT_DIR$/css/less/modules/slider-cycle.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="batdev.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,8 +67,8 @@
           <file leaf-file-name="news.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/news.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-28.125" vertical-offset="0" max-vertical-offset="1950">
-                  <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+                <state vertical-scroll-proportion="-27.5" vertical-offset="0" max-vertical-offset="1950">
+                  <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -124,11 +118,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="header.less" pinned="false" current-in-tab="true">
+          <file leaf-file-name="header.less" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/less/modules/header.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.66459626" vertical-offset="710" max-vertical-offset="1695">
-                  <caret line="83" column="2" selection-start-line="83" selection-start-column="2" selection-end-line="83" selection-end-column="2" />
+                <state vertical-scroll-proportion="-12.142858" vertical-offset="710" max-vertical-offset="1695">
+                  <caret line="87" column="11" selection-start-line="87" selection-start-column="11" selection-end-line="87" selection-end-column="11" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="banner.less" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css/less/modules/banner.less">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="2.962733" vertical-offset="0" max-vertical-offset="2730">
+                  <caret line="159" column="0" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -137,19 +141,17 @@
           <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="4800" max-vertical-offset="46335">
-                  <caret line="496" column="0" selection-start-line="496" selection-start-column="0" selection-end-line="496" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="scripts.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/scripts.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="2700">
-                  <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-                  <folding />
+                <state vertical-scroll-proportion="0.0" vertical-offset="4470" max-vertical-offset="46005">
+                  <caret line="474" column="0" selection-start-line="474" selection-start-column="0" selection-end-line="474" selection-end-column="0" />
+                  <folding>
+                    <marker date="1448605821000" expanded="true" signature="107759:108355" placeholder="{...}" />
+                    <marker date="1448605821000" expanded="true" signature="107763:108024" placeholder="{...}" />
+                    <marker date="1448605821000" expanded="true" signature="107935:107985" placeholder="{...}" />
+                    <marker date="1448605821000" expanded="true" signature="107919:107935" placeholder="{...}" />
+                    <marker date="1448605821000" expanded="true" signature="108144:108352" placeholder="{...}" />
+                    <marker date="1448605821000" expanded="true" signature="108184:108351" placeholder="{...}" />
+                    <marker date="1448605821000" expanded="true" signature="108262:108286" placeholder="{...}" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -164,21 +166,29 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="scripts.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js/scripts.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2370">
+                  <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+                  <folding>
+                    <marker date="1448605821000" expanded="true" signature="2697:3293" placeholder="{...}" />
+                    <marker date="1448605821000" expanded="true" signature="2701:2962" placeholder="{...}" />
+                    <marker date="1448605821000" expanded="true" signature="2873:2923" placeholder="{...}" />
+                    <marker date="1448605821000" expanded="true" signature="2857:2873" placeholder="{...}" />
+                    <marker date="1448605821000" expanded="true" signature="3082:3290" placeholder="{...}" />
+                    <marker date="1448605821000" expanded="true" signature="3122:3289" placeholder="{...}" />
+                    <marker date="1448605821000" expanded="true" signature="3200:3224" placeholder="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="section.less" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/less/modules/section.less">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="-5.5789475" vertical-offset="866" max-vertical-offset="4290">
                   <caret line="86" column="16" selection-start-line="86" selection-start-column="16" selection-end-line="86" selection-end-column="16" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="slider-cycle.less" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/less/modules/slider-cycle.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-5.9736843" vertical-offset="1121" max-vertical-offset="2190">
-                  <caret line="105" column="24" selection-start-line="105" selection-start-column="24" selection-end-line="105" selection-end-column="24" />
                   <folding />
                 </state>
               </provider>
@@ -210,7 +220,6 @@
         <option value="$PROJECT_DIR$/css/less/modules/misc.less" />
         <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/css/less/modules/footer.less" />
-        <option value="$PROJECT_DIR$/css/less/modules/banner.less" />
         <option value="$PROJECT_DIR$/css/less/modules/slider-cycle.less" />
         <option value="$PROJECT_DIR$/news.php" />
         <option value="$PROJECT_DIR$/index.php" />
@@ -221,6 +230,7 @@
         <option value="$PROJECT_DIR$/js/scripts.js" />
         <option value="$PROJECT_DIR$/css/less/modules/media-queries.less" />
         <option value="$PROJECT_DIR$/css/less/modules/header.less" />
+        <option value="$PROJECT_DIR$/css/less/modules/banner.less" />
       </list>
     </option>
   </component>
@@ -771,14 +781,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/less/modules/banner.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5510206" vertical-offset="1925" max-vertical-offset="2730">
-          <caret line="153" column="15" selection-start-line="153" selection-start-column="15" selection-end-line="153" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/less/modules/title.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.857142" vertical-offset="451" max-vertical-offset="1305">
@@ -805,8 +807,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/news.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-28.125" vertical-offset="0" max-vertical-offset="1950">
-          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+        <state vertical-scroll-proportion="-27.5" vertical-offset="0" max-vertical-offset="1950">
+          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -867,17 +869,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4800" max-vertical-offset="46335">
-          <caret line="496" column="0" selection-start-line="496" selection-start-column="0" selection-end-line="496" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="4470" max-vertical-offset="46005">
+          <caret line="474" column="0" selection-start-line="474" selection-start-column="0" selection-end-line="474" selection-end-column="0" />
+          <folding>
+            <marker date="1448605821000" expanded="true" signature="107759:108355" placeholder="{...}" />
+            <marker date="1448605821000" expanded="true" signature="107763:108024" placeholder="{...}" />
+            <marker date="1448605821000" expanded="true" signature="107935:107985" placeholder="{...}" />
+            <marker date="1448605821000" expanded="true" signature="107919:107935" placeholder="{...}" />
+            <marker date="1448605821000" expanded="true" signature="108144:108352" placeholder="{...}" />
+            <marker date="1448605821000" expanded="true" signature="108184:108351" placeholder="{...}" />
+            <marker date="1448605821000" expanded="true" signature="108262:108286" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="2700">
-          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2370">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <marker date="1448605821000" expanded="true" signature="2697:3293" placeholder="{...}" />
+            <marker date="1448605821000" expanded="true" signature="2701:2962" placeholder="{...}" />
+            <marker date="1448605821000" expanded="true" signature="2873:2923" placeholder="{...}" />
+            <marker date="1448605821000" expanded="true" signature="2857:2873" placeholder="{...}" />
+            <marker date="1448605821000" expanded="true" signature="3082:3290" placeholder="{...}" />
+            <marker date="1448605821000" expanded="true" signature="3122:3289" placeholder="{...}" />
+            <marker date="1448605821000" expanded="true" signature="3200:3224" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -891,8 +909,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/less/modules/header.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66459626" vertical-offset="710" max-vertical-offset="1695">
-          <caret line="83" column="2" selection-start-line="83" selection-start-column="2" selection-end-line="83" selection-end-column="2" />
+        <state vertical-scroll-proportion="-12.142858" vertical-offset="710" max-vertical-offset="1695">
+          <caret line="87" column="11" selection-start-line="87" selection-start-column="11" selection-end-line="87" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/less/modules/banner.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.962733" vertical-offset="0" max-vertical-offset="2730">
+          <caret line="159" column="0" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
           <folding />
         </state>
       </provider>
