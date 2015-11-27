@@ -126,7 +126,7 @@
                     <div class="pc_item item" style="background-image: url('images/custom-img.jpg');">
                         <div class="desc">
                             <div class="pc--desc">
-                                <h1>CUSTOM DESIGN</h1>
+                                <h1>CUSTOM <br>DESIGN</h1>
                                 <div class="gap-30"></div>
                                 <p>BAT's design & engineering team
                                     guides you through the entire process.</p>

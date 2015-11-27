@@ -26,7 +26,7 @@
             speed: 1000,
             mode: 'fade',
             randomStart: true,
-            pager: true
+            pager: false
         });
 
         $(document).ready(function(){
