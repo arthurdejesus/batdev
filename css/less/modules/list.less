@@ -70,9 +70,15 @@
 
   .news-list-item-img {
     margin-bottom: 20px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
 
     img {
       width: 100%;
+      position: absolute;
+      top: 50%;
+      .translate(0, -50%);
     }
   }
 
