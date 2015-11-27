@@ -61,32 +61,40 @@
 
     <div class="section-portfolio">
         <div class="portfolio-item-grid-wrap">
-            <div class="portfolio-item-grid" style="background-image: url(images/portfolio-home/portfolio-1.jpg);"></div>
-            <div class="btn-portfolio"><a href="#" class="btn btn-primary">our process</a></div>
-            <div class="btn-portfolio-hover"><a href="#">our process</a></div>
-
+            <a href="our-process.php">
+                <div class="portfolio-item-grid" style="background-image: url(images/portfolio-home/portfolio-1.jpg);">
+                    <div class="btn-portfolio"><button class="btn btn-primary">our process</button></div>
+                </div>
+                <div class="btn-portfolio-hover"><p>our process</p></div>
+            </a>
         </div>
 
         <div class="portfolio-item-grid-wrap">
-            <div class="portfolio-item-grid" style="background-image: url(images/portfolio-home/portfolio-2.jpg);"></div>
-            <div class="btn-portfolio"><a href="#" class="btn btn-primary">our portfolio</a></div>
-            <div class="btn-portfolio-hover"><a href="#">our portfolio</a></div>
-
+            <a href="portfolio.php">
+                <div class="portfolio-item-grid" style="background-image: url(images/portfolio-home/portfolio-2.jpg);">
+                    <div class="btn-portfolio"><button class="btn btn-primary">our portfolio</button></div>
+                </div>
+                <div class="btn-portfolio-hover"><p>our portfolio</p></div>
+            </a>
         </div>
 
         <div class="portfolio-item-grid-wrap">
-            <div class="portfolio-item-grid" style="background-image: url(images/portfolio-home/portfolio-3.jpg);"></div>
-            <div class="btn-portfolio"><a href="#" class="btn btn-primary">attractions</a></div>
-            <div class="btn-portfolio-hover"><a href="#">attractions</a></div>
-
+            <a href="#">
+                <div class="portfolio-item-grid" style="background-image: url(images/portfolio-home/portfolio-3.jpg);">
+                    <div class="btn-portfolio"><button class="btn btn-primary">attractions</button></div>
+                </div>
+                <div class="btn-portfolio-hover"><p>attractions</p></div>
+            </a>
         </div>
 
 
         <div class="portfolio-item-grid-wrap">
-            <div class="portfolio-item-grid" style="background-image: url(images/portfolio-home/portfolio-4.jpg);"></div>
-            <div class="btn-portfolio"><a href="#" class="btn btn-primary">entertainment centers</a></div>
-            <div class="btn-portfolio-hover"><a href="#">entertainment centers</a></div>
-
+            <a href="#">
+                <div class="portfolio-item-grid" style="background-image: url(images/portfolio-home/portfolio-4.jpg);">
+                    <div class="btn-portfolio"><button class="btn btn-primary">entertainment centers</button></div>
+                </div>
+                <div class="btn-portfolio-hover"><p>entertainment centers</p></div>
+            </a>
         </div>
 
 
@@ -119,7 +127,7 @@
                                 <p>BAT's design & engineering team
                                     guides you through the entire process.</p>
                                 <div class="gap-30"></div>
-                                <a href="#" class="btn btn-primary prl-60 white-btn-bg">Learn More</a>
+                                <a href="#" class="btn btn-primary white-btn-bg">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -131,7 +139,7 @@
                                 <p>BAT's design & engineering team
                                     guides you through the entire process.</p>
                                 <div class="gap-30"></div>
-                                <a href="#" class="btn btn-primary prl-60 white-btn-bg">Learn More</a>
+                                <a href="#" class="btn btn-primary white-btn-bg">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -143,7 +151,7 @@
                                 <p>BAT's design & engineering team
                                     guides you through the entire process.</p>
                                 <div class="gap-30"></div>
-                                <a href="#" class="btn btn-primary prl-60 white-btn-bg">Learn More</a>
+                                <a href="#" class="btn btn-primary white-btn-bg">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -171,14 +179,16 @@
     </div>
     <div class="gap-100"></div>
 
-    <div class="section section-innovation animatedParent animateOnce" style="background-image: url('images/bg-innovation.jpg');">
+<!--    <div class="section section-innovation animatedParent animateOnce" style="background-image: url('images/bg-innovation.jpg');">-->
+    <div class="section section-innovation animatedParent animateOnce">
+        <img src="images/innovation-img.png" class="innovation-img">
         <div class="overlay overlay-portfolio overlay-section"></div>
         <div class="content-left">
             <h3 class="primary-title animated fadeInLeft slow">innovation<br>
                 has  no limits</h3>
             <h4 class="secondary-title animated fadeInLeft slow delay-250">The all-new, SKY PARK<br>
                 by Best American Trampolines</h4>
-            <a href="#" class="btn btn-primary animated fadeInLeft slow delay-500">Learn More</a>
+            <a href="#" class="btn btn-primary btn-secondary  animated fadeInLeft slow delay-500">Learn More</a>
         </div>
     </div>
 
@@ -257,22 +267,6 @@
          </div>
     </div>
 
-    <div class="section-warning animatedParent animateOnce" style="background-image: url('images/bg-warning.jpg');">
-        <div class="container">
-            <div class="col-md-5">
-                <h3 class="warning-title animated fadeInLeft slow">Warning<img src="images/warning-icon.png"></h3>
-            </div>
-            <div class="col-md-7">
-                <div class="content animated fadeInRight slow">
-                    <div class="description">
-                        <p>Landing on the head or neck can cause serious injury, paralysis,
-                            or death, even when landing in the middle of the bed.
-                            Use trampoline only with mature, knowledgeable supervision.  </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <div class="section section-client text-center animatedParent animateOnce">
         <div class="container">
@@ -294,6 +288,23 @@
             </div>
 
             <a href="#" class="btn btn-primary animated fadeInUp delay-750">see more of our clients</a>
+        </div>
+    </div>
+
+    <div class="section-warning animatedParent animateOnce" style="background-image: url('images/bg-warning.jpg');">
+        <div class="container">
+            <div class="col-md-5">
+                <h3 class="warning-title animated fadeInLeft slow">Warning<img src="images/warning-icon.png"></h3>
+            </div>
+            <div class="col-md-7">
+                <div class="content animated fadeInRight slow">
+                    <div class="description">
+                        <p>Landing on the head or neck can cause serious injury, paralysis,
+                            or death, even when landing in the middle of the bed.
+                            Use trampoline only with mature, knowledgeable supervision.  </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 

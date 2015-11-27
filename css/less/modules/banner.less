@@ -7,6 +7,7 @@
 
     li {
       height: 100vh;
+      min-height: 790px;
       width: 100% !important;
       position: relative;
       left: 0;
@@ -20,6 +21,7 @@
         width: 100%;
         .scale(1.1,1.1);
         .transition(all ease-in-out 2s);
+        .opacity(.5);
       }
 
       &:before {
@@ -46,6 +48,7 @@
 
   .bx-viewport {
     height: 100vh !important;
+    min-height: 790px !important;
   }
 
   .banner-caption {
@@ -155,17 +158,17 @@
   }
 }
 
-.is-shown {
-  .banner-caption,
-  .banner-opacity,
-  .blue-title,
-  .btn-primary,
-  .btn-down,
-  .section-about-intro .content,
-  .section-portfolio-intro .content{
-    .opacity(1);
-  }
-}
+//.is-shown {
+//  .banner-caption,
+//  .banner-opacity,
+//  .blue-title,
+//  .btn-primary,
+//  .btn-down,
+//  .section-about-intro .content,
+//  .section-portfolio-intro .content{
+//    .opacity(1);
+//  }
+//}
 
 .is-shown .banner-single {
   .scale(1);

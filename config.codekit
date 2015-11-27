@@ -2279,6 +2279,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/innovation-img.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/innovation-img.png",
+		"outputAbbreviatedPath": "\/images\/innovation-img.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/leadership-img.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

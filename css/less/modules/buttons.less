@@ -7,15 +7,43 @@
   text-transform: uppercase;
   padding: 15px 45px;
   border-radius: 35px;
-  border: 2px dashed transparent;
+  border: transparent;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
 
-  &:hover {
-    border: 2px dashed #2bcaf5;
-    background-color: transparent;
-    color: #2bcaf5;
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 0;
+    background-color: #27a8de;
+    border-radius: 35px;
+    z-index: -1;
+    .transition(all ease-in-out .3s);
+  }
+
+  &:hover, &:focus {
+    background-color: #2bcaf5;
+
+    &:before {
+      width: 100%;
+    }
   }
 }
 
+.btn-secondary {
+  border-radius: 8px;
+
+  &:before {
+    border-radius: 8px;
+  }
+
+}
 .btn-learn-more {
   font-size: 16px;
   color: #23a1dc;
@@ -51,9 +79,4 @@
     display: block;
     margin: 0 auto;
   }
-//  &:hover {
-//    -webkit-animation: bounce 2s infinite;
-//    -moz-animation: bounce 2s infinite;
-//    animation: bounce 2s infinite;
-//  }
 }
