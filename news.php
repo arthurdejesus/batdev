@@ -1,7 +1,7 @@
 <?php include 'header.php'; ?>
     <div class="banner banner-sub banner-news h-400" style="background-image: url('images/banner-news.jpg');">
         <div class="banner-caption banner-caption-down">
-            <h2 class="banner-title text-effects" id="text-math">News & Events</h2>
+            <h2 class="banner-title">News & Events</h2>
         </div>
     </div>
 
