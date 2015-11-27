@@ -2,7 +2,7 @@
 <div class="banner banner-sub banner-about" style="background-image: url('images/banner-about.jpg');">
     <div class="banner-caption">
         <div class="container">
-            <h2 class="banner-title">About Us</h2>
+            <h2 class="banner-title animated fadeInUp slow go">About Us</h2>
         </div>
     </div>
 </div>

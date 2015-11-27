@@ -2,7 +2,7 @@
 <div class="section section-black">
     <div class="single-prod-banner">
         <div class="gap-100"></div>
-        <h2 class="single-title text-center">Sky Park</h2>
+        <h2 class="single-title text-center animated fadeInUp slow go">Sky Park</h2>
         <div class="gap-100"></div>
         <div class="banner banner-sub banner-single" style="background-image: url('images/products/prod-single.png');">
         </div>
@@ -59,34 +59,87 @@
     <div class="single--img">
         <div class="single--img-top">
             <div class="col-md-3 p-0">
-                <div class="portfolio-item-grid" style="background-image: url('images/products/sky-2.jpg');"></div>
+                <a href="#lightbox" data-toggle="modal" data-slide-to="0">
+                    <div class="portfolio-item-grid" style="background-image: url('images/products/sky-2.jpg');"></div>
+                </a>
             </div>
             <div class="col-md-3 p-0">
-                <div class="portfolio-item-grid" style="background-image: url('images/products/sky-3.jpg');"></div>
+                <a href="#lightbox" data-toggle="modal" data-slide-to="1">
+                    <div class="portfolio-item-grid" style="background-image: url('images/products/sky-3.jpg');"></div>
+                </a>
             </div>
             <div class="col-md-3 p-0">
-                <div class="portfolio-item-grid" style="background-image: url('images/products/sky-4.jpg');"></div>
+                <a href="#lightbox" data-toggle="modal" data-slide-to="2">
+                    <div class="portfolio-item-grid" style="background-image: url('images/products/sky-4.jpg');"></div>
+                </a>
             </div>
             <div class="col-md-3 p-0">
-                <div class="portfolio-item-grid" style="background-image: url('images/products/sky-5.jpg');"></div>
+                <a href="#lightbox" data-toggle="modal" data-slide-to="3">
+                    <div class="portfolio-item-grid" style="background-image: url('images/products/sky-5.jpg');"></div>
+                </a>
             </div>
         </div>
         <div class="single--img-bottom">
             <div class="col-md-6 p-0">
-                <div class="portfolio-item-grid" style="background-image: url('images/products/sky-1.jpg');"></div>
+                <a href="#lightbox" data-toggle="modal" data-slide-to="4">
+                    <div class="portfolio-item-grid" style="background-image: url('images/products/sky-1.jpg');"></div>
+                </a>
             </div>
             <div class="col-md-3 p-0">
                 <div class="portfolio-item-grid single-text">
                     <h3>Inside Skypark</h3>
                 </div>
-                <div class="portfolio-item-grid" style="background-image: url('images/products/sky-6.jpg');"></div>
+                <a href="#lightbox" data-toggle="modal" data-slide-to="5">
+                    <div class="portfolio-item-grid" style="background-image: url('images/products/sky-6.jpg');"></div>
+                </a>
             </div>
             <div class="col-md-3 p-0">
-                <div class="portfolio-item-grid" style="background-image: url('images/products/sky-7.jpg');"></div>
+                <a href="#lightbox" data-toggle="modal" data-slide-to="6">
+                    <div class="portfolio-item-grid" style="background-image: url('images/products/sky-7.jpg');"></div>
+                </a>
             </div>
         </div>
     </div>
+    <div class="modal-gallery modal fade and carousel slide" id="lightbox">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <div class="modal-body">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="images/products/sky-2.jpg">
+                        </div>
+                        <div class="item">
+                            <img src="images/products/sky-3.jpg">
+                        </div>
+                        <div class="item">
+                            <img src="images/products/sky-4.jpg">
+                        </div>
+                        <div class="item">
+                            <img src="images/products/sky-5.jpg">
+                        </div>
+                        <div class="item">
+                            <img src="images/products/sky-1.jpg">
+                        </div>
+                        <div class="item">
+                            <img src="images/products/sky-6.jpg">
+                        </div>
+                        <div class="item">
+                            <img src="images/products/sky-7.jpg">
+                        </div>
+                    </div><!-- /.carousel-inner -->
+                    <a class="left carousel-control" href="#lightbox" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#lightbox" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div><!-- /.modal-body -->
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
 </div>
+
 <div class="grid-we-do p-0 m-0 single-bottom">
     <div class="grid-we-do-item p-0">
         <div class="grid-we-do-img-wrap grid-wrap-black">

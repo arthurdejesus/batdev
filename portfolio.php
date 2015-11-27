@@ -1,14 +1,14 @@
 <?php include 'header.php'; ?>
 <div class="banner banner-sub banner-portfolio h-400" style="background-image: url('images/banner-portfolio.jpg');">
     <div class="banner-caption banner-caption-down">
-        <h2 class="banner-title">Portfolio</h2>
+        <h2 class="banner-title animated fadeInUp slow go">Portfolio</h2>
     </div>
 </div>
 <div class="section section-intro section-portfolio-intro animatedParent animateOnce">
     <div class="container">
         <div class="content text-center">
-            <h3 class="primary-title animated fadeInUpShort slow">What We Do</h3>
-            <div class="description animated fadeInUpShort slow delay-250">
+            <h3 class="primary-title animated fadeInUpShort slow delay-500">What We Do</h3>
+            <div class="description animated fadeInUpShort slow delay-750">
                 <p class="mw-70">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
             </div>

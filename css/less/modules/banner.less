@@ -111,7 +111,7 @@
     padding: 0 15px;
 
     .banner-title {
-      font-size: 150px;
+      font-size: 140px;
       margin-bottom: -1px !important
     }
   }
@@ -170,4 +170,72 @@
 .is-shown .banner-single {
   .scale(1);
   .transition(6.5s ease-out transform);
+}
+
+//.modal.and.carousel {
+//  position: absolute; // Needed because the carousel overrides the position property
+//  background: rgba(0, 0, 0, 0.58);
+//}
+
+.modal-open {
+  overflow: visible;
+}
+.modal-gallery {
+  position: fixed;
+  .modal-backdrop.in {
+    opacity: .9;
+  }
+  .modal-backdrop {
+    z-index: 0;
+  }
+  .modal-dialog {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    .translate(-50%, -50%) !important;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .modal-content {
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+  }
+
+  .close {
+    border: 2px solid #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    opacity: 1;
+    text-shadow: none;
+    color: #fff;
+    font-size: 35px;
+    line-height: 0.5;
+    position: absolute;
+    top: 3%;
+    right: 7%;
+    z-index: 9999;
+    outline: 0;
+
+    span {
+      margin: auto;
+      display: table;
+    }
+  }
+  .carousel-inner .item img {
+    margin: 0 auto;
+    max-height: 700px;
+  }
+  .carousel-control{
+    width: 18%;
+    background-image: none!important;
+    opacity: 1;
+    font-size: 60px;
+    position: absolute;
+    top: 50%;
+    bottom: initial;
+    .translate(0,-50%);
+  }
 }

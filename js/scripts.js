@@ -73,17 +73,13 @@
     });
 
 
-    $( 'document' ).ready(function() {
-        // Timeout for crypto text
-        setTimeout( function() {
-            $( '.text-effects' ).fadeIn( 'slow' );
-            SPY.text('text-math');
-        }, 800);
-    });
-
-
-
-
+    //$( 'document' ).ready(function() {
+    //    // Timeout for crypto text
+    //    setTimeout( function() {
+    //        $( '.text-effects' ).fadeIn( 'slow' );
+    //        SPY.text('text-math');
+    //    }, 800);
+    //});
 
 })(window, document, jQuery);
 
@@ -108,46 +104,53 @@ $(window).on("scroll", function() {
     });
 });
 
-$( 'document' ).ready(function() {
-    // Timeout for crypto text
-    setTimeout( function() {
-        $( '.text-effects' ).fadeIn( 'slow' );
-        SPY.text('text-math');
-    }, 800);
-});
-
 jQuery('.section-innovation a').hover(function () {
     jQuery(this).parents(".section-innovation").addClass("section-overlay");
 }, function () {
     jQuery(this).parents(".section-innovation").removeClass("section-overlay");
 });
 
-//Progress bar
-$(document).ready(function(){
-    var barInterval = '',
-        percent = 0,
-        bar = $('.transition-timer-carousel-progress-bar'),
-        crsl = $('#carousel-example-generic');
-    function progressBarCarousel() {
-        bar.css({width:percent+'%'});
-        percent = percent + 0.5;
-        if (Math.ceil(percent) == 50 || Math.ceil(percent) > 100) {
-            crsl.carousel('next');
-            if (Math.ceil(percent) > 100) {
-                percent = 0;
-                clearInterval(barInterval);
-            }
-        }
-    }
-    crsl.carousel({
-        interval: false,
-        pause: true
-    }).on('slid.bs.carousel', function () {
-        if (Math.ceil(percent) == 0) {
-            crsl.carousel('next')
-            bar.css({width:percent+'%'});
-            barInterval = setInterval(progressBarCarousel, 30);
-        }
-    });
-    barInterval = setInterval(progressBarCarousel, 30);
+
+jQuery('.carousel-indicators li:first-child').click(function () {
+    jQuery('.transition-border').css('left', '0');
 });
+
+
+
+jQuery('.carousel-indicators li:nth-child(2)').click(function () {
+    jQuery('.transition-border').css('left', '49%');
+});
+jQuery('.carousel-indicators li:nth-child(3)').click(function () {
+    jQuery('.transition-border').css('left', '98%');
+});
+
+$(document).ready(function(){
+    //Progress bar
+    //var barInterval = '',
+    //    percent = 0,
+    //    bar = $('.transition-timer-carousel-progress-bar'),
+    //    crsl = $('#carousel-example-generic');
+    //function progressBarCarousel() {
+    //    bar.css({width:percent+'%'});
+    //    percent = percent + 0.5;
+    //    if (Math.ceil(percent) == 50 || Math.ceil(percent) > 100) {
+    //        crsl.carousel('next');
+    //        if (Math.ceil(percent) > 100) {
+    //            percent = 0;
+    //            clearInterval(barInterval);
+    //        }
+    //    }
+    //}
+    //crsl.carousel({
+    //    interval: false,
+    //    pause: true
+    //}).on('slid.bs.carousel', function () {
+    //    if (Math.ceil(percent) == 0) {
+    //        crsl.carousel('next')
+    //        bar.css({width:percent+'%'});
+    //        barInterval = setInterval(progressBarCarousel, 30);
+    //    }
+    //});
+    //barInterval = setInterval(progressBarCarousel, 30);
+});
+

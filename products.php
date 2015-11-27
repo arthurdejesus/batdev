@@ -72,10 +72,3 @@
     <?php include 'footer.php'; ?>
 
 </section>
-
-<script>
-    $(".product-section").css({"height":$(window).height()});
-    $.scrollify({
-        section:".product-section"
-    });
-</script>
