@@ -3,7 +3,7 @@
   padding: 0;
   border: 0;
   border-radius: 0;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
@@ -80,21 +80,29 @@
 }
 
 .navbar-fixed-top {
-  background-color: #000;
+  position: fixed;
+  
+  .navbar-menu {
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    min-width: 1024px;
 
-  .navbar-collapse {
-    padding: 0 15px;
+    .navbar-collapse {
+      padding: 0 15px;
 
-    .navbar-nav li a {
-      font-size: 17px;
-      color: #fff;
-      padding-top: 31px;
-      padding-bottom: 31px;
+      .navbar-nav li a {
+        font-size: 17px;
+        color: #fff;
+        padding-top: 31px;
+        padding-bottom: 31px;
+      }
     }
-  }
 
-  .navbar-brand {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    .navbar-brand {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
   }
 }

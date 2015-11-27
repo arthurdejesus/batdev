@@ -2963,7 +2963,7 @@
         });
 
         $(document).ready(function(){
-            var nav = $('.navbar-menu');
+            var nav = $('.header');
 
             $(window).scroll(function () {
                 if ($(this).scrollTop() > 62) {

@@ -7,7 +7,7 @@
                         <img src="images/logo.png">
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <div class="content">
                         <h4 class="footer-title">About Trampoline Parks</h4>
                         <div class="description">
@@ -17,7 +17,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <div class="content">
                         <h4 class="footer-title">Get in Touch</h4>
                         <div class="description">
@@ -36,19 +36,6 @@
                                 <li><a href="#"><span class="icon-google-plus"></span></a></li>
                                 <li><a href="#"><span class="icon-twitter"></span></a></li>
                                 <li><a href="#"><span class="icon-pinterest"></span></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="content">
-                        <h4 class="footer-title">View Other BAT Sites</h4>
-                        <div class="description">
-                            <ul class="bat-sites-list">
-                                <li><a href="#">Backyard Trampolines</a></li>
-                                <li><a href="#">Custom Trampoline Parks</a></li>
-                                <li><a href="#">Lorem Ipsum Park</a></li>
-                                <li><a href="#">BAT Extended</a></li>
                             </ul>
                         </div>
                     </div>
