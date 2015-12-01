@@ -149,30 +149,30 @@
                             </div>
                         </div>
                     </div>
-<!--                    <div class="pc_item item" style="background-image: url('images/custom-img.jpg');">-->
-<!--                        <div class="desc">-->
-<!--                            <div class="pc--desc">-->
-<!--                                <h1>CUSTOM <br>DESIGN</h1>-->
-<!--                                <div class="gap-30"></div>-->
-<!--                                <p>BAT's design & engineering team-->
-<!--                                    guides you through the entire process.</p>-->
-<!--                                <div class="gap-30"></div>-->
-<!--                                <a href="#" class="btn btn-primary white-btn-bg">Learn More</a>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="pc_item item" style="background-image: url('images/custom-img.jpg');">-->
-<!--                        <div class="desc">-->
-<!--                            <div class="pc--desc">-->
-<!--                                <h1>DEPLOYMENT</h1>-->
-<!--                                <div class="gap-30"></div>-->
-<!--                                <p>BAT's design & engineering team-->
-<!--                                    guides you through the entire process.</p>-->
-<!--                                <div class="gap-30"></div>-->
-<!--                                <a href="#" class="btn btn-primary white-btn-bg">Learn More</a>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
+                    <div class="pc_item item" style="background-image: url('images/custom-img.jpg');">
+                        <div class="desc">
+                            <div class="pc--desc">
+                                <h1>CUSTOM <br>DESIGN</h1>
+                                <div class="gap-30"></div>
+                                <p>BAT's design & engineering team
+                                    guides you through the entire process.</p>
+                                <div class="gap-30"></div>
+                                <a href="#" class="btn btn-primary white-btn-bg">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pc_item item" style="background-image: url('images/custom-img.jpg');">
+                        <div class="desc">
+                            <div class="pc--desc">
+                                <h1>DEPLOYMENT</h1>
+                                <div class="gap-30"></div>
+                                <p>BAT's design & engineering team
+                                    guides you through the entire process.</p>
+                                <div class="gap-30"></div>
+                                <a href="#" class="btn btn-primary white-btn-bg">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
                     <!-- Controls -->
                     <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
                         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
