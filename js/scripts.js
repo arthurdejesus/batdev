@@ -16,10 +16,10 @@
         $('.bxslider').bxSlider({
             onSlideAfter: function (currentSlideNumber, totalSlideQty, currentSlideHtmlObject) {
                 $('.active-slide').removeClass('active-slide');
-                $('.bxslider > li').eq(currentSlideHtmlObject).addClass('active-slide')
+                $('.bxslider > li').eq(currentSlideHtmlObject).addClass('active-slide');
             },
             onSliderLoad: function () {
-                $('.bxslider > li').eq(1).addClass('active-slide')
+                $('.bxslider > li').eq(1).addClass('active-slide');
             },
             auto: true,
             autoControls: false,
@@ -72,85 +72,60 @@
         e.preventDefault();
     });
 
-
-    //$( 'document' ).ready(function() {
-    //    // Timeout for crypto text
-    //    setTimeout( function() {
-    //        $( '.text-effects' ).fadeIn( 'slow' );
-    //        SPY.text('text-math');
-    //    }, 800);
-    //});
-
-})(window, document, jQuery);
-
-
-var bodyEl = $("body");
-$(window).on("scroll", function() {
-    var scrollTop = $(this).scrollTop();
-    $(".our-process-holder section").each(function() {
-        var el = $(this),
-            className = el.attr("data-section-name");
-        if (el.offset().top < scrollTop) {
-            var lastClass = bodyEl.attr("class").split(' ').pop();
-            bodyEl.removeClass(lastClass);
-            bodyEl.addClass(className);
-        }
-        else {
-            bodyEl.removeClass(className);
-            if(!bodyEl.attr("class")) {
-                bodyEl.addClass("is-shown");
+    var bodyEl = $("body");
+    $(window).on("scroll", function() {
+        var scrollTop = $(this).scrollTop();
+        $(".our-process-holder section").each(function() {
+            var el = $(this),
+                className = el.attr("data-section-name");
+            if (el.offset().top < scrollTop) {
+                var lastClass = bodyEl.attr("class").split(' ').pop();
+                bodyEl.removeClass(lastClass);
+                bodyEl.addClass(className);
             }
+            else {
+                bodyEl.removeClass(className);
+                if(!bodyEl.attr("class")) {
+                    bodyEl.addClass("is-shown");
+                }
+            }
+        });
+    });
+
+    jQuery('.section-innovation a').hover(function () {
+        jQuery(this).parents(".section-innovation").addClass("section-overlay");
+    }, function () {
+        jQuery(this).parents(".section-innovation").removeClass("section-overlay");
+    });
+
+
+    jQuery('.carousel-indicators li:first-child').click(function () {
+        jQuery('.transition-border').css('left', '0');
+    });
+
+    jQuery('.carousel-indicators li:nth-child(2)').click(function () {
+        jQuery('.transition-border').css('left', '49%');
+    });
+
+    jQuery('.carousel-indicators li:nth-child(3)').click(function () {
+        jQuery('.transition-border').css('left', '98%');
+    });
+
+    $('#carousel-example-generic').carousel({
+        interval: 4000
+    });
+
+    $('#carousel-example-generic').on('slid.bs.carousel', function () {
+        var active = $(this).find('.carousel-indicators .active');
+        if(active.index() === 0) {
+            $('.transition-border').css('left', '0');
+        }
+        if(active.index() === 1) {
+            $('.transition-border').css('left', '49%');
+        }
+        if(active.index() === 2) {
+            $('.transition-border').css('left', '98%');
         }
     });
-});
 
-jQuery('.section-innovation a').hover(function () {
-    jQuery(this).parents(".section-innovation").addClass("section-overlay");
-}, function () {
-    jQuery(this).parents(".section-innovation").removeClass("section-overlay");
-});
-
-
-jQuery('.carousel-indicators li:first-child').click(function () {
-    jQuery('.transition-border').css('left', '0');
-});
-
-
-
-jQuery('.carousel-indicators li:nth-child(2)').click(function () {
-    jQuery('.transition-border').css('left', '49%');
-});
-jQuery('.carousel-indicators li:nth-child(3)').click(function () {
-    jQuery('.transition-border').css('left', '98%');
-});
-
-$(document).ready(function(){
-    //Progress bar
-    //var barInterval = '',
-    //    percent = 0,
-    //    bar = $('.transition-timer-carousel-progress-bar'),
-    //    crsl = $('#carousel-example-generic');
-    //function progressBarCarousel() {
-    //    bar.css({width:percent+'%'});
-    //    percent = percent + 0.5;
-    //    if (Math.ceil(percent) == 50 || Math.ceil(percent) > 100) {
-    //        crsl.carousel('next');
-    //        if (Math.ceil(percent) > 100) {
-    //            percent = 0;
-    //            clearInterval(barInterval);
-    //        }
-    //    }
-    //}
-    //crsl.carousel({
-    //    interval: false,
-    //    pause: true
-    //}).on('slid.bs.carousel', function () {
-    //    if (Math.ceil(percent) == 0) {
-    //        crsl.carousel('next')
-    //        bar.css({width:percent+'%'});
-    //        barInterval = setInterval(progressBarCarousel, 30);
-    //    }
-    //});
-    //barInterval = setInterval(progressBarCarousel, 30);
-});
-
+})(window, document, jQuery);

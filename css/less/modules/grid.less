@@ -373,6 +373,17 @@
           padding-right: 50px;
           padding-left: 60px;
 
+          div, .planning-icon {
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+            -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+            -webkit-transition-property: transform;
+            transition-property: transform;
+            -webkit-transition-timing-function: ease-out;
+            transition-timing-function: ease-out;
+          }
+
           h5 {
             font-weight: 600;
             color: #fff;
@@ -381,6 +392,34 @@
 
           &:hover, &:focus {
             text-decoration: none;
+
+            .planning-icon {
+              border-color: #2bcaf5;
+
+              .icon-bar {
+                color: #2bcaf5;
+              }
+            }
+            
+            div, .planning-icon {
+              -webkit-transform: translateY(-4px);
+              transform: translateY(-4px);
+            }
+
+            .design-icon {
+              background: url('../images/icons/icon-design-active.png') no-repeat;
+            }
+
+            .deployment-icon {
+              background: url('../images/icons/icon-deployment-active.png') no-repeat;
+            }
+
+            .guarantee-icon {
+              background: url('../images/icons/icon-guarantee-active.png') no-repeat;
+            }
+            h5 {
+              color: #2bcaf5;
+            }
           }
         }
 
