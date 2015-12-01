@@ -152,10 +152,6 @@
   background-attachment: initial;
   .translate3d(0,0,0);
   .scale(1.25);
-
-  &:before {
-    background-color: transparent;
-  }
 }
 
 //.is-shown {
@@ -173,6 +169,10 @@
 .is-shown .banner-single {
   .scale(1);
   .transition(6.5s ease-out transform);
+
+  &:before {
+    background-color: transparent;
+  }
 }
 
 //.modal.and.carousel {
