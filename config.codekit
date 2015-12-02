@@ -2156,6 +2156,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/district.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 51044,
+		"inputAbbreviatedPath": "\/images\/district.jpg",
+		"outputAbbreviatedPath": "\/images\/district.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/favicon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2662,6 +2673,116 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/products\/beachwood.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 77887,
+		"inputAbbreviatedPath": "\/images\/products\/beachwood.jpg",
+		"outputAbbreviatedPath": "\/images\/products\/beachwood.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/products\/flipz.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 155761,
+		"inputAbbreviatedPath": "\/images\/products\/flipz.jpg",
+		"outputAbbreviatedPath": "\/images\/products\/flipz.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/products\/jump-around.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 110352,
+		"inputAbbreviatedPath": "\/images\/products\/jump-around.jpg",
+		"outputAbbreviatedPath": "\/images\/products\/jump-around.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/products\/jump-box.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 81946,
+		"inputAbbreviatedPath": "\/images\/products\/jump-box.jpg",
+		"outputAbbreviatedPath": "\/images\/products\/jump-box.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/products\/jump-street.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 148778,
+		"inputAbbreviatedPath": "\/images\/products\/jump-street.jpg",
+		"outputAbbreviatedPath": "\/images\/products\/jump-street.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/products\/ninja.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 149540,
+		"inputAbbreviatedPath": "\/images\/products\/ninja.png",
+		"outputAbbreviatedPath": "\/images\/products\/ninja.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/products\/p1-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14054,
+		"inputAbbreviatedPath": "\/images\/products\/p1-1.png",
+		"outputAbbreviatedPath": "\/images\/products\/p1-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/products\/p1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 230727,
+		"inputAbbreviatedPath": "\/images\/products\/p1.jpg",
+		"outputAbbreviatedPath": "\/images\/products\/p1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/products\/p2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 128256,
+		"inputAbbreviatedPath": "\/images\/products\/p2.jpg",
+		"outputAbbreviatedPath": "\/images\/products\/p2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/products\/p3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.51159e+06,
+		"inputAbbreviatedPath": "\/images\/products\/p3.png",
+		"outputAbbreviatedPath": "\/images\/products\/p3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/products\/prod-single-1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2713,6 +2834,17 @@
 		"initialSize": 142230,
 		"inputAbbreviatedPath": "\/images\/products\/product-3.jpg",
 		"outputAbbreviatedPath": "\/images\/products\/product-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/products\/rockin-jump.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 172379,
+		"inputAbbreviatedPath": "\/images\/products\/rockin-jump.jpg",
+		"outputAbbreviatedPath": "\/images\/products\/rockin-jump.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2794,6 +2926,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/products\/star.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6905,
+		"inputAbbreviatedPath": "\/images\/products\/star.png",
+		"outputAbbreviatedPath": "\/images\/products\/star.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/products\/urban-air.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 186790,
+		"inputAbbreviatedPath": "\/images\/products\/urban-air.jpg",
+		"outputAbbreviatedPath": "\/images\/products\/urban-air.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/progress-img.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2812,6 +2966,28 @@
 		"initialSize": 8625,
 		"inputAbbreviatedPath": "\/images\/social-media.jpg",
 		"outputAbbreviatedPath": "\/images\/social-media.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/title\/ninja.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9805,
+		"inputAbbreviatedPath": "\/images\/title\/ninja.png",
+		"outputAbbreviatedPath": "\/images\/title\/ninja.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/title\/star.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6905,
+		"inputAbbreviatedPath": "\/images\/title\/star.png",
+		"outputAbbreviatedPath": "\/images\/title\/star.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3064,6 +3240,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/products.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/products1.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/products1.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

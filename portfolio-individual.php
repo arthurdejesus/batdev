@@ -171,8 +171,10 @@
                     <div class="description">
                         <p>Use trampoline only with mature, knowledgeable supervision.  </p>
                     </div>
+
                 </div>
             </div>
         </div>
     </div>
+</div>
 <?php include 'footer.php'; ?>

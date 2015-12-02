@@ -20,7 +20,8 @@
         <div class="col-md-6 animated fadeInRight slow delay-250">
             <div class="content">
                 <div class="description">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                    <p>Since 1978, Best American Trampolines has worked directly with individual consumers and global corporations alike, to design and manufacture a superior, American-made product. The 'BAT' team of professionals provide guidance and expertise in the disciplines of: interior design, market research, brand development, graphic design - along with trampoline and attraction design, supply and installation.</p>
+                    <p>As a leader in trampoline park design and manufacturing, we provide experienced and professional service throughout each custom project. Each and every one of our park clients has full access to a project manager 7 days a week. We are dedicated to our clients during the entire project - from start to finish, and beyond</p>
                 </div>
             </div>
         </div>
@@ -89,7 +90,7 @@
         <div class="grid-leader">
             <div class="col-md-8">
                 <div class="content animated fadeInLeft slow">
-                    <h4 class="grid-leader-title">John Doe</h4>
+                    <h4 class="grid-leader-title">Phillip Howell</h4>
                     <div class="description">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
                     </div>
@@ -126,5 +127,6 @@
             </div>
         </div>
     </div>
+</div>
 
 <?php include 'footer.php'; ?>

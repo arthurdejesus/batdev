@@ -22,8 +22,12 @@
                 <div class="container">
                     <h2 class="banner-title animated growIn slow">Premium <span>Trampoline Parks</span></h2>
                     <p class="blue-title animated fadeInUp slow delay-250">Made in the USA <img src="images/flag.jpg"></p>
+<<<<<<< HEAD
                     <a href="portfolio.php" class="btn btn-primary prl-60 animated fadeInUp slow delay-500">See Our
                         Work</a>
+=======
+                    <a href="portfolio.php" class="btn btn-primary prl-60 animated fadeInUp slow delay-500">See Our Work</a>
+>>>>>>> origin/master
                 </div>
             </div>
             <a href="#goto-down" class="btn-down animated fadeInUp delay-750"><span class="arrow-down"></span></a>
@@ -179,7 +183,7 @@
         </div>
     </div>
     <div class="section section-innovation animatedParent animateOnce">
-        <img src="images/innovation-img.png" class="innovation-img">
+        <img src="images/products/prod-single.png" class="innovation-img">
         <div class="overlay overlay-section section-overlay"></div>
         <div class="content-left">
             <h3 class="primary-title animated fadeInLeft slow">innovation<br>
@@ -206,8 +210,6 @@
                         <div class="process-grid-item">
                             <div class="process-grid-item-icon">
                                 <img src="images/process-home/process-icon-1.png">
-
-
                             </div>
                             <h4 class="process-grid-item-title">Lifetime Support</h4>
                             <div class="process-grid-description">
@@ -248,7 +250,7 @@
                             <div class="process-grid-item-icon">
                                 <img src="images/process-home/process-icon-4.png">
                             </div>
-                            <h4 class="process-grid-item-title">Inventory Systems</h4>
+                            <h4 class="process-grid-item-title">Software</h4>
                             <div class="process-grid-description">
                                 <p>Access to real-time inventory management tools, and re-order placement systems.</p>
                             </div>

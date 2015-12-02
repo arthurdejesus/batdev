@@ -63,6 +63,7 @@
         </div>
     </div>
 </div>
+
     <div class="section-warning animatedParent animateOnce" style="background-image: url('images/bg-warning.jpg');">
         <div class="warning-wrap">
             <div class="warning-grid mw-410">
@@ -85,4 +86,5 @@
             </div>
         </div>
     </div>
+</div>
 <?php include 'footer.php'; ?>

@@ -34,8 +34,8 @@
                 <ul class="social-media social-media-top">
                     <li><a href="#"><span class="icon-facebook"></span></a></li>
                     <li><a href="#"><span class="icon-google-plus"></span></a></li>
-                    <li><a href="#"><span class="icon-twitter"></span></a></li>
-                    <li><a href="#"><span class="icon-pinterest"></span></a></li>
+                    <li><a href="https://twitter.com/bat_inc"><span class="icon-twitter"></span></a></li>
+<!--                    <li><a href="#"><span class="icon-pinterest"></span></a></li>-->
                 </ul>
                 <p>Call: 972-475-0092</p>
                 <p class="phone-icon"><span class="icon-phone"></span></p>
