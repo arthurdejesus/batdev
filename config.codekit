@@ -2642,6 +2642,61 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/products\/ninja.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 149540,
+		"inputAbbreviatedPath": "\/images\/products\/ninja.png",
+		"outputAbbreviatedPath": "\/images\/products\/ninja.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/products\/p1-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14054,
+		"inputAbbreviatedPath": "\/images\/products\/p1-1.png",
+		"outputAbbreviatedPath": "\/images\/products\/p1-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/products\/p1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 230727,
+		"inputAbbreviatedPath": "\/images\/products\/p1.jpg",
+		"outputAbbreviatedPath": "\/images\/products\/p1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/products\/p2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 128256,
+		"inputAbbreviatedPath": "\/images\/products\/p2.jpg",
+		"outputAbbreviatedPath": "\/images\/products\/p2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/products\/p3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.51159e+06,
+		"inputAbbreviatedPath": "\/images\/products\/p3.png",
+		"outputAbbreviatedPath": "\/images\/products\/p3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/products\/prod-single-1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2774,6 +2829,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/products\/star.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6905,
+		"inputAbbreviatedPath": "\/images\/products\/star.png",
+		"outputAbbreviatedPath": "\/images\/products\/star.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/progress-img.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2781,6 +2847,28 @@
 		"initialSize": 128958,
 		"inputAbbreviatedPath": "\/images\/progress-img.jpg",
 		"outputAbbreviatedPath": "\/images\/progress-img.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/title\/ninja.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9805,
+		"inputAbbreviatedPath": "\/images\/title\/ninja.png",
+		"outputAbbreviatedPath": "\/images\/title\/ninja.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/title\/star.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6905,
+		"inputAbbreviatedPath": "\/images\/title\/star.png",
+		"outputAbbreviatedPath": "\/images\/title\/star.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3047,11 +3135,20 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/products1.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/products1.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Philwebservices Front-end",
+"lastSavedByUser": "Philweb Services",
 "manualImportLinks": {
 	"\/js\/scripts.js": [
 		{
