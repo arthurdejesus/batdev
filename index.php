@@ -22,7 +22,12 @@
                 <div class="container">
                     <h2 class="banner-title animated growIn slow">Premium <span>Trampoline Parks</span></h2>
                     <p class="blue-title animated fadeInUp slow delay-250">Made in the USA <img src="images/flag.jpg"></p>
+<<<<<<< HEAD
+                    <a href="portfolio.php" class="btn btn-primary prl-60 animated fadeInUp slow delay-500">See Our
+                        Work</a>
+=======
                     <a href="portfolio.php" class="btn btn-primary prl-60 animated fadeInUp slow delay-500">See Our Work</a>
+>>>>>>> origin/master
                 </div>
             </div>
             <a href="#goto-down" class="btn-down animated fadeInUp delay-750"><span class="arrow-down"></span></a>
@@ -52,7 +57,7 @@
                     <div class="t t5"></div>
                     <div class="t t6"></div>
                     <div class="t t7"></div>
-                    <div class="t t8"></div>
+                    <!-- <div class="t t8"></div>-->
                 </div>
             </div>
 
@@ -173,15 +178,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Controls -->
-                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
                 </div>
             </div>
         </div>
@@ -256,7 +252,7 @@
                             </div>
                             <h4 class="process-grid-item-title">Software</h4>
                             <div class="process-grid-description">
-                                <p>Offering an exclusive, all-in-one point of sale system that utilizes wearable smart technology, and much more.</p>
+                                <p>Access to real-time inventory management tools, and re-order placement systems.</p>
                             </div>
                             <a href="#" class="btn-learn-more">Learn More</a>
                         </div>
@@ -291,27 +287,26 @@
     </div>
 
     <div class="section-warning animatedParent animateOnce" style="background-image: url('images/bg-warning.jpg');">
-        <div class="container">
-            <div class="col-md-4 p-0">
-                <h3 class="warning-title animated fadeInLeft slow">Warning<img src="images/warning-icon.png"></h3>
-            </div>
-            <div class="col-md-4">
-                <div class="content animated fadeInRight slow">
-                    <div class="description">
-                        <p>Landing on the head or neck can cause serious injury, paralysis,
-                            or death, even when landing in the middle of the bed.
-                            Use trampoline only with mature, knowledgeable supervision.  </p>
+            <div class="warning-wrap">
+                <div class="warning-grid mw-410">
+                    <h3 class="warning-title animated fadeInLeft slow">Warning<img src="images/warning-icon.png"></h3>
+                </div>
+                <div class="warning-grid">
+                    <div class="content animated fadeInRight slow">
+                        <div class="description">
+                            <p>Landing on the head or neck can cause serious injury, paralysis,
+                                or death, even when landing in the middle of the bed.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="warning-grid">
+                    <div class="content animated fadeInRight slow">
+                        <div class="description">
+                            <p>Use trampoline only with mature, knowledgeable supervision.  </p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 p-0">
-                <div class="content animated fadeInRight slow delay-250">
-                    <div class="description">
-                        <p>Use trampoline only with mature, knowledgeable supervision. You should NEVER exceed one jumper at a time on your backyard trampoline.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
 
 <?php include 'footer.php'; ?>

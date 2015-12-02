@@ -14,6 +14,10 @@
                                 consectur</h4>
                             <div class="news-list-item-img animated fadeInUp slow delay-250">
                                 <img src="images/news-img/news-img-1.jpg">
+                                <button class="btn-arrow"><img src="images/arrow.png"></button>
+                                <div class="social-media-share">
+                                    <img src="images/social-media.jpg">
+                                </div>
                             </div>
                             <div class="description animated fadeInUp slow delay-500">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -26,6 +30,10 @@
                             <h4 class="news-list-item-title animated fadeInUp slow">Lorem ipsum dolor sit amet, consectur</h4>
                             <div class="news-list-item-img animated fadeInUp slow delay-250">
                                 <img src="images/news-img/news-img-2.jpg">
+                                <button class="btn-arrow"><img src="images/arrow.png"></button>
+                                <div class="social-media-share">
+                                    <img src="images/social-media.jpg">
+                                </div>
                             </div>
                             <div class="description animated fadeInUp slow delay-500">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -38,6 +46,10 @@
                             <h4 class="news-list-item-title animated fadeInUp slow">Lorem ipsum dolor sit amet, consectur</h4>
                             <div class="news-list-item-img animated fadeInUp slow delay-250">
                                 <img src="images/news-img/news-img-3.jpg">
+                                <button class="btn-arrow"><img src="images/arrow.png"></button>
+                                <div class="social-media-share">
+                                    <img src="images/social-media.jpg">
+                                </div>
                             </div>
                             <div class="description animated fadeInUp slow delay-500">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -50,6 +62,10 @@
                             <h4 class="news-list-item-title animated fadeInUp slow">Lorem ipsum dolor sit amet, consectur</h4>
                             <div class="news-list-item-img animated fadeInUp slow delay-250">
                                 <img src="images/news-img/news-img-4.jpg">
+                                <button class="btn-arrow"><img src="images/arrow.png"></button>
+                                <div class="social-media-share">
+                                    <img src="images/social-media.jpg">
+                                </div>
                             </div>
                             <div class="description animated fadeInUp slow delay-500">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -62,6 +78,10 @@
                             <h4 class="news-list-item-title animated fadeInUp slow">Lorem ipsum dolor sit amet, consectur</h4>
                             <div class="news-list-item-img animated fadeInUp slow delay-250">
                                 <img src="images/news-img/news-img-5.jpg">
+                                <button class="btn-arrow"><img src="images/arrow.png"></button>
+                                <div class="social-media-share">
+                                    <img src="images/social-media.jpg">
+                                </div>
                             </div>
                             <div class="description animated fadeInUp slow delay-500">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>

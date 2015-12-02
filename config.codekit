@@ -1936,6 +1936,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/arrow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1304,
+		"inputAbbreviatedPath": "\/images\/arrow.png",
+		"outputAbbreviatedPath": "\/images\/arrow.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/banner-about.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2662,6 +2673,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/prod-single-img-thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 124301,
+		"inputAbbreviatedPath": "\/images\/prod-single-img-thumb.jpg",
+		"outputAbbreviatedPath": "\/images\/prod-single-img-thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/product-single-img.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 170433,
+		"inputAbbreviatedPath": "\/images\/product-single-img.jpg",
+		"outputAbbreviatedPath": "\/images\/product-single-img.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/products\/beachwood.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2944,6 +2977,94 @@
 		"initialSize": 128958,
 		"inputAbbreviatedPath": "\/images\/progress-img.jpg",
 		"outputAbbreviatedPath": "\/images\/progress-img.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/single-prod-gallery-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 66665,
+		"inputAbbreviatedPath": "\/images\/single-prod-gallery-1.jpg",
+		"outputAbbreviatedPath": "\/images\/single-prod-gallery-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/single-prod-gallery-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44530,
+		"inputAbbreviatedPath": "\/images\/single-prod-gallery-2.jpg",
+		"outputAbbreviatedPath": "\/images\/single-prod-gallery-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/single-prod-gallery-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 77583,
+		"inputAbbreviatedPath": "\/images\/single-prod-gallery-3.jpg",
+		"outputAbbreviatedPath": "\/images\/single-prod-gallery-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/single-prod-gallery-4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 97407,
+		"inputAbbreviatedPath": "\/images\/single-prod-gallery-4.jpg",
+		"outputAbbreviatedPath": "\/images\/single-prod-gallery-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/single-prod-gallery-5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 146521,
+		"inputAbbreviatedPath": "\/images\/single-prod-gallery-5.jpg",
+		"outputAbbreviatedPath": "\/images\/single-prod-gallery-5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/single-prod-gallery-6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 65949,
+		"inputAbbreviatedPath": "\/images\/single-prod-gallery-6.jpg",
+		"outputAbbreviatedPath": "\/images\/single-prod-gallery-6.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/single-prod-gallery-7.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39419,
+		"inputAbbreviatedPath": "\/images\/single-prod-gallery-7.jpg",
+		"outputAbbreviatedPath": "\/images\/single-prod-gallery-7.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/social-media.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8625,
+		"inputAbbreviatedPath": "\/images\/social-media.jpg",
+		"outputAbbreviatedPath": "\/images\/social-media.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3231,6 +3352,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/portfolio.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/product-individual.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/product-individual.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
