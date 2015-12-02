@@ -18,14 +18,14 @@
 <div class="section--portfolio overlay--effects">
     <div class="grid-we-do p-0 m-0">
         <div class="col-md-4 p-0">
-            <a class="overlay--hover" href="portfolio-individual.php">
+            <a class="overlay--hover" href="#">
                 <div class="grid-we-do-item p-0">
                     <div class="grid-we-do-img-wrap grid-wrap-black">
                         <div class="grid--img" style="background-image:url('images/portfolio-img/portfolio-3.jpg');"></div>
                         <div class="grid-content">
                             <h2 class="grid-title">Airbound Trampoline Park</h2>
                             <div class="grid-border"></div>
-                            <span class="grid-bottom-title">Winston-Salem, NC</span>
+                            <span class="grid-bottom-title">NC, 2 locations</span>
                         </div>
                     </div>
                 </div>
@@ -33,7 +33,7 @@
             </a>
         </div>
         <div class="col-md-4 p-0">
-            <a class="overlay--hover" href="portfolio-individual.php">
+            <a class="overlay--hover" href="#">
                 <div class="grid-we-do-item p-0">
                     <div class="grid-we-do-img-wrap grid-wrap-black">
                         <div class="grid--img" style="background-image:url('images/products/sky-1.jpg');"></div>
@@ -48,7 +48,7 @@
             </a>
         </div>
         <div class="col-md-4 p-0">
-            <a class="overlay--hover" href="portfolio-individual.php">
+            <a class="overlay--hover" href="#">
                 <div class="grid-we-do-item p-0">
                     <div class="grid-we-do-img-wrap grid-wrap-black">
                         <div class="grid--img" style="background-image:url('images/products/sky-3.jpg');"></div>
@@ -63,7 +63,7 @@
             </a>
         </div>
         <div class="col-md-4 p-0">
-            <a class="overlay--hover" href="portfolio-individual.php">
+            <a class="overlay--hover" href="#">
                 <div class="grid-we-do-item p-0">
                     <div class="grid-we-do-img-wrap grid-wrap-black">
                         <div class="grid--img" style="background-image:url('images/district.jpg');"></div>
@@ -78,7 +78,7 @@
             </a>
         </div>
         <div class="col-md-4 p-0">
-            <a class="overlay--hover" href="portfolio-individual.php">
+            <a class="overlay--hover" href="#">
                 <div class="grid-we-do-item p-0">
                     <div class="grid-we-do-img-wrap grid-wrap-black">
                         <div class="grid--img" style="background-image:url('images/portfolio-img/portfolio-1.jpg');"></div>
@@ -93,7 +93,7 @@
             </a>
         </div>
         <div class="col-md-4 p-0">
-            <a class="overlay--hover" href="portfolio-individual.php">
+            <a class="overlay--hover" href="#">
                 <div class="grid-we-do-item p-0">
                     <div class="grid-we-do-img-wrap grid-wrap-black">
                         <div class="grid--img" style="background-image:url('images/products/flipz.jpg');"></div>
@@ -108,7 +108,7 @@
             </a>
         </div>
         <div class="col-md-4 p-0">
-            <a class="overlay--hover" href="portfolio-individual.php">
+            <a class="overlay--hover" href="#">
                 <div class="grid-we-do-item p-0">
                     <div class="grid-we-do-img-wrap grid-wrap-black">
                         <div class="grid--img" style="background-image:url('images/products/jump-around.jpg');"></div>
@@ -123,7 +123,7 @@
             </a>
         </div>
         <div class="col-md-4 p-0">
-            <a class="overlay--hover" href="portfolio-individual.php">
+            <a class="overlay--hover" href="#">
                 <div class="grid-we-do-item p-0">
                     <div class="grid-we-do-img-wrap grid-wrap-black">
                         <div class="grid--img" style="background-image:url('images/products/jump-box.jpg');"></div>
@@ -138,7 +138,7 @@
             </a>
         </div>
         <div class="col-md-4 p-0">
-            <a class="overlay--hover" href="portfolio-individual.php">
+            <a class="overlay--hover" href="#">
                 <div class="grid-we-do-item p-0">
                     <div class="grid-we-do-img-wrap grid-wrap-black">
                         <div class="grid--img" style="background-image:url('images/products/jump-street.jpg');"></div>
@@ -153,7 +153,7 @@
             </a>
         </div>
         <div class="col-md-4 p-0">
-            <a class="overlay--hover" href="portfolio-individual.php">
+            <a class="overlay--hover" href="#">
                 <div class="grid-we-do-item p-0">
                     <div class="grid-we-do-img-wrap grid-wrap-black">
                         <div class="grid--img" style="background-image:url('images/products/rockin-jump.jpg');"></div>
@@ -168,7 +168,7 @@
             </a>
         </div>
         <div class="col-md-4 p-0">
-            <a class="overlay--hover" href="portfolio-individual.php">
+            <a class="overlay--hover" href="#">
                 <div class="grid-we-do-item p-0">
                     <div class="grid-we-do-img-wrap grid-wrap-black">
                         <div class="grid--img" style="background-image:url('images/products/urban-air.jpg');"></div>
@@ -183,7 +183,7 @@
             </a>
         </div>
         <div class="col-md-4 p-0">
-            <a class="overlay--hover" href="portfolio-individual.php">
+            <a class="overlay--hover" href="#">
                 <div class="grid-we-do-item p-0">
                     <div class="grid-we-do-img-wrap grid-wrap-black">
                         <div class="grid--img" style="background-image:url('images/products/beachwood.jpg');"></div>
