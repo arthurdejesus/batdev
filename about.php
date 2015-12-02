@@ -17,7 +17,7 @@
                 <h3 class="primary-title">History</h3>
             </div>
         </div>
-        <div class="col-md-6 animated fadeInRight slow delay-250">
+        <div class="col-md-8 animated fadeInRight slow delay-250">
             <div class="content">
                 <div class="description">
                     <p>Since 1978, Best American Trampolines has worked directly with individual consumers and global corporations alike, to design and manufacture a superior, American-made product. The 'BAT' team of professionals provide guidance and expertise in the disciplines of: interior design, market research, brand development, graphic design - along with trampoline and attraction design, supply and installation.</p>
@@ -28,7 +28,7 @@
     </div>
 </div>
 
-<div class="triangle-after">
+<div class="after-svg  triangle-after">
     <img src="images/triangle-black.svg">
 </div>
 

@@ -120,7 +120,7 @@
   }
 }
 
-.triangle-after {
+.after-svg {
   position: relative;
 
   img {
@@ -132,9 +132,15 @@
   }
 }
 
+.banner-tringle-after {
+  img {
+    bottom: -3px;
+  }
+}
+
 .banner-caption-down {
   top: inherit !important;
-  bottom: 0;
+  bottom: -1px;
   .translate(0,0) !important;
 
   .banner-title {
@@ -240,5 +246,23 @@
     top: 50%;
     bottom: initial;
     .translate(0,-50%);
+  }
+}
+
+.banner-prod-single {
+  height: 900px;
+
+  &:before {
+    background-color: rgba(0,0,0,.6);
+  }
+
+  .banner-caption {
+    top: 30%;
+    .translate(0,-30%);
+
+    .banner-title {
+      font-size: 80px;
+      font-weight: 100px;
+    }
   }
 }
