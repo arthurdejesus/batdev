@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a3a9d62-9166-4554-8d03-58555b6c8518" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product-individual.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.php" afterPath="$PROJECT_DIR$/about.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/less/modules/banner.less" afterPath="$PROJECT_DIR$/css/less/modules/banner.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.codekit" afterPath="$PROJECT_DIR$/config.codekit" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/less/modules/grid.less" afterPath="$PROJECT_DIR$/css/less/modules/grid.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products.php" afterPath="$PROJECT_DIR$/products.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/less/modules/section.less" afterPath="$PROJECT_DIR$/css/less/modules/section.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/less/modules/single.less" afterPath="$PROJECT_DIR$/css/less/modules/single.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="batdev.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -156,6 +147,16 @@
       </split-first>
       <split-second>
         <leaf>
+          <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/index.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="4725">
+                  <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="banner.less" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/less/modules/banner.less">
               <provider selected="true" editor-type-id="text-editor">
@@ -166,21 +167,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="single.less" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/less/modules/single.less">
+          <file leaf-file-name="products.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/products.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-21.469387" vertical-offset="358" max-vertical-offset="1530">
-                  <caret line="94" column="29" selection-start-line="94" selection-start-column="29" selection-end-line="94" selection-end-column="29" />
+                <state vertical-scroll-proportion="0.43089432" vertical-offset="108" max-vertical-offset="1215">
+                  <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="75" selection-end-column="6" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="products.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/products.php">
+          <file leaf-file-name="single.less" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/less/modules/single.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.13550135" vertical-offset="0" max-vertical-offset="1215">
-                  <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="11" selection-end-column="24" />
+                <state vertical-scroll-proportion="-21.469387" vertical-offset="358" max-vertical-offset="1530">
+                  <caret line="94" column="29" selection-start-line="94" selection-start-column="29" selection-end-line="94" selection-end-column="29" />
                   <folding />
                 </state>
               </provider>
@@ -214,7 +215,6 @@
         <option value="$PROJECT_DIR$/news.php" />
         <option value="$PROJECT_DIR$/css/less/modules/list.less" />
         <option value="$PROJECT_DIR$/contact.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/our-process.php" />
         <option value="$PROJECT_DIR$/portfolio.php" />
         <option value="$PROJECT_DIR$/css/main.css" />
@@ -226,6 +226,7 @@
         <option value="$PROJECT_DIR$/portfolio-individual.php" />
         <option value="$PROJECT_DIR$/product-individual.php" />
         <option value="$PROJECT_DIR$/css/less/modules/single.less" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -749,14 +750,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-27.375" vertical-offset="3663" max-vertical-offset="4770">
-          <caret line="288" column="116" selection-start-line="288" selection-start-column="116" selection-end-line="288" selection-end-column="116" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0265252" vertical-offset="0" max-vertical-offset="1131">
@@ -891,10 +884,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="4725">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/products.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13550135" vertical-offset="0" max-vertical-offset="1215">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="11" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.43089432" vertical-offset="108" max-vertical-offset="1215">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="75" selection-end-column="6" />
           <folding />
         </state>
       </provider>
