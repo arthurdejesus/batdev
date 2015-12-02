@@ -673,3 +673,31 @@ section[data-section-name=planning] {
     top: 40%;
   }
 }
+
+.warning-wrap {
+  position: relative;
+  z-index: 1;
+  max-width: 1306px;
+  margin: 0 auto;
+  padding: 20px 0 20px 20px;
+
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+
+  .warning-grid {
+    float: left;
+    padding: 0 20px;
+    min-height: 140px;
+    display: inline-block;
+    max-width: 435px;
+    border-right: 1px solid #DFBC73;
+  }
+
+  .warning-grid:last-child {
+    border-right: none;
+  }
+}
+

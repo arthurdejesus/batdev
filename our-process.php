@@ -151,18 +151,26 @@
     </section>
 </div>
 
+
 <section class="warning-section product-section" data-section-name="warning">
+
     <div class="section-warning animatedParent animateOnce" style="background-image: url('images/bg-warning.jpg');">
-        <div class="container">
-            <div class="col-md-5">
+        <div class="warning-wrap">
+            <div class="warning-grid mw-410">
                 <h3 class="warning-title animated fadeInLeft slow">Warning<img src="images/warning-icon.png"></h3>
             </div>
-            <div class="col-md-7">
+            <div class="warning-grid">
                 <div class="content animated fadeInRight slow">
                     <div class="description">
                         <p>Landing on the head or neck can cause serious injury, paralysis,
-                            or death, even when landing in the middle of the bed.
-                            Use trampoline only with mature, knowledgeable supervision.  </p>
+                            or death, even when landing in the middle of the bed.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="warning-grid">
+                <div class="content animated fadeInRight slow">
+                    <div class="description">
+                        <p>Use trampoline only with mature, knowledgeable supervision.  </p>
                     </div>
                 </div>
             </div>
