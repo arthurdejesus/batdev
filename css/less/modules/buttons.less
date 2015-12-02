@@ -87,3 +87,19 @@
     }
   }
 }
+
+.transparent-btn {
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid;
+  margin-top: 8em;
+
+  &:after {
+    content: '';
+    margin: 0;
+  }
+
+  &:hover {
+    border-color: #fff;
+  }
+}

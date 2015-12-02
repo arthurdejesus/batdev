@@ -72,6 +72,8 @@
         e.preventDefault();
     });
 
+
+
     var bodyEl = $("body");
     $(window).on("scroll", function() {
         var scrollTop = $(this).scrollTop();
@@ -98,6 +100,11 @@
         jQuery(this).parents(".section-innovation").removeClass("section-overlay");
     });
 
+    jQuery('.grid-wrap-black .grid-product-type-header .transparent-btn').hover(function () {
+        jQuery('.grid-product-wrap').addClass("wrap-overlay");
+    }, function () {
+        jQuery('.grid-product-wrap').removeClass("wrap-overlay");
+    });
 
     jQuery('.carousel-indicators li:first-child').click(function () {
         jQuery('.transition-border').css('left', '0');
