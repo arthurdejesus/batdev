@@ -34,8 +34,8 @@
                             <ul class="social-media social-media-bottom">
                                 <li><a href="#"><span class="icon-facebook"></span></a></li>
                                 <li><a href="#"><span class="icon-google-plus"></span></a></li>
-                                <li><a href="#"><span class="icon-twitter"></span></a></li>
-                                <li><a href="#"><span class="icon-pinterest"></span></a></li>
+                                <li><a href="https://twitter.com/bat_inc"><span class="icon-twitter"></span></a></li>
+<!--                                <li><a href="#"><span class="icon-pinterest"></span></a></li>-->
                             </ul>
                         </div>
                     </div>
@@ -57,9 +57,9 @@
 
                 <div class="pull-right">
                     <ul class="footer-logos">
-                        <li><img src="images/footer-logo3.png"></li>
-                        <li><img src="images/footer-logo2.png"></li>
-                        <li><img src="images/footer-logo1.png"></li>
+                        <li><a href="http://www.astm.org/"><img src="images/footer-logo3.png"></a></li>
+                        <li><a href="http://www.indoortrampolineparks.org/"><img src="images/footer-logo2.png"></a></li>
+                        <li><a href="http://www.indoortrampolineparks.org/"><img src="images/footer-logo1.png"></a></li>
                     </ul>
                 </div>
             </div>

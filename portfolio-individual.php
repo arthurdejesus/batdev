@@ -152,20 +152,27 @@
         </div>
     </div>
 </div>
-    <div class="section-warning animatedParent animateOnce" style="background-image: url('images/bg-warning.jpg');">
-        <div class="container">
-            <div class="col-md-5">
-                <h3 class="warning-title animated fadeInLeft slow">Warning<img src="images/warning-icon.png"></h3>
+<div class="section-warning animatedParent animateOnce" style="background-image: url('images/bg-warning.jpg');">
+    <div class="container">
+        <div class="col-md-4 p-0">
+            <h3 class="warning-title animated fadeInLeft slow">Warning<img src="images/warning-icon.png"></h3>
+        </div>
+        <div class="col-md-4">
+            <div class="content animated fadeInRight slow">
+                <div class="description">
+                    <p>Landing on the head or neck can cause serious injury, paralysis,
+                        or death, even when landing in the middle of the bed.
+                        Use trampoline only with mature, knowledgeable supervision.  </p>
+                </div>
             </div>
-            <div class="col-md-7">
-                <div class="content animated fadeInRight slow">
-                    <div class="description">
-                        <p>Landing on the head or neck can cause serious injury, paralysis,
-                            or death, even when landing in the middle of the bed.
-                            Use trampoline only with mature, knowledgeable supervision.  </p>
-                    </div>
+        </div>
+        <div class="col-md-4 p-0">
+            <div class="content animated fadeInRight slow delay-250">
+                <div class="description">
+                    <p>Use trampoline only with mature, knowledgeable supervision. You should NEVER exceed one jumper at a time on your backyard trampoline.</p>
                 </div>
             </div>
         </div>
     </div>
+</div>
 <?php include 'footer.php'; ?>
