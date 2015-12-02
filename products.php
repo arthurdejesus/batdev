@@ -3,53 +3,60 @@
     <section class="product-section animatedParent animateOnce" data-section-name="trampoline-parks">
         <div class="grid-we-do-item p-0">
             <div class="grid-we-do-img-wrap grid-wrap-black">
-                <a href="#">
-                    <div class="grid--img" style="background-image:url('images/products/product-1.jpg');"></div>
-
-                    <div class="product-content">
-                        <h2 class="animated fadeInLeft">Trampoline Parks</h2>
-                        <div class="gap-30"></div>
-                        <button class="btn btn-primary animated fadeInLeft delay-250">Learn More</button>
+                <div class="row">
+                  <div class="col-md-3 p-0">
+                     <div class="grid-product-type-green">
+                        <h1 class="grid-product-title">Trampoline Parks</h1>
+                     <!--   <a href="#" class="btn btn-default btn-learn-more" role="button">Learn More</a> -->
+                      </div>
+                  </div>
+                  <div class="col-md-9 p-0">                    
+                    <div class="grid-product-wrap-green" style="background-image:url('images/products/p1.jpg')">
                     </div>
-                </a>
-
+                  </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <section class="product-section animatedParent animateOnce" data-section-name="ninja-course">
+     <section class="product-section animatedParent animateOnce" data-section-name="trampoline-parks">
         <div class="grid-we-do-item p-0">
             <div class="grid-we-do-img-wrap grid-wrap-black">
-                <a href="#">
-                    <div class="grid--img" style="background-image:url('images/products/product-2.jpg');"></div>
-
-                    <div class="product-content">
-                        <h2 class="animated fadeInRight">Ninja Course</h2>
-                        <div class="gap-30"></div>
-                        <button class="btn btn-primary animated fadeInRight delay-250">Learn More</button>
+                <div class="row">
+                  <div class="col-md-9 p-0">                    
+                    <div class="grid-product-wrap-red" style="background-image:url('images/products/p2.jpg')">
                     </div>
-                </a>
-
+                  </div>
+                  <div class="col-md-3 p-0">
+                     <div class="grid-product-type-red">
+                        <h1 class="grid-product-title">Ninja Course</h1>
+                      </div>
+                  </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <section class="product-section animatedParent animateOnce" data-section-name="sky-park">
+     <section class="product-section animatedParent animateOnce" data-section-name="trampoline-parks">
         <div class="grid-we-do-item p-0">
             <div class="grid-we-do-img-wrap grid-wrap-black">
-                <a href="#">
-                    <div class="grid--img" style="background-image:url('images/products/product-3.jpg');"></div>
-
-                    <div class="product-content">
-                        <h2 class="animated fadeInLeft">Sky Park</h2>
-                        <div class="gap-30"></div>
-                        <button href="#" class="btn btn-primary animated fadeInLeft delay-250">Learn More</button>
+                <div class="row">
+                  <div class="col-md-3 p-0">
+                     <div class="grid-product-type-blue">
+                        <h1 class="grid-product-title">Sky Park</h1>
+                      </div>
+                  </div>
+                  <div class="col-md-9 p-0">                    
+                    <div class="grid-product-wrap-blue" style="background-image:url('images/products/p3.png')">
                     </div>
-                </a>
-
+                  </div>
+                </div>
             </div>
         </div>
     </section>
+
+
+
 </div>
 
 <section class="warning-section product-section animatedParent animateOnce" data-section-name="warning">
