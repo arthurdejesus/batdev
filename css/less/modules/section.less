@@ -13,6 +13,7 @@
 
   .process-grid-description {
     margin-bottom: 1em;
+    min-height: 125px;
   }
 }
 
@@ -36,7 +37,7 @@
 
   .description {
     p {
-      font-size: 22px;
+      font-size: 17px;
       color: #fff;
       margin: 0;
     }
@@ -58,6 +59,8 @@
   position: relative;
   background-color: #000;
   padding-bottom: 0;
+  max-height: 780px;
+  overflow: hidden;
 
 
   .primary-title, .secondary-title {
@@ -150,6 +153,16 @@
   }
 }
 
+.our-process-holder {
+  .grid-we-do-img-wrap {
+    height: 100%!important;
+
+    .grid--img {
+      background-attachment: fixed!important;
+    }
+  }
+}
+
 .our-process-holder [data-section-name="guarantee"] {
   .grid--img {
     &:before {
@@ -167,22 +180,16 @@
 
   .overlay--hover {
     position: relative;
-    -webkit-transition: color,0.6s,ease-in;
-    -moz-transition: color,0.6s,ease-in;
-    transition: color,0.6s,ease-in;
+    .transition(color 0.6s ease-in);
     display: block;
 
     &:hover {
-      -webkit-transition: color,0.6s,ease-out;
-      -moz-transition: color,0.6s,ease-out;
-      transition: color,0.6s,ease-out;
+      .transition(color 0.6s ease-out);
 
       .overlay, .overlay-portfolio {
         .opacity(0.95);
         background-color: #144e92;
-        -webkit-transition: all 1s ease-in-out;
-        -moz-transition: all 1s ease-in-out;
-        transition: all 1s ease-in-out;
+        .transition(all 1s ease-in-out);
         -webkit-transform: translateZ(0);
         visibility: visible;
         -webkit-backface-visibility: hidden;
@@ -203,9 +210,7 @@
   top: 0;
   left: 0;
   background-color: rgba(0,0,0,0.40);
-  -webkit-transition: background-color 1s ease;
-  -moz-transition: background-color 1s ease;
-  transition: background-color 1s ease;
+  .transition(background-color 1s ease);
 }
 
 .overlay-section {
@@ -213,16 +218,12 @@
 }
 
 .section-overlay {
-  -webkit-transition: color,0.6s,ease-out;
-  -moz-transition: color,0.6s,ease-out;
-  transition: color,0.6s,ease-out;
+  .transition(color 0.6s ease-out);
 
   .overlay-section {
     .opacity(0.5);
     background-color: #000;
-    -webkit-transition: all 1s ease-in-out;
-    -moz-transition: all 1s ease-in-out;
-    transition: all 1s ease-in-out;
+    .transition(all 1s ease-in-out);
     -webkit-transform: translateZ(0);
     visibility: visible;
     -webkit-backface-visibility: hidden;
@@ -235,6 +236,16 @@
 }
 
 .section--portfolio {
+  overflow: hidden;
+
+  .col-md-4 {
+    overflow: hidden;
+  }
+
+  .grid-we-do-img-wrap {
+    overflow: visible!important;
+  }
+
   a {
     &:hover {
       .grid-content {
@@ -245,17 +256,12 @@
     }
 
     .grid-content {
-      z-index: 10;
+      z-index: 1;
       .opacity(1);
-      -webkit-transition: all 0.5s ease-in-out;
-      -moz-transition: all 0.5s ease-in-out;
-      transition: all 0.5s ease-in-out;
-      -webkit-backface-visibility: hidden;
-      backface-visibility: hidden;
+      .transition(all 0.5s ease-in-out);
+
       .grid-border {
-        -webkit-transition: width 1s ease;
-        -moz-transition: width 1s ease;
-        transition: width 1s ease;
+        .transition(width 1s ease);
       }
     }
   }
@@ -285,13 +291,13 @@
 
   &:hover {
     color: #fff!important;
+    background-color: #27a8de!important;
   }
 }
 .warning-section {
   height: 854px !important;
   z-index: 2;
 }
-
 .grid-product-type() {
   height: 595px!important;
   background-repeat: no-repeat;
@@ -431,5 +437,4 @@
   top: 3.5em;
   left: 1.5em;
 }
-
 

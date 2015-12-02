@@ -41,7 +41,7 @@
                 <div class="product-content animated fadeInLeft slow go">
                     <h2>Planning</h2>
                     <div class="gap-15"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>Our full-service design team can provide you with an overall concept park that incorporates your logo, graphics, colors and branding in an unique and impactful way. We work closely with your architect and have the technology and the skills to deliver professional, high-quality 3D interior renderings enabling you to visualize exactly what the venue will look like from concept to installation.</p>
                 </div>
                 <div class="product-img animated fadeInRight slow go">
                     <img src="images/our-process/our-process-img.png" alt="">
@@ -57,10 +57,7 @@
                 <div class="product-content">
                     <h2 class="animated fadeInRight slow go">Design</h2>
                     <div class="gap-15"></div>
-                    <p class="animated fadeInRight slow delay-250 go">Lorem ipsum dolor sit amet, consectetur
-                        adipisicing elit,
-                        sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p class="animated fadeInRight slow delay-250 go">Every 'BAT' facility is designed to maximize the entertainment value provided to your guests. We do this by utilizing a mix of attractions that are strategically positioned to provide maximum visibility and ease of access, which increases exposure and ultimately generates increased sales. This, along with the high impact graphics, colors, overall design and use of branding, takes a typical 'warehouse' trampoline park to a much higher and appealing level for your guests.</p>
                 </div>
             </div>
         </div>
@@ -89,7 +86,7 @@
                         <div class="content">
                             <h3 class="primary-title animated fadeInUp slow">Our Trusted Process</h3>
                             <div class="description animated fadeInUp delay-250 slow">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                                <p>Our core team of professionals, alongside our president and CEO, work directly with each client to ensure that every trampoline park we design and manufacture exceeds all expectations.</p>
                             </div>
                         </div>
                         <div class="process-grid animated fadeInUp delay-500 slow">
@@ -101,11 +98,12 @@
                                         </div>
                                         <h4 class="process-grid-item-title">Lifetime Support</h4>
                                         <div class="process-grid-description">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
+                                            <p>BAT provides a limited lifetime warranty on all trampoline frame structures.</p>
                                         </div>
                                         <a href="#" class="btn-learn-more">Learn More</a>
                                     </div>
                                 </li>
+
                                 <li>
                                     <div class="process-grid-item">
                                         <div class="process-grid-item-icon">
@@ -113,11 +111,12 @@
                                         </div>
                                         <h4 class="process-grid-item-title">Safety Compliance</h4>
                                         <div class="process-grid-description">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
+                                            <p>Every project follows strict safety guidelines in co-ordinance with the ASTM standard.</p>
                                         </div>
                                         <a href="#" class="btn-learn-more">Learn More</a>
                                     </div>
                                 </li>
+
                                 <li>
                                     <div class="process-grid-item">
                                         <div class="process-grid-item-icon">
@@ -125,19 +124,20 @@
                                         </div>
                                         <h4 class="process-grid-item-title">Turn-Key </h4>
                                         <div class="process-grid-description">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
+                                            <p>No matter your needs, the BAT team listens to your ideas and helps you develop a working concept and design for your facility.</p>
                                         </div>
                                         <a href="#" class="btn-learn-more">Learn More</a>
                                     </div>
                                 </li>
+
                                 <li>
                                     <div class="process-grid-item">
                                         <div class="process-grid-item-icon">
                                             <img src="images/process-home/process-icon-4.png">
                                         </div>
-                                        <h4 class="process-grid-item-title">Inventory Systems</h4>
+                                        <h4 class="process-grid-item-title">Software</h4>
                                         <div class="process-grid-description">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
+                                            <p>Offering an exclusive, all-in-one point of sale system that utilizes wearable smart technology, and much more.</p>
                                         </div>
                                         <a href="#" class="btn-learn-more">Learn More</a>
                                     </div>
@@ -154,15 +154,22 @@
 <section class="warning-section product-section" data-section-name="warning">
     <div class="section-warning animatedParent animateOnce" style="background-image: url('images/bg-warning.jpg');">
         <div class="container">
-            <div class="col-md-5">
+            <div class="col-md-4 p-0">
                 <h3 class="warning-title animated fadeInLeft slow">Warning<img src="images/warning-icon.png"></h3>
             </div>
-            <div class="col-md-7">
+            <div class="col-md-4">
                 <div class="content animated fadeInRight slow">
                     <div class="description">
                         <p>Landing on the head or neck can cause serious injury, paralysis,
                             or death, even when landing in the middle of the bed.
                             Use trampoline only with mature, knowledgeable supervision.  </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-0">
+                <div class="content animated fadeInRight slow delay-250">
+                    <div class="description">
+                        <p>Use trampoline only with mature, knowledgeable supervision. You should NEVER exceed one jumper at a time on your backyard trampoline.</p>
                     </div>
                 </div>
             </div>
