@@ -16,7 +16,7 @@
     </div>
 </div>
 <div class="section--portfolio overlay--effects">
-    <div class="grid-we-do p-0 m-0">
+    <div class="p-0 m-0">
         <div class="col-md-4 p-0">
             <a class="overlay--hover" href="#">
                 <div class="grid-we-do-item p-0">
