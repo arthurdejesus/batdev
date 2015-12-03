@@ -4,7 +4,7 @@
             <div class="container-fluid">
                 <div class="col-md-3">
                     <div class="footer-logo">
-                        <img src="images/logo.png">
+                        <img src="images/footer-logo.png">
                     </div>
                 </div>
                 <div class="col-md-4">

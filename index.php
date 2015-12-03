@@ -33,7 +33,7 @@
     <div class="section section-intro animatedParent animateOnce" id="goto-down">
         <div class="container">
             <div class="col-md-6">
-                <div class="content animated fadeInLeft slow">
+                <div class="content animated fadeInLeft ">
                     <h3 class="primary-title">We are Worldwide</h3>
                     <h4 class="secondary-title">We create Premium Trampoline Parks and One-of-a-Kind Boutique Entertainment Centers across the globe</h4>
 
@@ -44,7 +44,7 @@
                     <a href="#" class="btn btn-primary mtb-2">Request Information Package</a>
                 </div>
             </div>
-            <div class="home-map animated fadeInRight slow">
+            <div class="home-map animated fadeInRight ">
                 <img src="images/map.svg">
                 <div class="tooltips">
                     <div class="t t1"></div>
@@ -104,9 +104,9 @@
     <div class="section section-tagline text-center animatedParent animateOnce">
         <div class="container">
             <div class="content">
-                <h3 class="primary-title animated fadeInUp slow">Custom Built Trampoline Parks</h3>
-                <h4 class="blue-title animated fadeInUp slow delay-250">Made in the USA <img src="images/flag.jpg"></h4>
-                <div class="description animated fadeInUp slow delay-500">
+                <h3 class="primary-title animated fadeInUp ">Custom Built Trampoline Parks</h3>
+                <h4 class="blue-title animated fadeInUp  delay-250">Made in the USA <img src="images/flag.jpg"></h4>
+                <div class="description animated fadeInUp  delay-500">
                     <p>From A to Z, Best American Trampolines leads you through the entire process</p>
                 </div>
             </div>
@@ -114,28 +114,8 @@
     </div>
 
     <div class="section-featured pc_container animatedParent animateOnce">
-        <div class="carousel-featured animated fadeInUp slow delay-750">
+        <div class="carousel-featured animated fadeInUp  delay-750">
             <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                <div class="container">
-                    <!-- Indicators -->
-                    <ol class="carousel-indicators">
-                        <li data-target="#carousel-example-generic" data-slide-to="0">
-                        </li>
-                        <li data-target="#carousel-example-generic" data-slide-to="1">
-                        </li>
-                        <li data-target="#carousel-example-generic" data-slide-to="2">
-                        </li>
-                           <div class="transition-timer-carousel-progress-bar"></div>
-                        <div class="transition-border"></div>
-                    </ol>
-                    <div class="gap-30"></div>
-                    <ul class="pc-list">
-                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"><h3>Planning</h3></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="1"><h3>Custom Design</h3></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="2"><h3>Deployment</h3></li>
-                    </ul>
-                    <div class="gap-100"></div>
-                </div>
 
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
@@ -176,6 +156,36 @@
                         </div>
                     </div>
                 </div>
+
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+
+                <div class="container">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0">
+                        </li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1">
+                        </li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2">
+                        </li>
+                        <div class="transition-timer-carousel-progress-bar"></div>
+                        <div class="transition-border"></div>
+                    </ol>
+                    <div class="gap-30"></div>
+                    <ul class="pc-list">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"><h3>Planning</h3></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"><h3>Custom Design</h3></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"><h3>Deployment</h3></li>
+                    </ul>
+                    <div class="gap-100"></div>
+                </div>
             </div>
         </div>
     </div>
@@ -183,25 +193,25 @@
         <img src="images/products/prod-single.png" class="innovation-img">
         <div class="overlay overlay-section section-overlay"></div>
         <div class="content-left">
-            <h3 class="primary-title animated fadeInLeft slow">innovation<br>
+            <h3 class="primary-title animated fadeInLeft ">innovation<br>
                 has  no limits</h3>
-            <h4 class="secondary-title animated fadeInLeft slow delay-250">The all-new, SKY PARK<br>
+            <h4 class="secondary-title animated fadeInLeft  delay-250">The all-new, SKY PARK<br>
                 by Best American Trampolines</h4>
-            <a href="#" class="btn btn-primary btn-secondary  animated fadeInLeft slow delay-500">Learn More</a>
+            <a href="#" class="btn btn-primary btn-secondary  animated fadeInLeft  delay-500">Learn More</a>
         </div>
     </div>
 
     <div class="section section-process text-center animatedParent animateOnce">
         <div class="container">
             <div class="content">
-                <h3 class="primary-title animated fadeInUp slow">Our Trusted Process</h3>
-                <div class="description animated fadeInUp delay-250 slow">
+                <h3 class="primary-title animated fadeInUp ">Our Trusted Process</h3>
+                <div class="description animated fadeInUp delay-250 ">
                     <p>Our core team of professionals, alongside our president and CEO, work directly with each client to ensure that every trampoline park we design and manufacture exceeds all expectations.</p>
                 </div>
 
             </div>
 
-            <div class="process-grid animated fadeInUp delay-500 slow">
+            <div class="process-grid animated fadeInUp delay-500 ">
                 <ul>
                     <li>
                         <div class="process-grid-item">
@@ -263,13 +273,13 @@
     <div class="section section-client text-center animatedParent animateOnce">
         <div class="container">
             <div class="content">
-                <h3 class="primary-title animated fadeInUp slow">Our Clients</h3>
-                <div class="description animated fadeInUp slow delay-250">
+                <h3 class="primary-title animated fadeInUp ">Our Clients</h3>
+                <div class="description animated fadeInUp  delay-250">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit </p>
                 </div>
             </div>
 
-            <div class="client-grid animated fadeInUp delay-500 slow">
+            <div class="client-grid animated fadeInUp delay-500 ">
                 <ul>
                     <li><img src="images/client-home/client-1.png"></li>
                     <li><img src="images/client-home/client-2.png"></li>
@@ -286,10 +296,10 @@
     <div class="section-warning animatedParent animateOnce" style="background-image: url('images/bg-warning.jpg');">
             <div class="warning-wrap">
                 <div class="warning-grid mw-410">
-                    <h3 class="warning-title animated fadeInLeft slow">Warning<img src="images/warning-icon.png"></h3>
+                    <h3 class="warning-title animated fadeInLeft ">Warning<img src="images/warning-icon.png"></h3>
                 </div>
                 <div class="warning-grid">
-                    <div class="content animated fadeInRight slow">
+                    <div class="content animated fadeInRight ">
                         <div class="description">
                             <p>Landing on the head or neck can cause serious injury, paralysis,
                                 or death, even when landing in the middle of the bed.</p>
@@ -297,7 +307,7 @@
                     </div>
                 </div>
                 <div class="warning-grid">
-                    <div class="content animated fadeInRight slow">
+                    <div class="content animated fadeInRight ">
                         <div class="description">
                             <p>Use trampoline only with mature, knowledgeable supervision.  </p>
                         </div>

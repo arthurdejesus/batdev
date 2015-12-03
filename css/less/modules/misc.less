@@ -195,7 +195,7 @@ section[data-section-name="design"],section[data-section-name="deployment"] , se
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('../images/d.svg');
+//    background-image: url('../images/d.svg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -203,11 +203,49 @@ section[data-section-name="design"],section[data-section-name="deployment"] , se
     .opacity(0.93);
   }
 }
-section[data-section-name="deployment"]  {
+//section[data-section-name="deployment"]  {
+//
+//  &:before {
+//    background-image: url('../images/b.svg');
+//    .opacity(0.65);
+//  }
+//}
 
+section[data-section-name="design"] {
+    &:before {
+      background-color: #2AA1DD;
+      .opacity(0.75);
+      top: 0;
+      right: 0;
+      left: inherit;
+      bottom: 0;
+      width: 0;
+      .transition(@transition-3s);
+    }
+
+    &:hover {
+      &:before {
+        width: 50%;
+      }
+    }
+}
+
+section[data-section-name="deployment"]  {
   &:before {
-    background-image: url('../images/b.svg');
-    .opacity(0.65);
+    background-color: #000;
+    .opacity(0.75);
+    top: 0;
+    left: 0;
+    right: inherit;
+    bottom: 0;
+    width: 0;
+    .transition(@transition-3s);
+  }
+
+  &:hover {
+    &:before {
+      width: 50%;
+    }
   }
 }
 

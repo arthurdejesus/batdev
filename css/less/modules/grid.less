@@ -97,7 +97,6 @@
 }
 
 .grid-we-do {
-  padding-top: 11em!important;
   margin-bottom: 2em;
 
   .grid-we-do-item {
@@ -135,26 +134,6 @@
 .grid-leader {
   padding: 4em 0;
 
-  &:hover {
-
-    .grid-circle-wrap {
-      background-color: #f3f3f3;
-      height: 315px;
-      width: 315px;
-      -webkit-border-radius:  50%;
-      -moz-border-radius:  50%;
-      border-radius: 50%;
-      position: relative;
-      overflow: hidden;
-
-      &:before {
-        .opacity(1);
-      }
-
-    }
-
-  }
-
   .grid-circle-wrap {
     background-color: #f3f3f3;
     height: 315px;
@@ -164,24 +143,6 @@
     border-radius: 50%;
     position: relative;
     overflow: hidden;
-
-    &:before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      height: 100%;
-      width: 100%;
-      border: 3px dashed #222;
-      .animation(bordered 3s linear alternate infinite);
-      -webkit-border-radius:  50%;
-      -moz-border-radius:  50%;
-      border-radius: 50%;
-      .opacity(0);
-      .transition(all ease-in-out .3s);
-    }
   }
 
   .content {
@@ -293,7 +254,7 @@
     }
     .product-img {
       position: absolute;
-      top: 20%;
+      top: 23%;
       right: 23%;
       z-index: 1;
     }
@@ -628,15 +589,17 @@ body.deployment {
 
 section[data-section-name=planning] {
   .grid-we-do-img-wrap .product-content {
-    top: 30%;
+    top: 33%;
   }
 }
 
 .warning-wrap {
   position: relative;
   z-index: 1;
-  max-width: 1306px;
+  max-width: 1345px;
   margin: 0 auto;
+  border: 1px solid #DFBC73;
+  border-radius: 5px;
   padding: 20px 0 20px 20px;
 
   &:after {
@@ -648,10 +611,10 @@ section[data-section-name=planning] {
   .warning-grid {
     float: left;
     padding: 0 20px;
-    min-height: 140px;
+    min-height: 110px;
     display: inline-block;
-    max-width: 435px;
-    border-right: 1px solid #DFBC73;
+    max-width: 450px;
+    border-right: 1px solid #F7D793;
   }
 
   .warning-grid:last-child {

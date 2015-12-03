@@ -1,12 +1,12 @@
 <?php include 'header.php'; ?>
 <div class="banner banner-sub banner-about" style="background-image: url('images/banner-about.jpg');">
-    <div class="banner-caption">
+    <div class="banner-caption animatedParent">
         <div class="container">
-            <h2 class="banner-title animated fadeInUp slow go">About Us</h2>
+            <h2 class="banner-title animated fadeIn slower go">About Us</h2>
         </div>
     </div>
 </div>
-<div class="triangle-after">
+<div class="after-svg triangle-after">
     <img src="images/triangle.svg">
 </div>
 
@@ -28,7 +28,7 @@
     </div>
 </div>
 
-<div class="after-svg  triangle-after">
+<div class="after-svg triangle-after">
     <img src="images/triangle-black.svg">
 </div>
 
@@ -82,6 +82,10 @@
 
 </div>
 
+<div class="after-svg triangle-after">
+    <img src="images/triangle.svg">
+</div>
+
 <div class="section section-leadership text-center animatedParent animateOnce">
     <div class="container">
         <div class="content">
@@ -91,6 +95,36 @@
             <div class="col-md-8">
                 <div class="content animated fadeInLeft slow">
                     <h4 class="grid-leader-title">Phillip Howell</h4>
+                    <div class="description">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="grid-circle-wrap animated fadeInRight slow">
+                    <img src="images/leadership-img.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="grid-leader">
+            <div class="col-md-8">
+                <div class="content animated fadeInLeft slow">
+                    <h4 class="grid-leader-title">Tracy Sarris</h4>
+                    <div class="description">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="grid-circle-wrap animated fadeInRight slow">
+                    <img src="images/leadership-img.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="grid-leader">
+            <div class="col-md-8">
+                <div class="content animated fadeInLeft slow">
+                    <h4 class="grid-leader-title">Kristin Denae</h4>
                     <div class="description">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
                     </div>
