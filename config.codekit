@@ -2200,6 +2200,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/footer-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14989,
+		"inputAbbreviatedPath": "\/images\/footer-logo.png",
+		"outputAbbreviatedPath": "\/images\/footer-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/footer-logo1.png": {
 		"fileType": 32768,
 		"ignore": 0,

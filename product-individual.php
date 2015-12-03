@@ -149,7 +149,7 @@
     </div><!-- /.modal -->
 </div>
 
-<div class="grid-we-do p-0 m-0 single-bottom">
+<div class="p-0 m-0 single-bottom">
     <div class="grid-we-do-item p-0">
         <div class="grid-we-do-img-wrap grid-wrap-black">
             <div class="grid--img" style="background-image:url('images/prod-banner-bottom.jpg');"></div>

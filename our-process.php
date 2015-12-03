@@ -174,13 +174,6 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 p-0">
-                <div class="content animated fadeInRight slow delay-250">
-                    <div class="description">
-                        <p>Use trampoline only with mature, knowledgeable supervision. You should NEVER exceed one jumper at a time on your backyard trampoline.</p>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
     <?php include 'footer.php'; ?>
