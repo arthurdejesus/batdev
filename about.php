@@ -6,7 +6,7 @@
         </div>
     </div>
 </div>
-<div class="triangle-after">
+<div class="after-svg triangle-after">
     <img src="images/triangle.svg">
 </div>
 
@@ -28,7 +28,7 @@
     </div>
 </div>
 
-<div class="after-svg  triangle-after">
+<div class="after-svg triangle-after">
     <img src="images/triangle-black.svg">
 </div>
 
@@ -79,9 +79,7 @@
             </div>
         </div>
     </div>
-
 </div>
-
 <div class="section section-leadership text-center animatedParent animateOnce">
     <div class="container">
         <div class="content">

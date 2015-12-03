@@ -65,7 +65,7 @@
 .btn-down {
   display: block;
   position: absolute;
-  bottom: 5em;
+  bottom: 4em;
   left: 0;
   right: 0;
   text-align: center;
@@ -86,6 +86,10 @@
       animation: bounce 2s infinite;
     }
   }
+
+  .arrow-black {
+    background-image: url(../images/arrow-down-black.png);
+  }
 }
 
 .transparent-btn {
@@ -101,5 +105,48 @@
 
   &:hover {
     border-color: #fff;
+    background-color: transparent;
+  }
+}
+
+.hvr-rectangle-out {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+
+  &:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #27a8de;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+
+  &:hover {
+    &:before {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
   }
 }

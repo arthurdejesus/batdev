@@ -2,7 +2,7 @@
 <div class="section section-black">
     <div class="single-prod-banner">
         <div class="gap-100"></div>
-        <h2 class="single-title text-center animated fadeInDown slow go">Sky Park</h2>
+        <h2 class="single-title text-center animated fadeInLeft slow go">Sky Park</h2>
         <div class="gap-100"></div>
         <div class="banner banner-sub banner-single" style="background-image: url('images/products/prod-single.png');">
         </div>

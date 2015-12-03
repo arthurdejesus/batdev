@@ -134,7 +134,7 @@
 
   .description {
     p {
-      color: #626262 !important;
+      color: #b3b3b3 !important;
     }
   }
 
@@ -144,7 +144,7 @@
 
   .process-grid-description {
     p {
-      color: #636363 !important;
+      color: #b3b3b3 !important;
     }
   }
 
@@ -299,57 +299,90 @@
   height: 854px !important;
   z-index: 2;
 }
+
 .grid-product-type {
   height: 595px!important;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  position: relative;
+  position: absolute;
+  top: 0;
+  width: 34.5%;
 
   &:before {
     content: '';
-    width: 200px;
+    background-repeat: no-repeat;
     position: absolute;
-    top: 0;
-    right: -14em;
-    border-right: 103px solid transparent;
-    z-index: 9;
+    z-index: 1;
+    webkit-animation: balloon 3s ease-in-out infinite;
+    -moz-animation: balloon 3s ease-in-out infinite;
+    -o-animation: balloon 3s ease-in-out infinite;
+    animation: balloon 3s ease-in-out infinite;
   }
 
   &:after {
-    content:'';
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 319px;
+    content: '';
     position: absolute;
-    bottom: 0;
-    left: 8.3em;
-    z-index: 9;
+    top: 0;
+    right: -7em;
+    border-right: 103px solid transparent;
   }
 
   h1 {
     margin: 0;
+    position: relative;
+    z-index: 2;
   }
 
   .grid-product-type-header {
-    position: absolute;
-    top: 10em;
-    left: 8em;
-    z-index: 10;
+    max-width: 80%;
+    margin: auto;
+    padding: 7em 0;
   }
 }
+
+.product-section-item:nth-child(even){
+  .grid-product-type{
+    right: 0;
+  }
+}
+
 .grid-product-type-green {
   background-color: #24da76;
 
   &:before {
-    border-top: 42.5em solid #24da76;
+    background-image: url('../images/products/p1-1.png');
+    height: 323px;
+    bottom: 0;
+    right: -3em;
+    width: 578px;
   }
 
   &:after {
-    background-image: url('/images/products/p1-1.png');
+    border-top: 45em solid #24da76;
   }
 
   h1 {
-    z-index: 10;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+}
+
+.grid-product-type-red {
+  background-color: #EE2134;
+
+  &:before {
+    background: url('../images/title/ninja-img.png');
+    height: 491px;
+    bottom: 3em;
+    left: -5.6em;
+    width: 375px;
+  }
+
+  &:after {
+    border-top: 51em solid transparent;
+    border-right: 100px solid #ee2134;
+    border-left: 0;
+    left: -100px;
+    right: initial;
+    height: 100%;
   }
 }
 
@@ -357,67 +390,42 @@
   background-color: #2bcaf5;
 
   &:before {
-    border-top: 42.5em solid #2bcaf5;
-  }
-   &:after {
-    background-image: url('/images/products/clouds.png');
-     left: 0.2em;
-     top: 41px;
-     height: 456px;
-  }
-}
-
-
-.grid-product-type-red {
-  height: 595px!important;
-  background-color: #ee2134;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  position: relative;
-
-  h1 {
-    z-index: 10;
-    margin: 0;
+    background-image: url('../images/products/clouds-2.png');
+    height: 223px;
+    bottom: 6em;
+    right: -3.8em;
+    width: 447px;
   }
 
-  &:before {
-    content: '';
-    width: 200px;
-    position: absolute;
-    border-left: 0;
-    z-index: 9;
-    left: -200px;
-    top: 0;
-    bottom: 0;
-    border-top: 44em solid transparent;
-    border-right: 100px solid #ee2134;
-  }
   &:after {
-    content:'';
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 319px;
-    position: absolute;
-    bottom: 0;
-    left: 8.3em;
-    z-index: 9;
-    background: url('../images/title/ninja-img.png');
-    left: -5.7em;
-    background-repeat: no-repeat;
-    top: 10%;
-    height: 100%;
+     border-top: 45em solid #2bcaf5;
+  }
+
+  .grid-product-type-header {
+    &:before {
+      content: '';
+      width: 100%;
+      position: absolute;
+      background-image: url('../images/products/clouds.png');
+      left: 0em;
+      top: 2em;
+      height: 125px;
+      background-repeat: no-repeat;
+      webkit-animation: balloon 3s ease-in-out infinite;
+      -moz-animation: balloon 3s ease-in-out infinite;
+      -o-animation: balloon 3s ease-in-out infinite;
+      animation: balloon 3s ease-in-out infinite;
+    }
   }
 }
-
-
 
 .grid-product-wrap {
   height:595px!important;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  background-attachment: fixed;
   .transition(background-color 1s ease);
+  background-position: center;
 
   &:before {
     content:'';
@@ -442,17 +450,12 @@
 }
 
 .grid-product-wrap-green {
-  background-color: #24da76;
-  background-position: 4em 0em;
   &:before {
     background-color: #57b86a;
-    
   }
 }
 
 .grid-product-wrap-red {
-  background-color: #90261e;
-  background-position: 0em -9em;
   &:before {
     background-color: #90261e;
   }
@@ -460,7 +463,7 @@
 
 .grid-product-wrap-blue {
   background-color: #000;
-  background-position: -11em 4em;
+
   &:before {
     background-color: #135b6e;
   }
@@ -479,4 +482,7 @@
     visibility: visible;
     -webkit-backface-visibility: hidden;
   }
+}
+.section-featured {
+  margin-bottom: 10em;
 }
