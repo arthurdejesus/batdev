@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a3a9d62-9166-4554-8d03-58555b6c8518" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/products/sky-1.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/products/sky-2.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/products/sky-3.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/products/sky-4.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/products/sky-5.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/products/sky-6.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/products/sky-7.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.codekit" afterPath="$PROJECT_DIR$/config.codekit" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio-individual.php" afterPath="$PROJECT_DIR$/portfolio-individual.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/single-prod-gallery-7.jpg" afterPath="$PROJECT_DIR$/images/single-prod-gallery-7.jpg" />
     </list>
     <ignored path="batdev.iws" />
     <ignored path=".idea/workspace.xml" />
