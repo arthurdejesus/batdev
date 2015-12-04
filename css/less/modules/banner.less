@@ -15,6 +15,7 @@
 
       .banner-slider-image {
         background-size: cover;
+        -ms-behavior: url('/backgroundsize.min.htc');
         background-position: center top;
         background-repeat: no-repeat;
         height: 100%;
@@ -56,11 +57,7 @@
       margin-bottom: 2em;
     }
   }
-
-
-
 }
-
 
 .banner-caption {
   position: absolute;
@@ -71,7 +68,6 @@
   text-align: center;
 
   .banner-title {
-    //font-family: @ProximaBold;
     font-weight: 700;
     font-size: 90px;
     color: #fff;
@@ -91,6 +87,7 @@
   position: relative;
   height: 700px;
   background-size: cover;
+  -ms-behavior: url('/backgroundsize.min.htc');
   background-position: center top;
   background-attachment: fixed;
   background-color: #000;
@@ -158,19 +155,9 @@
   background-attachment: initial;
   .translate3d(0,0,0);
   .scale(1.25);
+  background-size: initial;
+  background-repeat: no-repeat;
 }
-
-//.is-shown {
-//  .banner-caption,
-//  .banner-opacity,
-//  .blue-title,
-//  .btn-primary,
-//  .btn-down,
-//  .section-about-intro .content,
-//  .section-portfolio-intro .content{
-//    .opacity(1);
-//  }
-//}
 
 .is-shown .banner-single {
   .scale(1);
@@ -180,11 +167,6 @@
     background-color: transparent;
   }
 }
-
-//.modal.and.carousel {
-//  position: absolute; // Needed because the carousel overrides the position property
-//  background: rgba(0, 0, 0, 0.58);
-//}
 
 .modal-open {
   overflow: visible;

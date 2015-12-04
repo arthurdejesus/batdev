@@ -3,14 +3,16 @@
     <section class="product-section-item animatedParent animateOnce">
         <div class="grid-we-do-item p-0">
             <div class="grid-we-do-img-wrap grid-wrap-black">
-                <div class="grid-product-wrap grid-product-wrap-green" style="background-image:url('images/products/p1.png')">
-                </div>
-                 <div class="grid-product-type grid-product-type-green">
-                     <div class="grid-product-type-header">
-                         <img src="images/trampoline.png" class="font-img">
-                         <a href="product-individual.php" class="btn btn-primary btn-learn-more transparent-btn hvr-rectangle-out" role="button">Learn More</a>
-                     </div>
-                 </div>
+                <a href="product-individual.php">
+                    <div class="grid-product-wrap grid-product-wrap-green" style="background-image:url('images/products/p1.png')">
+                    </div>
+                    <div class="grid-product-type grid-product-type-green">
+                        <div class="grid-product-type-header">
+                            <img src="images/trampoline.png" class="font-img">
+                            <button class="btn btn-primary btn-learn-more transparent-btn hvr-rectangle-out" role="button">Learn More</button>
+                        </div>
+                    </div>
+                </a>
             </div>
          </div>
     </section>
@@ -26,7 +28,13 @@
                         <a href="ninja.php" class="btn btn-primary btn-learn-more transparent-btn hvr-rectangle-out"
                            role="button">Learn More</a>
                     </div>
-                </div>
+                    <div class="grid-product-type grid-product-type-red">
+                        <div class="grid-product-type-header">
+                            <img src="images/ninja.png" class="font-img">
+                            <button class="btn btn-primary btn-learn-more transparent-btn hvr-rectangle-out" role="button">Learn More</button>
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
     </section>
@@ -34,14 +42,16 @@
     <section class="product-section-item animatedParent animateOnce">
         <div class="grid-we-do-item p-0">
             <div class="grid-we-do-img-wrap grid-wrap-black">
-                <div class="grid-product-wrap grid-product-wrap-blue" style="background-image:url('images/products/p3.png')">
-                </div>
-                <div class="grid-product-type grid-product-type-blue">
-                    <div class="grid-product-type-header">
-                        <img src="images/park.png" class="font-img">
-                        <a href="product-individual.php" class="btn btn-primary btn-learn-more transparent-btn hvr-rectangle-out" role="button">Learn More</a>
+                <a href="portfolio-individual.php">
+                    <div class="grid-product-wrap grid-product-wrap-blue" style="background-image:url('images/products/p3.png')">
                     </div>
-                </div>
+                    <div class="grid-product-type grid-product-type-blue">
+                        <div class="grid-product-type-header">
+                            <img src="images/park.png" class="font-img">
+                            <button class="btn btn-primary btn-learn-more transparent-btn hvr-rectangle-out" role="button">Learn More</button>
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
     </section>

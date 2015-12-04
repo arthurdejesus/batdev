@@ -1,6 +1,6 @@
 <?php include 'header.php'; ?>
     <div class="banner banner-sub banner-news h-400" style="background-image: url('images/banner-news.jpg');">
-        <div class="banner-caption banner-caption-down">
+        <div class="banner-caption banner-caption-down animatedParent">
             <h2 class="banner-title animated fadeInUp slow go">News & Events</h2>
         </div>
     </div>

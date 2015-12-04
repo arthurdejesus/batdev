@@ -185,84 +185,40 @@
 
 }
 
-section[data-section-name="design"],section[data-section-name="deployment"] , section[data-section-name="guarantee"], section[data-section-name="planning"] {
-  position: relative;
-
-  &:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-//    background-image: url('../images/d.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    z-index: 1;
-    .opacity(0.93);
-  }
-}
-//section[data-section-name="deployment"]  {
-//
-//  &:before {
-//    background-image: url('../images/b.svg');
-//    .opacity(0.65);
-//  }
-//}
-
 section[data-section-name="design"] {
     &:before {
-      background-color: #2AA1DD;
-      .opacity(0.75);
-      top: 0;
-      right: 0;
-      left: inherit;
-      bottom: 0;
-      width: 0;
-      .transition(@transition-3s);
-    }
-
-    &:hover {
-      &:before {
-        width: 50%;
-      }
+      background-image: -webkit-gradient(
+              linear,
+              left top,
+              right top,
+              color-stop(0, #34C1E8),
+              color-stop(1, #0B4A96)
+      );
+      background-image: -o-linear-gradient(right, #34C1E8 0%, #0B4A96 100%);
+      background-image: -moz-linear-gradient(right, #34C1E8 0%, #0B4A96 100%);
+      background-image: -webkit-linear-gradient(right, #34C1E8 0%, #0B4A96 100%);
+      background-image: -ms-linear-gradient(right, #34C1E8 0%, #0B4A96 100%);
+      background-image: linear-gradient(to right, #34C1E8 0%, #0B4A96 100%);
+      .opacity(.95)!important;
     }
 }
 
 section[data-section-name="deployment"]  {
   &:before {
-    background-color: #000;
-    .opacity(0.75);
-    top: 0;
-    left: 0;
-    right: inherit;
-    bottom: 0;
-    width: 0;
-    .transition(@transition-3s);
+    opacity: .75;
   }
 
-  &:hover {
-    &:before {
-      width: 50%;
-    }
+  .grid--img {
+    -webkit-filter: grayscale(70%);
+    filter: grayscale(70%);
   }
 }
 
-section[data-section-name="guarantee"], section[data-section-name="planning"]  {
-
+section[data-section-name="guarantee"] {
   &:before {
-    background-image: none;
-    background-color: #000000;
+    background-color: #111!important;
+    .opacity(.98)!important;
   }
-}
-
-section[data-section-name="planning"]  {
-
-  &:before {
-    .opacity(0.65);
-  }
-
 }
 
 .section--process {
