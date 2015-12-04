@@ -129,7 +129,7 @@
     });
 
     jQuery('.product-content .view-design').click(function () {
-        jQuery('.btn-reveal-design').show();
+        jQuery('.btn-reveal-planning').show();
         jQuery(this).removeClass('view-next-transform');
         jQuery('.product-section-planning').removeClass('product-remove-overlay');
     });

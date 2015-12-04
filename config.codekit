@@ -2486,6 +2486,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/our-process\/our-process-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 586302,
+		"inputAbbreviatedPath": "\/images\/our-process\/our-process-1.png",
+		"outputAbbreviatedPath": "\/images\/our-process\/our-process-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/our-process\/our-process-2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
