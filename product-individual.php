@@ -25,7 +25,7 @@
 </div>
 
 
-<div class="section-single-desc pb-9 section-black animatedParent animateOnce" data-sequence="500">
+<div class="section-single-desc pb-9 animatedParent animateOnce" data-sequence="500">
     <div class="container">
         <div class="col-md-4">
             <div class="single-about single-typograph animated fadeInUpShort slow" data-id="1">

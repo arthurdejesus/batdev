@@ -41,7 +41,10 @@
                         <p>Best American Trampolines has not only designed and built over 100 indoor trampoline parks worldwide, but we also have ownership in several successful parks operating throughout the world.</p>
                     </div>
 
-                    <a href="#" class="btn btn-primary mtb-2">Request Information Package</a>
+                    <button type="button" class="btn btn-primary mtb-2" data-toggle="modal" data-target="#package">
+                        Request Information Package
+                    </button>
+
                 </div>
             </div>
             <div class="home-map animated fadeInRight ">
