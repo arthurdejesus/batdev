@@ -3014,6 +3014,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/products\/single-prod-gallery-1.1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.04134e+06,
+		"inputAbbreviatedPath": "\/images\/products\/single-prod-gallery-1.1.jpg",
+		"outputAbbreviatedPath": "\/images\/products\/single-prod-gallery-1.1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/products\/single-prod-gallery-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 407480,
+		"inputAbbreviatedPath": "\/images\/products\/single-prod-gallery-1.jpg",
+		"outputAbbreviatedPath": "\/images\/products\/single-prod-gallery-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/products\/sky-1.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3197,6 +3219,17 @@
 		"initialSize": 128958,
 		"inputAbbreviatedPath": "\/images\/progress-img.jpg",
 		"outputAbbreviatedPath": "\/images\/progress-img.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/single-prod-gallery-1-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.0206e+06,
+		"inputAbbreviatedPath": "\/images\/single-prod-gallery-1-1.jpg",
+		"outputAbbreviatedPath": "\/images\/single-prod-gallery-1-1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3646,7 +3679,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Philweb Frontend",
+"lastSavedByUser": "Philwebservices Front-end",
 "manualImportLinks": {
 	"\/js\/scripts.js": [
 		{
