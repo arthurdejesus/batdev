@@ -23,16 +23,13 @@
                 <a href="ninja.php">
                 <div class="grid-product-wrap grid-product-wrap-red" style="background-image:url('images/products/p2.png')">
                 </div>
-                <div class="grid-product-type grid-product-type-red">
-                    <div class="grid-product-type-header">
-                        <img src="images/ninja.png" class="font-img">
-                    </div>
-                    <div class="grid-product-type grid-product-type-red">
+                  <div class="grid-product-type grid-product-type-red">
                         <div class="grid-product-type-header">
                             <img src="images/ninja.png" class="font-img">
                             <button class="btn btn-primary btn-learn-more transparent-btn hvr-rectangle-out" role="button">Learn More</button>
                         </div>
                     </div>
+
                 </a>
             </div>
         </div>

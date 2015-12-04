@@ -613,19 +613,41 @@ body.deployment {
 
 
 .grid--product--list {
+
   .grid-we-do-img-wrap {
+
     &:hover {
       .grid-product-wrap {
-        &:before {
-          background-color: transparent;
-          .transition(all 1s ease-in-out);
-          -webkit-transform: translateZ(0);
-          visibility: visible;
-          -webkit-backface-visibility: hidden;
+          &:before {
+            background-color: transparent;
+            .transition(all 1s ease-in-out);
+            -webkit-transform: translateZ(0);
+            visibility: visible;
+            -webkit-backface-visibility: hidden;
+          }
+      }
+
+      .grid-product-type {
+          .animation(increasing 1s ease-in-out);
+      }
+
+      .hvr-rectangle-out {
+          &:before {
+            -webkit-transform: scale(1);
+            transform: scale(1);
         }
+      }
+
+      .btn-primary {
+        &:before {
+          width: 100%;
+      }
+
       }
     }
   }
+
+
 }
 
 .carousel-control .glyphicon-chevron-left,
