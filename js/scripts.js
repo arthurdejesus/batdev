@@ -58,6 +58,21 @@
         });
     });
 
+    $(function() {
+        $('a[href=#go-down]').click(function() {
+            if (location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') && location.hostname === this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+
 
     $('.grid-product-list .grid-we-do-item:odd .product-content').addClass("text--right");
 
@@ -94,6 +109,15 @@
         });
     });
 
+    $('.product-section-item:even .grid-product-title').addClass("animated fadeInLeft slow delay-250");
+    $('.product-section-item:odd .grid-product-title').addClass("animated fadeInRight slow delay-250");
+
+    $('.product-section-item:even .font-img').addClass("animated fadeInLeft slow delay-250");
+    $('.product-section-item:odd .font-img').addClass("animated fadeInRight slow delay-250");
+
+    $('.product-section-item:even .btn-learn-more').addClass("animated fadeInLeft slow delay-500");
+    $('.product-section-item:odd .btn-learn-more').addClass("animated fadeInRight slow delay-500");
+
     jQuery('.section-innovation a').hover(function () {
         jQuery(this).parents(".section-innovation").addClass("section-overlay");
     }, function () {
@@ -101,22 +125,22 @@
     });
 
     jQuery('.grid-wrap-black .grid-product-type-green .transparent-btn').hover(function () {
-        jQuery('.grid-product-wrap').addClass("wrap-overlay");
+        jQuery('.grid-product-wrap-green').addClass("wrap-overlay");
     }, function () {
-        jQuery('.grid-product-wrap').removeClass("wrap-overlay");
+        jQuery('.grid-product-wrap-green').removeClass("wrap-overlay");
     });
 
-    //jQuery('.grid-wrap-black .grid-product-type-red .transparent-btn').hover(function () {
-    //    jQuery('.grid-product-wrap').addClass("wrap-overlay");
-    //}, function () {
-    //    jQuery('.grid-product-wrap').removeClass("wrap-overlay");
-    //});
-    //
-    //jQuery('.grid-wrap-black .grid-product-type-blue .transparent-btn').hover(function () {
-    //    jQuery('.grid-product-wrap').addClass("wrap-overlay");
-    //}, function () {
-    //    jQuery('.grid-product-wrap').removeClass("wrap-overlay");
-    //});
+    jQuery('.grid-wrap-black .grid-product-type-red .transparent-btn').hover(function () {
+        jQuery('.grid-product-wrap-red').addClass("wrap-overlay");
+    }, function () {
+        jQuery('.grid-product-wrap-red').removeClass("wrap-overlay");
+    });
+
+    jQuery('.grid-wrap-black .grid-product-type-blue .transparent-btn').hover(function () {
+        jQuery('.grid-product-wrap-blue').addClass("wrap-overlay");
+    }, function () {
+        jQuery('.grid-product-wrap-blue').removeClass("wrap-overlay");
+    });
 
     jQuery('.carousel-indicators li:first-child').click(function () {
         jQuery('.transition-border').css('left', '0');

@@ -1,7 +1,7 @@
 <?php include 'header.php'; ?>
 <div class="banner banner-sub banner-portfolio h-400" style="background-image: url('images/banner-contact.jpg');">
-    <div class="banner-caption banner-caption-down">
-        <h2 class="banner-title animated fadeInUp slow go">Contact Us</h2>
+    <div class="banner-caption banner-caption-down animatedParent">
+        <h2 class="banner-title animated fadeIn slower go">Contact Us</h2>
     </div>
 </div>
 <div class="section section-intro section-contact-intro animatedParent animateOnce">

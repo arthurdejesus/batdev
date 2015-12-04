@@ -43,11 +43,8 @@
         -o-transform: translate(0,-50%) scale(1,1);
         transform: translate(0,-50%) scale(1,1);
       }
-
-
     }
   }
-
 
 }
 
@@ -97,6 +94,7 @@
 }
 
 .grid-we-do {
+  padding-top: 11em;
   margin-bottom: 2em;
 
   .grid-we-do-item {
@@ -622,3 +620,27 @@ section[data-section-name=planning] {
   }
 }
 
+
+.grid--product--list {
+  .grid-we-do-img-wrap {
+    &:hover {
+      .grid-product-wrap {
+        &:before {
+          background-color: transparent;
+          .transition(all 1s ease-in-out);
+          -webkit-transform: translateZ(0);
+          visibility: visible;
+          -webkit-backface-visibility: hidden;
+        }
+      }
+    }
+  }
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+  position: absolute;
+  top: 39%;
+  margin-top: -10px;
+  z-index: 5;
+  display: inline-block;
+}

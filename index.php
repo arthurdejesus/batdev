@@ -101,7 +101,7 @@
 
     </div>
 
-    <div class="section section-tagline text-center animatedParent animateOnce">
+    <div class="section section-tagline p-relative text-center animatedParent animateOnce">
         <div class="container">
             <div class="content">
                 <h3 class="primary-title animated fadeInUp ">Custom Built Trampoline Parks</h3>
@@ -116,7 +116,6 @@
     <div class="section-featured pc_container animatedParent animateOnce">
         <div class="carousel-featured animated fadeInUp  delay-750">
             <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
                     <div class="pc_item item active" style="background-image: url('images/custom-img.jpg');">
@@ -156,7 +155,7 @@
                         </div>
                     </div>
                 </div>
-
+                <!-- Controls -->
                 <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
                     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
@@ -165,7 +164,8 @@
                     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
-
+                <div class="container" id="go-down">
+                    <div class="gap-100 gap-100-1"></div>
                 <div class="container">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
@@ -184,11 +184,14 @@
                         <li data-target="#carousel-example-generic" data-slide-to="1"><h3>Custom Design</h3></li>
                         <li data-target="#carousel-example-generic" data-slide-to="2"><h3>Deployment</h3></li>
                     </ul>
-                    <div class="gap-100"></div>
+                    <div class="gap-100 gap-100-2"></div>
                 </div>
             </div>
+
         </div>
     </div>
+</div>
+
     <div class="section section-innovation animatedParent animateOnce">
         <img src="images/products/prod-single.png" class="innovation-img">
         <div class="overlay overlay-section section-overlay"></div>
