@@ -185,6 +185,13 @@
 
 }
 
+section[data-section-name="planning"]  {
+  .grid--img {
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(90%);
+  }
+}
+
 section[data-section-name="design"] {
     &:before {
       background-image: -webkit-gradient(
@@ -204,10 +211,6 @@ section[data-section-name="design"] {
 }
 
 section[data-section-name="deployment"]  {
-  &:before {
-    opacity: .75;
-  }
-
   .grid--img {
     -webkit-filter: grayscale(70%);
     filter: grayscale(70%);

@@ -37,7 +37,7 @@
     <section class="product-section product-section-planning animatedParent" data-section-name="planning">
         <div class="grid-we-do-item p-0">
             <div class="grid-we-do-img-wrap grid-wrap-black">
-                <div class="grid--img" style="background-image:url('images/our-process/our-process-1.jpg');"></div>
+                <div class="grid--img" style="background-image:url('images/our-process/our-process-1.png');"></div>
                 <div class="product-content ">
                     <div class="product-content-header">
                         <h2 class="animated fadeInDownShort slow delay-500 go">Planning</h2>
