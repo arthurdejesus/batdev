@@ -34,44 +34,65 @@
             </li>
         </ul>
     </div>
-    <section class="product-section animatedParent" data-section-name="planning">
+    <section class="product-section product-section-planning animatedParent" data-section-name="planning">
         <div class="grid-we-do-item p-0">
             <div class="grid-we-do-img-wrap grid-wrap-black">
                 <div class="grid--img" style="background-image:url('images/our-process/our-process-1.jpg');"></div>
                 <div class="product-content ">
-                    <h2 class="animated fadeInDownShort slow delay-500 go">Planning</h2>
-                    <div class="gap-15"></div>
-                    <p class="animated fadeInUpShort slow delay-750 go">Our full-service design team can provide you with an overall concept park that incorporates your logo, graphics, colors and branding in an unique and impactful way. We work closely with your architect and have the technology and the skills to deliver professional, high-quality 3D interior renderings enabling you to visualize exactly what the venue will look like from concept to installation.</p>
+                    <div class="product-content-header">
+                        <h2 class="animated fadeInDownShort slow delay-500 go">Planning</h2>
+                        <div class="gap-15"></div>
+                        <p class="animated fadeInUpShort slow delay-750 go">Our full-service design team can provide you with an overall concept park that incorporates your logo, graphics, colors and branding in an unique and impactful way. We work closely with your architect and have the technology and the skills to deliver professional, high-quality 3D interior renderings enabling you to visualize exactly what the venue will look like from concept to installation.</p>
+                    </div>
+                    <div class="gap-50"></div>
+                    <button class="btn btn-primary btn-reveal-planning">Reveal Our Planning</button>
+                    <div class="view-next view-design">
+                        <a href="#design" class="btn btn-primary scroll">View Next Step</a>
+                    </div>
                 </div>
             </div>
         </div>
         <a href="#design" class="btn-down scroll"><span class="arrow-down"></span></a>
     </section>
-    <section class="product-section animatedParent animateOnce" data-section-name="design">
+    <section class="product-section product-section-design animatedParent" data-section-name="design">
         <div class="grid-we-do-item p-0">
             <div class="grid-we-do-img-wrap grid-wrap-black">
                 <div class="grid--img" style="background-image:url('images/our-process/our-process-2.jpg');"></div>
                 <div class="product-content">
-                    <h2 class="animated fadeInDownShort slow delay-500">Design</h2>
-                    <div class="gap-15"></div>
-                    <p class="animated fadeInUpShort slow delay-750">Every 'BAT' facility is designed to maximize the entertainment value provided to your guests. We do this by utilizing a mix of attractions that are strategically positioned to provide maximum visibility and ease of access, which increases exposure and ultimately generates increased sales. This, along with the high impact graphics, colors, overall design and use of branding, takes a typical 'warehouse' trampoline park to a much higher and appealing level for your guests.</p>
+                    <div class="product-content-header">
+                        <h2 class="animated fadeInDownShort slow delay-500">Design</h2>
+                        <div class="gap-15"></div>
+                        <p class="animated fadeInUpShort slow delay-750">Every 'BAT' facility is designed to maximize the entertainment value provided to your guests. We do this by utilizing a mix of attractions that are strategically positioned to provide maximum visibility and ease of access, which increases exposure and ultimately generates increased sales. This, along with the high impact graphics, colors, overall design and use of branding, takes a typical 'warehouse' trampoline park to a much higher and appealing level for your guests.</p>
+                    </div>
+                    <div class="gap-50"></div>
+                    <button class="btn btn-primary btn-reveal-design">Reveal Our Design</button>
+                    <div class="view-next view-deployment">
+                        <a href="#deployment" class="btn btn-primary scroll">View Deployment</a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="product-section animatedParent animateOnce" data-section-name="deployment">
+    <section class="product-section product-section-deployment animatedParent" data-section-name="deployment">
         <div class="grid-we-do-item p-0">
             <div class="grid-we-do-img-wrap grid-wrap-black">
                 <div class="grid--img" style="background-image:url('images/our-process/our-process-3.jpg');"></div>
                 <div class="product-content">
-                    <h2 class="animated fadeInDownShort slow delay-500">Deployment</h2>
-                    <div class="gap-15"></div>
-                    <p class="animated fadeInUpShort slow delay-750">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque </p>
+                    <div class="product-content-header">
+                        <h2 class="animated fadeInDownShort slow delay-500">Deployment</h2>
+                        <div class="gap-15"></div>
+                        <p class="animated fadeInUpShort slow delay-750">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+                    </div>
+                    <div class="gap-50"></div>
+                    <button class="btn btn-primary btn-reveal-deployment">Reveal Our deployment</button>
+                    <div class="view-next view-guarantee">
+                        <a href="#guarantee" class="btn btn-primary scroll">View Our Guarantee</a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="product-section animatedParent animateOnce" data-section-name="guarantee" data-sequence="500">
+    <section class="product-section product-section-guarantee animatedParent animateOnce" data-section-name="guarantee" data-sequence="500">
         <div class="grid-we-do-item p-0">
             <div class="grid-we-do-img-wrap grid-wrap-black">
                 <div class="grid--img" style="background-image:url('images/our-process/our-process-5.jpg');"></div>

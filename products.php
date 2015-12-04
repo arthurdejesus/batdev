@@ -20,7 +20,7 @@
      <section class="product-section-item animatedParent animateOnce">
         <div class="grid-we-do-item p-0">
             <div class="grid-we-do-img-wrap grid-wrap-black">
-                <a href="product-individual.php">
+                <a href="ninja.php">
                     <div class="grid-product-wrap grid-product-wrap-red" style="background-image:url('images/products/p2.png')">
                     </div>
                     <div class="grid-product-type grid-product-type-red">

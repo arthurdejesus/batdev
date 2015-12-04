@@ -481,3 +481,27 @@
     }
   }
 }
+
+.our-process-holder .product-remove-overlay {
+  &:before {
+    background-color: transparent!important;
+    .transition(all 3s ease);
+    -webkit-transform: translateZ(0);
+    visibility: visible;
+    -webkit-backface-visibility: hidden;
+    background-image: none;
+  }
+
+  .product-content-header {
+    opacity: 0!important;
+    .transition(all 2s ease);
+    -webkit-transform: translateZ(0);
+    visibility: visible;
+    -webkit-backface-visibility: hidden;
+  }
+
+  .grid--img {
+    -webkit-filter: none;
+    filter: none;
+  }
+}
