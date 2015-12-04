@@ -20,6 +20,7 @@
 .section-warning {
   background-position: center center;
   background-size: cover;
+  -ms-behavior: url('/backgroundsize.min.htc');
   background-repeat: no-repeat;
   padding: 50px 15px;
   position: relative;
@@ -62,7 +63,7 @@
   padding-bottom: 0;
   max-height: 780px;
   overflow: hidden;
-
+  text-align: center;
 
   .primary-title, .secondary-title {
     color: #fff;
@@ -85,10 +86,6 @@
     padding-left: 5em;
     position: absolute;
     top: 10%;
-  }
-
-  .innovation-img {
-    width: 100%;
   }
 }
 
@@ -120,7 +117,6 @@
   position: relative;
   overflow-x: hidden;
   min-width: 1024px;
-  /*min-height: 768px;*/
   min-height: 595px;
 }
 
@@ -167,14 +163,6 @@
 
     .grid--img {
       background-attachment: fixed!important;
-    }
-  }
-}
-
-.our-process-holder [data-section-name="guarantee"] {
-  .grid--img {
-    &:before {
-      .opacity(.95);
     }
   }
 }
@@ -350,6 +338,9 @@
   .grid-product-type{
     right: 0;
   }
+  .grid-product-wrap {
+    background-position: left;
+  }
 }
 
 .grid-product-type-green {
@@ -430,10 +421,10 @@
 .grid-product-wrap {
   height:595px!important;
   background-repeat: no-repeat;
-  background-size: cover;
+  -ms-behavior: url('/backgroundsize.min.htc');
   position: relative;
   .transition(background-color 1s ease);
-  background-position: center;
+  background-position: right;
 
   &:before {
     content:'';
@@ -457,24 +448,8 @@
   }
 }
 
-.grid-product-wrap-green {
-  &:before {
-    background-color: #57b86a;
-  }
-}
-
-.grid-product-wrap-red {
-  &:before {
-    background-color: #90261e;
-  }
-}
-
 .grid-product-wrap-blue {
   background-color: #000;
-
-  &:before {
-    background-color: #135b6e;
-  }
 }
 
 .grid-product-title {
@@ -492,5 +467,5 @@
   }
 }
 .section-featured {
-  margin-bottom: 10em;
+  margin-bottom: 3em;
 }

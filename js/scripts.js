@@ -73,9 +73,6 @@
         });
     });
 
-
-    $('.grid-product-list .grid-we-do-item:odd .product-content').addClass("text--right");
-
     $(".scroll").click(function(e) {
         e.preventDefault();
         $.scrollify.move($(this).attr("href"));
@@ -124,23 +121,11 @@
         jQuery(this).parents(".section-innovation").removeClass("section-overlay");
     });
 
-    jQuery('.grid-wrap-black .grid-product-type-green .transparent-btn').hover(function () {
-        jQuery('.grid-product-wrap-green').addClass("wrap-overlay");
-    }, function () {
-        jQuery('.grid-product-wrap-green').removeClass("wrap-overlay");
-    });
-
-    jQuery('.grid-wrap-black .grid-product-type-red .transparent-btn').hover(function () {
-        jQuery('.grid-product-wrap-red').addClass("wrap-overlay");
-    }, function () {
-        jQuery('.grid-product-wrap-red').removeClass("wrap-overlay");
-    });
-
-    jQuery('.grid-wrap-black .grid-product-type-blue .transparent-btn').hover(function () {
-        jQuery('.grid-product-wrap-blue').addClass("wrap-overlay");
-    }, function () {
-        jQuery('.grid-product-wrap-blue').removeClass("wrap-overlay");
-    });
+    //jQuery('.grid-wrap-black .grid-product-type-green .transparent-btn').hover(function () {
+    //    jQuery('.grid-product-wrap-green').addClass("wrap-overlay");
+    //}, function () {
+    //    jQuery('.grid-product-wrap-green').removeClass("wrap-overlay");
+    //});
 
     jQuery('.carousel-indicators li:first-child').click(function () {
         jQuery('.transition-border').css('left', '0');

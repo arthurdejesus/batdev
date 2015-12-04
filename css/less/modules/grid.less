@@ -53,6 +53,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  -ms-behavior: url('/backgroundsize.min.htc');
   height: 100%;
   width: 100%;
   .transition(@transition-3s);
@@ -118,6 +119,9 @@
       width: 100%;
       height: 380px;
       background-size: cover;
+      /* The url is relative to the document, not to the css file! */
+      /* Prefer absolute urls to avoid confusion. */
+      -ms-behavior: url('/backgroundsize.min.htc');
       background-repeat: no-repeat;
       background-position: center center;
       .opacity(1);
@@ -185,6 +189,7 @@
     height: 485px!important;
     width: 100%;
     background-size: cover;
+    -ms-behavior: url('/backgroundsize.min.htc');
     background-repeat: no-repeat;
     background-position: center center;
   }
@@ -207,47 +212,50 @@
 
 .grid-product-list {
   .grid-wrap-black {
-    /*min-height: 768px!important;*/
     min-height: 595px!important;
     position: relative;
 
     .grid--img {
       height: 100%!important;
-      //background-attachment: fixed;
     }
   }
 }
 
 .our-process-holder {
-  .grid--img {
+  .product-section {
     &:before {
-      .opacity(.8);
-    }
-
-    &:hover {
-      &:before {
-        background: #000;
-      }
+      content: '';
+      background-color: #000;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      .opacity(0.85);
+      z-index: 1;
     }
   }
-
   .grid-we-do-img-wrap {
     .product-content {
-      width: 27%;
+      position: absolute;
       top: 50%;
-      .translate(0, -50%);
-      bottom: initial;
+      left: 50%;
+      .translate(-50%,-50%);
+      text-align: center;
       z-index: 1;
 
       h2 {
-        font-size: 80px;
+        font-size: 169px;
         text-transform: uppercase;
+        color: #fff;
+        font-weight: 700;
       }
 
       p {
         font-size: 20px;
-        font-weight: 100;
+        font-weight: 300;
         color: #fff;
+        max-width: 90%;
+        margin: auto;
       }
     }
     .product-img {
@@ -411,25 +419,6 @@
     }
   }
 }
-
-.product-content {
-  position: absolute;
-  bottom: 30%;
-  color: #fff;
-  left: 8%;
-
-  h2 {
-    font-size: 50px;
-    font-weight: 100;
-    color: #fff;
-  }
-
-  .btn-primary {
-    font-size: 16px;
-    padding: 12px 30px;
-  }
-}
-
 .single--img {
   .portfolio-item-grid {
     float: none;
@@ -555,6 +544,8 @@ body.deployment {
     height: 100px;
     float: left;
     background-size: cover;
+    -ms-behavior: url('/backgroundsize.min.htc');
+
     background-position: center center;
   }
 
@@ -582,12 +573,6 @@ body.deployment {
         height: 100% !important;
       }
     }
-  }
-}
-
-section[data-section-name=planning] {
-  .grid-we-do-img-wrap .product-content {
-    top: 33%;
   }
 }
 
@@ -637,7 +622,10 @@ section[data-section-name=planning] {
   }
 }
 
-.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .icon-next,
+.carousel-control .icon-prev {
   position: absolute;
   top: 39%;
   margin-top: -10px;

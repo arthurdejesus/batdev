@@ -38,60 +38,54 @@
         <div class="grid-we-do-item p-0">
             <div class="grid-we-do-img-wrap grid-wrap-black">
                 <div class="grid--img" style="background-image:url('images/our-process/our-process-1.jpg');"></div>
-                <div class="product-content animated fadeInLeft slow go">
-                    <h2>Planning</h2>
+                <div class="product-content ">
+                    <h2 class="animated fadeInDownShort slow delay-500 go">Planning</h2>
                     <div class="gap-15"></div>
-                    <p>Our full-service design team can provide you with an overall concept park that incorporates your logo, graphics, colors and branding in an unique and impactful way. We work closely with your architect and have the technology and the skills to deliver professional, high-quality 3D interior renderings enabling you to visualize exactly what the venue will look like from concept to installation.</p>
-                </div>
-                <div class="product-img animated fadeInRight slow go">
-                    <img src="images/our-process/our-process-img.png" alt="">
+                    <p class="animated fadeInUpShort slow delay-750 go">Our full-service design team can provide you with an overall concept park that incorporates your logo, graphics, colors and branding in an unique and impactful way. We work closely with your architect and have the technology and the skills to deliver professional, high-quality 3D interior renderings enabling you to visualize exactly what the venue will look like from concept to installation.</p>
                 </div>
             </div>
         </div>
         <a href="#design" class="btn-down scroll"><span class="arrow-down"></span></a>
     </section>
-    <section class="product-section animatedParent" data-section-name="design">
+    <section class="product-section animatedParent animateOnce" data-section-name="design">
         <div class="grid-we-do-item p-0">
             <div class="grid-we-do-img-wrap grid-wrap-black">
                 <div class="grid--img" style="background-image:url('images/our-process/our-process-2.jpg');"></div>
                 <div class="product-content">
-                    <h2 class="animated fadeInRight slow go">Design</h2>
+                    <h2 class="animated fadeInDownShort slow delay-500">Design</h2>
                     <div class="gap-15"></div>
-                    <p class="animated fadeInRight slow delay-250 go">Every 'BAT' facility is designed to maximize the entertainment value provided to your guests. We do this by utilizing a mix of attractions that are strategically positioned to provide maximum visibility and ease of access, which increases exposure and ultimately generates increased sales. This, along with the high impact graphics, colors, overall design and use of branding, takes a typical 'warehouse' trampoline park to a much higher and appealing level for your guests.</p>
+                    <p class="animated fadeInUpShort slow delay-750">Every 'BAT' facility is designed to maximize the entertainment value provided to your guests. We do this by utilizing a mix of attractions that are strategically positioned to provide maximum visibility and ease of access, which increases exposure and ultimately generates increased sales. This, along with the high impact graphics, colors, overall design and use of branding, takes a typical 'warehouse' trampoline park to a much higher and appealing level for your guests.</p>
                 </div>
             </div>
         </div>
     </section>
-    <section class="product-section animatedParent" data-section-name="deployment">
+    <section class="product-section animatedParent animateOnce" data-section-name="deployment">
         <div class="grid-we-do-item p-0">
             <div class="grid-we-do-img-wrap grid-wrap-black">
                 <div class="grid--img" style="background-image:url('images/our-process/our-process-3.jpg');"></div>
                 <div class="product-content">
-                    <h2 class="animated fadeInLeft slow go">Deployment</h2>
+                    <h2 class="animated fadeInDownShort slow delay-500">Deployment</h2>
                     <div class="gap-15"></div>
-                    <p class="animated fadeInLeft slow delay-250 go">Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit,
-                        sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p class="animated fadeInUpShort slow delay-750">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque </p>
                 </div>
             </div>
         </div>
     </section>
-    <section class="product-section animatedParent animateOnce" data-section-name="guarantee">
+    <section class="product-section animatedParent animateOnce" data-section-name="guarantee" data-sequence="500">
         <div class="grid-we-do-item p-0">
             <div class="grid-we-do-img-wrap grid-wrap-black">
                 <div class="grid--img" style="background-image:url('images/our-process/our-process-5.jpg');"></div>
                 <div class="section section-process text-center section--process">
                     <div class="container">
                         <div class="content">
-                            <h3 class="primary-title animated fadeInUp slow">Our Trusted Process</h3>
-                            <div class="description animated fadeInUp delay-250 slow">
+                            <h3 class="primary-title animated fadeInUpShort slow" data-id="1">Our Trusted Process</h3>
+                            <div class="description animated fadeInUpShort slow" data-id="2">
                                 <p>Our core team of professionals, alongside our president and CEO, work directly with each client to ensure that every trampoline park we design and manufacture exceeds all expectations.</p>
                             </div>
                         </div>
-                        <div class="process-grid animated fadeInUp delay-500 slow">
+                        <div class="process-grid">
                             <ul>
-                                <li>
+                                <li class="animated fadeInUpShort slow" data-id="3">
                                     <div class="process-grid-item">
                                         <div class="process-grid-item-icon">
                                             <img src="images/process-home/process-icon-1.png">
@@ -104,7 +98,7 @@
                                     </div>
                                 </li>
 
-                                <li>
+                                <li class="animated fadeInUpShort slow" data-id="4">
                                     <div class="process-grid-item">
                                         <div class="process-grid-item-icon">
                                             <img src="images/process-home/process-icon-2.png">
@@ -117,7 +111,7 @@
                                     </div>
                                 </li>
 
-                                <li>
+                                <li class="animated fadeInUpShort slow" data-id="5">
                                     <div class="process-grid-item">
                                         <div class="process-grid-item-icon">
                                             <img src="images/process-home/process-icon-3.png">
@@ -130,7 +124,7 @@
                                     </div>
                                 </li>
 
-                                <li>
+                                <li class="animated fadeInUpShort slow" data-id="6">
                                     <div class="process-grid-item">
                                         <div class="process-grid-item-icon">
                                             <img src="images/process-home/process-icon-4.png">

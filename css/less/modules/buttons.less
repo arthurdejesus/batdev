@@ -72,7 +72,7 @@
   z-index: 1;
 
   .arrow-down {
-    background-image: url(../images/arrow-down.png);
+    background-image: url('../images/arrow-down.png');
     background-repeat: no-repeat;
     height: 25px;
     width: 40px;
@@ -85,10 +85,6 @@
       -o-animation: bounce 2s infinite;
       animation: bounce 2s infinite;
     }
-  }
-
-  .arrow-black {
-    background-image: url(../images/arrow-down-black.png);
   }
 }
 
@@ -103,9 +99,14 @@
     margin: 0;
   }
 
-  &:hover {
-    border-color: #fff;
+  &:hover, &:focus {
+    border-color: #fff!important;
     background-color: transparent;
+  }
+
+  &:focus {
+    background-color: #2bcaf5;
+    outline: none;
   }
 }
 
