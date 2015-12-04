@@ -2908,7 +2908,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
+		"initialSize": 2.26498e+06,
 		"inputAbbreviatedPath": "\/images\/products\/p1.png",
 		"outputAbbreviatedPath": "\/images\/products\/p1.png",
 		"outputPathIsOutsideProject": 0,
@@ -2930,7 +2930,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
+		"initialSize": 1.73354e+06,
 		"inputAbbreviatedPath": "\/images\/products\/p2.png",
 		"outputAbbreviatedPath": "\/images\/products\/p2.png",
 		"outputPathIsOutsideProject": 0,
@@ -3484,6 +3484,15 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/news-single.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/news-single.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/news.php": {
 		"fileType": 8192,
