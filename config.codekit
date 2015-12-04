@@ -3014,6 +3014,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/products\/sky-1.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 165662,
+		"inputAbbreviatedPath": "\/images\/products\/sky-1.jpeg",
+		"outputAbbreviatedPath": "\/images\/products\/sky-1.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/products\/sky-1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3021,6 +3032,17 @@
 		"initialSize": 93901,
 		"inputAbbreviatedPath": "\/images\/products\/sky-1.jpg",
 		"outputAbbreviatedPath": "\/images\/products\/sky-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/products\/sky-2.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52506,
+		"inputAbbreviatedPath": "\/images\/products\/sky-2.jpeg",
+		"outputAbbreviatedPath": "\/images\/products\/sky-2.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3036,6 +3058,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/products\/sky-3.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 220619,
+		"inputAbbreviatedPath": "\/images\/products\/sky-3.jpeg",
+		"outputAbbreviatedPath": "\/images\/products\/sky-3.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/products\/sky-3.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3043,6 +3076,17 @@
 		"initialSize": 39340,
 		"inputAbbreviatedPath": "\/images\/products\/sky-3.jpg",
 		"outputAbbreviatedPath": "\/images\/products\/sky-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/products\/sky-4.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57893,
+		"inputAbbreviatedPath": "\/images\/products\/sky-4.jpeg",
+		"outputAbbreviatedPath": "\/images\/products\/sky-4.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3058,6 +3102,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/products\/sky-5.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 330531,
+		"inputAbbreviatedPath": "\/images\/products\/sky-5.jpeg",
+		"outputAbbreviatedPath": "\/images\/products\/sky-5.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/products\/sky-5.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3069,6 +3124,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/products\/sky-6.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54834,
+		"inputAbbreviatedPath": "\/images\/products\/sky-6.jpeg",
+		"outputAbbreviatedPath": "\/images\/products\/sky-6.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/products\/sky-6.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3076,6 +3142,17 @@
 		"initialSize": 49001,
 		"inputAbbreviatedPath": "\/images\/products\/sky-6.jpg",
 		"outputAbbreviatedPath": "\/images\/products\/sky-6.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/products\/sky-7.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 244058,
+		"inputAbbreviatedPath": "\/images\/products\/sky-7.jpeg",
+		"outputAbbreviatedPath": "\/images\/products\/sky-7.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
