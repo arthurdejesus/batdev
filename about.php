@@ -12,19 +12,13 @@
 
 <div class="section section-intro section-about-intro animatedParent animateOnce">
     <div class="container">
-        <div class="col-md-4">
-            <div class="content animated fadeInLeft slow">
-                <h3 class="primary-title">History</h3>
-            </div>
-        </div>
-        <div class="col-md-8 animated fadeInRight slow delay-250">
             <div class="content">
-                <div class="description">
+                <h3 class="primary-title animated fadeInLeft slow">History</h3>
+                <div class="description animated fadeInRight slow delay-250">
                     <p>Since 1978, Best American Trampolines has worked directly with individual consumers and global corporations alike, to design and manufacture a superior, American-made product. The 'BAT' team of professionals provide guidance and expertise in the disciplines of: interior design, market research, brand development, graphic design - along with trampoline and attraction design, supply and installation.</p>
                     <p>As a leader in trampoline park design and manufacturing, we provide experienced and professional service throughout each custom project. Each and every one of our park clients has full access to a project manager 7 days a week. We are dedicated to our clients during the entire project - from start to finish, and beyond</p>
                 </div>
             </div>
-        </div>
     </div>
 </div>
 
