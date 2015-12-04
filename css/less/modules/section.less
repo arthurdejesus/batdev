@@ -41,6 +41,7 @@
       color: #fff;
       margin: 0;
       line-height: 1.5;
+      font-weight: 400;
     }
   }
 }
@@ -62,6 +63,7 @@
   padding-bottom: 0;
   max-height: 780px;
   overflow: hidden;
+  text-align: center;
 
 
   .primary-title, .secondary-title {
@@ -88,7 +90,7 @@
   }
 
   .innovation-img {
-    width: 100%;
+    display: inline-block;
   }
 }
 
@@ -492,5 +494,14 @@
   }
 }
 .section-featured {
-  margin-bottom: 10em;
+  margin-bottom: 10px;
+}
+
+.section-contact {
+  .btn-primary {
+
+    &:before {
+      border-radius: 8px;
+    }
+  }
 }

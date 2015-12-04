@@ -4,7 +4,7 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="1737.338px" height="509.333px" viewBox="0 0 1737.338 509.333" enable-background="new 0 0 1737.338 509.333"
 	 xml:space="preserve">
-<path opacity="0.5" fill-rule="evenodd" clip-rule="evenodd" fill="#1A2D22" d="M1742.32,507.84L0,0v285.74L1742.32,507.84"/>
-<polyline fill-rule="evenodd" clip-rule="evenodd" points="1739,507 0,507 0,286 "/>
-<path opacity="0.6" fill-rule="evenodd" clip-rule="evenodd" fill="#1AA057" d="M0,106.26v179.48l1742.32,222.1L0,106.26z"/>
+<path opacity="0.5" fill="#1A2D22" enable-background="new    " d="M1742.32,507.84L0,0v285.741L1742.32,507.84"/>
+<polyline fill="#FFFFFF" points="1739,507 0,507 0,286 "/>
+<path opacity="0.6" fill="#1AA057" enable-background="new    " d="M0,106.26v179.481l1742.32,222.1L0,106.26z"/>
 </svg>
