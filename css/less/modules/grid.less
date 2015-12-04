@@ -232,6 +232,7 @@
       top: 0;
       .opacity(0.85);
       z-index: 1;
+      .transition(background-color 3s ease-in-out);
     }
   }
   .grid-we-do-img-wrap {
@@ -242,6 +243,11 @@
       .translate(-50%,-50%);
       text-align: center;
       z-index: 1;
+
+      .product-content-header {
+        opacity: 1;
+        .transition(opacity 2s ease-in-out);
+      }
 
       h2 {
         font-size: 169px;
