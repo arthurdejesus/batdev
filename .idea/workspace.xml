@@ -2,20 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a3a9d62-9166-4554-8d03-58555b6c8518" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/our-process/our-process-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/ninja-gallery1.jpg" afterPath="$PROJECT_DIR$/images/ninja-gallery1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/ninja-gallery2.jpg" afterPath="$PROJECT_DIR$/images/ninja-gallery2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/single-prod-gallery-1.jpg" afterPath="$PROJECT_DIR$/images/single-prod-gallery-1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/single-prod-gallery-5.jpg" afterPath="$PROJECT_DIR$/images/single-prod-gallery-5.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/single-prod-gallery-6.jpg" afterPath="$PROJECT_DIR$/images/single-prod-gallery-6.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/less/modules/buttons.less" afterPath="$PROJECT_DIR$/css/less/modules/buttons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/products/sky-1.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/products/sky-2.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/products/sky-3.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/products/sky-4.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/products/sky-5.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/products/sky-6.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/products/sky-7.jpeg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.codekit" afterPath="$PROJECT_DIR$/config.codekit" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/less/modules/misc.less" afterPath="$PROJECT_DIR$/css/less/modules/misc.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/our-process.php" afterPath="$PROJECT_DIR$/our-process.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/scripts.js" afterPath="$PROJECT_DIR$/js/scripts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio-individual.php" afterPath="$PROJECT_DIR$/portfolio-individual.php" />
     </list>
     <ignored path="batdev.iws" />
     <ignored path=".idea/workspace.xml" />

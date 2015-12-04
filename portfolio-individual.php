@@ -107,25 +107,25 @@
                 <div class="modal-body">
                     <div class="carousel-inner">
                         <div class="item active">
-                            <img src="images/products/sky-2.jpg">
+                            <img src="images/products/sky-2.jpeg">
                         </div>
                         <div class="item">
-                            <img src="images/products/sky-3.jpg">
+                            <img src="images/products/sky-3.jpeg">
                         </div>
                         <div class="item">
-                            <img src="images/products/sky-4.jpg">
+                            <img src="images/products/sky-4.jpeg">
                         </div>
                         <div class="item">
-                            <img src="images/products/sky-5.jpg">
+                            <img src="images/products/sky-5.jpeg">
                         </div>
                         <div class="item">
-                            <img src="images/products/sky-1.jpg">
+                            <img src="images/products/sky-1.jpeg">
                         </div>
                         <div class="item">
-                            <img src="images/products/sky-6.jpg">
+                            <img src="images/products/sky-6.jpeg">
                         </div>
                         <div class="item">
-                            <img src="images/products/sky-7.jpg">
+                            <img src="images/products/sky-7.jpeg">
                         </div>
                     </div><!-- /.carousel-inner -->
                     <a class="left carousel-control" href="#lightbox" role="button" data-slide="prev">
