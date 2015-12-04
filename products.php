@@ -23,7 +23,8 @@
                 <div class="grid-product-type grid-product-type-red">
                     <div class="grid-product-type-header">
                         <img src="images/ninja.png" class="font-img">
-                        <a href="product-individual.php" class="btn btn-primary btn-learn-more transparent-btn hvr-rectangle-out" role="button">Learn More</a>
+                        <a href="ninja.php" class="btn btn-primary btn-learn-more transparent-btn hvr-rectangle-out"
+                           role="button">Learn More</a>
                     </div>
                 </div>
             </div>
