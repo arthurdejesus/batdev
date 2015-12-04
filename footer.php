@@ -73,7 +73,6 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
             </div>
             <div class="modal-body">
                 <h4 class="modal-title">Request Information Package</h4>
@@ -95,6 +94,7 @@
                     </div>
 
                     <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal" aria-label="Close">Close</button>
                 </form>
             </div>
         </div>
