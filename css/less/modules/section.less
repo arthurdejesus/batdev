@@ -350,8 +350,13 @@
     right: 0;
   }
   .grid-product-wrap {
-    background-position: left;
+    background-position: left 78%;
+    background-size: 76%;
   }
+}
+
+.grid-product-wrap.grid-product-wrap-green {
+  background-size: 70% !important;
 }
 
 .grid-product-type-green {
@@ -436,6 +441,7 @@
   position: relative;
   .transition(background-color 1s ease);
   background-position: right;
+  background-size: auto;
 
   &:before {
     content:'';

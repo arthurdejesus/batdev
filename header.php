@@ -51,12 +51,12 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="<?php echo $_SERVER['REQUEST_URI']=='/about.php'?'current_page_item':''; ?>"><a href="about.php">About Us</a></li>
-                        <li class="<?php echo $_SERVER['REQUEST_URI']=='/products.php'?'current_page_item':''; ?>"><a href="products.php">Products</a></li>
-                        <li class="<?php echo $_SERVER['REQUEST_URI']=='/portfolio.php'?'current_page_item':''; ?>"><a href="portfolio.php">Portfolio</a></li>
-                        <li class="<?php echo $_SERVER['REQUEST_URI']=='/our-process.php'?'current_page_item':''; ?>"><a href="our-process.php">Our Process</a></li>
-                        <li class="<?php echo $_SERVER['REQUEST_URI']=='/news.php'?'current_page_item':''; ?>"><a href="news.php">News & Events</a></li>
-                        <li class="<?php echo $_SERVER['REQUEST_URI']=='/contact.php'?'current_page_item':''; ?>"><a href="contact.php">Contact Us</a></li>
+                        <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/about.php'?'current_page_item':'';?>"><a href="about.php">About Us</a></li>
+                        <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/products.php'?'current_page_item':''; ?>"><a href="products.php">Products</a></li>
+                        <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/portfolio.php'?'current_page_item':''; ?>"><a href="portfolio.php">Portfolio</a></li>
+                        <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/our-process.php'?'current_page_item':''; ?>"><a href="our-process.php">Our Process</a></li>
+                        <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/news.php'?'current_page_item':''; ?>"><a href="news.php">News & Events</a></li>
+                        <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/contact.php'?'current_page_item':''; ?>"><a href="contact.php">Contact Us</a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
