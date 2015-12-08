@@ -6,6 +6,17 @@
     //    W = window;
 
 
+    $('.navbar-toggle-menu').click(function() {
+        $('.navbar-collapse').addClass('is-open');
+        $('body').addClass('is-open');
+    });
+
+    $('.close-wrap').click(function() {
+        $('.navbar-collapse').removeClass('is-open');
+        $('body').removeClass('is-open');
+    });
+
+
     $(function() {
         $(window).load(function() { // makes sure the whole site is loaded
             $('#status').fadeOut(); // will first fade out the loading animation
@@ -194,7 +205,5 @@
             $('.transition-border').css('left', '98%');
         }
     });
-
-    
 
 })(window, document, jQuery);

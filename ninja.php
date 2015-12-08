@@ -11,7 +11,10 @@
     <div class="section section-single-content section-single-prod-content section-single-prod-content-ninja">
         <div class="container">
             <div class="col-md-10 float-none">
-                <div class="single-img-holder" style="background-image: url('images/ninja-img.jpg')"></div>
+
+                <button type="button" class="pop-btn" data-toggle="modal" data-target="#ninja">
+                    <div class="single-img-holder" style="background-image: url('images/ninja-img.jpg')"></div>
+                </button>
             </div>
 
             <div class="col-md-8 float-none bg-red animatedParent animateOnce">
@@ -20,6 +23,18 @@
                     <div class="gap-30"></div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal modal-single-prod fade" id="ninja" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <button class="btn btn-close" type="button" data-dismiss="modal" aria-label="Close">
+                    <img src="images/close.png">
+                </button>
+                <img src="images/ninja-img.jpg">
             </div>
         </div>
     </div>
