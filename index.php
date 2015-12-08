@@ -16,6 +16,9 @@
                 <li>
                     <div class="banner-slider-image" style="background-image: url('images/banner-img/slider5.jpg')"></div>
                 </li>
+                <li>
+                    <div class="banner-slider-image" style="background-image: url('images/banner-img/slider6.jpg')"></div>
+                </li>
             </ul>
 
             <div class="banner-caption">
