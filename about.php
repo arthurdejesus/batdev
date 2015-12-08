@@ -79,6 +79,29 @@
     <img src="images/triangle.svg">
 </div>
 
+<div class="section section-client section-about-client text-center animatedParent animateOnce">
+    <div class="container">
+        <div class="content">
+            <h3 class="primary-title animated fadeInUp ">Our Clients</h3>
+            <div class="description animated fadeInUp  delay-250">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit </p>
+            </div>
+        </div>
+
+        <div class="client-grid animated fadeInUp delay-500 ">
+            <ul>
+                <li><img src="images/client-home/client-1.png"></li>
+                <li><img src="images/client-home/client-2.png"></li>
+                <li><img src="images/client-home/client-3.png"></li>
+                <li><img src="images/client-home/client-4.png"></li>
+                <li><img src="images/client-home/client-5.png"></li>
+            </ul>
+        </div>
+
+        <a href="#" class="btn btn-primary animated fadeInUp delay-750">see more of our clients</a>
+    </div>
+</div>
+
 <div class="section section-leadership text-center animatedParent animateOnce">
     <div class="container">
         <div class="content">

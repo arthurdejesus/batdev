@@ -45,18 +45,25 @@
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header navbar-header-menu">
+                    <button class="navbar-toggle-menu">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
                     <a class="navbar-brand" href="index.php"><img src="images/logo.png"></a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="about.php">About Us</a></li>
-                        <li><a href="products.php">Products</a></li>
-                        <li><a href="portfolio.php">Portfolio</a></li>
-                        <li><a href="our-process.php">Our Process</a></li>
-                        <li><a href="news.php">News & Events</a></li>
-                        <li><a href="contact.php">Contact Us</a></li>
+                        <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/about.php'?'current_page_item':'';?>"><a href="about.php">About Us</a></li>
+                        <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/products.php'?'current_page_item':''; ?>"><a href="products.php">Products</a></li>
+                        <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/portfolio.php'?'current_page_item':''; ?>"><a href="portfolio.php">Portfolio</a></li>
+                        <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/our-process.php'?'current_page_item':''; ?>"><a href="our-process.php">Our Process</a></li>
+                        <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/news.php'?'current_page_item':''; ?>"><a href="news.php">News & Events</a></li>
+                        <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/contact.php'?'current_page_item':''; ?>"><a href="contact.php">Contact Us</a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->

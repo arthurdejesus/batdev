@@ -4,6 +4,16 @@
   .our-process-holder .grid-we-do-img-wrap .product-img {
     right: 15%;
   }
+
+  .banner-prod-trampoline {
+    height: 1000px;
+
+    .banner-caption {
+      top: 40%;
+      .translate(0,-40%);
+    }
+  }
+
 }
 
 @media(max-width: 1500px) {
@@ -53,6 +63,47 @@
     height: 500px!important;
   }
 
+  .banner-prod-trampoline {
+    height: 900px;
+  }
+
+}
+
+@media(max-width: 1280px) {
+  .grid--product--list {
+    .grid-we-do-img-wrap.grid-wrap-black {
+      min-height: 0!important;
+    }
+
+    .grid-product-wrap, .grid-product-type {
+      height: 485px!important;
+    }
+
+    .grid-product-type:after {
+      border-right: 98px solid transparent;
+    }
+
+    .grid-product-type-green:after {
+      border-top: 35.9em solid #24da76;
+    }
+
+  }
+
+  .product-section-item:nth-child(even) .grid-product-wrap {
+    background-size: 77%;
+  }
+
+  .grid-product-type-red:before {
+    left: 0.4em !important;
+  }
+
+  .grid-product-type-blue:before {
+    right: -5.2em !important;
+  }
+
+  .transparent-btn {
+    margin-top: 6em;
+  }
 }
 
 
@@ -113,6 +164,12 @@
 	.container-fluid {
 	    padding: 0 1em;
 	}
+
+  .grid-we-do {
+    padding-top: 10em;
+  }
+
+
 }
 
 @media(max-width: 1024px) {
@@ -155,6 +212,13 @@
 
   section[data-section-name=planning] .grid-we-do-img-wrap .product-content {
     top: 58%;
+  }
+}
+
+
+@media(max-width: 991px) {
+  .navbar-fixed-top {
+
   }
 }
 

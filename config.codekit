@@ -2046,6 +2046,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/banner-img\/slider6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 506318,
+		"inputAbbreviatedPath": "\/images\/banner-img\/slider6.jpg",
+		"outputAbbreviatedPath": "\/images\/banner-img\/slider6.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/banner-news.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
