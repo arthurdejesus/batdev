@@ -57,6 +57,11 @@
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="navbar-collapse">
+                    <div class="close-wrap">
+                        <button class="btn btn-close">
+                            <img src="images/close.png">
+                        </button>
+                    </div>
                     <ul class="nav navbar-nav navbar-right">
                         <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/about.php'?'current_page_item':'';?>"><a href="about.php">About Us</a></li>
                         <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/products.php'?'current_page_item':''; ?>"><a href="products.php">Products</a></li>
@@ -66,6 +71,8 @@
                         <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/contact.php'?'current_page_item':''; ?>"><a href="contact.php">Contact Us</a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
+
+                <div class="mask-overlay"></div>
             </div><!-- /.container-fluid -->
         </nav>
     </div>

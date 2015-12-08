@@ -123,6 +123,11 @@
             </div>
         </div>
         <div class="grid-leader">
+            <div class="col-md-4">
+                <div class="grid-circle-wrap animated fadeInRight slow">
+                    <img src="images/leadership-img.jpg">
+                </div>
+            </div>
             <div class="col-md-8">
                 <div class="content animated fadeInLeft slow">
                     <h4 class="grid-leader-title">Tracy Sarris</h4>
@@ -131,11 +136,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="grid-circle-wrap animated fadeInRight slow">
-                    <img src="images/leadership-img.jpg">
-                </div>
-            </div>
+
         </div>
         <div class="grid-leader">
             <div class="col-md-8">

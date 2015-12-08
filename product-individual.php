@@ -19,7 +19,22 @@
         </div>
 
         <div class="col-md-6">
-            <div class="single-img-holder" style="background-image: url('images/prod-single-img-thumb.jpg')"></div>
+            <button type="button" class="pop-btn" data-toggle="modal" data-target="#prod-pop">
+                <div class="single-img-holder" style="background-image: url('images/prod-single-img-thumb.jpg')"></div>
+            </button>
+
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal modal-single-prod fade" id="prod-pop" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <button class="btn btn-close" type="button" data-dismiss="modal" aria-label="Close">
+                <img src="images/close.png">
+            </button>
+            <img src="images/prod-single-img-thumb.jpg">
         </div>
     </div>
 </div>
