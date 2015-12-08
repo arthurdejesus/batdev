@@ -177,6 +177,19 @@
       background-attachment: fixed!important;
     }
   }
+  .btn-down {
+    bottom: 1.5em;
+  }
+  .arrow-down-view {
+    background-image: url('../images/arrow-down.png');
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 17%;
+    display: inline-block;
+    zoom: 60%;
+    padding: 0 10px;
+    margin-left: 20px;
+  }
 }
 
 .overlay--effects {
@@ -529,6 +542,13 @@
   .grid--img {
     -webkit-filter: none;
     filter: none;
+  }
+
+  .arrow-down-view {
+    -webkit-animation: bounce 2s .5s;
+    -moz-animation: bounce 2s .5 s;
+    -o-animation: bounce 2s .5 s;
+    animation: bounce 2s .5s;
   }
 }
 
