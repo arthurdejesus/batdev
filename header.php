@@ -45,6 +45,13 @@
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header navbar-header-menu">
+                    <button class="navbar-toggle-menu">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
                     <a class="navbar-brand" href="index.php"><img src="images/logo.png"></a>
                 </div>
 
