@@ -1798,26 +1798,6 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/css\/less\/modules\/section.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 0,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/less\/modules\/section.less",
-		"outputAbbreviatedPath": "\/css\/less\/css\/section.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
-		},
 	"\/css\/less\/modules\/single.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
@@ -1965,6 +1945,28 @@
 		"initialSize": 149647,
 		"inputAbbreviatedPath": "\/images\/banner-about.jpg",
 		"outputAbbreviatedPath": "\/images\/banner-about.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/banner-about2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 520340,
+		"inputAbbreviatedPath": "\/images\/banner-about2.jpg",
+		"outputAbbreviatedPath": "\/images\/banner-about2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/banner-about3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 669433,
+		"inputAbbreviatedPath": "\/images\/banner-about3.jpg",
+		"outputAbbreviatedPath": "\/images\/banner-about3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

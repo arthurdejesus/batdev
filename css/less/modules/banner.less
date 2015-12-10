@@ -147,7 +147,7 @@
 
 .banner-caption-down {
   top: inherit !important;
-  bottom: -1px;
+  bottom: 4px;
   .translate(0,0) !important;
 
   .banner-title {
@@ -266,5 +266,21 @@
 .banner-about {
   &:before {
     background-color: rgba(0,0,0,0.5);
+  }
+}
+
+.banner-contact {
+  overflow: hidden;
+
+  &:before {
+    content: '';
+    background-color: #fff;
+    .opacity(0.75);
+  }
+
+  .banner-caption {
+    .banner-title {
+      color: #000;
+    }
   }
 }

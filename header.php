@@ -32,6 +32,9 @@
     <div class="header">
         <div class="top-header">
             <div class="container-fluid">
+                <div class="top-header-logo">
+                    <a class="navbar-brand" href="index.php"><img src="images/logo.png"></a>
+                </div>
                 <ul class="social-media social-media-top">
                     <li><a href="#"><span class="icon-facebook"></span></a></li>
                     <li><a href="#"><span class="icon-google-plus"></span></a></li>

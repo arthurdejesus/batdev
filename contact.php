@@ -1,5 +1,5 @@
 <?php include 'header.php'; ?>
-<div class="banner banner-sub banner-portfolio h-400" style="background-image: url('images/banner-contact.jpg');">
+<div class="banner banner-sub banner-portfolio banner-contact h-400" style="background-image: url('images/banner-contact.jpg');">
     <div class="banner-caption banner-caption-down animatedParent">
         <h2 class="banner-title animated fadeInUp slow go">Contact Us</h2>
     </div>

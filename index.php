@@ -31,9 +31,9 @@
         </div>
 
     <div class="section section-intro animatedParent animateOnce" id="goto-down">
-        <div class="container">
-            <div class="col-md-6">
-                <div class="content animated fadeInLeft ">
+        <div class="container-custom">
+            <div class="col-md-5">
+                <div class="content animated fadeInLeft content-world">
                     <h3 class="primary-title">We are Worldwide</h3>
                     <h4 class="secondary-title">We create Premium Trampoline Parks and One-of-a-Kind Boutique Entertainment Centers across the globe</h4>
 
@@ -47,19 +47,22 @@
 
                 </div>
             </div>
-            <div class="home-map animated fadeInRight ">
-                <img src="images/map.svg">
-                <div class="tooltips">
-                    <div class="t t1"></div>
-                    <div class="t t2"></div>
-                    <div class="t t3"></div>
-                    <div class="t t4"></div>
-                    <div class="t t5"></div>
-                    <div class="t t6"></div>
-                    <div class="t t7"></div>
-                    <!-- <div class="t t8"></div>-->
+            <div class="col-md-7">
+                <div class="home-map animated fadeInRight ">
+                    <img src="images/map.svg">
+                    <div class="tooltips">
+                        <div class="t t1"></div>
+                        <div class="t t2"></div>
+                        <div class="t t3"></div>
+                        <div class="t t4"></div>
+                        <div class="t t5"></div>
+                        <div class="t t6"></div>
+                        <div class="t t7"></div>
+                        <!-- <div class="t t8"></div>-->
+                    </div>
                 </div>
             </div>
+
 
         </div>
     </div>
