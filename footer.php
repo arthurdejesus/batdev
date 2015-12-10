@@ -24,8 +24,9 @@
 <footer class="footer-section">
     <div class="footer">
         <div class="footer-gray">
-            <div class="footer-container container-fluid">
-                <div class="col-md-4">
+<!--            <div class="footer-container container-fluid">-->
+            <div class="container">
+                <div class="col-md-3">
                     <div class="content">
                         <h4 class="footer-title">Quick Links</h4>
                         <div class="description">
@@ -40,7 +41,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-5">
                     <div class="content">
                         <h4 class="footer-title">Contact Us</h4>
                         <div class="description">
@@ -100,7 +101,6 @@
                 </div>
             </div>
         </div>
-
     </div>
 </footer>
 
