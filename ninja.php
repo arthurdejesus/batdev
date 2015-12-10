@@ -21,7 +21,7 @@
                 <div class="single-about animated fadeInUpShort slow">
                     <h3>About the Project</h3>
                     <div class="gap-30"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+                    <p>Best American can provide a mix of attractions to work in conjunction with our trampoline courts. Some of our products include: Aeroball Courts, Gladiator Pits, Climbing Towers, Climbing Walls, Ninja Courses as well as procurement of other entertainment attractions, equipment and supplies.</p>
                 </div>
             </div>
         </div>
@@ -79,25 +79,79 @@
     <div class="section-single-group-img section-black section-prod-black section-prod-black-ninja">
         <div class="single--img">
             <div class="single--img-top">
-                <div class="col-md-4 p-0">
+                <div class="col-md-3 p-0">
                     <a href="#lightbox" data-toggle="modal" data-slide-to="0">
                         <div class="portfolio-item-grid" style="background-image: url('images/ninja-gallery1.jpg');"></div>
                     </a>
                 </div>
 
-                <div class="col-md-4 p-0">
+                <div class="col-md-3 p-0">
                     <a href="#lightbox" data-toggle="modal" data-slide-to="1">
                         <div class="portfolio-item-grid" style="background-image: url('images/ninja-gallery2.jpg')
                     ;"></div>
                     </a>
                 </div>
 
-                <div class="col-md-4 p-0 bg-red">
+                <div class="col-md-3 p-0">
+                    <a href="#lightbox" data-toggle="modal" data-slide-to="2">
+                        <div class="portfolio-item-grid" style="background-image: url('images/ninja-gallery3.jpg')
+                    ;"></div>
+                    </a>
+                </div>
+
+                <div class="col-md-3 p-0 bg-red">
                     <div class="portfolio-item-grid" style="background-image: url('images/title/ninja-img.png');">
                         <h3>Ninja Course <br>Gallery</h3>
                     </div>
                 </div>
+            </div>
+            <div class="single--img-top">
+                <div class="col-md-3 p-0">
+                    <a href="#lightbox" data-toggle="modal" data-slide-to="3">
+                        <div class="portfolio-item-grid" style="background-image: url('images/ninja-gallery4.jpg');"></div>
+                    </a>
+                </div>
 
+                <div class="col-md-3 p-0">
+                    <a href="#lightbox" data-toggle="modal" data-slide-to="4">
+                        <div class="portfolio-item-grid" style="background-image: url('images/ninja-gallery5.jpg')
+                    ;"></div>
+                    </a>
+                </div>
+
+                <div class="col-md-3 p-0">
+                    <a href="#lightbox" data-toggle="modal" data-slide-to="5">
+                        <div class="portfolio-item-grid" style="background-image: url('images/ninja-gallery6.jpg')
+                    ;"></div>
+                    </a>
+                </div>
+
+                <div class="col-md-3 p-0">
+                    <a href="#lightbox" data-toggle="modal" data-slide-to="6">
+                        <div class="portfolio-item-grid" style="background-image: url('images/ninja-gallery7.jpg');"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="single--img-top">
+                <div class="col-md-3 p-0">
+                    <a href="#lightbox" data-toggle="modal" data-slide-to="7">
+                        <div class="portfolio-item-grid" style="background-image: url('images/ninja-gallery8.jpg');"></div>
+                    </a>
+                </div>
+
+                <div class="col-md-3 p-0">
+                    <a href="#lightbox" data-toggle="modal" data-slide-to="8">
+                        <div class="portfolio-item-grid" style="background-image: url('images/ninja-gallery9.jpg')
+                    ;"></div>
+                    </a>
+                </div>
+
+                <div class="col-md-3 p-0">
+                    <a href="#lightbox" data-toggle="modal" data-slide-to="9">
+                        <div class="portfolio-item-grid" style="background-image: url('images/ninja-gallery10.jpg')
+                    ;"></div>
+                    </a>
+                </div>
             </div>
         </div>
         <div class="modal-gallery modal fade and carousel slide" id="lightbox">
@@ -112,6 +166,38 @@
 
                             <div class="item">
                                 <img src="images/ninja-gallery2.jpg">
+                            </div>
+
+                            <div class="item">
+                                <img src="images/ninja-gallery3.jpg">
+                            </div>
+
+                            <div class="item">
+                                <img src="images/ninja-gallery4.jpg">
+                            </div>
+
+                            <div class="item">
+                                <img src="images/ninja-gallery5.jpg">
+                            </div>
+
+                            <div class="item">
+                                <img src="images/ninja-gallery6.jpg">
+                            </div>
+
+                            <div class="item">
+                                <img src="images/ninja-gallery7.jpg">
+                            </div>
+
+                            <div class="item">
+                                <img src="images/ninja-gallery8.jpg">
+                            </div>
+
+                            <div class="item">
+                                <img src="images/ninja-gallery9.jpg">
+                            </div>
+
+                            <div class="item">
+                                <img src="images/ninja-gallery10.jpg">
                             </div>
 
                         </div><!-- /.carousel-inner -->
@@ -141,27 +227,5 @@
         </div>
     </div>
 
-    <div class="section-warning animatedParent animateOnce" style="background-image: url('images/bg-warning.jpg');">
-        <div class="warning-wrap">
-            <div class="warning-grid mw-410">
-                <h3 class="warning-title animated fadeInLeft slow">Warning<img src="images/warning-icon.png"></h3>
-            </div>
-            <div class="warning-grid">
-                <div class="content animated fadeInRight slow">
-                    <div class="description">
-                        <p>Landing on the head or neck can cause serious injury, paralysis,
-                            or death, even when landing in the middle of the bed.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="warning-grid">
-                <div class="content animated fadeInRight slow">
-                    <div class="description">
-                        <p>Use trampoline only with mature, knowledgeable supervision.  </p>
-                    </div>
 
-                </div>
-            </div>
-        </div>
-    </div>
 <?php include 'footer.php'; ?>

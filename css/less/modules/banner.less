@@ -1,12 +1,20 @@
 .banner-slider {
   position: relative;
+  background: #000;
+  height: 900px;
+  overflow: hidden;
+
+  .bx-wrapper {
+    opacity: 0.75;
+    height: 900px;
+  }
 
   .bxslider {
     margin: 0;
     padding: 0;
 
     li {
-      height: 100vh;
+      height: 900px !important;
       min-height: 790px;
       width: 100% !important;
       position: relative;
@@ -16,7 +24,7 @@
       .banner-slider-image {
         background-size: cover;
         -ms-behavior: url('/backgroundsize.min.htc');
-        background-position: center top;
+        background-position: center;
         background-repeat: no-repeat;
         height: 100%;
         width: 100%;
@@ -53,9 +61,11 @@
   }
 
   .banner-caption {
+
     .blue-title {
       margin-bottom: 2em;
     }
+
   }
 }
 
@@ -251,4 +261,10 @@
 
 .banner-prod-trampoline {
   height: 1200px;
+}
+
+.banner-about {
+  &:before {
+    background-color: rgba(0,0,0,0.5);
+  }
 }

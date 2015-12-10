@@ -15,7 +15,7 @@
 
 .top-header {
   text-align: right;
-  background-color: #292929;
+  background-color: #000;
 
   p {
     font-size: 20px;
@@ -28,7 +28,6 @@
 
   .social-media-top {
     float: right;
-    border-left: 1px solid #3e3e3e;
     padding: 0 3px 0 26px;
   }
 
@@ -48,12 +47,17 @@
     float: left;
 
     .navbar-brand {
+      padding: 0;
+      position: absolute;
+      top: -35px;
       max-width: 300px;
       height: auto;
+      .transition(all .2s ease-in);
 
       img {
         width: 100%;
         height: auto;
+        .transition(all linear .4s);
       }
     }
 
@@ -79,15 +83,22 @@
     }
   }
 
+  .navbar-nav {
+    position: relative;
+    top: -10px;
+    .transition(all .4s linear);
+  }
+
   .navbar-collapse {
     .navbar-nav {
+
       li {
         display: inline-block;
 
         a {
           font-size: 17px;
           color: #fff;
-          padding: 36px 20px;
+          padding: 20px;
 
           &:hover, &:focus {
             color: #2bcaf5;
@@ -112,11 +123,15 @@
     .navbar-collapse {
       padding: 0 15px;
 
+      .navbar-nav {
+        top: 0;
+      }
+
       .navbar-nav li a {
-        font-size: 17px;
+        font-size: 15px;
         color: #fff;
-        padding-top: 31px;
-        padding-bottom: 31px;
+        padding-top: 24px;
+        padding-bottom: 24px;
 
         &:hover, &:focus {
           color: #2bcaf5;
@@ -128,6 +143,12 @@
     .navbar-brand {
       padding-top: 10px;
       padding-bottom: 10px;
+      position: relative;
+      top: 0;
+      
+      img {
+        width: 70%;
+      }
     }
   }
 }

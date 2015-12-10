@@ -22,11 +22,6 @@
                 </div>
                 <div class="contact-content">
                     <p>Out of area call toll free</p>
-                    <span>New location in Plano coming soon!</span>
-                    <div class="gap-30"></div>
-                </div>
-                <div class="contact-content">
-                    <p>Out of area call toll free</p>
                     <span>866-690-3272</span>
                     <div class="gap-30"></div>
                 </div>
@@ -39,6 +34,16 @@
                     <p>All Other Inquiries</p>
                     <span>info@trampolineparks.com</span>
                     <div class="gap-30"></div>
+                </div>
+                <div class="contact-content">
+                    <p>Location</p>
+                    <span>Best American Trampolines <br/>
+                    1701 Summit Ave, Ste 4  <br/>
+                    Plano, Texas 75074</span>
+                    <div class="gap-30"></div>
+                </div>
+                <div class="contact-content">
+                    <a class="contact-link" href="#">View Google Map</a>
                 </div>
             </div>
         </div>
@@ -64,27 +69,5 @@
     </div>
 </div>
 
-    <div class="section-warning animatedParent animateOnce" style="background-image: url('images/bg-warning.jpg');">
-        <div class="warning-wrap">
-            <div class="warning-grid mw-410">
-                <h3 class="warning-title animated fadeInLeft slow">Warning<img src="images/warning-icon.png"></h3>
-            </div>
-            <div class="warning-grid">
-                <div class="content animated fadeInRight slow">
-                    <div class="description">
-                        <p>Landing on the head or neck can cause serious injury, paralysis,
-                            or death, even when landing in the middle of the bed.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="warning-grid">
-                <div class="content animated fadeInRight slow">
-                    <div class="description">
-                        <p>Use trampoline only with mature, knowledgeable supervision.  </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+
 <?php include 'footer.php'; ?>

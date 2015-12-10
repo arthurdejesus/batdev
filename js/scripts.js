@@ -2,6 +2,10 @@
 (function(window, document, $) {
     'use strict';
 
+    $(window).scroll(function(){
+        $(".banner-caption").css("opacity", 1 - $(window).scrollTop() / 350);
+    });
+
     //var D = document,
     //    W = window;
 
@@ -190,7 +194,7 @@
     });
 
     $('#carousel-example-generic').carousel({
-        interval: 4000
+        interval: false
     });
 
     $('#carousel-example-generic').on('slid.bs.carousel', function () {
