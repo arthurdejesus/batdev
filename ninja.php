@@ -99,11 +99,11 @@
                     </a>
                 </div>
 
-                <div class="col-md-3 p-0 bg-red">
-                    <div class="portfolio-item-grid" style="background-image: url('images/title/ninja-img.png');">
-                        <h3>Ninja Course <br>Gallery</h3>
-                    </div>
-                </div>
+<!--                <div class="col-md-3 p-0 bg-red">-->
+<!--                    <div class="portfolio-item-grid" style="background-image: url('images/title/ninja-img.png');">-->
+<!--                        <h3>Ninja Course <br>Gallery</h3>-->
+<!--                    </div>-->
+<!--                </div>-->
             </div>
             <div class="single--img-top">
                 <div class="col-md-3 p-0">
