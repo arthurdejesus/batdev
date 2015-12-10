@@ -21,6 +21,7 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
 </head>
 <body>
 <div id="preloader">
@@ -64,7 +65,7 @@
                     </div>
                     <ul class="nav navbar-nav navbar-right">
                         <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/about.php'?'current_page_item':'';?>"><a href="about.php">About Us</a></li>
-                        <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/products.php'?'current_page_item':''; ?>"><a href="products.php">Products</a></li>
+                        <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/products.php'?'current_page_item':''; ?>"><a href="products.php">Our Services</a></li>
                         <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/portfolio.php'?'current_page_item':''; ?>"><a href="portfolio.php">Portfolio</a></li>
                         <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/our-process.php'?'current_page_item':''; ?>"><a href="our-process.php">Our Process</a></li>
                         <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/news.php'?'current_page_item':''; ?>"><a href="news.php">News & Events</a></li>

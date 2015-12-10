@@ -25,9 +25,6 @@
                 <div class="container">
                     <h2 class="banner-title animated growIn slow">Premium <span>Trampoline Parks</span></h2>
                     <p class="blue-title animated fadeInUp slow delay-250">Made in the USA <img src="images/flag.jpg"></p>
-
-                    <a href="portfolio.php" class="btn btn-primary prl-60 animated fadeInUp slow delay-500">See Our
-                        Work</a>
                 </div>
             </div>
             <a href="#goto-down" class="btn-down animated fadeInUp delay-750"><span class="arrow-down"></span></a>
@@ -71,7 +68,6 @@
         <div class="portfolio-item-grid-wrap">
             <a href="our-process.php">
                 <div class="portfolio-item-grid" style="background-image: url(images/portfolio-home/portfolio-1.jpg);">
-                    <div class="btn-portfolio"><button class="btn btn-primary">our process</button></div>
                 </div>
                 <div class="btn-portfolio-hover"><p>our process</p></div>
             </a>
@@ -80,7 +76,6 @@
         <div class="portfolio-item-grid-wrap">
             <a href="portfolio.php">
                 <div class="portfolio-item-grid" style="background-image: url(images/portfolio-home/portfolio-2.jpg);">
-                    <div class="btn-portfolio"><button class="btn btn-primary">our portfolio</button></div>
                 </div>
                 <div class="btn-portfolio-hover"><p>our portfolio</p></div>
             </a>
@@ -89,9 +84,8 @@
         <div class="portfolio-item-grid-wrap">
             <a href="#">
                 <div class="portfolio-item-grid" style="background-image: url(images/portfolio-home/portfolio-3.jpg);">
-                    <div class="btn-portfolio"><button class="btn btn-primary">attractions</button></div>
                 </div>
-                <div class="btn-portfolio-hover"><p>attractions</p></div>
+                <div class="btn-portfolio-hover"><p>our attractions</p></div>
             </a>
         </div>
 
@@ -99,9 +93,8 @@
         <div class="portfolio-item-grid-wrap">
             <a href="#">
                 <div class="portfolio-item-grid" style="background-image: url(images/portfolio-home/portfolio-4.jpg);">
-                    <div class="btn-portfolio"><button class="btn btn-primary">entertainment centers</button></div>
                 </div>
-                <div class="btn-portfolio-hover"><p>entertainment centers</p></div>
+                <div class="btn-portfolio-hover"><p>Our Software</p></div>
             </a>
         </div>
 
@@ -113,7 +106,7 @@
                 <h3 class="primary-title animated fadeInUp ">Custom Built Trampoline Parks</h3>
                 <h4 class="blue-title animated fadeInUp  delay-250">Made in the USA <img src="images/flag.jpg"></h4>
                 <div class="description animated fadeInUp  delay-500">
-                    <p>From A to Z, Best American Trampolines leads you through the entire process</p>
+                    <p>Designed and manufactured in Dallas, Texas</p>
                 </div>
             </div>
         </div>
@@ -129,8 +122,7 @@
                             <div class="pc--desc">
                                 <h1>PLANNING</h1>
                                 <div class="gap-30"></div>
-                                <p>BAT's design & engineering team
-                                    guides you through the entire process.</p>
+                                <p>Our full-service design team can provide you with an overall concept park that incorporates your logo, graphics, colors and branding in an unique and impactful way. </p>
                                 <div class="gap-30"></div>
                                 <a href="#" class="btn btn-primary white-btn-bg">Learn More</a>
                             </div>
@@ -139,10 +131,9 @@
                     <div class="pc_item item" style="background-image: url('images/custom-img.jpg');">
                         <div class="desc">
                             <div class="pc--desc">
-                                <h1>CUSTOM <br>DESIGN</h1>
+                                <h1>DESIGN</h1>
                                 <div class="gap-30"></div>
-                                <p>BAT's design & engineering team
-                                    guides you through the entire process.</p>
+                                <p>Every 'BAT' facility is designed to maximize the entertainment value provided to your guests. </p>
                                 <div class="gap-30"></div>
                                 <a href="#" class="btn btn-primary white-btn-bg">Learn More</a>
                             </div>
@@ -187,7 +178,7 @@
                     <div class="gap-30"></div>
                     <ul class="pc-list">
                         <li data-target="#carousel-example-generic" data-slide-to="0" class="active"><h3>Planning</h3></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="1"><h3>Custom Design</h3></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"><h3>Design</h3></li>
                         <li data-target="#carousel-example-generic" data-slide-to="2"><h3>Deployment</h3></li>
                     </ul>
                     <div class="gap-100 gap-100-2"></div>
@@ -199,7 +190,7 @@
 </div>
 
     <div class="section section-innovation animatedParent animateOnce">
-        <img src="images/products/prod-single.png" class="innovation-img">
+        <img src="images/skypark-home.jpg" class="innovation-img">
         <div class="overlay overlay-section section-overlay"></div>
         <div class="content-left">
             <h3 class="primary-title animated fadeInLeft ">innovation<br>
@@ -231,20 +222,20 @@
                             <div class="process-grid-description">
                                 <p>BAT provides a limited lifetime warranty on all trampoline frame structures.</p>
                             </div>
-                            <a href="#" class="btn-learn-more">Learn More</a>
+                            <a href="our-process.php" class="btn-learn-more">Learn More</a>
                         </div>
                     </li>
 
                     <li>
                         <div class="process-grid-item">
                             <div class="process-grid-item-icon">
-                                <img src="images/process-home/process-icon-2.png">
+                                <img src="images/process-home/process-icon-2.png" class="process-icon-2">
                             </div>
                             <h4 class="process-grid-item-title">Safety Compliance</h4>
                             <div class="process-grid-description">
                                 <p>Every project follows strict safety guidelines in co-ordinance with the ASTM standard.</p>
                             </div>
-                            <a href="#" class="btn-learn-more">Learn More</a>
+                            <a href="our-process.php" class="btn-learn-more">Learn More</a>
                         </div>
                     </li>
 
@@ -255,9 +246,9 @@
                             </div>
                             <h4 class="process-grid-item-title">Turn-Key </h4>
                             <div class="process-grid-description">
-                                <p>No matter your needs, the BAT team listens to your ideas and helps you develop a working concept and design for your facility.</p>
+                                <p>The BAT team listens to your ideas and helps you develop a working concept and design for your facility.</p>
                             </div>
-                            <a href="#" class="btn-learn-more">Learn More</a>
+                            <a href="our-process.php" class="btn-learn-more">Learn More</a>
                         </div>
                     </li>
 
@@ -266,11 +257,11 @@
                             <div class="process-grid-item-icon">
                                 <img src="images/process-home/process-icon-4.png">
                             </div>
-                            <h4 class="process-grid-item-title">Software</h4>
+                            <h4 class="process-grid-item-title">Installation</h4>
                             <div class="process-grid-description">
-                                <p>Access to real-time inventory management tools, and re-order placement systems.</p>
+                                <p>BAT provides professional installation managers for every project</p>
                             </div>
-                            <a href="#" class="btn-learn-more">Learn More</a>
+                            <a href="our-process.php" class="btn-learn-more">Learn More</a>
                         </div>
                     </li>
                 </ul>
@@ -279,50 +270,6 @@
     </div>
 
 
-    <div class="section section-client text-center animatedParent animateOnce">
-        <div class="container">
-            <div class="content">
-                <h3 class="primary-title animated fadeInUp ">Our Clients</h3>
-                <div class="description animated fadeInUp  delay-250">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit </p>
-                </div>
-            </div>
 
-            <div class="client-grid animated fadeInUp delay-500 ">
-                <ul>
-                    <li><img src="images/client-home/client-1.png"></li>
-                    <li><img src="images/client-home/client-2.png"></li>
-                    <li><img src="images/client-home/client-3.png"></li>
-                    <li><img src="images/client-home/client-4.png"></li>
-                    <li><img src="images/client-home/client-5.png"></li>
-                </ul>
-            </div>
-
-            <a href="#" class="btn btn-primary animated fadeInUp delay-750">see more of our clients</a>
-        </div>
-    </div>
-
-    <div class="section-warning animatedParent animateOnce" style="background-image: url('images/bg-warning.jpg');">
-            <div class="warning-wrap">
-                <div class="warning-grid mw-410">
-                    <h3 class="warning-title animated fadeInLeft ">Warning<img src="images/warning-icon.png"></h3>
-                </div>
-                <div class="warning-grid">
-                    <div class="content animated fadeInRight ">
-                        <div class="description">
-                            <p>Landing on the head or neck can cause serious injury, paralysis,
-                                or death, even when landing in the middle of the bed.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="warning-grid">
-                    <div class="content animated fadeInRight ">
-                        <div class="description">
-                            <p>Use trampoline only with mature, knowledgeable supervision.  </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    </div>
 
 <?php include 'footer.php'; ?>
