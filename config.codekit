@@ -1969,6 +1969,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/banner-about2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 520340,
+		"inputAbbreviatedPath": "\/images\/banner-about2.jpg",
+		"outputAbbreviatedPath": "\/images\/banner-about2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/banner-about3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 669433,
+		"inputAbbreviatedPath": "\/images\/banner-about3.jpg",
+		"outputAbbreviatedPath": "\/images\/banner-about3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/banner-contact.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
