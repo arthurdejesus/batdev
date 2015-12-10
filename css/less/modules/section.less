@@ -186,6 +186,19 @@
       background-attachment: fixed!important;
     }
   }
+  .btn-down {
+    bottom: 1.5em;
+  }
+  .arrow-down-view {
+    background-image: url('../images/arrow-down.png');
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 17%;
+    display: inline-block;
+    zoom: 60%;
+    padding: 0 10px;
+    margin-left: 20px;
+  }
 }
 
 .overlay--effects {
@@ -451,7 +464,7 @@
   position: relative;
   .transition(background-color 1s ease);
   background-position: right;
-  background-size: auto;
+  background-size: auto 100%;
 
   &:before {
     content:'';
@@ -517,34 +530,40 @@
     margin-bottom: 0;
 }
 }
-.our-process-holder .product-remove-overlay {
-  &:before {
-    background-color: transparent!important;
-    .transition(all 3s ease);
-    -webkit-transform: translateZ(0);
-    visibility: visible;
-    -webkit-backface-visibility: hidden;
-    background-image: none;
-  }
-
-  .product-content-header {
-    opacity: 0!important;
-    .transition(all 2s ease);
-    -webkit-transform: translateZ(0);
-    visibility: visible;
-    -webkit-backface-visibility: hidden;
-  }
-
-  .grid--img {
-    -webkit-filter: none;
-    filter: none;
-  }
-}
+//.our-process-holder .product-remove-overlay {
+//  &:before {
+//    background-color: transparent!important;
+//    .transition(all 3s ease);
+//    -webkit-transform: translateZ(0);
+//    visibility: visible;
+//    -webkit-backface-visibility: hidden;
+//    background-image: none;
+//  }
+//
+//  .product-content-header {
+//    opacity: 0!important;
+//    .transition(all 2s ease);
+//    -webkit-transform: translateZ(0);
+//    visibility: visible;
+//    -webkit-backface-visibility: hidden;
+//  }
+//
+//  .grid--img {
+//    -webkit-filter: none;
+//    filter: none;
+//  }
+//
+//  .arrow-down-view {
+//    -webkit-animation: bounce 2s .5s;
+//    -moz-animation: bounce 2s .5 s;
+//    -o-animation: bounce 2s .5 s;
+//    animation: bounce 2s .5s;
+//  }
+//}
 
 .section-about-client {
   border-bottom: 1px solid rgba(0,0,0,.05);
 }
-
 
 .section-intro {
   min-width: 1024px;
