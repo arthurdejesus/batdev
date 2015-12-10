@@ -115,7 +115,7 @@
                                         <div class="process-grid-description">
                                             <p>BAT provides a limited lifetime warranty on all trampoline frame structures.</p>
                                         </div>
-                                        <a href="#" class="btn-learn-more">Learn More</a>
+<!--                                        <a href="#" class="btn-learn-more">Learn More</a>-->
                                     </div>
                                 </li>
 
@@ -128,7 +128,7 @@
                                         <div class="process-grid-description">
                                             <p>Every project follows strict safety guidelines in co-ordinance with the ASTM standard.</p>
                                         </div>
-                                        <a href="#" class="btn-learn-more">Learn More</a>
+<!--                                        <a href="#" class="btn-learn-more">Learn More</a>-->
                                     </div>
                                 </li>
 
@@ -139,9 +139,10 @@
                                         </div>
                                         <h4 class="process-grid-item-title">Turn-Key </h4>
                                         <div class="process-grid-description">
-                                            <p>No matter your needs, the BAT team listens to your ideas and helps you develop a working concept and design for your facility.</p>
+                                            <p>The BAT team listens to your ideas and helps you develop a working
+                                                concept and design for your facility.</p>
                                         </div>
-                                        <a href="#" class="btn-learn-more">Learn More</a>
+<!--                                        <a href="#" class="btn-learn-more">Learn More</a>-->
                                     </div>
                                 </li>
 
@@ -150,11 +151,11 @@
                                         <div class="process-grid-item-icon">
                                             <img src="images/process-home/process-icon-4.png">
                                         </div>
-                                        <h4 class="process-grid-item-title">Software</h4>
+                                        <h4 class="process-grid-item-title">Installation</h4>
                                         <div class="process-grid-description">
-                                            <p>Offering an exclusive, all-in-one point of sale system that utilizes wearable smart technology, and much more.</p>
+                                            <p>BAT provides professional installation managers for every project</p>
                                         </div>
-                                        <a href="#" class="btn-learn-more">Learn More</a>
+<!--                                        <a href="#" class="btn-learn-more">Learn More</a>-->
                                     </div>
                                 </li>
                             </ul>
