@@ -207,13 +207,30 @@ section[data-section-name="design"] {
       background-image: -ms-linear-gradient(right, #34C1E8 0%, #0B4A96 100%);
       background-image: linear-gradient(to right, #34C1E8 0%, #0B4A96 100%);
       .opacity(.95)!important;
+      width: 50%!important;
+      right: 0!important;
     }
+  
+  &:hover {
+    &:before {
+      width: 100%!important;
+    }
+  }
 }
 
 section[data-section-name="deployment"]  {
-  .grid--img {
-    -webkit-filter: grayscale(70%);
-    filter: grayscale(70%);
+  &:before {
+    width: 50%!important;
+  }
+  //.grid--img {
+  //  -webkit-filter: grayscale(70%);
+  //  filter: grayscale(70%);
+  //}
+
+  &:hover {
+    &:before {
+      width: 100%!important;
+    }
   }
 }
 

@@ -137,48 +137,16 @@
     });
 
     //design next
-    jQuery('.product-content .btn-reveal-planning').click(function () {
-        jQuery(this).hide();
-        jQuery('.view-design').addClass('view-next-transform');
-        jQuery('.product-section-planning').addClass('product-remove-overlay');
-    });
-
-    jQuery('.product-content .view-design').click(function () {
-        jQuery('.btn-reveal-planning').show();
-        jQuery(this).removeClass('view-next-transform');
-        jQuery('.product-section-planning').removeClass('product-remove-overlay');
-    });
-
-    //deployment next
-    jQuery('.product-content .btn-reveal-design').click(function () {
-        jQuery(this).hide();
-        jQuery('.view-deployment').addClass('view-next-transform');
-        jQuery('.product-section-design').addClass('product-remove-overlay');
-    });
-
-    jQuery('.product-content .view-deployment').click(function () {
-        jQuery('.btn-reveal-design').show();
-        jQuery(this).removeClass('view-next-transform');
-        jQuery('.product-section-design').removeClass('product-remove-overlay');
-    });
-
-    //guarantee next
-    jQuery('.product-content .btn-reveal-deployment').click(function () {
-        jQuery(this).hide();
-        jQuery('.view-guarantee').addClass('view-next-transform');
-        jQuery('.product-section-deployment').addClass('product-remove-overlay');
-    });
-
-    jQuery('.product-content .view-guarantee').click(function () {
-        jQuery('.btn-reveal-deployment').show();
-        jQuery(this).removeClass('view-next-transform');
-        jQuery('.product-section-deployment').removeClass('product-remove-overlay');
-    });
-
-    //jQuery('.grid-wrap-black .grid-product-type-green .transparent-btn').hover(function () {
-    //    jQuery('.grid-product-wrap-green').addClass("wrap-overlay");
-    //}, function () {
-    //    jQuery('.grid-product-wrap-green').removeClass("wrap-overlay");
+    //jQuery('.product-content .btn-reveal-planning').click(function () {
+    //    jQuery(this).hide();
+    //    jQuery('.view-design').addClass('view-next-transform');
+    //    jQuery('.product-section-planning').addClass('product-remove-overlay');
+    //});
+    //
+    //jQuery('.product-content .view-design').click(function () {
+    //    jQuery('.btn-reveal-planning').show();
+    //    jQuery(this).removeClass('view-next-transform');
+    //    jQuery('.product-section-planning').removeClass('product-remove-overlay');
     //});
 
     jQuery('.carousel-indicators li:first-child').click(function () {
