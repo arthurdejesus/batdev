@@ -30,7 +30,11 @@
 
         
         $('.bxslider').bxSlider({
-            mode: 'fade'
+            mode: 'fade',
+            auto: true,
+            speed: 1000,
+            randomStart: true,
+            pager: false
         });
 
         $(document).ready(function(){
