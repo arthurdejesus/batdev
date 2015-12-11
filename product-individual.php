@@ -171,7 +171,9 @@
             <div class="grid-content grid-content-contact animatedParent animateOnce">
                 <p class="animated fadeInUpShort slow">The leader in Trampoline Park design and development</p>
                 <div class="gap-30"></div>
-                <a href="http://d6webdevelopment.com/batdev/contact.php" class="btn btn-primary">Contact Us</a>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#package">
+                    Request Information Package
+                </button>
             </div>
         </div>
     </div>

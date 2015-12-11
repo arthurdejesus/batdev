@@ -17,28 +17,34 @@
         </ul>
     </div>
     <section class="product-section product-section-trampoline animatedParent" data-section-name="trampoline">
-        <div class="grid-we-do-item p-0">
-            <div class="grid-we-do-img-wrap grid-wrap-black">
-                <h3 class="grid-desc">Trampoline Parks</h3>
-                <div class="grid--img" style="background-image:url('images/services/services1.jpg');"></div>
+        <a href="product-individual.php">
+            <div class="grid-we-do-item p-0">
+                <div class="grid-we-do-img-wrap grid-wrap-black">
+                    <h3 class="grid-desc">Trampoline Parks</h3>
+                    <div class="grid--img" style="background-image:url('images/services/services1.jpg');"></div>
+                </div>
             </div>
-        </div>
+        </a>
     </section>
     <section class="product-section product-section-attraction animatedParent" data-section-name="attraction">
-        <div class="grid-we-do-item p-0">
-            <div class="grid-we-do-img-wrap grid-wrap-black">
-                <h3 class="grid-desc">Attractions</h3>
-                <div class="grid--img" style="background-image:url('images/services/services2.jpg');"></div>
+        <a href="ninja.php">
+            <div class="grid-we-do-item p-0">
+                <div class="grid-we-do-img-wrap grid-wrap-black">
+                    <h3 class="grid-desc">Attractions</h3>
+                    <div class="grid--img" style="background-image:url('images/services/services2.jpg');"></div>
+                </div>
             </div>
-        </div>
+        </a>
     </section>
     <section class="product-section product-section-entertainment animatedParent" data-section-name="entertainment">
-        <div class="grid-we-do-item p-0">
-            <div class="grid-we-do-img-wrap grid-wrap-black">
-                <h3 class="grid-desc">Entertainment Centers</h3>
-                <div class="grid--img" style="background-image:url('images/services/services3.jpg');"></div>
+        <a href="portfolio-individual.php">
+            <div class="grid-we-do-item p-0">
+                <div class="grid-we-do-img-wrap grid-wrap-black">
+                    <h3 class="grid-desc">Entertainment Centers</h3>
+                    <div class="grid--img" style="background-image:url('images/services/services3.jpg');"></div>
+                </div>
             </div>
-        </div>
+        </a>
     </section>
 </div>
 

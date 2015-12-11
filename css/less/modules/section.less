@@ -43,14 +43,28 @@
 }
 
 .section-innovation {
+  min-height: 700px;
   .transition(color 0.6s ease-in);
   display: block;
   position: relative;
   background-color: #000;
-  padding-bottom: 0;
+  padding: 0;
   max-height: 780px;
   overflow: hidden;
   text-align: center;
+
+  .innovation-wrap {
+    position: absolute;
+    right: 5%;
+    bottom: 0;
+
+    img {
+      height: auto;
+      width: auto;
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
 
   .primary-title, .secondary-title {
     color: #fff;
@@ -69,36 +83,38 @@
 
   .content-left {
     max-width: 550px;
+    margin: 0 auto;
     text-align: right;
     padding-left: 5em;
     position: absolute;
-    top: 10%;
+    top: 15%;
+    left: 5%;
+    z-index: 1;
+
   }
   .innovation-img {
     display: inline-block;
   }
 
   @media (max-width: 1900px) {
-    .innovation-img {
-      float: right;
-    }
   }
 
   @media (max-width: 1600px) {
-    .innovation-img {
-      margin-right: -200px;
+
+    .innovation-wrap {
+      right: -15% !important;
     }
   }
 
   @media (max-width: 1400px) {
-    .innovation-img {
-      margin-right: -250px;
+    .innovation-wrap {
+      right: -25%!important;
     }
   }
 
   @media (max-width: 1200px) {
-    .innovation-img {
-      margin-right: -450px;
+    .innovation-wrap {
+      right: -45%!important;
     }
   }
 }

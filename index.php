@@ -193,8 +193,6 @@
 </div>
 
     <div class="section section-innovation animatedParent animateOnce">
-        <img src="images/skypark-home.jpg" class="innovation-img">
-        <div class="overlay overlay-section section-overlay"></div>
         <div class="content-left">
             <h3 class="primary-title animated fadeInLeft ">innovation<br>
                 has  no limits</h3>
@@ -202,6 +200,13 @@
                 by Best American Trampolines</h4>
             <a href="#" class="btn btn-primary btn-secondary  animated fadeInLeft  delay-500">Learn More</a>
         </div>
+
+        <div class="innovation-wrap">
+            <div class="innovation-bg" style="background-image: url('images/skypark-home.jpg')"></div>
+            <img src="images/skypark-home.jpg">
+        </div>
+
+
     </div>
 
     <div class="section section-process text-center animatedParent animateOnce">
