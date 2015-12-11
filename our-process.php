@@ -144,7 +144,9 @@
                                 </li>
                             </ul>
                         </div>
-                        <button type="button" class="btn btn-primary mtb-2 text-center animated fadeInUpShort slow" data-toggle="modal" data-target="#package" data-id="7">
+
+                        <button type="button" class="btn btn-primary mtb-2 text-center animated fadeInUpShort slow"
+                                data-toggle="modal" data-target="#package"  data-id="7">
                             Request Information Package
                         </button>
                     </div>
@@ -261,6 +263,37 @@
         </div>
     </footer>
 </section>
+
+<!-- Modal -->
+<div class="modal fade" id="package" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <h4 class="modal-title">Request Information Package</h4>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="First Name">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Last Name">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Email">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Phone">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal" aria-label="Close">Close</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 
 <script src="js/jquery.min.js"></script>
 <script src="js/main.js"></script>
