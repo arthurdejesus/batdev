@@ -326,7 +326,7 @@
   }
 }
 .warning-section {
-  height: 815px!important;
+  height: auto !important;
   z-index: 2;
 }
 
@@ -508,6 +508,32 @@
 }
 .section-featured {
   margin-bottom: 10px;
+
+  .carousel-featured {
+
+    .glyphicon {
+      &:before {
+        content: '';
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: inline-block;
+        width: 20px;
+        height: 50px;
+      }
+    }
+    .glyphicon-chevron-right {
+      &:before {
+        background-image: url('../images/arrow-right.png');
+      }
+    }
+
+    .glyphicon-chevron-left {
+      &:before {
+        background-image: url('../images/arrow-left.png');
+      }
+    }
+  }
 }
 
 .section-contact {

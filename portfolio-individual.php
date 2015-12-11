@@ -1,10 +1,10 @@
 <?php include 'header.php'; ?>
 <div class="section section-black">
-    <div class="single-prod-banner">
-<!--        <div class="gap-100"></div>-->
-<!--        <h2 class="single-title text-center animated fadeInDown slow go delay-750">Sky Park</h2>-->
-<!--        <div class="gap-100"></div>-->
-        <div class="banner banner-sub banner-single" style="background-image: url('images/products/prod-single.png');">
+    <div class="single-prod-banner single-prod-banner-skypark">
+        <div class="gap-100"></div>
+        <h2 class="single-title text-center animated fadeInDown slow go delay-750">Entertainment Centers</h2>
+        <div class="gap-100"></div>
+        <div class="banner banner-sub banner-single" style="background-image: url('images/skypark-banner.jpg');">
         </div>
     </div>
     <div class="container">
@@ -147,7 +147,13 @@
             <div class="grid-content grid-content-contact animatedParent animateOnce">
                 <p class="animated fadeInUpShort slow">The leader in Trampoline Park design and development</p>
                 <div class="gap-30"></div>
-                <a href="http://d6webdevelopment.com/batdev/contact.php" class="btn btn-primary">Contact Us</a>
+<!--                <a href="http://d6webdevelopment.com/batdev/contact.php" class="btn btn-primary">Request Information-->
+<!--                    Package-->
+<!--                </a>-->
+
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#package">
+                    Request Information Package
+                </button>
             </div>
         </div>
     </div>

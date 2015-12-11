@@ -28,20 +28,9 @@
             $('body').delay(350).css({'overflow':'visible'}).addClass('is-shown');
         });
 
+        
         $('.bxslider').bxSlider({
-            onSlideAfter: function (currentSlideNumber, totalSlideQty, currentSlideHtmlObject) {
-                $('.active-slide').removeClass('active-slide');
-                $('.bxslider > li').eq(currentSlideHtmlObject).addClass('active-slide');
-            },
-            onSliderLoad: function () {
-                $('.bxslider > li').eq(1).addClass('active-slide');
-            },
-            auto: true,
-            autoControls: false,
-            speed: 1000,
-            mode: 'fade',
-            randomStart: true,
-            pager: false
+            mode: 'fade'
         });
 
         $(document).ready(function(){
@@ -60,21 +49,6 @@
 
     $(function() {
         $('a[href=#goto-down]').click(function() {
-            if (location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') && location.hostname === this.hostname) {
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
-        });
-    });
-
-    $(function() {
-        $('a[href=#go-down]').click(function() {
             if (location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') && location.hostname === this.hostname) {
                 var target = $(this.hash);
                 target = target.length ? target : $('[name=' + this.hash.slice(1) +']');

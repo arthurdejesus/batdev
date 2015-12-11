@@ -1,73 +1,65 @@
 .banner-slider {
-  position: relative;
   background: #000;
-  height: 900px;
-  overflow: hidden;
-
-  .bx-wrapper {
-    opacity: 0.75;
-    height: 900px;
-  }
+  position: relative;
 
   .bxslider {
-    margin: 0;
-    padding: 0;
 
     li {
-      height: 900px !important;
-      min-height: 790px;
-      width: 100% !important;
-      position: relative;
-      left: 0;
-      overflow: hidden;
-
-      .banner-slider-image {
-        background-size: cover;
-        -ms-behavior: url('/backgroundsize.min.htc');
-        background-position: center;
-        background-repeat: no-repeat;
-        height: 100%;
+        height: 900px;
         width: 100%;
-        .scale(1.1,1.1);
-        .transition(all ease-in-out 2s);
-        .opacity(.5);
-      }
-
-      &:before {
-        content: '';
-        background-color: rgba(0,0,0,0.50);
-        position: absolute;
-        top: 0;
+        position: relative;
         left: 0;
-        right: 0;
-        bottom: 0;
-      }
 
-      img {
-        width: 100%;
-      }
-    }
+          .banner-slider-image {
+            background-size: cover;
+            -ms-behavior: url('/backgroundsize.min.htc');
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100%;
+            width: 100%;
+            .opacity(.5);
+          }
 
-    .active-slide {
-      .banner-slider-image {
-        .scale(1,1);
-      }
+          &:before {
+            content: '';
+            background-color: rgba(0,0,0,0.50);
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+          }
     }
   }
 
-  .bx-viewport {
-    height: 100vh !important;
-    min-height: 790px !important;
-  }
-
-  .banner-caption {
-
-    .blue-title {
-      margin-bottom: 2em;
+  .bx-wrapper {
+    .bx-next {
+      background-image: url('../images/arrow-right.png');
+      background-size: 100%;
+      background-position: center;
+      right: 40px;
     }
 
+    .bx-prev {
+      background-image: url('../images/arrow-left.png');
+      background-size: 100%;
+      background-position: center;
+      left: 40px;
+    }
+
+    .bx-controls-direction a {
+      width: 15px;
+      height: 40px;
+      z-index: 9;
+    }
+
+  }
+
+  .bx-pager {
+    display: none;
   }
 }
+
 
 .banner-caption {
   position: absolute;
@@ -271,16 +263,39 @@
 
 .banner-contact {
   overflow: hidden;
+//
+//  &:before {
+//    content: '';
+//    background-color: #fff;
+//    .opacity(0.75);
+//  }
+//
+//  .banner-caption {
+//    .banner-title {
+//      color: #000;
+//    }
+//  }
+}
 
-  &:before {
-    content: '';
-    background-color: #fff;
-    .opacity(0.75);
+.single-prod-banner-skypark {
+  background-color: #000;
+  position: relative;
+  height: 700px;
+
+  .single-title {
+    position: relative;
+    z-index: 1;
   }
 
-  .banner-caption {
-    .banner-title {
-      color: #000;
-    }
+  .banner-single {
+    background-position: center center;
+    background-size: auto 100%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
   }
 }

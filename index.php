@@ -27,7 +27,7 @@
                     <p class="blue-title animated fadeInUp slow delay-250">Made in the USA <img src="images/flag.jpg"></p>
                 </div>
             </div>
-            <a href="#goto-down" class="btn-down animated fadeInUp delay-750"><span class="arrow-down"></span></a>
+<!--            <a href="#goto-down" class="btn-down animated fadeInUp delay-750"><span class="arrow-down"></span></a>-->
         </div>
 
     <div class="section section-intro animatedParent animateOnce" id="goto-down">
@@ -85,7 +85,7 @@
         </div>
 
         <div class="portfolio-item-grid-wrap">
-            <a href="#">
+            <a href="ninja.php">
                 <div class="portfolio-item-grid" style="background-image: url(images/portfolio-home/portfolio-3.jpg);">
                 </div>
                 <div class="btn-portfolio-hover"><p>our attractions</p></div>
@@ -94,11 +94,11 @@
 
 
         <div class="portfolio-item-grid-wrap">
-            <a href="#">
+            <button class="btn-software" data-toggle="modal" data-target="#software">
                 <div class="portfolio-item-grid" style="background-image: url(images/portfolio-home/portfolio-4.jpg);">
                 </div>
                 <div class="btn-portfolio-hover"><p>Our Software</p></div>
-            </a>
+            </button>
         </div>
 
     </div>
@@ -271,8 +271,5 @@
             </div>
          </div>
     </div>
-
-
-
 
 <?php include 'footer.php'; ?>

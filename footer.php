@@ -108,8 +108,6 @@
 <div class="modal fade" id="package" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
-            <div class="modal-header">
-            </div>
             <div class="modal-body">
                 <h4 class="modal-title">Request Information Package</h4>
                 <form>
@@ -132,6 +130,20 @@
                     <button type="submit" class="btn btn-primary">Submit</button>
                     <button type="button" class="btn btn-primary" data-dismiss="modal" aria-label="Close">Close</button>
                 </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal modal-iframe fade" id="software" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <button class="btn btn-close" type="button" data-dismiss="modal" aria-label="Close">
+                <img src="images/close.png">
+            </button>
+            <div class="modal-body">
+                <iframe src="//player.vimeo.com/video/148555863" width="WIDTH" height="HEIGHT" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
             </div>
         </div>
     </div>

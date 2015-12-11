@@ -329,3 +329,80 @@ section[data-section-name="guarantee"] {
   color: #f4bb42 !important;
   text-decoration: underline;
 }
+
+.process--list {
+  .opacity(1);
+  .transition(all ease-in-out .2s);
+}
+
+.guarantee, .entertainment {
+  .process--list {
+    .opacity(0);
+  }
+}
+
+.our-services-holder {
+  .product-section {
+    &:before {
+      display: none;
+    }
+  }
+
+  .process-list {
+    text-align: center;
+    .translate(0,0) !important;
+    left: 0;
+    top: inherit !important;
+    bottom: 0;
+
+    .process--list {
+      li {
+        display: inline-block;
+
+        &:after {
+          display: none;
+        }
+
+        a {
+          height: 10px;
+          width: 10px;
+          border-radius: 50%;
+          background-color: #fff;
+          padding: 0;
+          margin: 3px;
+        }
+      }
+    }
+  }
+
+  .grid-desc {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    .translate(-50%, -50%);
+    font-size: 80px;
+    color: #fff;
+    font-weight: 700;
+    background-color: rgba(55,196,233,0.9);
+    padding: 20px 40px;
+    display: inline-table;
+  }
+}
+
+.is-shown {
+  .our-services-holder .process-list .process--list li a#trampoline {
+    background-color: #2bcaf5;
+  }
+}
+
+.trampoline {
+  .our-services-holder .process-list .process--list li a#attraction {
+    background-color: #2bcaf5;
+  }
+}
+
+.attraction {
+  .our-services-holder .process-list .process--list li a#entertainment {
+    background-color: #2bcaf5;
+  }
+}
