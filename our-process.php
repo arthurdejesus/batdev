@@ -46,14 +46,6 @@
                 <div class="product-img animated fadeInRight slow go">
                     <img src="images/our-process/our-process-img.png" alt="">
                 </div>
-<!--                <div class="product-content ">-->
-<!--                    <div class="product-content-header">-->
-<!--                        <h2 class="animated fadeInDownShort slow delay-500 go">Planning</h2>-->
-<!--                        <div class="gap-15"></div>-->
-<!--                        <p class="animated fadeInUpShort slow delay-750 go">Our full-service design team can provide you with an overall concept park that incorporates your logo, graphics, colors and branding in an unique and impactful way. We work closely with your architect and have the technology and the skills to deliver professional, high-quality 3D interior renderings enabling you to visualize exactly what the venue will look like from concept to installation.</p>-->
-<!--                    </div>-->
-<!--                    <div class="gap-100"></div>-->
-<!--                </div>-->
             </div>
         </div>
         <a href="#design" class="btn-down scroll"><span class="arrow-down"></span></a>
@@ -152,13 +144,15 @@
                                 </li>
                             </ul>
                         </div>
+                        <button type="button" class="btn btn-primary mtb-2 text-center animated fadeInUpShort slow" data-toggle="modal" data-target="#package" data-id="7">
+                            Request Information Package
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 </div>
-
 
 <section class="warning-section product-section" data-section-name="warning">
     <div class="section-warning">
@@ -272,7 +266,6 @@
 <script src="js/main.js"></script>
 </body>
 </html>
-
 
 <script>
 $(".product-section").css({"height":$(window).height()});
