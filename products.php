@@ -4,7 +4,7 @@
         <div class="grid-we-do-item p-0">
             <div class="grid-we-do-img-wrap grid-wrap-black">
                 <a href="product-individual.php">
-                    <div class="grid-product-wrap grid-product-wrap-green" style="background-image:url('images/products/p1.png')">
+                    <div class="grid-product-wrap grid-product-wrap-green" style="background-image:url('images/products/p1.jpg')">
                     </div>
                     <div class="grid-product-type grid-product-type-green">
                         <div class="grid-product-type-header">
