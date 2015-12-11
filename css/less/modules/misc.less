@@ -229,12 +229,34 @@ section[data-section-name="deployment"]  {
 //      width: 100%!important;
 //    }
 //  }
+
+  &:after {
+    content: '';
+    width: 20%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-image: -webkit-gradient( linear, right bottom, left bottom, color-stop(0, #0A0A0A), color-stop(1, transparent) );
+    background-image: -o-linear-gradient(left, #0A0A0A 25%, transparent 100%);
+    background-image: -moz-linear-gradient(left, #0A0A0A 25%, transparent 100%);
+    background-image: -webkit-linear-gradient(left, #0A0A0A 25%, transparent 100%);
+    background-image: -ms-linear-gradient(left, #0A0A0A 25%, transparent 100%);
+    background-image: linear-gradient(to left, #0A0A0A 25%, transparent 100%);
+  }
 }
 
 section[data-section-name="guarantee"] {
   &:before {
     background-color: #111!important;
     .opacity(.98)!important;
+  }
+
+  .process-grid-item-title {
+    font-weight: 400;
+  }
+  .process-grid-description p {
+    color: #E2E2E2!important;
   }
 }
 

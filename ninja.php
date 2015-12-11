@@ -1,7 +1,7 @@
 <?php include 'header.php'; ?>
     <div class="banner banner-sub banner-prod-single" style="background-image: url('images/ninja-banner.jpg');">
         <div class="banner-caption">
-            <h2 class="banner-title animated fadeInUp slow go">Attraction</h2>
+            <h2 class="banner-title animated fadeInUp slow go">Attractions</h2>
         </div>
     </div>
     <div class="after-svg triangle-after">

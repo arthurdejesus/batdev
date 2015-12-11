@@ -2013,6 +2013,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/banner-img\/skypark.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.94896e+06,
+		"inputAbbreviatedPath": "\/images\/banner-img\/skypark.jpg",
+		"outputAbbreviatedPath": "\/images\/banner-img\/skypark.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/banner-img\/slider1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2028,7 +2039,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 507280,
+		"initialSize": 1.18042e+06,
 		"inputAbbreviatedPath": "\/images\/banner-img\/slider2.jpg",
 		"outputAbbreviatedPath": "\/images\/banner-img\/slider2.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -2039,7 +2050,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 448635,
+		"initialSize": 1.29955e+06,
 		"inputAbbreviatedPath": "\/images\/banner-img\/slider3.jpg",
 		"outputAbbreviatedPath": "\/images\/banner-img\/slider3.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -2050,7 +2061,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 366114,
+		"initialSize": 1.04304e+06,
 		"inputAbbreviatedPath": "\/images\/banner-img\/slider4.jpg",
 		"outputAbbreviatedPath": "\/images\/banner-img\/slider4.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -2061,7 +2072,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 412562,
+		"initialSize": 1.51422e+06,
 		"inputAbbreviatedPath": "\/images\/banner-img\/slider5.jpg",
 		"outputAbbreviatedPath": "\/images\/banner-img\/slider5.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -2072,7 +2083,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 629590,
+		"initialSize": 506318,
 		"inputAbbreviatedPath": "\/images\/banner-img\/slider6.jpg",
 		"outputAbbreviatedPath": "\/images\/banner-img\/slider6.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -2237,7 +2248,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1272,
+		"initialSize": 453,
 		"inputAbbreviatedPath": "\/images\/close.png",
 		"outputAbbreviatedPath": "\/images\/close.png",
 		"outputPathIsOutsideProject": 0,
@@ -3909,7 +3920,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Philwebservices Front-end",
+"lastSavedByUser": "Philweb Frontend",
 "manualImportLinks": {
 	"\/js\/scripts.js": [
 		{
