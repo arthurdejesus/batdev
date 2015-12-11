@@ -133,7 +133,8 @@
                                         </div>
                                         <h4 class="process-grid-item-title">Turn-Key </h4>
                                         <div class="process-grid-description">
-                                            <p>The BAT team listens to your ideas and helps you develop a working concept and design for your facility.</p>
+                                            <p>The BAT team listens to your ideas and helps you develop a working
+                                                concept and design for your facility.</p>
                                         </div>
                                     </div>
                                 </li>
