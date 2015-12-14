@@ -37,11 +37,13 @@
                 </div>
                 <ul class="social-media social-media-top">
                     <li><a href="#"><span class="icon-facebook"></span></a></li>
-                    <li><a href="#"><span class="icon-google-plus"></span></a></li>
+                    <li><a href="#"><span class="icon-google"></span></a></li>
                     <li><a href="https://twitter.com/bat_inc"><span class="icon-twitter"></span></a></li>
-<!--                    <li><a href="#"><span class="icon-pinterest"></span></a></li>-->
+                    <li><a href="#"><span class="icon-instagram"></span></a></li>
                 </ul>
                 <p>Call: 972-475-0092</p>
+                <p class="phone-icon"><span class="icon-phone"></span></p>
+                <p>Call: 866-690-3272</p>
                 <p class="phone-icon"><span class="icon-phone"></span></p>
             </div>
         </div>
@@ -56,7 +58,7 @@
                         <span class="icon-bar"></span>
                     </button>
 
-                    <a class="navbar-brand" href="index.php"><img src="images/logo.png"></a>
+                    <a class="navbar-brand" href="/"><img src="images/logo.png"></a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -67,11 +69,47 @@
                         </button>
                     </div>
                     <ul class="nav navbar-nav navbar-right">
+                        <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/'?'current_page_item':'';?>"><a href="index.php">Home</a></li>
                         <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/about.php'?'current_page_item':'';?>"><a href="about.php">About Us</a></li>
-                        <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/products.php'?'current_page_item':''; ?>"><a href="products.php">Our Services</a></li>
+                        <li class="dropdown">
+                            <a href="">Products <span class="icon-angle-down"></span></a>
+                            <div class="dropdown-menu">
+                                <div class="container">
+                                    <ul>
+                                        <li><a href="#">Ninja a Course</a></li>
+                                        <li><a href="#">AeroBall</a></li>
+                                        <li><a href="#">Airbag Pit</a></li>
+                                        <li><a href="#">Climbing Wall/Climbing Climbing Tower</a></li>
+                                        <li><a href="#">Dodgeball Trampoline Courts</a></li>
+                                        <li><a href="#">Main Trampoline Courts</a></li>
+                                        <li><a href="#">Kid’s Trampoline Courts</a></li>
+                                        <li><a href="#">Basketball Slam Dunk Trampoline Courts</a></li>
+                                        <li><a href="#">Backyard Trampolines</a></li>
+                                        <li><a href="#">Software</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </li>
+                        <li class="dropdown">
+                            <a href="services.php">Services <span class="icon-angle-down"></span></a>
+
+                            <div class="dropdown-menu">
+                                <div class="container">
+                                    <ul>
+                                        <li><a href="#">Trampoline Parks</a></li>
+                                        <li><a href="#">Entertainment Centers </a></li>
+                                        <li><a href="#">Branding</a></li>
+                                        <li><a href="#">3D Renderings</a></li>
+                                        <li><a href="#">Software</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
                         <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/portfolio.php'?'current_page_item':''; ?>"><a href="portfolio.php">Portfolio</a></li>
                         <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/our-process.php'?'current_page_item':''; ?>"><a href="our-process.php">Our Process</a></li>
                         <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/news.php'?'current_page_item':''; ?>"><a href="news.php">News & Events</a></li>
+                        <li><a href="faqs.php">FAQ's</a></li>
                         <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/contact.php'?'current_page_item':''; ?>"><a href="contact.php">Contact Us</a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->

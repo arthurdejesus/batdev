@@ -1,11 +1,11 @@
 @media(max-width: 2700px) {
-  .portfolio-item-grid-wrap {
+  .portfolio-item-grid-wrap .portfolio-item-grid-img {
     height: 350px;
   }
 }
 
 @media(max-width: 2000px) {
-  .portfolio-item-grid-wrap {
+  .portfolio-item-grid-wrap .portfolio-item-grid-img {
     height: 300px;
   }
 }
@@ -142,6 +142,46 @@
       font-size: 15px;
     }
   }
+
+  .top-header .top-header-logo {
+    display: block;
+  }
+
+  .navbar-menu .navbar-header-menu .navbar-brand {
+    display: none;
+  }
+
+  .navbar-menu .navbar-collapse .navbar-nav li {
+    float: none;
+  }
+
+  .navbar-menu .navbar-nav {
+    float: none !important;
+    text-align: center;
+  }
+
+  .top-header {
+    border-bottom: 1px solid transparent;
+    box-shadow: inset 0 -1px 0 rgba(255,255,255,.1);
+  }
+
+  .navbar-collapse {
+    border-top: none !important;
+    box-shadow: none !important;
+  }
+
+  .social-media li a {
+    padding: 28px 13px;
+  }
+
+  .top-header p {
+    padding: 20px 40px 21px 7px;
+  }
+
+  .top-header .phone-icon {
+    margin-top: 17px;
+  }
+
 }
 
 @media(max-width: 1340px) {
@@ -249,16 +289,16 @@
   .mw-410 {
     min-width: 310px!important;
   }
+
+  .navbar-menu .navbar-collapse .navbar-nav li a {
+    padding: 20px 15px 25px;
+  }
 }
 
 @media(max-width: 1100px) {
 	.navbar-menu .navbar-header-menu .navbar-brand {
       max-width: 277px;
 	}
-
-    .navbar-menu .navbar-collapse .navbar-nav li a {
-      padding: 33px 20px;
-    }
 
 	.container-fluid {
 	    padding: 0 1em;
@@ -331,45 +371,6 @@
     top: 58%;
   }
 
-  .navbar-menu .navbar-header-menu .navbar-brand {
-    display: none;
-  }
-
-  .top-header .top-header-logo {
-    display: block;
-  }
-
-  .navbar-menu .navbar-collapse .navbar-nav li {
-    float: none;
-  }
-
-  .navbar-menu .navbar-nav {
-    float: none !important;
-    text-align: center;
-  }
-
-  .top-header {
-    border-bottom: 1px solid transparent;
-    box-shadow: inset 0 -1px 0 rgba(255,255,255,.1);
-  }
-
-  .navbar-collapse {
-    border-top: none !important;
-    box-shadow: none !important;
-  }
-
-  .social-media li a {
-    padding: 28px 13px;
-  }
-
-  .top-header p {
-    padding: 20px 40px 21px 7px;
-  }
-
-  .top-header .phone-icon {
-    margin-top: 17px;
-  }
-
   .pc_container .pc_item .desc {
     width: 40%;
   }
@@ -377,9 +378,6 @@
   .pc_container .pc_item .desc:before {
     border-top: 900px solid transparent;
   }
-
-
-
 
 }
 
@@ -395,7 +393,7 @@
       background-color: transparent;
       width: auto;
       min-width: 0;
-      right: 10px;
+      right: 15px;
       top: 15px;
 
       .navbar-collapse {
@@ -418,8 +416,8 @@
 
         .navbar-nav {
           width: 100%;
-          float: none !important;
-          margin: 0;
+          float: none!important;
+          margin: 60px 0 0;
           text-align: left;
 
           li {

@@ -16,6 +16,7 @@
 .top-header {
   text-align: right;
   background-color: #000;
+  display: block;
 
   p {
     font-size: 20px;
@@ -102,9 +103,48 @@
   }
 
   .navbar-nav {
-    position: relative;
+    position: inherit;
     top: -10px;
     .transition(all .4s linear);
+
+    >li.dropdown {
+      position: inherit;
+
+      &:hover {
+        .dropdown-menu {
+          top: 100%;
+        }
+
+        a {
+          color: #2bcaf5;
+        }
+      }
+
+      >.dropdown-menu {
+        width: 100%;
+        padding: 0 ;
+        text-align: center;
+        display: block;
+        .transition(all linear .4s);
+        top: -200%;
+        z-index: -1;
+        border: 0;
+
+        ul {
+          li {
+            a {
+              color: #000;
+              padding: 20px;
+
+              &:hover, &:focus {
+                color: #2bcaf5;
+                background-color: transparent;
+              }
+            }
+          }
+        }
+      }
+    }
   }
 
   .navbar-collapse {
@@ -113,10 +153,18 @@
       li {
         display: inline-block;
 
+        .icon-angle-down {
+          &:before {
+            vertical-align: middle;
+            font-size: 18px;
+            margin-left: 3px;
+          }
+        }
+
         a {
           font-size: 17px;
           color: #fff;
-          padding: 20px;
+          padding: 20px 20px 25px;
 
           &:hover, &:focus {
             color: #2bcaf5;
@@ -130,11 +178,15 @@
 
 .navbar-fixed-top {
   position: fixed;
+
+  .top-header {
+    display: none;
+  }
   
   .navbar-menu {
     background-color: #000;
-    position: fixed;
-    top: 0;
+//    position: fixed;
+//    top: 0;
     width: 100%;
     min-width: 1024px;
 
@@ -215,8 +267,10 @@
     padding: 5px 12px;
     width: 50px;
     height: 50px;
-    margin-right: 17px;
-    margin-top: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    right: 0;
+    top: 0;
 
     img {
       width: 100%;

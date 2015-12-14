@@ -67,37 +67,51 @@
         </div>
     </div>
 
-    <div class="section-portfolio">
+    <div class="section section-portfolio">
+        <div class="content">
+            <h3 class="primary-title">Find Out More</h3>
+        </div>
         <div class="portfolio-item-grid-wrap">
             <a href="our-process.php">
-                <div class="portfolio-item-grid" style="background-image: url(images/portfolio-home/portfolio-1.jpg);">
+                <div class="portfolio-item-grid-img">
+                    <div class="portfolio-item-grid" style="background-image: url(images/portfolio-home/portfolio-1.jpg);"></div>
+                    <div class="btn-portfolio-hover"><p>our process</p></div>
                 </div>
-                <div class="btn-portfolio-hover"><p>our process</p></div>
+                <button class="btn btn-primary">our process</button>
             </a>
         </div>
 
         <div class="portfolio-item-grid-wrap">
             <a href="portfolio.php">
-                <div class="portfolio-item-grid" style="background-image: url(images/portfolio-home/portfolio-2.jpg);">
+                <div class="portfolio-item-grid-img">
+                    <div class="portfolio-item-grid" style="background-image: url(images/portfolio-home/portfolio-2.jpg);"></div>
+                    <div class="btn-portfolio-hover"><p>Portfolio</p></div>
                 </div>
-                <div class="btn-portfolio-hover"><p>our portfolio</p></div>
+
+                <button class="btn btn-primary">Portfolio</button>
             </a>
         </div>
 
         <div class="portfolio-item-grid-wrap">
-            <a href="ninja.php">
-                <div class="portfolio-item-grid" style="background-image: url(images/portfolio-home/portfolio-3.jpg);">
+            <a href="#">
+                <div class="portfolio-item-grid-img">
+                    <div class="portfolio-item-grid" style="background-image: url(images/portfolio-home/portfolio-3.jpg);"></div>
+                    <div class="btn-portfolio-hover"><p>Products</p></div>
                 </div>
-                <div class="btn-portfolio-hover"><p>our attractions</p></div>
+
+                <button class="btn btn-primary">Products</button>
             </a>
         </div>
 
 
         <div class="portfolio-item-grid-wrap">
             <button class="btn-software" data-toggle="modal" data-target="#software">
-                <div class="portfolio-item-grid" style="background-image: url(images/portfolio-home/portfolio-4.jpg);">
+                <div class="portfolio-item-grid-img">
+                    <div class="portfolio-item-grid" style="background-image: url(images/portfolio-home/portfolio-4.jpg);"></div>
+                    <div class="btn-portfolio-hover"><p>Our Software</p></div>
                 </div>
-                <div class="btn-portfolio-hover"><p>Our Software</p></div>
+
+                <div class="btn btn-primary">Our Software</div>
             </button>
         </div>
 

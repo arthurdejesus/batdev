@@ -32,7 +32,7 @@
                         <div class="description">
                             <ul class="footer-links">
                                 <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/about.php'?'current_page_item':'';?>"><a href="about.php">About Us</a></li>
-                                <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/products.php'?'current_page_item':''; ?>"><a href="products.php">Our Services</a></li>
+                                <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/products.php'?'current_page_item':''; ?>"><a href="services.php">Our Services</a></li>
                                 <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/portfolio.php'?'current_page_item':''; ?>"><a href="portfolio.php">Portfolio</a></li>
                                 <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/our-process.php'?'current_page_item':''; ?>"><a href="our-process.php">Our Process</a></li>
                                 <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/news.php'?'current_page_item':''; ?>"><a href="news.php">News & Events</a></li>
@@ -50,7 +50,8 @@
                                     <br/>
                                 <p><a href="#">info@trampolinepark.com</a></p>
                                 <div class="contact-details-description">
-                                    <p>local:</p> <a href="#">972-475-0092</a><p>|  toll free:</p> <a href="#">866-690-3272</a>
+                                    <p>local: <a href="#">972-475-0092</a></p>
+                                    <p>toll free: <a href="#">866-690-3272</a></p>
                                 </div>
                                 <br/>
                                 <p>Best American Trampolines <br/>
@@ -58,12 +59,6 @@
                                     Plano, Texas 75074</p>
                             </div>
 
-                            <ul class="social-media social-media-bottom">
-                                <li><a href="#"><span class="icon-facebook"></span></a></li>
-                                <li><a href="#"><span class="icon-google-plus"></span></a></li>
-                                <li><a href="https://twitter.com/bat_inc"><span class="icon-twitter"></span></a></li>
-<!--                                <li><a href="#"><span class="icon-pinterest"></span></a></li>-->
-                            </ul>
                         </div>
                     </div>
                 </div>
@@ -75,6 +70,12 @@
                                 <li><a href="bestamericantrampolines.com" target="_blank">Best American Trampolines</a></li>
                             </ul>
                         </div>
+                        <ul class="social-media social-media-bottom">
+                            <li><a href="#"><span class="icon-facebook"></span></a></li>
+                            <li><a href="#"><span class="icon-google"></span></a></li>
+                            <li><a href="https://twitter.com/bat_inc"><span class="icon-twitter"></span></a></li>
+                            <li><a href="#"><span class="icon-instagram"></span></a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -96,7 +97,6 @@
                     <ul class="footer-logos">
                         <li><a href="http://www.astm.org/"><img src="images/footer-logo3.png"></a></li>
                         <li><a href="http://www.indoortrampolineparks.org/"><img src="images/footer-logo2.png"></a></li>
-                        <li><a href="http://www.indoortrampolineparks.org/"><img src="images/footer-logo1.png"></a></li>
                     </ul>
                 </div>
             </div>

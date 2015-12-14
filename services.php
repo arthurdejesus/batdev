@@ -14,10 +14,18 @@
                 <a href="#entertainment" class="scroll" id="entertainment">
                 </a>
             </li>
+            <li>
+                <a href="#3dRenderings" class="scroll" id="3dRenderings">
+                </a>
+            </li>
+            <li>
+                <a href="#software" class="scroll" id="software">
+                </a>
+            </li>
         </ul>
     </div>
     <section class="product-section product-section-trampoline animatedParent" data-section-name="trampoline">
-        <a href="product-individual.php">
+        <a href="trampoline.php">
             <div class="grid-we-do-item p-0">
                 <div class="grid-we-do-img-wrap grid-wrap-black">
                     <h3 class="grid-desc">Trampoline Parks</h3>
@@ -27,7 +35,7 @@
         </a>
     </section>
     <section class="product-section product-section-attraction animatedParent" data-section-name="attraction">
-        <a href="ninja.php">
+        <a href="attractions.php">
             <div class="grid-we-do-item p-0">
                 <div class="grid-we-do-img-wrap grid-wrap-black">
                     <h3 class="grid-desc">Attractions</h3>
@@ -37,10 +45,30 @@
         </a>
     </section>
     <section class="product-section product-section-entertainment animatedParent" data-section-name="entertainment">
-        <a href="portfolio-individual.php">
+        <a href="entertainment.php">
             <div class="grid-we-do-item p-0">
                 <div class="grid-we-do-img-wrap grid-wrap-black">
                     <h3 class="grid-desc">Entertainment Centers</h3>
+                    <div class="grid--img" style="background-image:url('images/services/services3.jpg');"></div>
+                </div>
+            </div>
+        </a>
+    </section>
+    <section class="product-section product-section-3dRenderings animatedParent" data-section-name="3dRenderings">
+        <a href="entertainment.php">
+            <div class="grid-we-do-item p-0">
+                <div class="grid-we-do-img-wrap grid-wrap-black">
+                    <h3 class="grid-desc">3D Renderings</h3>
+                    <div class="grid--img" style="background-image:url('images/services/services3.jpg');"></div>
+                </div>
+            </div>
+        </a>
+    </section>
+    <section class="product-section product-section-software animatedParent" data-section-name="software">
+        <a href="entertainment.php">
+            <div class="grid-we-do-item p-0">
+                <div class="grid-we-do-img-wrap grid-wrap-black">
+                    <h3 class="grid-desc">Software</h3>
                     <div class="grid--img" style="background-image:url('images/services/services3.jpg');"></div>
                 </div>
             </div>
