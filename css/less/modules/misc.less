@@ -437,3 +437,52 @@ section[data-section-name="guarantee"] {
     background-color: #2bcaf5;
   }
 }
+
+.panel-group-faq {
+  .panel-heading {
+    background-color: transparent;
+    padding: 0;
+  }
+
+  .panel-default {
+    border: none;
+
+    &:hover {
+      background-color: #f5f8fa;
+    }
+  }
+
+  .panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border-top-color: transparent;
+  }
+
+  .panel-title {
+
+    a {
+      display: block;
+      font-size: 22px;
+      color: #2b88dd;
+      padding: 30px 0;
+      font-weight: 400;
+      border-bottom: 1px solid transparent;
+
+    }
+    .collapsed {
+      border-bottom-color: #f0f3f5;
+    }
+  }
+
+  .panel-body {
+    padding-top: 0;
+
+    p {
+      font-size: 18px;
+      color: #616060;
+      font-weight: 300;
+    }
+  }
+
+ .panel+.panel {
+    margin-top: 0;
+  }
+}
