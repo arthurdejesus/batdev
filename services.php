@@ -84,24 +84,36 @@
     <footer class="footer-section">
         <div class="footer">
             <div class="footer-gray">
-                <!--            <div class="footer-container container-fluid">-->
-                <div class="container">
-                    <div class="col-md-3">
+                <div class="footer-container container-fluid">
+                    <!--            <div class="container">-->
+                    <div class="col-md-4">
                         <div class="content">
                             <h4 class="footer-title">Quick Links</h4>
                             <div class="description">
                                 <ul class="footer-links">
-                                    <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/about.php'?'current_page_item':'';?>"><a href="about.php">About Us</a></li>
-                                    <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/products.php'?'current_page_item':''; ?>"><a href="services.php">Our Services</a></li>
-                                    <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/portfolio.php'?'current_page_item':''; ?>"><a href="portfolio.php">Portfolio</a></li>
-                                    <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/our-process.php'?'current_page_item':''; ?>"><a href="our-process.php">Our Process</a></li>
-                                    <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/news.php'?'current_page_item':''; ?>"><a href="news.php">News & Events</a></li>
-                                    <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/contact.php'?'current_page_item':''; ?>"><a href="contact.php">Contact Us</a></li>
+                                    <li class="<?php echo $_SERVER['REQUEST_URI']=='/'?'current_page_item':'';?>"><a
+                                            href="/">Home</a></li>
+                                    <li class="<?php echo $_SERVER['REQUEST_URI']=='/about.php'?'current_page_item':'';?>"><a href="about.php">About Us</a></li>
+                                    <li><a href="#">Products</a></li>
+                                    <li class="<?php echo $_SERVER['REQUEST_URI']=='/services
+                                .php'?'current_page_item':''; ?> dropdown"><a href="services.php">Services</a></li>
+                                    <li class="<?php echo $_SERVER['REQUEST_URI']=='/portfolio.php'?'current_page_item':''; ?>"><a href="portfolio.php">Portfolio</a></li>
+                                    <li class="<?php echo $_SERVER['REQUEST_URI']=='/our-process.php'?'current_page_item':''; ?>"><a href="our-process.php">Our Process</a></li>
+                                    <li class="<?php echo $_SERVER['REQUEST_URI']=='/news.php'?'current_page_item':''; ?>"><a href="news.php">News & Events</a></li>
+                                    <li class="<?php echo $_SERVER['REQUEST_URI']=='/faqs.php'?'current_page_item':''; ?>"><a href="faqs.php">FAQ's</a></li>
+                                    <li class="<?php echo $_SERVER['REQUEST_URI']=='/contact.php'?'current_page_item':''; ?>"><a href="contact.php">Contact Us</a></li>
                                 </ul>
                             </div>
+                            <h4 class="footer-title">Stay Connected</h4>
+                            <ul class="social-media social-media-bottom">
+                                <li><a href="#"><span class="icon-facebook"></span></a></li>
+                                <li><a href="#"><span class="icon-google"></span></a></li>
+                                <li><a href="https://twitter.com/bat_inc"><span class="icon-twitter"></span></a></li>
+                                <li><a href="#"><span class="icon-instagram"></span></a></li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="col-md-5">
+                    <div class="col-md-4">
                         <div class="content">
                             <h4 class="footer-title">Contact Us</h4>
                             <div class="description">
@@ -126,16 +138,10 @@
                         <div class="content">
                             <h4 class="footer-title">View Other BAT Sites</h4>
                             <div class="description">
-                                <ul class="footer-links">
+                                <ul class="footer-links footer-links-sites">
                                     <li><a href="bestamericantrampolines.com" target="_blank">Best American Trampolines</a></li>
                                 </ul>
                             </div>
-                            <ul class="social-media social-media-bottom">
-                                <li><a href="#"><span class="icon-facebook"></span></a></li>
-                                <li><a href="#"><span class="icon-google"></span></a></li>
-                                <li><a href="https://twitter.com/bat_inc"><span class="icon-twitter"></span></a></li>
-                                <li><a href="#"><span class="icon-instagram"></span></a></li>
-                            </ul>
                         </div>
                     </div>
                 </div>

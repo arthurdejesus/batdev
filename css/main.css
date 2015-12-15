@@ -9850,7 +9850,6 @@ ul li {
   background-color: #fafafa;
 }
 .section-about-intro {
-  padding-bottom: 8em;
   background-color: transparent !important;
 }
 .section-about-intro .description {
@@ -11668,6 +11667,7 @@ section[data-section-name="guarantee"] .process-grid-description p {
 .our-process-holder .process-list ul li a h5 {
   color: #fff;
   text-transform: uppercase;
+  font-family: 'ProximaNovaSemibold', sans-serif;
 }
 .our-process-holder .process-list ul li a:hover,
 .our-process-holder .process-list ul li a:focus {
@@ -12539,9 +12539,15 @@ textarea:focus {
   .portfolio-item-grid-wrap .portfolio-item-grid-img {
     height: 350px;
   }
+  .portfolio-section-holder .portfolio-item-grid-wrap {
+    height: 350px;
+  }
 }
 @media (max-width: 2000px) {
   .portfolio-item-grid-wrap .portfolio-item-grid-img {
+    height: 300px;
+  }
+  .portfolio-section-holder .portfolio-item-grid-wrap {
     height: 300px;
   }
 }
@@ -12942,7 +12948,7 @@ textarea:focus {
     height: 80px;
   }
   .navbar-fixed-top .navbar-menu .navbar-collapse .navbar-nav {
-    margin-top: 20px;
+    margin-top: 6px;
   }
   .navbar-fixed-top .navbar-menu .navbar-collapse .navbar-nav li a {
     padding-top: 15px;
@@ -12950,6 +12956,16 @@ textarea:focus {
   }
   .navbar-menu .navbar-nav > li.dropdown > .dropdown-menu ul li a {
     padding: 15px;
+  }
+  .product-section-guarantee .primary-title {
+    margin-top: 1em;
+    font-size: 45px;
+  }
+  .product-section-guarantee .process-grid {
+    margin-top: 0;
+  }
+  .product-section-guarantee .btn-primary {
+    margin-top: 0;
   }
 }
 @media (max-height: 800px) {
