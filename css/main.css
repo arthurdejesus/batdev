@@ -9293,6 +9293,7 @@ body.noscroll {
   float: right;
   margin: 0;
   padding: 13px 40px 13px 7px;
+  font-family: 'ProximaNovaSemibold', sans-serif;
 }
 .top-header .social-media-top {
   float: right;
@@ -9510,6 +9511,7 @@ p {
   font-size: 18px;
   color: #616060;
   line-height: 1.8;
+  font-family: 'ProximaNovaLight', sans-serif;
 }
 img {
   max-width: 100%;
@@ -9675,15 +9677,26 @@ ul li {
   src: url('../fonts/proximanova-bold-webfont.eot') format('embedded-opentype'), url('../fonts/proximanova-bold-webfont.woff') format('woff'), url('../fonts/proximanova-bold-webfont.ttf') format('truetype'), url('../fonts/proximanova-bold-webfont.svg#proximanova-bold-webfont') format('svg');
 }
 @font-face {
+  font-family: 'ProximaNovaThin';
+  src: url('../fonts/proxima-nova-thin.eot');
+  src: url('../fonts/proxima-nova-thin.eot') format('embedded-opentype'), url('../fonts/proxima-nova-thin.woff') format('woff'), url('../fonts/proxima-nova-thin.ttf') format('truetype'), url('../fonts/proxima-nova-thin.svg#proxima-nova-thin') format('svg');
+}
+@font-face {
   font-family: 'ProximaNovaXbold';
   src: url('../fonts/ProximaNovaXbold.eot');
   src: url('../fonts/ProximaNovaXbold.eot') format('embedded-opentype'), url('../fonts/ProximaNovaXbold.woff2') format('woff2'), url('../fonts/ProximaNovaXbold.woff') format('woff'), url('../fonts/ProximaNovaXbold.ttf') format('truetype'), url('../fonts/ProximaNovaXbold.svg#ProximaNovaXbold') format('svg');
+}
+@font-face {
+  font-family: 'proximanovaregularitalic';
+  src: url('../fonts/proximanovaregularitalic.eot');
+  src: url('../fonts/proximanovaregularitalic.eot') format('embedded-opentype'), url('../fonts/proximanovaregularitalic.woff2') format('woff2'), url('../fonts/proximanovaregularitalic.woff') format('woff'), url('../fonts/proximanovaregularitalic.ttf') format('truetype'), url('../fonts/proximanovaregularitalic.svg#proximanovaregularitalic') format('svg');
 }
 .primary-title,
 .secondary-title {
   color: #202020;
   margin-bottom: 20px;
   line-height: 1.3;
+  font-family: 'ProximaNovaThin', sans-serif;
 }
 .primary-title {
   font-size: 60px;
@@ -9695,6 +9708,7 @@ ul li {
   color: #2bcaf5;
   font-size: 33px;
   margin-bottom: 1.5em;
+  font-family: 'ProximaNovaLight', sans-serif;
 }
 .blue-title img {
   margin-top: -8px;
@@ -9705,6 +9719,7 @@ ul li {
   color: #fff;
   text-transform: uppercase;
   margin: 0;
+  font-family: 'ProximaNovaBold', sans-serif;
 }
 .warning-title img {
   margin-left: 30px;
@@ -9756,6 +9771,7 @@ ul li {
   color: #fff;
   margin: 0;
   line-height: 1.5;
+  font-family: 'proximanovaregularitalic', sans-serif;
 }
 .section-client {
   padding-bottom: 8em;
@@ -9795,9 +9811,11 @@ ul li {
 .section-innovation .primary-title {
   text-transform: uppercase;
   text-shadow: 0px 3px 20px rgba(150, 150, 150, 0.4);
+  font-family: 'ProximaNovaBold', sans-serif;
 }
 .section-innovation .secondary-title {
   margin-bottom: 1.5em;
+  font-family: 'ProximaNovaLight', sans-serif;
 }
 .section-innovation .content-left {
   max-width: 550px;
@@ -9876,6 +9894,7 @@ ul li {
 }
 .section--process .description p {
   color: #fff!important;
+  font-family: 'ProximaNova', sans-serif;
 }
 .section--process .process-grid-item-title {
   color: #d6d6d6 !important;
@@ -10233,6 +10252,9 @@ ul li {
   height: 400px;
   overflow: hidden;
 }
+.section-contact-intro {
+  background-color: transparent;
+}
 .social-media li a {
   font-size: 20px;
   color: #2bcaf5;
@@ -10256,9 +10278,11 @@ ul li {
   font-size: 28px;
   color: #272727;
   margin-bottom: 20px;
+  font-family: 'ProximaNovaLight', sans-serif;
 }
 .process-grid ul li .process-grid-description p {
   font-size: 16px;
+  font-family: 'ProximaNova', sans-serif;
 }
 .process-grid ul li .process-grid-item-icon {
   margin: 3em 0;
@@ -10775,6 +10799,7 @@ section[data-section-name="guarantee"] .process-grid-description p {
 .footer a {
   font-size: 16px;
   color: #B6B3B3;
+  font-family: 'ProximaNova', sans-serif;
 }
 .footer .contact-details p,
 .footer .contact-details a {
@@ -10899,8 +10924,8 @@ section[data-section-name="guarantee"] .process-grid-description p {
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
-  opacity: 0.65;
-  filter: alpha(opacity=65);
+  opacity: 0.8;
+  filter: alpha(opacity=80);
 }
 .banner-slider .bxslider li:before {
   content: '';
@@ -10946,6 +10971,7 @@ section[data-section-name="guarantee"] .process-grid-description p {
   font-size: 90px;
   color: #fff;
   text-transform: uppercase;
+  font-family: 'ProximaNovaBold', sans-serif;
 }
 .banner-caption .banner-title span {
   display: block;
@@ -11588,6 +11614,7 @@ section[data-section-name="guarantee"] .process-grid-description p {
 .our-process-holder .grid-we-do-img-wrap .product-content p {
   font-size: 20px;
   color: #fff;
+  font-family: 'ProximaNova', sans-serif;
 }
 .our-process-holder .grid-we-do-img-wrap .product-img {
   position: absolute;
@@ -12397,6 +12424,7 @@ textarea:focus {
   text-transform: uppercase;
   margin: auto;
   text-align: center;
+  font-family: 'ProximaNovaBold', sans-serif;
 }
 .pc_container .pc_item .desc .pc--desc p {
   color: #fff;
@@ -12404,6 +12432,7 @@ textarea:focus {
   text-align: center;
   max-width: 60%;
   margin: auto;
+  font-family: 'ProximaNova', sans-serif;
 }
 .pc_container .pc_item .desc:before {
   content: '';
@@ -12859,6 +12888,17 @@ textarea:focus {
   }
   .navbar-fixed-top .navbar-menu .navbar-header-menu .navbar-toggle-menu {
     display: block;
+  }
+}
+@media (max-height: 767px) {
+  .our-process-holder .grid-we-do-img-wrap .product-img {
+    top: 23%;
+  }
+  .our-process-holder .process-list {
+    top: 60%;
+  }
+  .our-process-holder .grid-we-do-img-wrap .product-content {
+    top: 55%;
   }
 }
 @media (max-width: 767px) {

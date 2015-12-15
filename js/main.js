@@ -3192,9 +3192,9 @@
 (function(window, document, $) {
     'use strict';
 
-    $(window).scroll(function(){
-        $(".banner-caption").css("opacity", 1 - $(window).scrollTop() / 350);
-    });
+    //$(window).scroll(function(){
+    //    $(".banner-caption").css("opacity", 1 - $(window).scrollTop() / 350);
+    //});
 
     //var D = document,
     //    W = window;

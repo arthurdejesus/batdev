@@ -1,7 +1,7 @@
 <?php include 'header.php'; ?>
     <div class="banner banner-sub banner-faq h-400" style="background-image: url('images/banner-news.jpg');">
         <div class="banner-caption banner-caption-down animatedParent">
-            <h2 class="banner-title animated fadeInUp slow go">FAQ`s</h2>
+            <h2 class="banner-title animated fadeInUp slow go">FAQ's</h2>
         </div>
     </div>
 
@@ -13,7 +13,7 @@
                         <div class="container">
                             <h4 class="panel-title">
                                 <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    What is the minimum buildingsizeI should consider foran indoor trampoline parkin the USA?
+                                    What is the minimum building size I should consider for an indoor trampoline park in the USA?
                                 </a>
                             </h4>
                         </div>
@@ -21,7 +21,7 @@
                     <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                         <div class="container">
                             <div class="panel-body">
-                                <p> A minimum of 18,000 square feetin our opinion.(1672.3 m²)</p>
+                                <p> A minimum of 18,000 square feet in our opinion. (1672.3 m2)</p>
                             </div>
                         </div>
                     </div>
@@ -32,7 +32,7 @@
                         <div class="container">
                             <h4 class="panel-title">
                                 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    What is the minimum buildingsizeI should consider if I live outside of the USA?
+                                    What is the minimum building size I should consider if I live outside of the USA?
                                 </a>
                             </h4>
                         </div>
@@ -40,7 +40,7 @@
                     <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                         <div class="container">
                             <div class="panel-body">
-                                <p>Please call us at 1-866-690-3272 so that we cangain abetter understanding ofyour project.</p>
+                                <p>Please call us at 1-866-690-3272 so that we can gain a better understanding of your project.</p>
                             </div>
                         </div>
                     </div>
@@ -51,7 +51,7 @@
                         <div class="container">
                             <h4 class="panel-title">
                                 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    What aretheaveragebuildingsizes fortrampoline parksthat are being setup inthe USA?
+                                    What are the average building sizes for trampoline parks that are being setup in the USA?
                                 </a>
                             </h4>
                         </div>
@@ -60,7 +60,7 @@
                         <div class="container">
                             <div class="panel-body">
 
-                                <p>Most buildings range between 25,000 and 35,000 square feet on average.(2322.6 -3251.6 m²)</p>
+                                <p>Most buildings range between 25,000 and 35,000 square feet on average. (2322.6 - 3251.6 m2)</p>
 
                             </div>
                         </div>
@@ -73,7 +73,7 @@
                             <h4 class="panel-title">
                                 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
                                    href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                    What is theminimumceiling height requiredby the ASTM F2970 standard?
+                                    What is the minimum ceiling height required by the ASTM F2970 standard?
                                 </a>
                             </h4>
                         </div>
@@ -81,7 +81,7 @@
                     <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
                         <div class="container">
                             <div class="panel-body">
-                                <p>17feet (5.2m) clearheightfrom the slab floor to the lowest obstruction.</p>
+                                <p>17 feet (5.2 m) clear height from the slab floor to the lowest obstruction.</p>
 
                             </div>
                         </div>
@@ -104,7 +104,7 @@
                         <div class="container">
                             <div class="panel-body">
 
-                                <p>Trampoline area should not exceed 50% of the overall buildingin our opinion.(40-45% recommended)</p>
+                                <p>Trampoline area should not exceed 50% of the overall building in our opinion. (40-45% recommended)</p>
 
                             </div>
                         </div>
@@ -117,7 +117,7 @@
                             <h4 class="panel-title">
                                 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
                                    href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                    What are the capital requirements necessary to starta trampoline parkbusiness?
+                                    What are the capital requirements necessary to start a trampoline park business?
                                 </a>
                             </h4>
                         </div>
@@ -126,7 +126,7 @@
                          aria-labelledby="headingSix">
                         <div class="container">
                             <div class="panel-body">
-                                <p>On average,our clients are requiring $1M to $1.5M in totalcapitalto start their business.</p>
+                                <p>On average, our clients are requiring $1M to $1.5M in total capital to start their business.</p>
 
                             </div>
                         </div>
@@ -148,7 +148,7 @@
                          aria-labelledby="headingSeven">
                        <div class="container">
                            <div class="panel-body">
-                               <p>4-18months is typical.</p>
+                               <p>4 - 18 months is typical.</p>
                            </div>
                        </div>
                     </div>
@@ -169,7 +169,7 @@
                          aria-labelledby="headingEight">
                         <div class="container">
                             <div class="panel-body">
-                                <p>Yes.We can ship anywhere in the world.</p>
+                                <p>Yes. We can ship anywhere in the world.</p>
                             </div>
                         </div>
                     </div>
@@ -190,7 +190,7 @@
                          aria-labelledby="headingNine">
                         <div class="container">
                             <div class="panel-body">
-                                <p>We  typically  stage ourshipments  over  a  60-90  day  periodin  the  USA,  however,  we  can  tailor  our production  times  to  meetour clients’ individual needs.(Ex:  Our  overseas  clients  will  normally  request faster production times due to the longer ship times encountered when shipping by sea.)</p>
+                                <p>We typically stage our shipments over a 60-90 day period in the USA, however, we can tailor our production times to meet our clients’ individual needs. (Ex: Our overseas clients will normally request faster production times due to the longer ship times encountered when shipping by sea.)</p>
 
                             </div>
                         </div>
@@ -203,7 +203,7 @@
                             <h4 class="panel-title">
                                 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
                                    href="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
-                                    Do you offer installationmanagement?
+                                    Do you offer installation management?
                                 </a>
                             </h4>
                         </div>
@@ -212,7 +212,8 @@
                          aria-labelledby="headingTen">
                         <div class="container">
                             <div class="panel-body">
-                                <p>Yes. We traditionally send a project manager to oversee the installation of all projects outside of the USA.</p>
+                                <p>Yes. We traditionally send a project manager to oversee the installation of all
+                                    projects outside of the USA.</p>
 
                             </div>
                         </div>
@@ -225,7 +226,7 @@
                             <h4 class="panel-title">
                                 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
                                    href="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
-                                    If we prefer, would ouron-site contractorbe able toinstall your system?
+                                    If we prefer, would our on-site contractor be able to install your system?
                                 </a>
                             </h4>
                         </div>
@@ -234,7 +235,8 @@
                          aria-labelledby="headingEleven">
                        <div class="container">
                            <div class="panel-body">
-                               <p>Yes. Our patent pendingsystem arrives installation-readywith a comprehensive set of plans.(Size E, full color)</p>
+                               <p>Yes. Our patent pending system arrives installation-ready with a comprehensive set of plans. (Size E,
+                                   full color)</p>
 
                            </div>
                        </div>
@@ -247,7 +249,7 @@
                             <h4 class="panel-title">
                                 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
                                    href="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
-                                    How long does it take to install your trampolinesystem? (Ex:12,000 square feet of trampoline courtarea(1114m2).
+                                    How long does it take to install your trampoline system? (Ex: 12,000 square feet of trampoline court area (1114 m2).
                                 </a>
                             </h4>
                         </div>
@@ -256,7 +258,7 @@
                          aria-labelledby="headingTwelve">
                         <div class="container">
                             <div class="panel-body">
-                                <p>Maximum of 7 days, however 5 days is typical. (Our competitors require 4 +weeks)</p>
+                                <p>Maximum of 7 days, however 5 days is typical. (Our competitors require 4 + weeks)</p>
 
                             </div>
                         </div>
@@ -279,7 +281,7 @@
                         <div class="container">
                         <div class="panel-body">
 
-                                <p>Does your company offer a final inspection if we install your equipment?</p>
+                                <p>Yes, we final inspect most all of our projects. Call 1-866-690-3272 for more information.</p>
                             </div>
                         </div>
                     </div>
@@ -301,7 +303,7 @@
                         <div class="container">
                         <div class="panel-body">
 
-                                <p>Yes, we can provide experienced operators at an additionalflat ratecharge.</p>
+                                <p>Yes, we can provide experienced operators at an additional flat rate charge.</p>
                             </div>
                         </div>
                     </div>
