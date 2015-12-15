@@ -11,8 +11,8 @@
     <link href="css/main.css" rel="stylesheet">
 
     <!-- Fonts -->
-    <script src="https://use.typekit.net/icq6hfr.js"></script>
-    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+<!--    <script src="https://use.typekit.net/icq6hfr.js"></script>-->
+<!--    <script>try{Typekit.load({ async: true });}catch(e){}</script>-->
 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -72,26 +72,7 @@
                         <li class="<?php echo $_SERVER['REQUEST_URI']=='/'?'current_page_item':'';?>"><a
                                 href="/">Home</a></li>
                         <li class="<?php echo $_SERVER['REQUEST_URI']=='/about.php'?'current_page_item':'';?>"><a href="about.php">About Us</a></li>
-                        <li class="dropdown">
-                            <a href="">Products <span class="icon-angle-down"></span></a>
-                            <div class="dropdown-menu">
-                                <div class="container">
-                                    <ul>
-                                        <li><a href="#">Ninja a Course</a></li>
-                                        <li><a href="#">AeroBall</a></li>
-                                        <li><a href="#">Airbag Pit</a></li>
-                                        <li><a href="#">Climbing Wall/Climbing Climbing Tower</a></li>
-                                        <li><a href="#">Dodgeball Trampoline Courts</a></li>
-                                        <li><a href="#">Main Trampoline Courts</a></li>
-                                        <li><a href="#">Kid’s Trampoline Courts</a></li>
-                                        <li><a href="#">Basketball Slam Dunk Trampoline Courts</a></li>
-                                        <li><a href="#">Backyard Trampolines</a></li>
-                                        <li><a href="#">Software</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                        </li>
+                        <li><a href="#">Products</a></li>
                         <li class="<?php echo $_SERVER['REQUEST_URI']=='/services.php'?'current_page_item':''; ?>
                         dropdown">
                             <a href="services.php">Services <span class="icon-angle-down"></span></a>
