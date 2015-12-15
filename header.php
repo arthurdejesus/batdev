@@ -80,8 +80,8 @@
                             <div class="dropdown-menu">
                                 <div class="container">
                                     <ul>
-                                        <li><a href="#">Trampoline Parks</a></li>
-                                        <li><a href="#">Entertainment Centers </a></li>
+                                        <li><a href="trampoline.php">Trampoline Parks</a></li>
+                                        <li><a href="entertainment.php">Entertainment Centers </a></li>
                                         <li><a href="#">Branding</a></li>
                                         <li><a href="#">3D Renderings</a></li>
                                         <li><a href="#">Software</a></li>

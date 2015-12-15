@@ -94,7 +94,7 @@
                         <li><a href="#">Privacy Policy</a></li>
                         <li><a href="#">Sitemap</a></li>
                         <li><a href="#">Terms</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="contact.php">Contact</a></li>
                     </ul>
                     <p>© Best American Trampolines, Inc., 2002-2014</p>
                 </div>

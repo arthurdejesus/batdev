@@ -10808,6 +10808,8 @@ section[data-section-name="guarantee"] .process-grid-description p {
   margin-bottom: 1.5em;
   font-family: 'ProximaNova', sans-serif;
   padding-left: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 .footer p,
 .footer a {
@@ -10870,6 +10872,9 @@ section[data-section-name="guarantee"] .process-grid-description p {
   border-right: 1px solid #C9C9C9;
   line-height: 0;
 }
+.footer .footer-menu li a:hover {
+  color: #2bcaf5;
+}
 .footer .footer-menu li:last-child a {
   border-right: 0;
 }
@@ -10888,6 +10893,10 @@ section[data-section-name="guarantee"] .process-grid-description p {
 .footer .social-media-bottom li a {
   font-size: 25px;
   color: #fff;
+  padding: 10px 10px;
+}
+.footer .social-media-bottom li a:hover {
+  color: #2bcaf5;
 }
 .footer .social-media-bottom li:first-child a {
   padding-left: 2px;
@@ -10965,12 +10974,14 @@ section[data-section-name="guarantee"] .process-grid-description p {
   color: #fff;
   text-transform: uppercase;
   font-family: 'ProximaNovaBold', sans-serif;
+  text-shadow: 4px 1px 10px rgba(0, 0, 0, 0.5);
 }
 .banner-caption .banner-title span {
   display: block;
 }
 .banner-caption .blue-title {
   margin-bottom: 2em;
+  text-shadow: 4px 1px 10px rgba(0, 0, 0, 0.5);
 }
 .banner {
   position: relative;
@@ -10980,6 +10991,7 @@ section[data-section-name="guarantee"] .process-grid-description p {
   background-position: center top;
   background-attachment: fixed;
   background-color: #000;
+  overflow: hidden;
 }
 .banner:before {
   content: '';
@@ -12000,6 +12012,7 @@ body.deployment a#guarantee h5 {
 .single-about h3 {
   font-size: 50px;
   color: #222;
+  font-family: 'ProximaNovaThin', sans-serif;
 }
 .single-about p {
   font-size: 18px;
@@ -12011,6 +12024,7 @@ body.deployment a#guarantee h5 {
 }
 .single-typograph h3 {
   font-size: 40px;
+  font-family: 'ProximaNovaThin', sans-serif;
 }
 .single-typograph p {
   font-size: 16px;
@@ -12063,6 +12077,7 @@ body.deployment a#guarantee h5 {
 .section-single-prod-content .single-about h3 {
   font-size: 56px;
   color: #222222;
+  font-family: 'ProximaNovaThin', sans-serif;
 }
 .section-single-prod-content .single-about p {
   color: #5e5d5d;
@@ -12701,6 +12716,10 @@ textarea:focus {
   .section-featured .white-btn-bg {
     padding: 10px 35px;
   }
+  .section-portfolio .btn-primary {
+    padding: 10px 40px;
+    font-size: 18px;
+  }
 }
 @media (max-width: 1200px) {
   .navbar-menu .navbar-header-menu .navbar-brand {
@@ -12734,6 +12753,16 @@ textarea:focus {
   .footer .footer-gray {
     padding-left: 3em;
   }
+  .top-header p {
+    font-size: 18px;
+    padding: 14px 40px 10px 7px;
+  }
+  .social-media li a {
+    font-size: 18px;
+  }
+  .top-header .social-media-top {
+    padding: 0 3px 0 10px;
+  }
 }
 @media (max-width: 1160px) {
   .mw-410 {
@@ -12762,6 +12791,9 @@ textarea:focus {
   }
   .navbar-menu .navbar-header-menu .navbar-brand {
     top: -38px;
+  }
+  .modal-iframe .modal-dialog {
+    width: 800px;
   }
 }
 @media (max-width: 1100px) {
@@ -12981,6 +13013,9 @@ textarea:focus {
   .our-process-holder .grid-we-do-img-wrap .product-img {
     top: 23%;
   }
+  .modal-iframe .modal-dialog iframe {
+    height: 550px;
+  }
 }
 @media (max-height: 750px) {
   .pc_container .pc_item {
@@ -13020,6 +13055,9 @@ textarea:focus {
   }
   .our-process-holder .process-list {
     top: 55%;
+  }
+  .modal-iframe .modal-dialog iframe {
+    height: 500px;
   }
 }
 @keyframes grow {
