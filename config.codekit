@@ -4608,24 +4608,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/our-process\/our-process-2.jpg": {
+	"\/images\/our-process\/our-process-2.1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 0,
-		"inputAbbreviatedPath": "\/images\/our-process\/our-process-2.jpg",
-		"outputAbbreviatedPath": "\/images\/our-process\/our-process-2.jpg",
+		"inputAbbreviatedPath": "\/images\/our-process\/our-process-2.1.jpg",
+		"outputAbbreviatedPath": "\/images\/our-process\/our-process-2.1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/our-process\/our-process-3.jpg": {
+	"\/images\/our-process\/our-process-3.1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 414774,
-		"inputAbbreviatedPath": "\/images\/our-process\/our-process-3.jpg",
-		"outputAbbreviatedPath": "\/images\/our-process\/our-process-3.jpg",
+		"inputAbbreviatedPath": "\/images\/our-process\/our-process-3.1.jpg",
+		"outputAbbreviatedPath": "\/images\/our-process\/our-process-3.1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5334,13 +5334,35 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/services\/services1.jpg": {
+	"\/images\/services\/services1.1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 3.85157e+06,
+		"inputAbbreviatedPath": "\/images\/services\/services1.1.jpg",
+		"outputAbbreviatedPath": "\/images\/services\/services1.1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/services\/services1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 874585,
 		"inputAbbreviatedPath": "\/images\/services\/services1.jpg",
 		"outputAbbreviatedPath": "\/images\/services\/services1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/services\/services2.1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.4128e+06,
+		"inputAbbreviatedPath": "\/images\/services\/services2.1.jpg",
+		"outputAbbreviatedPath": "\/images\/services\/services2.1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5349,9 +5371,20 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 3.4128e+06,
+		"initialSize": 760782,
 		"inputAbbreviatedPath": "\/images\/services\/services2.jpg",
 		"outputAbbreviatedPath": "\/images\/services\/services2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/services\/services3.1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.42899e+06,
+		"inputAbbreviatedPath": "\/images\/services\/services3.1.jpg",
+		"outputAbbreviatedPath": "\/images\/services\/services3.1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5360,9 +5393,31 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 3.42899e+06,
+		"initialSize": 590931,
 		"inputAbbreviatedPath": "\/images\/services\/services3.jpg",
 		"outputAbbreviatedPath": "\/images\/services\/services3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/services\/services4.1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.42219e+06,
+		"inputAbbreviatedPath": "\/images\/services\/services4.1.jpg",
+		"outputAbbreviatedPath": "\/images\/services\/services4.1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/services\/services4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 287429,
+		"inputAbbreviatedPath": "\/images\/services\/services4.jpg",
+		"outputAbbreviatedPath": "\/images\/services\/services4.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

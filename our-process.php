@@ -190,17 +190,17 @@
                             <h4 class="footer-title">Quick Links</h4>
                             <div class="description">
                                 <ul class="footer-links">
-                                    <li class="<?php echo $_SERVER['REQUEST_URI']=='/'?'current_page_item':'';?>"><a
+                                    <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/'?'current_page_item':'';?>"><a
                                             href="/">Home</a></li>
-                                    <li class="<?php echo $_SERVER['REQUEST_URI']=='/about.php'?'current_page_item':'';?>"><a href="about.php">About Us</a></li>
+                                    <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/about.php'?'current_page_item':'';?>"><a href="about.php">About Us</a></li>
                                     <li><a href="#">Products</a></li>
-                                    <li class="<?php echo $_SERVER['REQUEST_URI']=='/services
+                                    <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/services
                                 .php'?'current_page_item':''; ?> dropdown"><a href="services.php">Services</a></li>
-                                    <li class="<?php echo $_SERVER['REQUEST_URI']=='/portfolio.php'?'current_page_item':''; ?>"><a href="portfolio.php">Portfolio</a></li>
-                                    <li class="<?php echo $_SERVER['REQUEST_URI']=='/our-process.php'?'current_page_item':''; ?>"><a href="our-process.php">Our Process</a></li>
-                                    <li class="<?php echo $_SERVER['REQUEST_URI']=='/news.php'?'current_page_item':''; ?>"><a href="news.php">News & Events</a></li>
-                                    <li class="<?php echo $_SERVER['REQUEST_URI']=='/faqs.php'?'current_page_item':''; ?>"><a href="faqs.php">FAQ's</a></li>
-                                    <li class="<?php echo $_SERVER['REQUEST_URI']=='/contact.php'?'current_page_item':''; ?>"><a href="contact.php">Contact Us</a></li>
+                                    <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/portfolio.php'?'current_page_item':''; ?>"><a href="portfolio.php">Portfolio</a></li>
+                                    <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/our-process.php'?'current_page_item':''; ?>"><a href="our-process.php">Our Process</a></li>
+                                    <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/news.php'?'current_page_item':''; ?>"><a href="news.php">News & Events</a></li>
+                                    <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/faqs.php'?'current_page_item':''; ?>"><a href="faqs.php">FAQ's</a></li>
+                                    <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/contact.php'?'current_page_item':''; ?>"><a href="contact.php">Contact Us</a></li>
                                 </ul>
                             </div>
                             <h4 class="footer-title">Stay Connected</h4>
