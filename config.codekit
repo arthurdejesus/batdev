@@ -4619,6 +4619,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/our-process\/our-process-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/our-process\/our-process-2.jpg",
+		"outputAbbreviatedPath": "\/images\/our-process\/our-process-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/our-process\/our-process-3.1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4626,6 +4637,17 @@
 		"initialSize": 414774,
 		"inputAbbreviatedPath": "\/images\/our-process\/our-process-3.1.jpg",
 		"outputAbbreviatedPath": "\/images\/our-process\/our-process-3.1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/our-process\/our-process-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 414774,
+		"inputAbbreviatedPath": "\/images\/our-process\/our-process-3.jpg",
+		"outputAbbreviatedPath": "\/images\/our-process\/our-process-3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
