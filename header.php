@@ -72,7 +72,7 @@
                         <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/'?'current_page_item':'';?>"><a
                                 href="/batdev/">Home</a></li>
                         <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/about.php'?'current_page_item':'';?>"><a href="about.php">About Us</a></li>
-                        <li><a href="#">Products</a></li>
+                        <li><a href="products.php">Products</a></li>
                         <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/services.php'?'current_page_item':''; ?>
                         dropdown">
                             <a href="services.php">Services <span class="icon-angle-down"></span></a>

@@ -4927,6 +4927,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/product-page\/Aeroball-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 774240,
+		"inputAbbreviatedPath": "\/images\/product-page\/Aeroball-1.jpg",
+		"outputAbbreviatedPath": "\/images\/product-page\/Aeroball-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/product-page\/Aeroball-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.28352e+06,
+		"inputAbbreviatedPath": "\/images\/product-page\/Aeroball-2.jpg",
+		"outputAbbreviatedPath": "\/images\/product-page\/Aeroball-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/product-page\/Ninja-Course-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 924595,
+		"inputAbbreviatedPath": "\/images\/product-page\/Ninja-Course-1.jpg",
+		"outputAbbreviatedPath": "\/images\/product-page\/Ninja-Course-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/product-page\/Ninja-Course-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 912933,
+		"inputAbbreviatedPath": "\/images\/product-page\/Ninja-Course-2.jpg",
+		"outputAbbreviatedPath": "\/images\/product-page\/Ninja-Course-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/product-single-img.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -5996,6 +6040,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/products2.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/products3.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/products3.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
