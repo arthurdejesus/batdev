@@ -3774,6 +3774,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/header-tram.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/header-tram.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/header.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -4945,6 +4954,182 @@
 		"initialSize": 1.28352e+06,
 		"inputAbbreviatedPath": "\/images\/product-page\/Aeroball-2.jpg",
 		"outputAbbreviatedPath": "\/images\/product-page\/Aeroball-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/product-page\/Airbag-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 811872,
+		"inputAbbreviatedPath": "\/images\/product-page\/Airbag-1.jpg",
+		"outputAbbreviatedPath": "\/images\/product-page\/Airbag-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/product-page\/Airbag-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 273323,
+		"inputAbbreviatedPath": "\/images\/product-page\/Airbag-2.jpg",
+		"outputAbbreviatedPath": "\/images\/product-page\/Airbag-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/product-page\/backyard-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 69511,
+		"inputAbbreviatedPath": "\/images\/product-page\/backyard-1.jpg",
+		"outputAbbreviatedPath": "\/images\/product-page\/backyard-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/product-page\/backyard-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 113456,
+		"inputAbbreviatedPath": "\/images\/product-page\/backyard-1.png",
+		"outputAbbreviatedPath": "\/images\/product-page\/backyard-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/product-page\/backyard-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 155831,
+		"inputAbbreviatedPath": "\/images\/product-page\/backyard-2.jpg",
+		"outputAbbreviatedPath": "\/images\/product-page\/backyard-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/product-page\/backyard-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 262925,
+		"inputAbbreviatedPath": "\/images\/product-page\/backyard-2.png",
+		"outputAbbreviatedPath": "\/images\/product-page\/backyard-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/product-page\/Basketball-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 387018,
+		"inputAbbreviatedPath": "\/images\/product-page\/Basketball-1.jpg",
+		"outputAbbreviatedPath": "\/images\/product-page\/Basketball-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/product-page\/Basketball-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 178979,
+		"inputAbbreviatedPath": "\/images\/product-page\/Basketball-2.jpg",
+		"outputAbbreviatedPath": "\/images\/product-page\/Basketball-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/product-page\/Climbing-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 315223,
+		"inputAbbreviatedPath": "\/images\/product-page\/Climbing-1.jpg",
+		"outputAbbreviatedPath": "\/images\/product-page\/Climbing-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/product-page\/Climbing-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 294315,
+		"inputAbbreviatedPath": "\/images\/product-page\/Climbing-2.jpg",
+		"outputAbbreviatedPath": "\/images\/product-page\/Climbing-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/product-page\/Dodgeball-1.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 845824,
+		"inputAbbreviatedPath": "\/images\/product-page\/Dodgeball-1.jpg",
+		"outputAbbreviatedPath": "\/images\/product-page\/Dodgeball-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/product-page\/Dodgeball-2.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 650588,
+		"inputAbbreviatedPath": "\/images\/product-page\/Dodgeball-2.jpg",
+		"outputAbbreviatedPath": "\/images\/product-page\/Dodgeball-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/product-page\/Kid-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 187213,
+		"inputAbbreviatedPath": "\/images\/product-page\/Kid-1.jpg",
+		"outputAbbreviatedPath": "\/images\/product-page\/Kid-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/product-page\/Kid-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 127424,
+		"inputAbbreviatedPath": "\/images\/product-page\/Kid-2.jpg",
+		"outputAbbreviatedPath": "\/images\/product-page\/Kid-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/product-page\/main-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 292710,
+		"inputAbbreviatedPath": "\/images\/product-page\/main-1.jpg",
+		"outputAbbreviatedPath": "\/images\/product-page\/main-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/product-page\/main-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 278626,
+		"inputAbbreviatedPath": "\/images\/product-page\/main-2.jpg",
+		"outputAbbreviatedPath": "\/images\/product-page\/main-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
