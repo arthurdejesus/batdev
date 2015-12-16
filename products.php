@@ -26,7 +26,7 @@
         </div>
     </div>
 
-    <div class="product-list-item product-list-item-right" style="background-color: #0B1F15;">
+    <div class="product-list-item product-list-item-right" style="background-color: #1A824E;">
         <div class="product-list-item-bg" style="background-image: url('images/product-page/Aeroball-1.jpg');"></div>
         <div class="container product-list-item-container">
             <div class="product-list-item-content product-list-item-desc-wrap">
