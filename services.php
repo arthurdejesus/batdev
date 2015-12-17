@@ -142,6 +142,15 @@
                                     <li><a href="bestamericantrampolines.com" target="_blank">Best American Trampolines</a></li>
                                 </ul>
                             </div>
+
+
+                            <h4 class="footer-title">Stay Connected</h4>
+                            <ul class="social-media social-media-bottom">
+                                <li><a href="#"><span class="icon-facebook"></span></a></li>
+                                <li><a href="#"><span class="icon-google"></span></a></li>
+                                <li><a href="https://twitter.com/bat_inc"><span class="icon-twitter"></span></a></li>
+                                <li><a href="#"><span class="icon-instagram"></span></a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>

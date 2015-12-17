@@ -7002,7 +7002,8 @@ body.noscroll {
   font-weight: 700;
   display: inline-block;
   background-color: rgba(55, 196, 233, 0.9);
-  padding: 10px 30px;
+  padding: 15px 90px;
+  border-radius: 70px;
   position: relative;
   overflow: hidden;
 }
@@ -9848,6 +9849,12 @@ ul li {
   padding-bottom: 7em;
   background-color: #fafafa;
 }
+.section-tagline2 {
+  background-color: #fafafa;
+}
+.section-tagline2 .primary-title {
+  margin: 0;
+}
 .section-about-intro {
   background-color: transparent !important;
 }
@@ -10200,9 +10207,6 @@ ul li {
   visibility: visible;
   -webkit-backface-visibility: hidden;
 }
-.section-featured {
-  margin-bottom: 10px;
-}
 .section-featured .carousel-featured .glyphicon:before {
   content: '';
   background-size: 100%;
@@ -10376,6 +10380,8 @@ ul li {
 .pc-list {
   position: relative;
   text-align: left;
+  display: block;
+  height: 30px;
 }
 .pc-list li {
   display: inline-block;
@@ -10446,6 +10452,8 @@ ul li {
   height: 300px;
   bottom: -100px;
   right: -130px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
 }
 @media (min-width: 2001px) {
   .product-list-item .product-list-item-container {
@@ -10508,6 +10516,8 @@ ul li {
 .product-list-item .btn-primary {
   background-color: transparent;
   border: 2px solid #fff;
+  font-size: 18px;
+  padding: 12px 40px;
 }
 .product-list-item-right .product-list-item-desc-wrap {
   padding-left: 20px;
@@ -10935,7 +10945,7 @@ section[data-section-name="guarantee"] .process-grid-description p {
 .footer a {
   font-size: 18px;
   color: #fff;
-  font-family: 'ProximaNovaLight', sans-serif;
+  font-family: 'ProximaNova', sans-serif;
 }
 .footer .contact-details p,
 .footer .contact-details a {
@@ -11023,11 +11033,6 @@ section[data-section-name="guarantee"] .process-grid-description p {
 }
 .footer .footer-logos li {
   padding: 0 10px;
-}
-.footer-logo {
-  padding: 6em 0;
-  opacity: 0.5;
-  filter: alpha(opacity=50);
 }
 .banner-slider {
   background: #000;
@@ -12629,6 +12634,9 @@ textarea:focus {
   text-align: center;
   font-family: 'ProximaNovaThin', sans-serif;
 }
+.pc-navigator-wrap {
+  padding: 7em 0 6em;
+}
 .modal-single-prod .modal-dialog {
   left: 0;
   right: 0;
@@ -12840,6 +12848,17 @@ textarea:focus {
   .product-list-item-right .product-list-item-img-big .product-list-item-img-small {
     left: -70px;
     bottom: -75px;
+  }
+  .product-list-item .product-title {
+    padding-top: 0px;
+    font-size: 50px;
+  }
+  .product-list-item {
+    padding: 6em 0 10em;
+  }
+  .product-list-item:first-child {
+    padding-top: 14em;
+    padding-bottom: 10em;
   }
 }
 @media (max-width: 1280px) {

@@ -178,40 +178,51 @@
                     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
-                <div class="container" id="go-down">
-                    <div class="gap-100 gap-100-1"></div>
-                <div class="container">
-                    <!-- Indicators -->
-                    <ol class="carousel-indicators">
-                        <li data-target="#carousel-example-generic" data-slide-to="0">
-                        </li>
-                        <li data-target="#carousel-example-generic" data-slide-to="1">
-                        </li>
-                        <li data-target="#carousel-example-generic" data-slide-to="2">
-                        </li>
-                        <div class="transition-timer-carousel-progress-bar"></div>
-                        <div class="transition-border"></div>
-                    </ol>
-                    <div class="gap-30"></div>
-                    <ul class="pc-list">
-                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"><h3>Planning</h3></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="1"><h3>Design</h3></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="2"><h3>Deployment</h3></li>
-                    </ul>
-                    <div class="gap-100 gap-100-2"></div>
+
+                <div class="pc-navigator-wrap">
+                    <div class="container" id="go-down">
+                        <div class="container">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0">
+                                </li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1">
+                                </li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2">
+                                </li>
+                                <div class="transition-timer-carousel-progress-bar"></div>
+                                <div class="transition-border"></div>
+                            </ol>
+                            <div class="gap-30"></div>
+                            <ul class="pc-list">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"><h3>Planning</h3></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"><h3>Design</h3></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"><h3>Deployment</h3></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-            </div>
 
         </div>
     </div>
 </div>
+
+        <div class="section section-tagline2 text-center animatedParent animateOnce">
+            <div class="container">
+                <div class="content">
+                    <h3 class="primary-title animated fadeInUp "> Introducing: Sky Park</h3>
+                </div>
+            </div>
+        </div>
 
     <div class="section section-innovation animatedParent animateOnce">
         <div class="content-left">
             <h3 class="primary-title animated fadeInLeft ">innovation<br>
                 has  no limits</h3>
             <h4 class="secondary-title animated fadeInLeft  delay-250">The all-new, SKY PARK<br>
-                by Best American Trampolines</h4>
+                by Best American Trampolines<br>
+                Coming Soon!
+            </h4>
             <a href="#" class="btn btn-primary btn-secondary  animated fadeInLeft  delay-500">Learn More</a>
         </div>
 
@@ -219,7 +230,6 @@
             <div class="innovation-bg" style="background-image: url('images/skypark-home.jpg')"></div>
             <img src="images/skypark-home.jpg">
         </div>
-
 
     </div>
 

@@ -25,7 +25,6 @@
     <div class="footer">
         <div class="footer-gray">
             <div class="footer-container container-fluid">
-<!--            <div class="container">-->
                 <div class="col-md-4">
                     <div class="content">
                         <h4 class="footer-title">Quick Links</h4>
@@ -44,13 +43,6 @@
                                 <li class="<?php echo $_SERVER['REQUEST_URI']=='/batdev/contact.php'?'current_page_item':''; ?>"><a href="contact.php">Contact Us</a></li>
                             </ul>
                         </div>
-                        <h4 class="footer-title">Stay Connected</h4>
-                        <ul class="social-media social-media-bottom">
-                            <li><a href="#"><span class="icon-facebook"></span></a></li>
-                            <li><a href="#"><span class="icon-google"></span></a></li>
-                            <li><a href="https://twitter.com/bat_inc"><span class="icon-twitter"></span></a></li>
-                            <li><a href="#"><span class="icon-instagram"></span></a></li>
-                        </ul>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -82,6 +74,14 @@
                                 <li><a href="bestamericantrampolines.com" target="_blank">Best American Trampolines</a></li>
                             </ul>
                         </div>
+
+                        <h4 class="footer-title">Stay Connected</h4>
+                        <ul class="social-media social-media-bottom">
+                            <li><a href="#"><span class="icon-facebook"></span></a></li>
+                            <li><a href="#"><span class="icon-google"></span></a></li>
+                            <li><a href="https://twitter.com/bat_inc"><span class="icon-twitter"></span></a></li>
+                            <li><a href="#"><span class="icon-instagram"></span></a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
