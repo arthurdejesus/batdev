@@ -35,16 +35,25 @@
                 <div class="top-header-logo">
                     <a class="navbar-brand" href="index.php"><img src="images/logo.png"></a>
                 </div>
+
+                <div class="phone-wrap">
+                    <p class="phone-icon"><span class="icon-phone"></span></p>
+                    <p>Call: 866-690-3272</p>
+                </div>
+
+                <div class="phone-wrap">
+                    <p class="phone-icon"><span class="icon-phone"></span></p>
+                    <p>Call: 972-475-0092</p>
+                </div>
+
                 <ul class="social-media social-media-top">
                     <li><a href="#"><span class="icon-facebook"></span></a></li>
                     <li><a href="#"><span class="icon-google"></span></a></li>
                     <li><a href="https://twitter.com/bat_inc"><span class="icon-twitter"></span></a></li>
                     <li><a href="#"><span class="icon-instagram"></span></a></li>
                 </ul>
-                <p>Call: 972-475-0092</p>
-                <p class="phone-icon"><span class="icon-phone"></span></p>
-                <p>Call: 866-690-3272</p>
-                <p class="phone-icon"><span class="icon-phone"></span></p>
+
+
             </div>
         </div>
         <nav class="navbar navbar-menu">

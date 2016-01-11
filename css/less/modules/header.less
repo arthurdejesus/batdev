@@ -9,7 +9,6 @@
   right: 0;
   width: 100%;
   z-index: 99;
-  min-width: 1024px;
   display: block;
 }
 
@@ -18,23 +17,31 @@
   background-color: #000;
   display: block;
 
+  .phone-wrap {
+    display: inline-block;
+  }
+
   p {
     font-size: 20px;
     color: #2bcaf5;
-    float: right;
+    display: inline-block;
     margin: 0;
     padding: 13px 40px 13px 7px;
     font-family: @ProximaSemiBold;
   }
 
   .social-media-top {
-    float: right;
+    display: inline-block;
     padding: 0 3px 0 26px;
   }
 
   .phone-icon {
     padding: 5px;
     margin-top: 11px;
+
+    span {
+      vertical-align: middle;
+    }
   }
 
   .top-header-logo {

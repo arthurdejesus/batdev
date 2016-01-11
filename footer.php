@@ -45,7 +45,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-6">
                     <div class="content">
                         <h4 class="footer-title">Contact Us</h4>
                         <div class="description">
@@ -66,7 +66,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-6">
                     <div class="content">
                         <h4 class="footer-title">View Other BAT Sites</h4>
                         <div class="description">
