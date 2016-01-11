@@ -42,7 +42,7 @@
                 <div class="bb-item-bg">
                     <div class="slide-img" style="background: url(images/services/services3.jpg)">
                         <div>
-                            <a href=""><span class="slidetext"><span>Software</span></span></a>
+                            <a href="software.php"><span class="slidetext"><span>Software</span></span></a>
                         </div>
                     </div>
                 </div>

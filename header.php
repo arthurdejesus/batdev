@@ -73,7 +73,7 @@
                                 href="/">Home</a></li>
                         <li class="<?php echo $_SERVER['REQUEST_URI']=='/about.php'?'current_page_item':'';?>"><a href="about.php">About Us</a></li>
                         <li class="<?php echo $_SERVER['REQUEST_URI']=='/products.php'?'current_page_item':''; ?>"><a
-                                href="products.php">Products</a></li>
+                                href="#">Products</a></li>
                         <li class="<?php echo $_SERVER['REQUEST_URI']=='/services.php'?'current_page_item':''; ?>
                         dropdown">
                             <a href="services.php">Services <span class="icon-angle-down"></span></a>
@@ -85,7 +85,7 @@
                                         <li><a href="entertainment.php">Entertainment Centers </a></li>
                                         <li><a href="#">Branding</a></li>
                                         <li><a href="#">3D Renderings</a></li>
-                                        <li><a href="#">Software</a></li>
+                                        <li><a href="software.php">Software</a></li>
                                     </ul>
                                 </div>
                             </div>

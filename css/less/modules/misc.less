@@ -480,3 +480,55 @@ section[data-section-name="guarantee"] {
     margin-top: 0;
   }
 }
+
+.div-triangle-wrap, .div-triangle-wrap-bottom {
+  position: relative;
+  width: 100%;
+  display: block;
+  height: auto;
+
+  img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
+}
+
+.div-triangle-wrap {
+  bottom: -1px;
+  img {
+    bottom: 0;
+  }
+}
+
+.div-triangle-wrap-bottom {
+  img {
+    top: -1px;
+  }
+}
+
+.software-img-wrap {
+  height: 320px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.triangle-up {
+  width: 25%;
+  height: 0;
+  padding-left:25%;
+  padding-bottom: 25%;
+  overflow: hidden;
+}
+.triangle-up div {
+  width: 0;
+  height: 0;
+  margin-left:-500px;
+  border-left: 500px solid transparent;
+  border-right: 500px solid transparent;
+  border-bottom: 500px solid #4679BD;
+}

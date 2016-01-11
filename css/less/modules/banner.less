@@ -290,3 +290,69 @@
     bottom: 0;
   }
 }
+
+.banner-software {
+  background-color: #000f3a;
+  height: 900px;
+
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+
+  &:before {
+    background-image: url(../images/software/banner-overlay.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    .opacity(1);
+
+  }
+
+//  .container {
+//    position: relative;
+//    height: 800px;
+//  }
+
+  .banner-img {
+    position: absolute;
+    top: 60%;
+    right: 13%;
+    .translate(0, -60%);
+  }
+
+  .banner-caption {
+    width: 50%;
+    left: 20%;
+    right: inherit;
+    max-width: 710px;
+    text-align: left;
+
+    .banner-title, p {
+      font-family: @ProximaLight;
+      text-align: left;
+    }
+
+    .banner-title {
+      font-size: 65px;
+      text-transform: inherit;
+      margin-bottom: 35px !important;
+    }
+
+    p {
+      font-size: 26px;
+      color: #7483ac;
+      max-width: 450px;
+      margin-bottom: 2.5em;
+
+    }
+
+    .banner-logo {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+
+}
