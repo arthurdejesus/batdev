@@ -602,6 +602,12 @@
     margin-bottom: 1.2em;
     margin-top: 0;
   }
+
+  .portfolio-item-grid-wrap {
+    &:last-child {
+      border-right: 2px solid #fff;
+    }
+  }
 }
 
 .portfolio-section-holder {
@@ -729,4 +735,14 @@
   }
 
 
+}
+
+.portfolio-section-holder {
+  .section-portfolio {
+    .portfolio-item-grid-wrap {
+      a {
+        position: relative;
+      }
+    }
+  }
 }

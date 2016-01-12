@@ -9355,11 +9355,11 @@ body.noscroll {
   float: right;
   display: block;
   width: 60px;
-  height: 50px;
+  height: 60px;
   background-color: #000;
   padding: 3px 15px 6px;
   border: none;
-  border-radius: 5px;
+  border-radius: 30px;
   display: none;
 }
 .navbar-menu .navbar-header-menu .navbar-toggle-menu .icon-bar {
@@ -9500,6 +9500,10 @@ body.noscroll {
   margin-top: 5px;
   right: 0;
   top: 0;
+}
+.close-wrap .btn-close:hover,
+.close-wrap .btn-close:focus {
+  outline: none;
 }
 .close-wrap .btn-close img {
   width: 100%;
@@ -10254,6 +10258,9 @@ ul li {
   margin-bottom: 1.2em;
   margin-top: 0;
 }
+.section-portfolio .portfolio-item-grid-wrap:last-child {
+  border-right: 2px solid #fff;
+}
 .portfolio-section-holder .portfolio-item-grid-wrap {
   height: 400px;
   overflow: hidden;
@@ -10356,6 +10363,9 @@ ul li {
   .banner-software .container {
     width: 1220px;
   }
+}
+.portfolio-section-holder .section-portfolio .portfolio-item-grid-wrap a {
+  position: relative;
 }
 .social-media li a {
   font-size: 20px;
@@ -13325,6 +13335,9 @@ textarea:focus {
     padding: 15px;
     padding-left: 50px;
   }
+  .navbar-menu .navbar-nav > li.dropdown > .dropdown-menu ul li a:hover {
+    padding-left: 55px;
+  }
   .navbar-menu .navbar-nav > li.dropdown > .dropdown-menu {
     top: 0;
     z-index: 1;
@@ -13370,6 +13383,15 @@ textarea:focus {
     padding-bottom: 15px;
     padding-left: 30px;
     border-bottom: 1px solid #E8E6E6;
+    border-left: 5px solid #fff;
+  }
+  .navbar-menu .navbar-collapse .navbar-nav li a:hover {
+    border-left: 5px solid;
+    padding-left: 35px;
+  }
+  .navbar-menu .navbar-collapse .navbar-nav .current_page_item a {
+    border-left: 5px solid;
+    padding-left: 35px;
   }
   .navbar-menu .close-wrap {
     display: block;
@@ -13397,6 +13419,15 @@ textarea:focus {
     padding-bottom: 15px;
     padding-left: 30px;
     border-bottom: 1px solid #E8E6E6;
+    border-left: 5px solid #fff;
+  }
+  .navbar-fixed-top .navbar-menu .navbar-collapse .navbar-nav li a:hover {
+    border-left: 5px solid;
+    padding-left: 35px;
+  }
+  .navbar-fixed-top .navbar-menu .navbar-collapse .navbar-nav .current_page_item a {
+    border-left: 5px solid;
+    padding-left: 35px;
   }
   .navbar-fixed-top .navbar-menu .navbar-header-menu .navbar-brand {
     display: none;
@@ -13572,6 +13603,9 @@ textarea:focus {
     padding-right: 15px;
     padding-left: 25px;
     padding-top: 5px;
+  }
+  .section-portfolio .portfolio-item-grid-wrap:nth-child(3) {
+    border-right: 2px solid #fff;
   }
 }
 @media (max-width: 850px) {
