@@ -160,7 +160,6 @@
 .product-section {
   position: relative;
   overflow-x: hidden;
-  min-width: 1024px;
   min-height: 595px;
 }
 
@@ -168,6 +167,16 @@
   background-color: #fff;
   color: #fff;
   position: relative;
+
+  .single--img {
+    .single--img-top, .single--img-bottom {
+      &:after {
+        content: '';
+        display: table;
+        clear: both;
+      }
+    }
+  }
 }
 
 .section--process {

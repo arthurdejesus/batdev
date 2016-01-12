@@ -78,7 +78,13 @@
             </div>
             <div class="row">
 
-                <div class="col-md-6">
+                <div class="col-md-6 col-md-push-6">
+                    <div class="software-img animated fadeInRight slow">
+                        <img src="images/software/phone.png">
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-md-pull-6">
                     <div class="content animated fadeInLeft slow">
                         <h4 class="content-title">Electronic Waivers</h4>
                         <div class="description">
@@ -94,11 +100,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6">
-                    <div class="software-img animated fadeInRight slow">
-                        <img src="images/software/phone.png">
-                    </div>
-                </div>
+
 
 
             </div>

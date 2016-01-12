@@ -10,19 +10,19 @@
 
 <div class="section section-single-content section-single-prod-content">
     <div class="container">
-        <div class="col-md-6 animatedParent animateOnce">
+        <div class="col-md-6 col-md-push-6">
+            <button type="button" class="pop-btn" data-toggle="modal" data-target="#prod-pop">
+                <div class="single-img-holder" style="background-image: url('images/prod-single-img-thumb.jpg')"></div>
+            </button>
+
+        </div>
+
+        <div class="col-md-6 col-md-pull-6 animatedParent animateOnce">
             <div class="single-about animated fadeInUpShort slow">
                 <h3>About the Project</h3>
                 <div class="gap-30"></div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
             </div>
-        </div>
-
-        <div class="col-md-6">
-            <button type="button" class="pop-btn" data-toggle="modal" data-target="#prod-pop">
-                <div class="single-img-holder" style="background-image: url('images/prod-single-img-thumb.jpg')"></div>
-            </button>
-
         </div>
     </div>
 </div>

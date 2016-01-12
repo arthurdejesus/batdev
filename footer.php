@@ -51,7 +51,6 @@
                         <div class="description">
                             <div class="contact-details">
                                 <p class="contact-details-title">We’d love to hear from you:<p>
-                                    <br/>
                                 <p><a href="#">info@trampolinepark.com</a></p>
                                 <div class="contact-details-description">
                                     <p>local: <a href="#">972-475-0092</a></p>

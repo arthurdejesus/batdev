@@ -43,8 +43,6 @@
                 <li><img src="images/client-home/client-3.png"></li>
                 <li><img src="images/client-home/client-4.png"></li>
                 <li><img src="images/client-home/client-5.png"></li>
-            </ul>
-            <ul class="client-list">
                 <li><img src="images/client-home/client-6.jpg"></li>
                 <li><img src="images/client-home/client-7.jpg"></li>
                 <li><img src="images/client-home/client-8.jpg"></li>

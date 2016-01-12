@@ -3333,6 +3333,61 @@
         interval: false
     });
 
+    $(document).ready(function() {
+        // run test on initial page load
+        checkSize();
+
+        // run test on resize of the window
+        $(window).resize(checkSize);
+    });
+
+    //Function to the css rule
+    function checkSize(){
+        if ($(window).width() < 992){
+            $('#carousel-example-generic').on('slid.bs.carousel', function () {
+                var active = $(this).find('.carousel-indicators .active');
+                if(active.index() === 0) {
+                    $('.transition-border').css('left', '0');
+                }
+                if(active.index() === 1) {
+                    $('.transition-border').css('left', '48%');
+                }
+                if(active.index() === 2) {
+                    $('.transition-border').css('left', '97%');
+                }
+            });
+        }
+
+        if ($(window).width() < 668){
+            $('#carousel-example-generic').on('slid.bs.carousel', function () {
+                var active = $(this).find('.carousel-indicators .active');
+
+                if(active.index() === 1) {
+                    $('.transition-border').css('left', '47%');
+                }
+
+                if(active.index() === 2) {
+                    $('.transition-border').css('left', '95%');
+                }
+            });
+        }
+
+
+        if ($(window).width() < 451){
+            $('#carousel-example-generic').on('slid.bs.carousel', function () {
+                var active = $(this).find('.carousel-indicators .active');
+
+                if(active.index() === 1) {
+                    $('.transition-border').css('left', '46%');
+                }
+
+                if(active.index() === 2) {
+                    $('.transition-border').css('left', '93%');
+                }
+            });
+        }
+    }
+
     $('#carousel-example-generic').on('slid.bs.carousel', function () {
         var active = $(this).find('.carousel-indicators .active');
         if(active.index() === 0) {
@@ -3345,6 +3400,9 @@
             $('.transition-border').css('left', '98%');
         }
     });
+
+
+
 
 })(window, document, jQuery);
 
