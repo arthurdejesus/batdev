@@ -9,7 +9,15 @@
   }
 }
 
+@media(min-width: 2000px) {
+  .navbar-menu .navbar-nav > li.dropdown:hover .dropdown-menu ul {
+    text-align: right;
+    padding-right: 21.5em;
+  }
+}
+
 @media(max-width: 2000px) {
+
   .portfolio-item-grid-wrap .portfolio-item-grid-img {
     height: 300px;
   }
@@ -330,6 +338,21 @@
 
 
 @media(max-width: 1200px) {
+  .navbar-fixed-top {
+    .navbar-brand {
+      display: none;
+    }
+
+    .navbar-right {
+      float: none !important;
+      text-align: center;
+
+      li {
+        float: none;
+      }
+    }
+  }
+
   .our-process-holder .grid-we-do-img-wrap .product-img img {
     max-width: 500px;
   }
@@ -348,21 +371,6 @@
 
   .section-single-group-img .single--img-top .col-md-3 {
     width: 50% !important;
-  }
-
-  .navbar-fixed-top {
-    .navbar-brand {
-      display: none;
-    }
-
-    .navbar-right {
-      float: none !important;
-      text-align: center;
-
-      li {
-        float: none;
-      }
-    }
   }
 
   .footer .footer-gray {
@@ -528,6 +536,14 @@
 
 @media(max-width: 991px) {
 
+  .navbar-fixed-top .navbar-menu {
+    background-color: transparent;
+  }
+
+  .navbar-toggle-menu {
+    display: block;
+  }
+
   .top-header {
     display: none;
   }
@@ -555,14 +571,6 @@
         top: 0;
         padding: 15px 10px 0px;
       }
-    }
-
-    .navbar-header-menu .navbar-toggle-menu {
-      display: block;
-      position: fixed;
-      right: 20px;
-      top: 15px;
-      margin: 0;
     }
 
     .navbar-nav > li.dropdown > .dropdown-menu ul li a {
@@ -649,67 +657,6 @@
     }
 
   }
-
-  .navbar-fixed-top {
-
-
-    .navbar-menu .navbar-collapse .navbar-nav li a {
-      color: #000;
-    }
-
-    .top-header {
-      .opacity(0);
-    }
-
-    .navbar-menu {
-      background-color: transparent;
-      width: auto;
-      min-width: 0;
-      right: 15px;
-      top: 15px;
-
-
-      .navbar-collapse {
-        .navbar-nav {
-
-          li {
-
-            a {
-              color: #000;
-              padding-top: 15px;
-              padding-bottom: 15px;
-              padding-left: 30px;
-              border-bottom: 1px solid #E8E6E6;
-              border-left: 5px solid #fff;
-
-              &:hover {
-                border-left: 5px solid;
-                padding-left: 35px;
-              }
-            }
-          }
-
-          .current_page_item {
-            a {
-              border-left: 5px solid;
-              padding-left: 35px;
-            }
-          }
-        }
-
-      }
-
-
-      .navbar-header-menu {
-
-        .navbar-brand {
-          display: none;
-        }
-
-      }
-    }
-  }
-
 
   .content-world {
     max-width: none;
@@ -1260,9 +1207,6 @@
   .gap-100-2 {
     height: 80px;
   }
-  .navbar-fixed-top .navbar-menu .navbar-collapse .navbar-nav {
-    margin-top: 6px;
-  }
 
   .product-section-guarantee {
     .primary-title {
@@ -1305,10 +1249,6 @@
     max-height: 600px;
   }
 
-  .navbar-fixed-top .navbar-menu .navbar-collapse .navbar-nav li a {
-    padding-top: 20px;
-    padding-bottom: 21px;
-  }
 
   .navbar-menu .navbar-nav > li.dropdown > .dropdown-menu ul li a {
     padding: 15px;
@@ -1329,9 +1269,6 @@
     top: 25%;
   }
 
-  .navbar-fixed-top .navbar-menu .navbar-collapse {
-    overflow-x: scroll;
-  }
 }
 
 @media(max-height:650px) {

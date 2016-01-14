@@ -72,7 +72,7 @@
         <div class="content">
             <h3 class="primary-title animated fadeInUp" data-id='1'>Find Out More</h3>
         </div>
-        <div class="portfolio-item-grid-wrap animated fadeInRight" data-id='2'>
+        <div class="portfolio-item-grid-wrap animated fadeInUpShort" data-id='2'>
             <a href="our-process.php">
                 <div class="portfolio-item-grid-img">
                     <div class="portfolio-item-grid" style="background-image: url(images/portfolio-home/portfolio-1.jpg);"></div>
@@ -82,7 +82,7 @@
             </a>
         </div>
 
-        <div class="portfolio-item-grid-wrap animated fadeInRight" data-id='3'>
+        <div class="portfolio-item-grid-wrap animated fadeInUpShort" data-id='3'>
             <a href="portfolio.php">
                 <div class="portfolio-item-grid-img">
                     <div class="portfolio-item-grid" style="background-image: url(images/portfolio-home/portfolio-2.jpg);"></div>
@@ -93,7 +93,7 @@
             </a>
         </div>
 
-        <div class="portfolio-item-grid-wrap animated fadeInRight" data-id='4'>
+        <div class="portfolio-item-grid-wrap animated fadeInUpShort" data-id='4'>
             <a href="#">
                 <div class="portfolio-item-grid-img">
                     <div class="portfolio-item-grid" style="background-image: url(images/portfolio-home/portfolio-3.jpg);"></div>
@@ -105,7 +105,7 @@
         </div>
 
 
-        <div class="portfolio-item-grid-wrap animated fadeInRight" data-id='5'>
+        <div class="portfolio-item-grid-wrap animated fadeInUpShort" data-id='5'>
             <button class="btn-software" data-toggle="modal" data-target="#software">
                 <div class="portfolio-item-grid-img">
                     <div class="portfolio-item-grid" style="background-image: url(images/portfolio-home/portfolio-4.jpg);"></div>

@@ -1,3 +1,7 @@
+
+
+
+
 (function(window, document, $) {
     'use strict';
 
@@ -8,17 +12,19 @@
     //var D = document,
     //    W = window;
 
-
     $('.navbar-toggle-menu').click(function() {
-        $('.navbar-collapse').addClass('is-open');
-        $('body').addClass('is-open');
+        $('.site-content').toggleClass('push-left');
+        $('.site-menu-mobile').toggleClass('push-open');
+        $('.navbar-toggle-menu').toggleClass('navbar-toggle-menu-none');
+        $('body').toggleClass('no-scroll');
     });
 
-    $('.close-wrap').click(function() {
-        $('.navbar-collapse').removeClass('is-open');
-        $('body').removeClass('is-open');
+    $('.site-content').click(function(e) {
+        $('.site-content').removeClass('push-left');
+        $('.site-menu-mobile').removeClass('push-open');
+        $('.navbar-toggle-menu').removeClass('navbar-toggle-menu-none');
+        $('body').removeClass('no-scroll');
     });
-
 
     $(function() {
         $(window).load(function() { // makes sure the whole site is loaded

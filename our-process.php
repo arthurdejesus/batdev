@@ -273,6 +273,48 @@
 
 </section>
 
+</div>
+
+<div class="site-menu-mobile">
+    <ul class="nav navbar-nav navbar-right">
+        <li class="<?php echo $_SERVER['REQUEST_URI']=='/'?'current_page_item':'';?>"><a class="menu-home"
+                                                                                         href="/">Home</a></li>
+        <li class="<?php echo $_SERVER['REQUEST_URI']=='/about.php'?'current_page_item':'';?>"><a href="about.php"
+                                                                                                  class="menu-about"
+                >About Us</a></li>
+        <li class="<?php echo $_SERVER['REQUEST_URI']=='/products.php'?'current_page_item':''; ?>"><a
+                href="#" class="menu-products">Products</a></li>
+        <li class="<?php echo $_SERVER['REQUEST_URI']=='/services.php'?'current_page_item':''; ?>
+                            dropdown">
+            <a href="services.php" class="menu-services">Services</a>
+
+            <div class="dropdown-menu">
+                <div class="container">
+                    <ul>
+                        <li><a href="trampoline.php" class="menu-trampoline">Trampoline Parks</a></li>
+                        <li><a href="entertainment.php" class="menu-entertainment">Entertainment Centers </a></li>
+                        <li><a href="#" class="menu-branding">Branding</a></li>
+                        <li><a href="#" class="menu-3D">3D Renderings</a></li>
+                        <li><a href="software.php" class="menu-software">Software</a></li>
+                    </ul>
+                </div>
+            </div>
+        </li>
+        <li class="<?php echo $_SERVER['REQUEST_URI']=='/portfolio.php'?'current_page_item':''; ?>"><a
+                href="portfolio.php" class="menu-portfolio">Portfolio</a></li>
+        <li class="<?php echo $_SERVER['REQUEST_URI']=='/our-process.php'?'current_page_item':''; ?>"><a
+                href="our-process.php" class="menu-process">Our Process</a></li>
+        <li class="<?php echo $_SERVER['REQUEST_URI']=='/news.php'?'current_page_item':''; ?>"><a href="news.php"
+                                                                                                  class="menu-news"
+                >News & Events</a></li>
+        <li class="<?php echo $_SERVER['REQUEST_URI']=='/faqs.php'?'current_page_item':''; ?>"><a href="faqs.php"
+                                                                                                  class="menu-faq"
+                >FAQ's</a></li>
+        <li class="<?php echo $_SERVER['REQUEST_URI']=='/contact.php'?'current_page_item':''; ?>"><a href="contact
+        .php" class="menu-contact">Contact Us</a></li>
+    </ul>
+</div>
+
 <!-- Modal -->
 <div class="modal fade" id="package" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
