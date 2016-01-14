@@ -38,7 +38,8 @@
                     <h4 class="secondary-title">We create Premium Trampoline Parks and One-of-a-Kind Boutique Entertainment Centers across the globe</h4>
 
                     <div class="description">
-                        <p>Best American Trampolines has not only designed and built over 100 indoor trampoline parks worldwide, but we also have ownership in several successful parks operating throughout the world.</p>
+                        <p>Best American Trampolines has not only designed and built over 100 indoor trampoline parks worldwide, but we have ownership in several successful parks as well.</p>
+                        <p>Our President is a founding member of the International Trampoline Park Association (IATP) and has continued involvement in the American Society for Testing and Materials (ASTM), which regulates trampoline park safety standards in the U.S.</p>
                     </div>
 
                     <button type="button" class="btn btn-primary mtb-2" data-toggle="modal" data-target="#package">
@@ -67,11 +68,11 @@
         </div>
     </div>
 
-    <div class="section section-portfolio">
+    <div class="section section-portfolio animatedParent animateOnce" data-sequence='500'>
         <div class="content">
-            <h3 class="primary-title">Find Out More</h3>
+            <h3 class="primary-title animated fadeInUp" data-id='1'>Find Out More</h3>
         </div>
-        <div class="portfolio-item-grid-wrap">
+        <div class="portfolio-item-grid-wrap animated fadeInRight" data-id='2'>
             <a href="our-process.php">
                 <div class="portfolio-item-grid-img">
                     <div class="portfolio-item-grid" style="background-image: url(images/portfolio-home/portfolio-1.jpg);"></div>
@@ -81,7 +82,7 @@
             </a>
         </div>
 
-        <div class="portfolio-item-grid-wrap">
+        <div class="portfolio-item-grid-wrap animated fadeInRight" data-id='3'>
             <a href="portfolio.php">
                 <div class="portfolio-item-grid-img">
                     <div class="portfolio-item-grid" style="background-image: url(images/portfolio-home/portfolio-2.jpg);"></div>
@@ -92,7 +93,7 @@
             </a>
         </div>
 
-        <div class="portfolio-item-grid-wrap">
+        <div class="portfolio-item-grid-wrap animated fadeInRight" data-id='4'>
             <a href="#">
                 <div class="portfolio-item-grid-img">
                     <div class="portfolio-item-grid" style="background-image: url(images/portfolio-home/portfolio-3.jpg);"></div>
@@ -104,7 +105,7 @@
         </div>
 
 
-        <div class="portfolio-item-grid-wrap">
+        <div class="portfolio-item-grid-wrap animated fadeInRight" data-id='5'>
             <button class="btn-software" data-toggle="modal" data-target="#software">
                 <div class="portfolio-item-grid-img">
                     <div class="portfolio-item-grid" style="background-image: url(images/portfolio-home/portfolio-4.jpg);"></div>

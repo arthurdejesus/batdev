@@ -10386,6 +10386,12 @@ ul li {
   width: 24%;
   vertical-align: top;
 }
+.process-grid ul li:hover .process-grid-item-icon img {
+  -webkit-transform: translate(0, -15px);
+  -ms-transform: translate(0, -15px);
+  -o-transform: translate(0, -15px);
+  transform: translate(0, -15px);
+}
 .process-grid ul li .process-grid-item-title {
   font-size: 28px;
   color: #272727;
@@ -10399,6 +10405,11 @@ ul li {
 .process-grid ul li .process-grid-item-icon {
   margin: 3em 0;
   min-height: 68px;
+}
+.process-grid ul li .process-grid-item-icon img {
+  -webkit-transition: all ease-in-out 0.3s;
+  -o-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
 }
 .process-grid ul li .process-icon-2 {
   margin-top: 2px;
@@ -11609,7 +11620,7 @@ section[data-section-name="guarantee"] .process-grid-description p {
   font-variant: normal;
   text-transform: none;
   margin: 0 8px;
-  vertical-align: text-bottom;
+  vertical-align: bottom;
 }
 .btn-down {
   display: block;
@@ -13607,6 +13618,10 @@ textarea:focus {
   .section-portfolio .portfolio-item-grid-wrap:nth-child(3) {
     border-right: 2px solid #fff;
   }
+  .process-grid ul li {
+    width: 45%;
+    padding: 0 15px;
+  }
 }
 @media (max-width: 850px) {
   .banner-software .banner-img {
@@ -13696,11 +13711,14 @@ textarea:focus {
   .banner-sub .banner-caption {
     top: 55%;
   }
+  .banner-caption .banner-title {
+    font-size: 80px;
+  }
+  .blue-title {
+    font-size: 30px;
+  }
 }
 @media (max-width: 667px) {
-  .process-grid ul li {
-    width: 45%;
-  }
   .section-innovation .content-left {
     max-width: none;
     width: 100%;
@@ -13782,6 +13800,9 @@ textarea:focus {
   .footer .footer-gray {
     padding-left: 1em;
   }
+  .banner-slider .bxslider li {
+    height: 800px;
+  }
 }
 @media (max-width: 550px) {
   .footer-black .footer-menu li a {
@@ -13797,6 +13818,9 @@ textarea:focus {
   }
   .content-list li {
     float: none;
+  }
+  .banner-caption .banner-title {
+    font-size: 50px;
   }
 }
 @media (max-height: 930px) {

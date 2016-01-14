@@ -23,6 +23,16 @@
       width: 24%;
       vertical-align: top;
 
+      &:hover {
+        .process-grid-item-icon {
+
+          img {
+            .translate(0, -15px);
+          }
+        }
+
+      }
+
       .process-grid-item-title {
         font-size: 28px;
         color: #272727;
@@ -40,6 +50,10 @@
       .process-grid-item-icon {
         margin: 3em 0;
         min-height: 68px;
+
+        img {
+          .transition(all ease-in-out .3s);
+        }
       }
       
       .process-icon-2 {
