@@ -604,7 +604,13 @@
   }
 
   .portfolio-item-grid-wrap {
-    &:last-child {
+    border: 2px solid #fff;
+
+    &:first-child{
+      border-left: 2px solid #fff;
+    }
+
+    &:nth-child(4n){
       border-right: 2px solid #fff;
     }
   }
@@ -614,8 +620,6 @@
     .portfolio-item-grid-wrap {
       height: 400px;
       overflow: hidden;
-      border-left: 2px solid #fff;
-      border-right: 2px solid #fff;
     }
 }
 .section-contact-intro {
