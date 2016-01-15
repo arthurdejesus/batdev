@@ -120,17 +120,45 @@
                 <div class="modal-body">
                     <div class="carousel-inner">
                         <div class="item active">
-                            <img src="images/products/urban-air.jpg">
+                            <img src="images/portfolio-img/Airbound.jpg">
                         </div>
                         <div class="item">
-                            <img src="images/products/rockin-jump.jpg">
+                            <img src="images/portfolio-img/Airtime.jpg">
                         </div>
                         <div class="item">
-                            <img src="images/portfolio-img/portfolio-3.jpg">
+                            <img src="images/portfolio-img/FlightDeck-1.jpg">
                         </div>
                         <div class="item">
-                            <img src="images/products/flipz.jpg">
+                            <img src="images/portfolio-img/FlightDeck-2.jpg">
                         </div>
+
+                        <div class="item">
+                            <img src="images/portfolio-img/Flipz-1.jpg">
+                        </div>
+                        <div class="item">
+                            <img src="images/portfolio-img/Flipz-2.jpg">
+                        </div>
+                        <div class="item">
+                            <img src="images/portfolio-img/JumpAround-1.jpg">
+                        </div>
+                        <div class="item">
+                            <img src="images/portfolio-img/JumpAround-2.jpg">
+                        </div>
+
+                        <div class="item">
+                            <img src="images/portfolio-img/RockinJump-1.jpg">
+                        </div>
+                        <div class="item">
+                            <img src="images/portfolio-img/RockinJump-2.jpg">
+                        </div>
+                        <div class="item">
+                            <img src="images/portfolio-img/UrbanAir-1.jpg">
+                        </div>
+                        <div class="item">
+                            <img src="images/portfolio-img/UrbanAir-2.jpg">
+                        </div>
+
+
                     </div><!-- /.carousel-inner -->
                     <a class="left carousel-control" href="#lightbox" role="button" data-slide="prev">
                         <span class="glyphicon glyphicon-chevron-left"></span>
