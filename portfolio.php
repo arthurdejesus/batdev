@@ -184,33 +184,66 @@
     <div class="section-portfolio">
         <div class="portfolio-item-grid-wrap animated fadeInUpShort slow" data-id="2">
             <a href="#lightbox2" data-toggle="modal" data-slide-to="0">
-                <div class="portfolio-item-grid" style="background-image: url(images/products/jump-box.jpg);">
+                <div class="portfolio-item-grid" style="background-image: url(images/portfolio-img/Bounce-1.jpg);">
                 </div>
-                <div class="btn-portfolio-hover"><p>Jump Boxx</p></div>
+                <div class="btn-portfolio-hover"><p>Bounce - 1</p></div>
             </a>
         </div>
 
         <div class="portfolio-item-grid-wrap animated fadeInUpShort slow" data-id="3">
             <a href="#lightbox2" data-toggle="modal" data-slide-to="1">
-                <div class="portfolio-item-grid" style="background-image: url(images/products/sky-3.jpeg);">
+                <div class="portfolio-item-grid" style="background-image: url(images/portfolio-img/Bounce-2.jpg);">
                 </div>
-                <div class="btn-portfolio-hover"><p>Bounce Indoor</p></div>
+                <div class="btn-portfolio-hover"><p>Bounce - 2</p></div>
             </a>
         </div>
 
         <div class="portfolio-item-grid-wrap animated fadeInUpShort slow" data-id="4">
             <a href="#lightbox2" data-toggle="modal" data-slide-to="2">
-                <div class="portfolio-item-grid" style="background-image: url(images/products/jump-street.jpg);">
+                <div class="portfolio-item-grid" style="background-image: url(images/portfolio-img/District12-1.jpg);">
                 </div>
-                <div class="btn-portfolio-hover"><p>Jump Street</p></div>
+                <div class="btn-portfolio-hover"><p>District 12 - 1</p></div>
             </a>
         </div>
 
         <div class="portfolio-item-grid-wrap animated fadeInUpShort slow" data-id="5">
             <a href="#lightbox2" data-toggle="modal" data-slide-to="3">
-                <div class="portfolio-item-grid" style="background-image: url(images/products/beachwood.jpg);">
+                <div class="portfolio-item-grid" style="background-image: url(images/portfolio-img/District12-2.jpg);">
                 </div>
-                <div class="btn-portfolio-hover"><p>Zip City</p></div>
+                <div class="btn-portfolio-hover"><p>District 12 - 1</p></div>
+            </a>
+        </div>
+
+
+        <div class="portfolio-item-grid-wrap animated fadeInUpShort slow" data-id="6">
+            <a href="#lightbox2" data-toggle="modal" data-slide-to="4">
+                <div class="portfolio-item-grid" style="background-image: url(images/portfolio-img/JumpBoxx-1.jpg);">
+                </div>
+                <div class="btn-portfolio-hover"><p>Jump Boxx - 1</p></div>
+            </a>
+        </div>
+
+        <div class="portfolio-item-grid-wrap animated fadeInUpShort slow" data-id="7">
+            <a href="#lightbox2" data-toggle="modal" data-slide-to="5">
+                <div class="portfolio-item-grid" style="background-image: url(images/portfolio-img/JumpBoxx-2.jpg);">
+                </div>
+                <div class="btn-portfolio-hover"><p>Jump Boxx - 1</p></div>
+            </a>
+        </div>
+
+        <div class="portfolio-item-grid-wrap animated fadeInUpShort slow" data-id="8">
+            <a href="#lightbox2" data-toggle="modal" data-slide-to="6">
+                <div class="portfolio-item-grid" style="background-image: url(images/portfolio-img/JumpStreet-1.jpg);">
+                </div>
+                <div class="btn-portfolio-hover"><p>Jump Street - 1</p></div>
+            </a>
+        </div>
+
+        <div class="portfolio-item-grid-wrap animated fadeInUpShort slow" data-id="9">
+            <a href="#lightbox2" data-toggle="modal" data-slide-to="7">
+                <div class="portfolio-item-grid" style="background-image: url(images/portfolio-img/JumpStreet-2.jpg);">
+                </div>
+                <div class="btn-portfolio-hover"><p>Jump Street - 1</p></div>
             </a>
         </div>
     </div>
@@ -222,16 +255,30 @@
                 <div class="modal-body">
                     <div class="carousel-inner">
                         <div class="item active">
-                            <img src="images/products/jump-box.jpg">
+                            <img src="images/portfolio-img/Bounce-1.jpg">
                         </div>
                         <div class="item">
-                            <img src="images/products/sky-3.jpeg">
+                            <img src="images/portfolio-img/Bounce-2.jpg">
                         </div>
                         <div class="item">
-                            <img src="images/products/jump-street.jpg">
+                            <img src="images/portfolio-img/District12-1.jpg">
                         </div>
                         <div class="item">
-                            <img src="images/products/beachwood.jpg">
+                            <img src="images/portfolio-img/District12-2.jpg">
+                        </div>
+
+
+                        <div class="item">
+                            <img src="images/portfolio-img/JumpBoxx-1.jpg">
+                        </div>
+                        <div class="item">
+                            <img src="images/portfolio-img/JumpBoxx-2.jpg">
+                        </div>
+                        <div class="item">
+                            <img src="images/portfolio-img/JumpStreet-1.jpg">
+                        </div>
+                        <div class="item">
+                            <img src="images/portfolio-img/JumpStreet-2.jpg">
                         </div>
                     </div><!-- /.carousel-inner -->
                     <a class="left carousel-control" href="#lightbox2" role="button" data-slide="prev">

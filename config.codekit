@@ -4782,6 +4782,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/portfolio-img\/Bounce-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 268729,
+		"inputAbbreviatedPath": "\/images\/portfolio-img\/Bounce-1.jpg",
+		"outputAbbreviatedPath": "\/images\/portfolio-img\/Bounce-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/portfolio-img\/Bounce-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 308985,
+		"inputAbbreviatedPath": "\/images\/portfolio-img\/Bounce-2.jpg",
+		"outputAbbreviatedPath": "\/images\/portfolio-img\/Bounce-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/portfolio-img\/District12-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 867762,
+		"inputAbbreviatedPath": "\/images\/portfolio-img\/District12-1.jpg",
+		"outputAbbreviatedPath": "\/images\/portfolio-img\/District12-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/portfolio-img\/District12-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 94038,
+		"inputAbbreviatedPath": "\/images\/portfolio-img\/District12-2.jpg",
+		"outputAbbreviatedPath": "\/images\/portfolio-img\/District12-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/portfolio-img\/FlightDeck-1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4844,6 +4888,50 @@
 		"initialSize": 134766,
 		"inputAbbreviatedPath": "\/images\/portfolio-img\/JumpAround-2.jpg",
 		"outputAbbreviatedPath": "\/images\/portfolio-img\/JumpAround-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/portfolio-img\/JumpBoxx-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 99136,
+		"inputAbbreviatedPath": "\/images\/portfolio-img\/JumpBoxx-1.jpg",
+		"outputAbbreviatedPath": "\/images\/portfolio-img\/JumpBoxx-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/portfolio-img\/JumpBoxx-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 74233,
+		"inputAbbreviatedPath": "\/images\/portfolio-img\/JumpBoxx-2.jpg",
+		"outputAbbreviatedPath": "\/images\/portfolio-img\/JumpBoxx-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/portfolio-img\/JumpStreet-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 92577,
+		"inputAbbreviatedPath": "\/images\/portfolio-img\/JumpStreet-1.jpg",
+		"outputAbbreviatedPath": "\/images\/portfolio-img\/JumpStreet-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/portfolio-img\/JumpStreet-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 129426,
+		"inputAbbreviatedPath": "\/images\/portfolio-img\/JumpStreet-2.jpg",
+		"outputAbbreviatedPath": "\/images\/portfolio-img\/JumpStreet-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
