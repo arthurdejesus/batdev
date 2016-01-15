@@ -13698,6 +13698,7 @@ textarea:focus {
   }
   .pc_container .pc_item .desc .pc--desc h1 {
     font-size: 40px;
+    letter-spacing: normal;
   }
   .primary-title,
   .secondary-title {
@@ -13830,6 +13831,10 @@ textarea:focus {
     width: 45%;
     padding: 0 15px;
   }
+  .single-title {
+    font-size: 60px;
+    padding: 0 20px;
+  }
 }
 @media (max-width: 850px) {
   .banner-software .banner-img {
@@ -13858,6 +13863,9 @@ textarea:focus {
   }
   .section-contact-intro {
     padding-bottom: 1em !important;
+  }
+  .modal-iframe .modal-dialog {
+    width: 700px;
   }
 }
 @media (max-width: 767px) {
@@ -13924,6 +13932,9 @@ textarea:focus {
   }
   .blue-title {
     font-size: 30px;
+  }
+  .modal-iframe .modal-dialog {
+    width: 500px;
   }
 }
 @media (max-width: 667px) {
@@ -14047,6 +14058,9 @@ textarea:focus {
   .banner {
     height: 500px;
   }
+  .single-prod-banner-skypark {
+    height: 500px;
+  }
 }
 @media (max-width: 480px) {
   .content-list {
@@ -14080,6 +14094,9 @@ textarea:focus {
   .slide-img a span.slidetext span {
     font-size: 20px;
     padding: 12px 40px;
+  }
+  .single-img-holder {
+    height: 350px;
   }
 }
 @media (max-height: 930px) {

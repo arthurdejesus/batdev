@@ -146,8 +146,8 @@
         <li class="<?php echo $_SERVER['REQUEST_URI']=='/faqs.php'?'current_page_item':''; ?>"><a href="faqs.php"
                                                                                                   class="menu-faq"
                 >FAQ's</a></li>
-        <li class="<?php echo $_SERVER['REQUEST_URI']=='/contact.php'?'current_page_item':''; ?>"><a href="contact
-        .php" class="menu-contact">Contact Us</a></li>
+        <li class="<?php echo $_SERVER['REQUEST_URI']=='/contact.php'?'current_page_item':''; ?>"><a href="contact.php"
+                                                                                                     class="menu-contact">Contact Us</a></li>
     </ul>
 </div>
 <!-- Modal -->
