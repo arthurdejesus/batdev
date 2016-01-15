@@ -13172,6 +13172,9 @@ textarea:focus {
     text-align: right;
     padding-right: 21.5em;
   }
+  .modal-gallery .carousel-inner .item img {
+    max-height: 1100px;
+  }
 }
 @media (max-width: 2000px) {
   .portfolio-item-grid-wrap .portfolio-item-grid-img {
@@ -13994,6 +13997,9 @@ textarea:focus {
   .banner-slider .bxslider li {
     height: 800px;
   }
+  .process-grid ul li {
+    width: 80%;
+  }
 }
 @media (max-width: 550px) {
   .footer-black .footer-menu li a {
@@ -14001,6 +14007,9 @@ textarea:focus {
   }
   .footer-black p {
     font-size: 15px;
+  }
+  .process-grid ul li {
+    width: 100%;
   }
 }
 @media (max-width: 480px) {

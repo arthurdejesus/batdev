@@ -88,11 +88,12 @@
 
                                 <div class="dropdown-menu">
                                     <ul>
-                                        <li><a href="trampoline.php">Trampoline Parks</a></li>
-                                        <li><a href="entertainment.php">Entertainment Centers </a></li>
-                                        <li><a href="#">Branding</a></li>
-                                        <li><a href="#">3D Renderings</a></li>
-                                        <li><a href="software.php">Software</a></li>
+                                        <li class="<?php echo $_SERVER['REQUEST_URI']=='/products.php'?'current_page_item':''; ?>"><a href="trampoline.php">Trampoline Parks</a></li>
+                                        <li class="<?php echo $_SERVER['REQUEST_URI']=='/products.php'?'current_page_item':''; ?>"><a href="entertainment.php">Entertainment Centers </a></li>
+                                        <li class="<?php echo $_SERVER['REQUEST_URI']=='/products.php'?'current_page_item':''; ?>"><a href="#">Branding</a></li>
+                                        <li class="<?php echo $_SERVER['REQUEST_URI']=='/products
+                                        .php'?'current_page_item':''; ?>"><a href="our-process.php">3D Renderings</a></li>
+                                        <li class="<?php echo $_SERVER['REQUEST_URI']=='/products.php'?'current_page_item':''; ?>"><a href="software.php">Software</a></li>
                                     </ul>
                                 </div>
                             </li>

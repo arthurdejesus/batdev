@@ -126,11 +126,12 @@
             <div class="dropdown-menu">
                 <div class="container">
                     <ul>
-                        <li><a href="trampoline.php" class="menu-trampoline">Trampoline Parks</a></li>
-                        <li><a href="entertainment.php" class="menu-entertainment">Entertainment Centers </a></li>
-                        <li><a href="#" class="menu-branding">Branding</a></li>
-                        <li><a href="#" class="menu-3D">3D Renderings</a></li>
-                        <li><a href="software.php" class="menu-software">Software</a></li>
+                        <li class="<?php echo $_SERVER['REQUEST_URI']=='/products.php'?'current_page_item':''; ?>"><a href="trampoline.php" class="menu-trampoline">Trampoline Parks</a></li>
+                        <li class="<?php echo $_SERVER['REQUEST_URI']=='/products.php'?'current_page_item':''; ?>"><a href="entertainment.php" class="menu-entertainment">Entertainment Centers </a></li>
+                        <li class="<?php echo $_SERVER['REQUEST_URI']=='/products.php'?'current_page_item':''; ?>"><a href="#" class="menu-branding">Branding</a></li>
+                        <li class="<?php echo $_SERVER['REQUEST_URI']=='/products.php'?'current_page_item':''; ?>"><a
+                                href="our-process.php" class="menu-3D">3D Renderings</a></li>
+                        <li class="<?php echo $_SERVER['REQUEST_URI']=='/products.php'?'current_page_item':''; ?>"><a href="software.php" class="menu-software">Software</a></li>
                     </ul>
                 </div>
             </div>
