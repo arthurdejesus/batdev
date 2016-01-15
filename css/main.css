@@ -9293,10 +9293,13 @@ body.noscroll {
 .top-header p {
   font-size: 20px;
   color: #2bcaf5;
-  display: inline-block;
+  display: inline;
   margin: 0;
   padding: 13px 40px 13px 7px;
   font-family: 'ProximaNovaSemibold', sans-serif;
+}
+.top-header p a {
+  display: inline-block;
 }
 .top-header .social-media-top {
   display: inline-block;

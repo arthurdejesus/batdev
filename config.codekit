@@ -4760,6 +4760,94 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/portfolio-img\/Airbound.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 80129,
+		"inputAbbreviatedPath": "\/images\/portfolio-img\/Airbound.jpg",
+		"outputAbbreviatedPath": "\/images\/portfolio-img\/Airbound.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/portfolio-img\/Airtime.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 72349,
+		"inputAbbreviatedPath": "\/images\/portfolio-img\/Airtime.jpg",
+		"outputAbbreviatedPath": "\/images\/portfolio-img\/Airtime.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/portfolio-img\/FlightDeck-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 190183,
+		"inputAbbreviatedPath": "\/images\/portfolio-img\/FlightDeck-1.jpg",
+		"outputAbbreviatedPath": "\/images\/portfolio-img\/FlightDeck-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/portfolio-img\/FlightDeck-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 670827,
+		"inputAbbreviatedPath": "\/images\/portfolio-img\/FlightDeck-2.jpg",
+		"outputAbbreviatedPath": "\/images\/portfolio-img\/FlightDeck-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/portfolio-img\/Flipz-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.3986e+07,
+		"inputAbbreviatedPath": "\/images\/portfolio-img\/Flipz-1.jpg",
+		"outputAbbreviatedPath": "\/images\/portfolio-img\/Flipz-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/portfolio-img\/Flipz-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.27517e+07,
+		"inputAbbreviatedPath": "\/images\/portfolio-img\/Flipz-2.jpg",
+		"outputAbbreviatedPath": "\/images\/portfolio-img\/Flipz-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/portfolio-img\/JumpAround-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 271183,
+		"inputAbbreviatedPath": "\/images\/portfolio-img\/JumpAround-1.jpg",
+		"outputAbbreviatedPath": "\/images\/portfolio-img\/JumpAround-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/portfolio-img\/JumpAround-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 134766,
+		"inputAbbreviatedPath": "\/images\/portfolio-img\/JumpAround-2.jpg",
+		"outputAbbreviatedPath": "\/images\/portfolio-img\/JumpAround-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/portfolio-img\/portfolio-1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4855,6 +4943,50 @@
 		"initialSize": 112218,
 		"inputAbbreviatedPath": "\/images\/portfolio-img\/portfolio-9.jpg",
 		"outputAbbreviatedPath": "\/images\/portfolio-img\/portfolio-9.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/portfolio-img\/RockinJump-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.24804e+06,
+		"inputAbbreviatedPath": "\/images\/portfolio-img\/RockinJump-1.jpg",
+		"outputAbbreviatedPath": "\/images\/portfolio-img\/RockinJump-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/portfolio-img\/RockinJump-2.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.00910e+06,
+		"inputAbbreviatedPath": "\/images\/portfolio-img\/RockinJump-2.JPG",
+		"outputAbbreviatedPath": "\/images\/portfolio-img\/RockinJump-2.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/portfolio-img\/UrbanAir-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 402451,
+		"inputAbbreviatedPath": "\/images\/portfolio-img\/UrbanAir-1.jpg",
+		"outputAbbreviatedPath": "\/images\/portfolio-img\/UrbanAir-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/portfolio-img\/UrbanAir-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 80807,
+		"inputAbbreviatedPath": "\/images\/portfolio-img\/UrbanAir-2.jpg",
+		"outputAbbreviatedPath": "\/images\/portfolio-img\/UrbanAir-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

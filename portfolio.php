@@ -16,33 +16,99 @@
     <div class="section-portfolio">
         <div class="portfolio-item-grid-wrap animated fadeInUpShort slow" data-id="2">
             <a href="#lightbox" data-toggle="modal" data-slide-to="0">
-                <div class="portfolio-item-grid" style="background-image: url(images/products/urban-air.jpg);">
-                </div>
-                <div class="btn-portfolio-hover"><p>Urban Air</p></div>
-            </a>
-        </div>
-
-        <div class="portfolio-item-grid-wrap animated fadeInUpShort slow" data-id="3">
-            <a href="#lightbox" data-toggle="modal" data-slide-to="1">
-                <div class="portfolio-item-grid" style="background-image: url(images/products/rockin-jump.jpg);">
-                </div>
-                <div class="btn-portfolio-hover"><p>Rockin' Jump</p></div>
-            </a>
-        </div>
-
-        <div class="portfolio-item-grid-wrap animated fadeInUpShort slow" data-id="4">
-            <a href="#lightbox" data-toggle="modal" data-slide-to="2">
-                <div class="portfolio-item-grid" style="background-image: url(images/portfolio-img/portfolio-3.jpg);">
+                <div class="portfolio-item-grid" style="background-image: url(images/portfolio-img/Airbound.jpg);">
                 </div>
                 <div class="btn-portfolio-hover"><p>Airbound</p></div>
             </a>
         </div>
 
+        <div class="portfolio-item-grid-wrap animated fadeInUpShort slow" data-id="3">
+            <a href="#lightbox" data-toggle="modal" data-slide-to="1">
+                <div class="portfolio-item-grid" style="background-image: url(images/portfolio-img/Airtime.jpg);">
+                </div>
+                <div class="btn-portfolio-hover"><p>Airtime</p></div>
+            </a>
+        </div>
+
+        <div class="portfolio-item-grid-wrap animated fadeInUpShort slow" data-id="4">
+            <a href="#lightbox" data-toggle="modal" data-slide-to="2">
+                <div class="portfolio-item-grid" style="background-image: url(images/portfolio-img/FlightDeck-1.jpg);">
+                </div>
+                <div class="btn-portfolio-hover"><p>Flight Deck - 1</p></div>
+            </a>
+        </div>
+
         <div class="portfolio-item-grid-wrap animated fadeInUpShort slow" data-id="5">
             <a href="#lightbox" data-toggle="modal" data-slide-to="3">
-                <div class="portfolio-item-grid" style="background-image: url(images/products/flipz.jpg);">
+                <div class="portfolio-item-grid" style="background-image: url(images/portfolio-img/FlightDeck-2.jpg);">
                 </div>
-                <div class="btn-portfolio-hover"><p>Flip'z</p></div>
+                <div class="btn-portfolio-hover"><p>Flight Deck - 2</p></div>
+            </a>
+        </div>
+
+
+        <div class="portfolio-item-grid-wrap animated fadeInUpShort slow" data-id="6">
+            <a href="#lightbox" data-toggle="modal" data-slide-to="4">
+                <div class="portfolio-item-grid" style="background-image: url(images/portfolio-img/Flipz-1.jpg);">
+                </div>
+                <div class="btn-portfolio-hover"><p>Flip'z - 1</p></div>
+            </a>
+        </div>
+
+        <div class="portfolio-item-grid-wrap animated fadeInUpShort slow" data-id="7">
+            <a href="#lightbox" data-toggle="modal" data-slide-to="5">
+                <div class="portfolio-item-grid" style="background-image: url(images/portfolio-img/Flipz-2.jpg);">
+                </div>
+                <div class="btn-portfolio-hover"><p>Flip'z - 2</p></div>
+            </a>
+        </div>
+
+        <div class="portfolio-item-grid-wrap animated fadeInUpShort slow" data-id="8">
+            <a href="#lightbox" data-toggle="modal" data-slide-to="6">
+                <div class="portfolio-item-grid" style="background-image: url(images/portfolio-img/JumpAround-1.jpg);">
+                </div>
+                <div class="btn-portfolio-hover"><p>Jump Around - 1</p></div>
+            </a>
+        </div>
+
+        <div class="portfolio-item-grid-wrap animated fadeInUpShort slow" data-id="9">
+            <a href="#lightbox" data-toggle="modal" data-slide-to="7">
+                <div class="portfolio-item-grid" style="background-image: url(images/portfolio-img/JumpAround-2.jpg);">
+                </div>
+                <div class="btn-portfolio-hover"><p>Jump Around - 2</p></div>
+            </a>
+        </div>
+
+
+        <div class="portfolio-item-grid-wrap animated fadeInUpShort slow" data-id="10">
+            <a href="#lightbox" data-toggle="modal" data-slide-to="8">
+                <div class="portfolio-item-grid" style="background-image: url(images/portfolio-img/RockinJump-1.jpg);">
+                </div>
+                <div class="btn-portfolio-hover"><p>Rockin Jump - 1</p></div>
+            </a>
+        </div>
+
+        <div class="portfolio-item-grid-wrap animated fadeInUpShort slow" data-id="11">
+            <a href="#lightbox" data-toggle="modal" data-slide-to="9">
+                <div class="portfolio-item-grid" style="background-image: url(images/portfolio-img/RockinJump-2.jpg);">
+                </div>
+                <div class="btn-portfolio-hover"><p>Rockin Jump - 2</p></div>
+            </a>
+        </div>
+
+        <div class="portfolio-item-grid-wrap animated fadeInUpShort slow" data-id="12">
+            <a href="#lightbox" data-toggle="modal" data-slide-to="10">
+                <div class="portfolio-item-grid" style="background-image: url(images/portfolio-img/UrbanAir-1.jpg);">
+                </div>
+                <div class="btn-portfolio-hover"><p>Urban Air - 1</p></div>
+            </a>
+        </div>
+
+        <div class="portfolio-item-grid-wrap animated fadeInUpShort slow" data-id="13">
+            <a href="#lightbox" data-toggle="modal" data-slide-to="11">
+                <div class="portfolio-item-grid" style="background-image: url(images/portfolio-img/UrbanAir-2.jpg);">
+                </div>
+                <div class="btn-portfolio-hover"><p>Urban Air - 2</p></div>
             </a>
         </div>
     </div>
