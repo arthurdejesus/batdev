@@ -210,7 +210,7 @@
             <a href="#lightbox2" data-toggle="modal" data-slide-to="3">
                 <div class="portfolio-item-grid" style="background-image: url(images/portfolio-img/District12-2.jpg);">
                 </div>
-                <div class="btn-portfolio-hover"><p>District 12 - 1</p></div>
+                <div class="btn-portfolio-hover"><p>District 12 - 2</p></div>
             </a>
         </div>
 
@@ -227,7 +227,7 @@
             <a href="#lightbox2" data-toggle="modal" data-slide-to="5">
                 <div class="portfolio-item-grid" style="background-image: url(images/portfolio-img/JumpBoxx-2.jpg);">
                 </div>
-                <div class="btn-portfolio-hover"><p>Jump Boxx - 1</p></div>
+                <div class="btn-portfolio-hover"><p>Jump Boxx - 2</p></div>
             </a>
         </div>
 
@@ -243,7 +243,7 @@
             <a href="#lightbox2" data-toggle="modal" data-slide-to="7">
                 <div class="portfolio-item-grid" style="background-image: url(images/portfolio-img/JumpStreet-2.jpg);">
                 </div>
-                <div class="btn-portfolio-hover"><p>Jump Street - 1</p></div>
+                <div class="btn-portfolio-hover"><p>Jump Street - 2</p></div>
             </a>
         </div>
     </div>

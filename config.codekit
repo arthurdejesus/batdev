@@ -4078,6 +4078,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/client-home\/client-10.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10443,
+		"inputAbbreviatedPath": "\/images\/client-home\/client-10.jpg",
+		"outputAbbreviatedPath": "\/images\/client-home\/client-10.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/client-home\/client-2.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4606,13 +4617,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/our-process\/our-process-1.png": {
+	"\/images\/our-process\/our-process-11.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 559221,
-		"inputAbbreviatedPath": "\/images\/our-process\/our-process-1.png",
-		"outputAbbreviatedPath": "\/images\/our-process\/our-process-1.png",
+		"inputAbbreviatedPath": "\/images\/our-process\/our-process-11.png",
+		"outputAbbreviatedPath": "\/images\/our-process\/our-process-11.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

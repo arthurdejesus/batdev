@@ -4,7 +4,8 @@
             <div class="banner-caption animatedParent">
                 <h2 class="banner-title animated fadeInUp slow">Introducing Active8 POS Software</h2>
                 <p class="animated fadeInUp slow">Easiest way to let your customers book and manage their events online</p>
-                <img src="images/software/logo.png" class="banner-logo animated fadeInUp slow">
+                <a href="http://www.active8pos.com" target="_blank"><img src="images/software/logo.png" class="banner-logo animated
+                fadeInUp slow"></a>
             </div>
 
             <img src="images/software/banner-img.png" class="banner-img">
@@ -19,6 +20,7 @@
         <div class="container">
             <p>Active8 is an all-in-one point of sale system, connecting the online experience
                 with the in-store, for an enhanced custom service. </p>
+            <p>888-500-2618</p>
         </div>
     </div>
 
@@ -49,7 +51,7 @@
 
     <div class="section section-software-features animatedParent animateOnce">
         <div class="container">
-            <button class="btn btn-primary btn-features">Call us today to find out how</button>
+            <button class="btn btn-primary btn-features">Click here to find out more</button>
             <h3 class="primary-title">Features</h3>
             <div class="row">
                 <div class="col-md-6">

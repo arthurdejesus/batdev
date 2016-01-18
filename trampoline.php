@@ -10,18 +10,19 @@
 
 <div class="section section-single-content section-single-prod-content">
     <div class="container">
-        <div class="col-md-6 col-md-push-6">
+        <div class="col-md-6 pull-right">
             <button type="button" class="pop-btn" data-toggle="modal" data-target="#prod-pop">
                 <div class="single-img-holder" style="background-image: url('images/prod-single-img-thumb.jpg')"></div>
             </button>
 
         </div>
 
-        <div class="col-md-6 col-md-pull-6 animatedParent animateOnce">
+        <div class="description main-description animatedParent animateOnce">
             <div class="single-about animated fadeInUpShort slow">
                 <h3>About the Project</h3>
                 <div class="gap-30"></div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+                <p>Indoor trampoline parks are the entertainment industry’s fastest growing attraction, with popularity rising in the U.S. and worldwide. Parks are being built on an average of five to six per month, and this number may not include existing family entertainment centers that are in the process of adding trampoline courts to their existing facilities. The reason for the rapid growth and operational success of these facilities comes down to the fact that trampoline parks provide family fun with lasting health benefits. According to NASA, 10 minutes of trampoline exercise is a better cardiovascular workout than33 minutes of running. The increased endorphins produced while bouncing also boost your mood! </p>
+                <p>Best American Trampolines, (BAT) has not only designed and built over 100 indoor trampoline parks worldwide, but we also have ownership in several successful parks as well. At BAT, our reach is large but our approach is local. We provide the most personalized, hands-on experience – from the initial conversation, to the completion of your project – than any provided by our competitors. We will guide you every step of the way. We are proud to say that all of our materials are American made and all manufacturing is done at our in-house facilities, in Dallas, TX U.S.A. </p>
             </div>
         </div>
     </div>
@@ -42,35 +43,36 @@
 
 <div class="section-single-desc pb-9 animatedParent animateOnce" data-sequence="500">
     <div class="container">
-        <div class="col-md-4">
+        <div class="col-md-6">
             <div class="single-about single-typograph animated fadeInUpShort slow" data-id="1">
-                <h3>The Challenge</h3>
+                <h3>About Trampoline Parks</h3>
                 <div class="gap-25"></div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>The average trampoline park is about 25,000-40,000 square feet and houses a variety of “courts” that can be made up of one or any number of trampoline “beds” that stretch from wall-to-wall and are connected to form one large surface that is enclosed with padded side walls or angled trampolines. A main court has an average of 40+ beds, but there isn’t a maximum number aside from the limitation of the building’s dimensions. </p>
+                <p>Your customized venue can include a variety of attractions that take physical activities to a whole new level. From trampoline dodge ball courts and slam dunk basketball courts to fitness classes, climbing walls, airbag pits, and ninja courses. The sky’s the limit with Best American Trampolines!</p>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-6">
             <div class="single-about single-typograph animated fadeInUpShort slow" data-id="2">
-                <h3>The Result</h3>
+                <h3>Safety & Quality</h3>
                 <div class="gap-25"></div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                <p>The President of Best American was part of a select group tasked with the creation of the new Trampoline Court safety standards in the U.S, (ASTM F2970-13) for ASTM (American Society for Testing and Materials.) The purpose of the standard is to delineate requirements regarding the design, manufacture, installation, operation, maintenance, inspection and major modification of commercial or institutional trampoline courts operated with the primary purpose of amusement, entertainment, or recreation. We are dedicated to ensuring that all trampoline parks be made as safe as possible. </p>
                 <div class="gap-15"></div>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                <p>Have any other questions? Check out our FAQ page, or feel free to Contact Us directly to learn more.</p>
             </div>
         </div>
-        <div class="col-md-4">
-            <div class="single-about single-typograph animated fadeInUpShort slow" data-id="3">
-                <h3>Services</h3>
-                <div class="gap-25"></div>
-                <ul class="single-list">
-                    <li><p>Lorem ipsum dolor sit amet, consectetur</p></li>
-                    <li><p>Adipisicing elit, sed do eiusmod tempor</p></li>
-                    <li><p>Incididunt ut labore et dolore magna aliqua.</p></li>
-                    <li><p>Ut enim ad minim veniam, quis nostrud</p></li>
-                    <li><p>Exercitation ullamco laboris nisi ut aliquip</p></li>
-                </ul>
-            </div>
-        </div>
+<!--        <div class="col-md-4">-->
+<!--            <div class="single-about single-typograph animated fadeInUpShort slow" data-id="3">-->
+<!--                <h3>Services</h3>-->
+<!--                <div class="gap-25"></div>-->
+<!--                <ul class="single-list">-->
+<!--                    <li><p>Lorem ipsum dolor sit amet, consectetur</p></li>-->
+<!--                    <li><p>Adipisicing elit, sed do eiusmod tempor</p></li>-->
+<!--                    <li><p>Incididunt ut labore et dolore magna aliqua.</p></li>-->
+<!--                    <li><p>Ut enim ad minim veniam, quis nostrud</p></li>-->
+<!--                    <li><p>Exercitation ullamco laboris nisi ut aliquip</p></li>-->
+<!--                </ul>-->
+<!--            </div>-->
+<!--        </div>-->
     </div>
 </div>
 <div class="section-single-group-img section-black section-prod-black">

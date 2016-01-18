@@ -105,15 +105,17 @@
         </div>
 
 
-        <div class="portfolio-item-grid-wrap animated fadeInUpShort" data-id='5'>
+        <div class="portfolio-item-grid-wrap portfolio-item-grid-wrap-software animated fadeInUpShort" data-id='5'>
             <button class="btn-software" data-toggle="modal" data-target="#software">
                 <div class="portfolio-item-grid-img">
                     <div class="portfolio-item-grid" style="background-image: url(images/portfolio-home/portfolio-4.jpg);"></div>
                     <div class="btn-portfolio-hover"><p>Our Software</p></div>
+                    <div class="btn-play"></div>
                 </div>
 
-                <div class="btn btn-primary">Our Software</div>
             </button>
+
+            <a href="software.php" class="btn btn-primary">Our Software</a>
         </div>
 
     </div>
