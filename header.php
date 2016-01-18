@@ -81,7 +81,7 @@
                                     href="/">Home</a></li>
                             <li class="<?php echo $_SERVER['REQUEST_URI']=='/about.php'?'current_page_item':'';?>"><a href="about.php">About Us</a></li>
                             <li class="<?php echo $_SERVER['REQUEST_URI']=='/products.php'?'current_page_item':''; ?>"><a
-                                    href="#">Products</a></li>
+                                    href="products.php">Products</a></li>
                             <li class="<?php echo $_SERVER['REQUEST_URI']=='/services.php'?'current_page_item':''; ?>
                             dropdown">
                                 <a href="services.php">Services <span class="icon-angle-down"></span></a>

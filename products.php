@@ -1,280 +1,164 @@
 <?php include 'header.php'; ?>
 <div class="product-wrap">
-    <div class="product-list-item animatedParent" style="background-color: #982926;">
-        <div class="product-list-item-bg" style="background-image: url('images/product-page/Ninja-Course-2.jpg');"></div>
-        <div class="container product-list-item-container">
-            <div class="product-list-item-content product-list-item-img-wrap">
-                <div class="product-list-item-img-big">
-                    <div class="product-img" style="background-image: url('images/product-page/Ninja-Course-2.jpg');
-                    "></div>
+    <div class="product-list-item product-list-item-1">
 
-                    <div class="product-list-item-img-small">
-                        <div class="product-img" style="background-image: url('images/product-page/Ninja-Course-1.jpg');"></div>
-                    </div>
+        <div class="product-list-item-content-wrap" style="background-image: url('images/product-page/ninja-course.jpg');">
+            <div class="product-container">
+                <div class="col-md-6 col-md-push-6 product-list-item-img" style="background-image: url('images/product-page/ninja-course.jpg');">
+
                 </div>
-
-            </div>
-            <div class="product-list-item-content product-list-item-desc-wrap">
-                <div class="content animated fadeInRight">
-                    <h3 class="product-title">Ninja Course</h3>
+                <div class="col-md-6 col-md-pull-6 product-list-item-description">
+                    <h3 class="product-list-title">NINJA COURSE</h3>
                     <div class="description">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p>Our innovative ninja obstacle courses, popularized by TV’s American Ninja Warrior, challenges the balance, strength and agility of your park guests in a thrilling new way! All of our attractions are designed and manufactured at our facilities in Dallas, Texas and therefore, are highly customizable.
+                            We design our courses to fit your needs, specifications, and themes.</p>
                     </div>
-                    <a href="#" class="btn btn-primary">View Product</a>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="product-list-item product-list-item-right animatedParent" style="background-color: #2D2A2A;">
-        <div class="product-list-item-bg" style="background-image: url('images/product-page/Aeroball-1.jpg');"></div>
-        <div class="container product-list-item-container">
-            <div class="product-list-item-content product-list-item-desc-wrap">
-                <div class="content animated fadeInLeft">
-                    <h3 class="product-title">AeroBall</h3>
+    <div class="product-list-item product-list-item-2">
+
+        <div class="product-list-item-content-wrap" style="background-image: url('images/product-page/aeroball.jpg');">
+            <div class="product-container">
+                <div class="col-md-6 product-list-item-img" style="background-image: url('images/product-page/aeroball.jpg');">
+
+                </div>
+
+                <div class="col-md-6 product-list-item-description">
+                    <h3 class="product-list-title">aeroball</h3>
                     <div class="description">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                    <a href="#" class="btn btn-primary">View Product</a>
-                </div>
-            </div>
-
-            <div class="product-list-item-content product-list-item-img-wrap">
-                <div class="product-list-item-img-big">
-                    <div class="product-img" style="background-image: url('images/product-page/Aeroball-1.jpg');
-                    "></div>
-
-                    <div class="product-list-item-img-small">
-                        <div class="product-img" style="background-image: url('images/product-page/Aeroball-2.jpg');
-                        "></div>
+                        <p>Part basketball, part volleyball, our Aeroball courts will provide your guests with non-stop action as they try to score against their opponent by shooting the ball through the opening in their opponent’s net. The trampoline base takes a straight-forward game to a whole new level.</p>
                     </div>
                 </div>
-            </div>
 
+            </div>
         </div>
     </div>
 
-    <div class="product-list-item animatedParent" style="background-color: #1A824E;">
-        <div class="product-list-item-bg" style="background-image: url('images/product-page/Airbag-1.jpg');"></div>
-        <div class="container product-list-item-container">
-            <div class="product-list-item-content product-list-item-img-wrap">
-                <div class="product-list-item-img-big">
-                    <div class="product-img" style="background-image: url('images/product-page/Airbag-1.jpg');
-                    "></div>
+    <div class="product-list-item product-list-item-3">
 
-                    <div class="product-list-item-img-small">
-                        <div class="product-img" style="background-image: url('images/product-page/Airbag-2.jpg');
-                        "></div>
-                    </div>
+        <div class="product-list-item-content-wrap" style="background-image: url('images/product-page/AIRBAG.jpg');">
+            <div class="product-container">
+                <div class="col-md-6 col-md-push-6 product-list-item-img" style="background-image: url('images/product-page/AIRBAG.jpg');">
+
                 </div>
-            </div>
-
-            <div class="product-list-item-content product-list-item-desc-wrap">
-                <div class="content animated fadeInRight">
-                    <h3 class="product-title">Airbag Pit</h3>
+                <div class="col-md-6 col-md-pull-6 product-list-item-description">
+                    <h3 class="product-list-title">AIRBAG PIt</h3>
                     <div class="description">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p>Our airbag pits provide a nice, soft, consistent alternative to traditional foam pits. The airbag doubles as both a landing area for your jumpers, and a fantastic marketing tool for you. Our in-house designers will use your company’s colors and logo in a creative way that results in a visually compelling, branded area within your facility.</p>
                     </div>
-                    <a href="#" class="btn btn-primary">View Product</a>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="product-list-item product-list-item-right animatedParent" style="background-color: #354980;">
-        <div class="product-list-item-bg" style="background-image: url('images/product-page/Climbing-1.jpg');"></div>
-        <div class="container product-list-item-container">
-            <div class="product-list-item-content product-list-item-desc-wrap">
-                <div class="content animated fadeInLeft">
-                    <h3 class="product-title">Climbing Wall/Climbing Climbing Tower</h3>
+    <div class="product-list-item product-list-item-4">
+
+        <div class="product-list-item-content-wrap" style="background-image: url('images/product-page/CLIMBING.jpg');">
+            <div class="product-container">
+                <div class="col-md-6 h-600 product-list-item-img" style="background-image: url('images/product-page/CLIMBING.jpg');">
+
+                </div>
+
+                <div class="col-md-6 h-600 product-list-item-description">
+                    <h3 class="product-list-title">CLIMBING WALL / CLIMBING TOWER</h3>
                     <div class="description">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                    <a href="#" class="btn btn-primary">View Product</a>
-                </div>
-            </div>
-
-            <div class="product-list-item-content product-list-item-img-wrap">
-                <div class="product-list-item-img-big">
-                    <div class="product-img" style="background-image: url('images/product-page/Climbing-1.jpg');
-                    "></div>
-
-                    <div class="product-list-item-img-small">
-                        <div class="product-img" style="background-image: url('images/product-page/Climbing-2.jpg');
-                        "></div>
+                        <p>Stationary rock climbing walls and towers are innovative, functional and cost-effective while using the highest quality materials available to offer a thrilling, life-like climbing experience. Both modular and semi-round panel systems maximize climbing surface area, while minimizing unnecessary floor space.</p>
                     </div>
                 </div>
-            </div>
 
+            </div>
         </div>
     </div>
 
-    <div class="product-list-item animatedParent" style="background-color: #B95E2D;">
-        <div class="product-list-item-bg" style="background-image: url('images/product-page/Dodgeball-1.jpg');"></div>
-        <div class="container product-list-item-container">
-            <div class="product-list-item-content product-list-item-img-wrap">
-                <div class="product-list-item-img-big">
-                    <div class="product-img" style="background-image: url('images/product-page/Dodgeball-1.jpg');
-                    "></div>
+    <div class="product-list-item product-list-item-5">
 
-                    <div class="product-list-item-img-small">
-                        <div class="product-img" style="background-image: url('images/product-page/Dodgeball-2.jpg');
-                        "></div>
-                    </div>
+        <div class="product-list-item-content-wrap" style="background-image: url('images/product-page/DODGEBALL.jpg');">
+            <div class="product-container">
+                <div class="col-md-6 col-md-push-6 h-600 product-list-item-img" style="background-image: url('images/product-page/DODGEBALL.jpg');">
+
                 </div>
-            </div>
-
-            <div class="product-list-item-content product-list-item-desc-wrap">
-                <div class="content animated fadeInRight">
-                    <h3 class="product-title">Dodgeball Trampoline Courts</h3>
+                <div class="col-md-6 col-md-pull-6 h-600 product-list-item-description">
+                    <h3 class="product-list-title">DODGEBALL TRAMPOLINE COURTS</h3>
                     <div class="description">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p>A new twist on a childhood favorite! Our trampoline courts, built into a designated area with dedicated staff to oversee the action; the dodgeball court will quickly become a favorite of your park guests.</p>
                     </div>
-                    <a href="#" class="btn btn-primary">View Product</a>
                 </div>
             </div>
-
         </div>
     </div>
 
-    <div class="product-list-item product-list-item-right animatedParent" style="background-color: #2D2A2A;">
-        <div class="product-list-item-bg" style="background-image: url('images/product-page/main-1.jpg');"></div>
-        <div class="container product-list-item-container">
-            <div class="product-list-item-content product-list-item-desc-wrap">
-                <div class="content animated fadeInLeft">
-                    <h3 class="product-title">Main Trampoline Courts</h3>
+    <div class="product-list-item product-list-item-6">
+
+        <div class="product-list-item-content-wrap" style="background-image: url('images/product-page/BASKETBALL.jpg');">
+            <div class="product-container">
+                <div class="col-md-6 h-600 product-list-item-img" style="background-image: url('images/product-page/BASKETBALL.jpg');">
+
+                </div>
+
+                <div class="col-md-6 h-600 product-list-item-description">
+                    <h3 class="product-list-title">BASKETBALL SLAM DUNK TRAMPOLINE COURTS</h3>
                     <div class="description">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                    <a href="#" class="btn btn-primary">View Product</a>
-                </div>
-            </div>
-
-            <div class="product-list-item-content product-list-item-img-wrap">
-                <div class="product-list-item-img-big">
-                    <div class="product-img" style="background-image: url('images/product-page/main-1.jpg');
-                    "></div>
-
-                    <div class="product-list-item-img-small">
-                        <div class="product-img" style="background-image: url('images/product-page/main-2.jpg');
-                        "></div>
+                        <p>Provide your guests the exhilarating opportunity to dunk like the pro’s. With adjustable heights, our goals offer anyone the chance to perfect the alley-oop, or 360 dunk of their dreams.</p>
                     </div>
                 </div>
-            </div>
 
+            </div>
         </div>
     </div>
 
-    <div class="product-list-item animatedParent" style="background-color: #982926;">
-        <div class="product-list-item-bg" style="background-image: url('images/product-page/Kid-1.jpg');"></div>
-        <div class="container product-list-item-container">
-            <div class="product-list-item-content product-list-item-img-wrap">
-                <div class="product-list-item-img-big">
-                    <div class="product-img" style="background-image: url('images/product-page/Kid-1.jpg');
-                    "></div>
+    <div class="product-list-item product-list-item-7">
 
-                    <div class="product-list-item-img-small">
-                        <div class="product-img" style="background-image: url('images/product-page/Kid-2.jpg');
-                        "></div>
-                    </div>
+        <div class="product-list-item-content-wrap" style="background-image: url('images/product-page/MAIN.jpg');">
+            <div class="product-container">
+                <div class="col-md-6 col-md-push-6 h-700 product-list-item-img" style="background-image: url('images/product-page/MAIN.jpg');">
+
                 </div>
-            </div>
-
-            <div class="product-list-item-content product-list-item-desc-wrap">
-                <div class="content animated fadeInRight">
-                    <h3 class="product-title">Kid’s Trampoline Courts</h3>
+                <div class="col-md-6 col-md-pull-6 h-700 product-list-item-description">
+                    <h3 class="product-list-title">MAIN TRAMPOLINE COURTS</h3>
                     <div class="description">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p>This is our bread and butter. A series of interlocking trampoline beds with custom, angle cut pads. Our netting frame structure allows for easy net installation and our beds feature safety flaps that prevent hands and feet from coming in contact with the spring area. Our construction is the best you will find, featuring the heaviest frame system in the industry, as well redundant beds, (backup safety system beneath the main jumping surface) and custom springs (we use twice as many as our competitors.) </p>
                     </div>
-                    <a href="#" class="btn btn-primary">View Product</a>
                 </div>
             </div>
-
         </div>
     </div>
 
-    <div class="product-list-item product-list-item-right animatedParent" style="background-color: #B95E2D;">
-        <div class="product-list-item-bg" style="background-image: url('images/product-page/Basketball-1.jpg');"></div>
-        <div class="container product-list-item-container">
-            <div class="product-list-item-content product-list-item-desc-wrap">
-                <div class="content animated fadeInLeft">
-                    <h3 class="product-title">Basketball Slam Dunk Trampoline Courts</h3>
+    <div class="product-list-item product-list-item-8">
+
+        <div class="product-list-item-content-wrap" style="background-image: url('images/product-page/KID.jpg');">
+            <div class="product-container">
+                <div class="col-md-6 product-list-item-img" style="background-image: url('images/product-page/KID.jpg');">
+
+                </div>
+
+                <div class="col-md-6 product-list-item-description">
+                    <h3 class="product-list-title">KID’S TRAMPOLINE COURTS</h3>
                     <div class="description">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                    <a href="#" class="btn btn-primary">View Product</a>
-                </div>
-            </div>
-
-            <div class="product-list-item-content product-list-item-img-wrap">
-                <div class="product-list-item-img-big">
-                    <div class="product-img" style="background-image: url('images/product-page/Basketball-1.jpg');
-                    "></div>
-
-                    <div class="product-list-item-img-small">
-                        <div class="product-img" style="background-image: url('images/product-page/Basketball-2.jpg');
-                        "></div>
+                        <p>Built to ensure that all members of the family have fun at your facility. Our kid’s trampoline courts provide your little jumpers a chance to get in on the action</p>
                     </div>
                 </div>
-            </div>
 
+            </div>
         </div>
     </div>
+</div>
 
-    <div class="product-list-item animatedParent" style="background-color: #354980;">
-        <div class="product-list-item-bg" style="background-image: url('images/product-page/backyard-1.jpg');"></div>
-        <div class="container product-list-item-container">
-            <div class="product-list-item-content product-list-item-img-wrap">
-                <div class="product-list-item-img-big">
-                    <div class="product-img" style="background-image: url('images/product-page/backyard-1.jpg');
-                    "></div>
-
-                    <div class="product-list-item-img-small">
-                        <div class="product-img" style="background-image: url('images/product-page/backyard-2.jpg');
-                        "></div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="product-list-item-content product-list-item-desc-wrap">
-                <div class="content animated fadeInRight">
-                    <h3 class="product-title">Backyard Trampolines</h3>
-                    <div class="description">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                    <a href="#" class="btn btn-primary">View Product</a>
-                </div>
-            </div>
-
+<div class="section section-by-trampoline" style="background-image: url('images/by-bg.png');">
+    <div class="container">
+        <h3 class="product-list-title">Backyard Trampolines</h3>
+        <div class="description">
+            <p>Best American Trampolines also manufacturers the best, highest quality, rectangle trampoline for backyard use. With many models to choose from, you’ll be sure
+                to find an option to suit your family’s needs. </p>
         </div>
-    </div>
 
-    <div class="product-list-item product-list-item-right animatedParent" style="background-color: #1A824E;">
-        <div class="product-list-item-bg" style="background-image: url('images/product-page/Aeroball-1.jpg');"></div>
-        <div class="container product-list-item-container">
-            <div class="product-list-item-content product-list-item-desc-wrap">
-                <div class="content animated fadeInLeft">
-                    <h3 class="product-title">Software</h3>
-                    <div class="description">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                    <a href="#" class="btn btn-primary">View Product</a>
-                </div>
-            </div>
+        <a href="#" class="btn btn-primary">
+            Learn More
+        </a>
 
-            <div class="product-list-item-content product-list-item-img-wrap">
-                <div class="product-list-item-img-big">
-                    <div class="product-img" style="background-image: url('images/product-page/Aeroball-1.jpg');
-                    "></div>
-
-                    <div class="product-list-item-img-small">
-                        <div class="product-img" style="background-image: url('images/product-page/Aeroball-2.jpg');
-                        "></div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
+        <img src="images/tramp.png" class="mt-7">
     </div>
 
 </div>

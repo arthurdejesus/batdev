@@ -3607,6 +3607,26 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
+	"\/css\/less\/modules\/product.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/less\/modules\/product.less",
+		"outputAbbreviatedPath": "\/css\/less\/css\/product.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
 	"\/css\/less\/modules\/section.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
@@ -4063,6 +4083,17 @@
 		"initialSize": 1126,
 		"inputAbbreviatedPath": "\/images\/border-shadow.png",
 		"outputAbbreviatedPath": "\/images\/border-shadow.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/by-bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/by-bg.png",
+		"outputAbbreviatedPath": "\/images\/by-bg.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5167,222 +5198,90 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/product-page\/Aeroball-1.jpg": {
+	"\/images\/product-page\/aeroball.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 756261,
-		"inputAbbreviatedPath": "\/images\/product-page\/Aeroball-1.jpg",
-		"outputAbbreviatedPath": "\/images\/product-page\/Aeroball-1.jpg",
+		"initialSize": 767991,
+		"inputAbbreviatedPath": "\/images\/product-page\/aeroball.jpg",
+		"outputAbbreviatedPath": "\/images\/product-page\/aeroball.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/product-page\/Aeroball-2.jpg": {
+	"\/images\/product-page\/AIRBAG.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.28352e+06,
-		"inputAbbreviatedPath": "\/images\/product-page\/Aeroball-2.jpg",
-		"outputAbbreviatedPath": "\/images\/product-page\/Aeroball-2.jpg",
+		"initialSize": 538859,
+		"inputAbbreviatedPath": "\/images\/product-page\/AIRBAG.jpg",
+		"outputAbbreviatedPath": "\/images\/product-page\/AIRBAG.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/product-page\/Airbag-1.jpg": {
+	"\/images\/product-page\/BASKETBALL.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 811872,
-		"inputAbbreviatedPath": "\/images\/product-page\/Airbag-1.jpg",
-		"outputAbbreviatedPath": "\/images\/product-page\/Airbag-1.jpg",
+		"initialSize": 611992,
+		"inputAbbreviatedPath": "\/images\/product-page\/BASKETBALL.jpg",
+		"outputAbbreviatedPath": "\/images\/product-page\/BASKETBALL.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/product-page\/Airbag-2.jpg": {
+	"\/images\/product-page\/CLIMBING.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 273323,
-		"inputAbbreviatedPath": "\/images\/product-page\/Airbag-2.jpg",
-		"outputAbbreviatedPath": "\/images\/product-page\/Airbag-2.jpg",
+		"initialSize": 471508,
+		"inputAbbreviatedPath": "\/images\/product-page\/CLIMBING.jpg",
+		"outputAbbreviatedPath": "\/images\/product-page\/CLIMBING.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/product-page\/backyard-1.jpg": {
+	"\/images\/product-page\/DODGEBALL.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 74430,
-		"inputAbbreviatedPath": "\/images\/product-page\/backyard-1.jpg",
-		"outputAbbreviatedPath": "\/images\/product-page\/backyard-1.jpg",
+		"initialSize": 468195,
+		"inputAbbreviatedPath": "\/images\/product-page\/DODGEBALL.jpg",
+		"outputAbbreviatedPath": "\/images\/product-page\/DODGEBALL.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/product-page\/backyard-1.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 113456,
-		"inputAbbreviatedPath": "\/images\/product-page\/backyard-1.png",
-		"outputAbbreviatedPath": "\/images\/product-page\/backyard-1.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/product-page\/backyard-2.jpg": {
+	"\/images\/product-page\/KID.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 155831,
-		"inputAbbreviatedPath": "\/images\/product-page\/backyard-2.jpg",
-		"outputAbbreviatedPath": "\/images\/product-page\/backyard-2.jpg",
+		"initialSize": 726605,
+		"inputAbbreviatedPath": "\/images\/product-page\/KID.jpg",
+		"outputAbbreviatedPath": "\/images\/product-page\/KID.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/product-page\/backyard-2.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 262925,
-		"inputAbbreviatedPath": "\/images\/product-page\/backyard-2.png",
-		"outputAbbreviatedPath": "\/images\/product-page\/backyard-2.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/product-page\/Basketball-1.jpg": {
+	"\/images\/product-page\/MAIN.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 387018,
-		"inputAbbreviatedPath": "\/images\/product-page\/Basketball-1.jpg",
-		"outputAbbreviatedPath": "\/images\/product-page\/Basketball-1.jpg",
+		"initialSize": 592346,
+		"inputAbbreviatedPath": "\/images\/product-page\/MAIN.jpg",
+		"outputAbbreviatedPath": "\/images\/product-page\/MAIN.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/product-page\/Basketball-2.jpg": {
+	"\/images\/product-page\/ninja-course.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 178979,
-		"inputAbbreviatedPath": "\/images\/product-page\/Basketball-2.jpg",
-		"outputAbbreviatedPath": "\/images\/product-page\/Basketball-2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/product-page\/Climbing-1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 315223,
-		"inputAbbreviatedPath": "\/images\/product-page\/Climbing-1.jpg",
-		"outputAbbreviatedPath": "\/images\/product-page\/Climbing-1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/product-page\/Climbing-2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 294315,
-		"inputAbbreviatedPath": "\/images\/product-page\/Climbing-2.jpg",
-		"outputAbbreviatedPath": "\/images\/product-page\/Climbing-2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/product-page\/Dodgeball-1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 845824,
-		"inputAbbreviatedPath": "\/images\/product-page\/Dodgeball-1.jpg",
-		"outputAbbreviatedPath": "\/images\/product-page\/Dodgeball-1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/product-page\/Dodgeball-2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 650588,
-		"inputAbbreviatedPath": "\/images\/product-page\/Dodgeball-2.jpg",
-		"outputAbbreviatedPath": "\/images\/product-page\/Dodgeball-2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/product-page\/Kid-1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 187213,
-		"inputAbbreviatedPath": "\/images\/product-page\/Kid-1.jpg",
-		"outputAbbreviatedPath": "\/images\/product-page\/Kid-1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/product-page\/Kid-2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 127424,
-		"inputAbbreviatedPath": "\/images\/product-page\/Kid-2.jpg",
-		"outputAbbreviatedPath": "\/images\/product-page\/Kid-2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/product-page\/main-1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 292710,
-		"inputAbbreviatedPath": "\/images\/product-page\/main-1.jpg",
-		"outputAbbreviatedPath": "\/images\/product-page\/main-1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/product-page\/main-2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 278626,
-		"inputAbbreviatedPath": "\/images\/product-page\/main-2.jpg",
-		"outputAbbreviatedPath": "\/images\/product-page\/main-2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/product-page\/Ninja-Course-1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 201489,
-		"inputAbbreviatedPath": "\/images\/product-page\/Ninja-Course-1.jpg",
-		"outputAbbreviatedPath": "\/images\/product-page\/Ninja-Course-1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/product-page\/Ninja-Course-2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 227516,
-		"inputAbbreviatedPath": "\/images\/product-page\/Ninja-Course-2.jpg",
-		"outputAbbreviatedPath": "\/images\/product-page\/Ninja-Course-2.jpg",
+		"initialSize": 766448,
+		"inputAbbreviatedPath": "\/images\/product-page\/ninja-course.jpg",
+		"outputAbbreviatedPath": "\/images\/product-page\/ninja-course.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -6135,6 +6034,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/tramp.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 149081,
+		"inputAbbreviatedPath": "\/images\/tramp.png",
+		"outputAbbreviatedPath": "\/images\/tramp.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/trampoline.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -6504,33 +6414,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/products.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/products1.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/products1.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/products2.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/products2.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/products3.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/products3.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

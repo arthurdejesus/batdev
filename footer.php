@@ -69,7 +69,7 @@
                             <h4 class="footer-title">View Other BAT Sites</h4>
                             <div class="description">
                                 <ul class="footer-links footer-links-sites">
-                                    <li><a href="bestamericantrampolines.com" target="_blank">Best American Trampolines</a></li>
+                                    <li><a target="_blank" href="http://bestamericantrampolines.com/">Best American Trampolines</a></li>
                                 </ul>
                             </div>
 
@@ -117,7 +117,7 @@
                                                                                                   class="menu-about"
                 >About Us</a></li>
         <li class="<?php echo $_SERVER['REQUEST_URI']=='/products.php'?'current_page_item':''; ?>"><a
-                href="#" class="menu-products">Products</a></li>
+                href="products.php" class="menu-products">Products</a></li>
         <li class="<?php echo $_SERVER['REQUEST_URI']=='/services.php'?'current_page_item':''; ?>
                             dropdown">
             <a href="services.php" class="menu-services">Services</a>
