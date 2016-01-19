@@ -4,13 +4,12 @@
 
 (function(window, document, $) {
     'use strict';
+    $('body').panelSnap({
+        onSnapFinish: function() {
+            alert('test');
+        }
+    });
 
-    //$(window).scroll(function(){
-    //    $(".banner-caption").css("opacity", 1 - $(window).scrollTop() / 350);
-    //});
-
-    //var D = document,
-    //    W = window;
 
     $('.navbar-toggle-menu').click(function() {
         $('.site-content').toggleClass('push-left');
