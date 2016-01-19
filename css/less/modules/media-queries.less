@@ -463,6 +463,7 @@
 
   body {
     overflow: visible !important;
+    overflow-x: hidden !important;
   }
 
   section[data-section-name=planning] .grid-we-do-img-wrap .product-content {
@@ -496,6 +497,10 @@
 
   .our-process-holder .grid-we-do-img-wrap .grid--img {
     background-attachment: initial !important;
+  }
+
+  .product-wrap .product-list-item .product-list-item-content-wrap, .section-by-trampoline {
+    background-attachment: initial;
   }
 
 }
@@ -892,6 +897,15 @@
   .product-container {
     width: 100%;
     padding: 0 15px;
+    max-width: 800px;
+  }
+
+  .product-wrap .product-list-item .product-list-item-content-wrap .product-list-item-description {
+    height: auto !important;
+  }
+
+  .product-wrap {
+    padding-top: 79px;
   }
 
 

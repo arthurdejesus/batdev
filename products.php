@@ -3,6 +3,10 @@
     <div class="product-list-item product-list-item-1">
 
         <div class="product-list-item-content-wrap" style="background-image: url('images/product-page/ninja-course.jpg');">
+
+            <div class="product-strip product-strip-red product-strip-red-1"></div>
+            <div class="product-strip product-strip-red product-strip-red-2"></div>
+
             <div class="product-container">
                 <div class="col-md-6 col-md-push-6 product-list-item-img" style="background-image: url('images/product-page/ninja-course.jpg');">
 
@@ -21,6 +25,10 @@
     <div class="product-list-item product-list-item-2">
 
         <div class="product-list-item-content-wrap" style="background-image: url('images/product-page/aeroball.jpg');">
+
+            <div class="product-strip product-strip-green product-strip-green-1"></div>
+            <div class="product-strip product-strip-green product-strip-green-2"></div>
+
             <div class="product-container">
                 <div class="col-md-6 product-list-item-img" style="background-image: url('images/product-page/aeroball.jpg');">
 
@@ -40,6 +48,10 @@
     <div class="product-list-item product-list-item-3">
 
         <div class="product-list-item-content-wrap" style="background-image: url('images/product-page/AIRBAG.jpg');">
+
+            <div class="product-strip product-strip-red product-strip-red-1"></div>
+            <div class="product-strip product-strip-red product-strip-red-2"></div>
+
             <div class="product-container">
                 <div class="col-md-6 col-md-push-6 product-list-item-img" style="background-image: url('images/product-page/AIRBAG.jpg');">
 
@@ -57,6 +69,10 @@
     <div class="product-list-item product-list-item-4">
 
         <div class="product-list-item-content-wrap" style="background-image: url('images/product-page/CLIMBING.jpg');">
+
+            <div class="product-strip product-strip-skyblue product-strip-skyblue-1"></div>
+            <div class="product-strip product-strip-skyblue product-strip-skyblue-2"></div>
+
             <div class="product-container">
                 <div class="col-md-6 h-600 product-list-item-img" style="background-image: url('images/product-page/CLIMBING.jpg');">
 
@@ -76,6 +92,10 @@
     <div class="product-list-item product-list-item-5">
 
         <div class="product-list-item-content-wrap" style="background-image: url('images/product-page/DODGEBALL.jpg');">
+
+            <div class="product-strip product-strip-purple product-strip-purple-1"></div>
+            <div class="product-strip product-strip-purple product-strip-purple-2"></div>
+
             <div class="product-container">
                 <div class="col-md-6 col-md-push-6 h-600 product-list-item-img" style="background-image: url('images/product-page/DODGEBALL.jpg');">
 
@@ -93,6 +113,10 @@
     <div class="product-list-item product-list-item-6">
 
         <div class="product-list-item-content-wrap" style="background-image: url('images/product-page/BASKETBALL.jpg');">
+
+            <div class="product-strip product-strip-green product-strip-green-1 product-strip-green-1-basket"></div>
+            <div class="product-strip product-strip-green product-strip-green-2 product-strip-green-2-basket"></div>
+
             <div class="product-container">
                 <div class="col-md-6 h-600 product-list-item-img" style="background-image: url('images/product-page/BASKETBALL.jpg');">
 
@@ -112,6 +136,10 @@
     <div class="product-list-item product-list-item-7">
 
         <div class="product-list-item-content-wrap" style="background-image: url('images/product-page/MAIN.jpg');">
+
+            <div class="product-strip product-strip-blue product-strip-purple-1"></div>
+            <div class="product-strip product-strip-blue product-strip-purple-2"></div>
+
             <div class="product-container">
                 <div class="col-md-6 col-md-push-6 h-700 product-list-item-img" style="background-image: url('images/product-page/MAIN.jpg');">
 
@@ -129,6 +157,10 @@
     <div class="product-list-item product-list-item-8">
 
         <div class="product-list-item-content-wrap" style="background-image: url('images/product-page/KID.jpg');">
+
+            <div class="product-strip product-strip-orange product-strip-skyblue-1"></div>
+            <div class="product-strip product-strip-orange product-strip-skyblue-2"></div>
+
             <div class="product-container">
                 <div class="col-md-6 product-list-item-img" style="background-image: url('images/product-page/KID.jpg');">
 

@@ -51,7 +51,7 @@
 
     <div class="section section-software-features animatedParent animateOnce">
         <div class="container">
-            <button class="btn btn-primary btn-features">Click here to find out more</button>
+            <a href="http://www.active8pos.com" target="_blank" class="btn btn-primary btn-features">Click here to find out more</a>
             <h3 class="primary-title">Features</h3>
             <div class="row">
                 <div class="col-md-6">
