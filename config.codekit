@@ -6243,7 +6243,7 @@
 		},
 	"\/js\/jquery.panelSnap.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/jquery.panelSnap.js",
 		"outputAbbreviatedPath": "\/js\/min\/jquery.panelSnap-min.js",
@@ -6533,14 +6533,8 @@
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/js\/jquery.panelSnap.js",
-			"position": 8,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
 			"linkedFileAbbreviatedPath": "\/js\/jquery.bookblock.js",
-			"position": 9,
+			"position": 8,
 			"type": 0
 			}
 		]
