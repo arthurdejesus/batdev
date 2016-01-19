@@ -625,6 +625,18 @@
     background-attachment: initial;
   }
 
+  .site-content {
+    .header {
+      .navbar-menu {
+        .navbar-collapse{
+          .navbar-nav {
+            display: none !important;
+          }
+        }
+      }
+    }
+  }
+
 }
 
 
@@ -1055,6 +1067,67 @@
     height: 530px;
   }
 
+  .our-process-holder .grid-we-do-img-wrap .product-img {
+    display: none;
+  }
+
+  .product-section .grid-we-do-img-wrap .product-content {
+    top: 30% !important;
+    width: 100%;
+    .translate(0,0);
+    left: 0 !important;
+    max-width: 420px;
+    margin: 0 auto;
+    right: 0;
+    text-align: center;
+    padding: 0 15px;
+  }
+
+  section[data-section-name="design"]:before {
+    .opacity(0.8) !important;
+    width: 100%!important;
+    right: 0!important;
+  }
+
+  section[data-section-name="deployment"]:before {
+    width: 100%!important;
+  }
+  .section--process {
+    top: 0;
+    left: 0;
+    right: 0;
+    .translate(0,0);
+  }
+
+  .section--process {
+    .primary-title {
+      font-size: 30px;
+    }
+
+    .description {
+      p {
+        font-size: 16px;
+      }
+    }
+
+    .process-grid ul li .process-grid-item-title {
+      font-size: 20px;
+    }
+
+    .process-grid ul li .process-grid-description p {
+      font-size: 14px;
+    }
+
+    .process-grid ul li .process-grid-item-icon {
+      width: 50px;
+      margin: 0 auto;
+    }
+  }
+
+  .our-process-holder .process-list {
+    display: none;
+  }
+
 }
 
 @media (max-width: 667px) {
@@ -1221,6 +1294,22 @@
 
   .single-prod-banner-skypark {
     height: 500px;
+  }
+
+
+  .section--process {
+    .process-grid ul li {
+      width: 45%;
+    }
+  }
+
+  .product-section-guarantee .primary-title {
+    margin-top: 0;
+    font-size: 30px;
+  }
+
+  .section--process .description p {
+    font-size: 14px;
   }
 }
 

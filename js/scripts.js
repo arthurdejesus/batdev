@@ -5,6 +5,17 @@
 (function(window, document, $) {
     'use strict';
 
+    $('.product-list-item').inViewport(
+        function(){$(this).addClass("active");},
+        function(){ /*$(this).removeClass("active"); */}
+    );
+
+    $(document).ready(function(){
+        $("button").click(function(){
+            $("p").slideToggle();
+        });
+    });
+
     $('.navbar-toggle-menu').click(function() {
         $('.site-content').toggleClass('push-left');
         $('.site-menu-mobile').toggleClass('push-open');
@@ -74,7 +85,6 @@
         $(this).addClass('active');
         e.preventDefault();
     });
-
 
 
     var bodyEl = $("body");

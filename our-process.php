@@ -38,14 +38,15 @@
         <div class="grid-we-do-item p-0">
             <div class="grid-we-do-img-wrap grid-wrap-black">
                 <div class="grid--img" style="background-image:url('images/our-process/our-process-1.jpg');"></div>
+                <div class="product-img animated fadeInRight slow go">
+                    <img src="images/our-process/our-process-img.png" alt="">
+                </div>
                 <div class="product-content">
                     <h2 class="animated fadeInDownShort slow delay-500 go">Planning</h2>
                     <div class="gap-15"></div>
                     <p class="animated fadeInUpShort slow delay-750 go">Our full-service design team can provide you with an overall concept park that incorporates your logo, graphics, colors and branding in an unique and impactful way. We work closely with your architect and have the technology and the skills to deliver professional, high-quality 3D interior renderings enabling you to visualize exactly what the venue will look like from concept to installation.</p>
                 </div>
-                <div class="product-img animated fadeInRight slow go">
-                    <img src="images/our-process/our-process-img.png" alt="">
-                </div>
+
             </div>
         </div>
         <a href="#design" class="btn-down scroll"><span class="arrow-down"></span></a>
@@ -80,7 +81,8 @@
             </div>
         </div>
     </section>
-    <section class="product-section product-section-guarantee animatedParent animateOnce" data-section-name="guarantee" data-sequence="500">
+    <section class="product-section product-section-guarantee animatedParent animateOnce"
+             data-section-name="guarantee" data-sequence="500">
         <div class="grid-we-do-item p-0">
             <div class="grid-we-do-img-wrap grid-wrap-black">
                 <div class="grid--img" style="background-image:url('images/our-process/our-process-5.jpg');"></div>

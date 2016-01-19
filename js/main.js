@@ -3188,12 +3188,73 @@
 
 } )( jQuery, window );
 
+/*! inViewport 0.0.1
+ *  jQuery plugin by Moob
+ * ========================
+ *  (requires jQuery)
+ */
+(function ($) {
+
+    var vph=0;
+    function getViewportDimensions(){
+        vph = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+    }
+    getViewportDimensions();
+    //on resize/scroll
+    $(window).on('resize orientationChanged', function(){
+        getViewportDimensions();
+    });
+
+    $.fn.inViewport = function (whenInView, whenNotInView) {
+        return this.each(function () {
+            var el = $(this),
+                inviewalreadycalled = false,
+                notinviewalreadycalled = false;
+            //on resize/scroll
+            $(window).on('resize orientationChanged scroll', function(){
+                checkInView();
+            });
+            function checkInView(){
+                var rect = el[0].getBoundingClientRect(),
+                    t = rect.top,
+                    b = rect.bottom;
+                if(t<vph && b>0){
+                    if(!inviewalreadycalled){
+                        whenInView.call(el);
+                        inviewalreadycalled = true;
+                        notinviewalreadycalled = false;
+                    }
+                } else {
+                    if(!notinviewalreadycalled){
+                        whenNotInView.call(el);
+                        notinviewalreadycalled = true;
+                        inviewalreadycalled = false;
+                    }
+                }
+            }
+            //initial check
+            checkInView();
+        });
+    }
+}(jQuery));
+
 
 
 
 
 (function(window, document, $) {
     'use strict';
+
+    $('.product-list-item').inViewport(
+        function(){$(this).addClass("active");},
+        function(){ /*$(this).removeClass("active"); */}
+    );
+
+    $(document).ready(function(){
+        $("button").click(function(){
+            $("p").slideToggle();
+        });
+    });
 
     $('.navbar-toggle-menu').click(function() {
         $('.site-content').toggleClass('push-left');
@@ -3264,7 +3325,6 @@
         $(this).addClass('active');
         e.preventDefault();
     });
-
 
 
     var bodyEl = $("body");

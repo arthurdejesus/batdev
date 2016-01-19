@@ -1,7 +1,7 @@
     <div class="section-warning animatedParent animateOnce">
         <div class="warning-wrap">
             <div class="warning-grid mw-410">
-                <h3 class="warning-title">Warning<img src="images/warning-icon.png" class="animated growIn"></h3>
+                <h3 class="warning-title">Warning<img src="images/warning-icon.png"></h3>
             </div>
             <div class="warning-grid warning-grid-lg">
                 <div class="content">
