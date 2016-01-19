@@ -10,7 +10,7 @@
             <div class="white-line"></div>
 
             <div class="product-container">
-                <div class="col-md-6 col-md-push-6 product-list-item-img"
+                <div class="col-md-6 col-md-push-6 product-list-item-img animated fadeInUpShort slow delay-1500"
                      style="background-image:url('images/product-page/ninja-course.jpg');">
 
                 </div>
@@ -36,7 +36,7 @@
             <div class="white-line"></div>
 
             <div class="product-container">
-                <div class="col-md-6 product-list-item-img" style="background-image: url('images/product-page/aeroball.jpg');">
+                <div class="col-md-6 product-list-item-img animated fadeInUpShort slow delay-1500" style="background-image: url('images/product-page/aeroball.jpg');">
 
                 </div>
 
@@ -61,7 +61,7 @@
             <div class="white-line"></div>
 
             <div class="product-container">
-                <div class="col-md-6 col-md-push-6 product-list-item-img"
+                <div class="col-md-6 col-md-push-6 product-list-item-img animated fadeInUpShort slow delay-1500"
                      style="background-image:url('images/product-page/AIRBAG.jpg');">
 
                 </div>
@@ -86,7 +86,7 @@
             <div class="white-line"></div>
 
             <div class="product-container">
-                <div class="col-md-6 h-600 product-list-item-img" style="background-image: url('images/product-page/CLIMBING.jpg');">
+                <div class="col-md-6 h-600 product-list-item-img animated fadeInUpShort slow delay-1500" style="background-image: url('images/product-page/CLIMBING.jpg');">
 
                 </div>
 
@@ -111,7 +111,7 @@
             <div class="white-line"></div>
 
             <div class="product-container">
-                <div class="col-md-6 col-md-push-6 h-600 product-list-item-img"
+                <div class="col-md-6 col-md-push-6 h-600 product-list-item-img animated fadeInUpShort slow delay-1500"
                      style="background-image: url('images/product-page/DODGEBALL.jpg');">
 
                 </div>
@@ -136,7 +136,7 @@
             <div class="white-line"></div>
 
             <div class="product-container">
-                <div class="col-md-6 h-600 product-list-item-img" style="background-image: url('images/product-page/BASKETBALL.jpg');">
+                <div class="col-md-6 h-600 product-list-item-img animated fadeInUpShort slow delay-1500" style="background-image: url('images/product-page/BASKETBALL.jpg');">
 
                 </div>
 
@@ -161,7 +161,7 @@
             <div class="white-line"></div>
 
             <div class="product-container">
-                <div class="col-md-6 col-md-push-6 h-700 product-list-item-img"
+                <div class="col-md-6 col-md-push-6 h-700 product-list-item-img animated fadeInUpShort slow delay-1500"
                      style="background-image: url('images/product-page/MAIN.jpg');">
 
                 </div>
@@ -186,7 +186,7 @@
             <div class="white-line"></div>
 
             <div class="product-container">
-                <div class="col-md-6 product-list-item-img" style="background-image: url('images/product-page/KID.jpg');">
+                <div class="col-md-6 product-list-item-img animated fadeInUpShort slow delay-1500" style="background-image: url('images/product-page/KID.jpg');">
 
                 </div>
 

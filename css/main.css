@@ -13896,6 +13896,9 @@ textarea:focus {
   .section-by-trampoline {
     background-attachment: initial;
   }
+  .site-content .header .navbar-menu .navbar-collapse {
+    display: none !important;
+  }
   .site-content .header .navbar-menu .navbar-collapse .navbar-nav {
     display: none !important;
   }
@@ -14428,6 +14431,24 @@ textarea:focus {
   }
   .client-grid ul li img {
     max-width: 100px;
+  }
+  .banner-slider .bxslider li {
+    height: 500px;
+  }
+  .banner {
+    height: 400px;
+  }
+  .banner-sub .banner-caption .banner-title {
+    font-size: 50px;
+  }
+  .h-400 {
+    height: 300px !important;
+  }
+  .banner-sub .banner-caption .banner-title {
+    font-size: 50px;
+  }
+  .news-list-item-title {
+    font-size: 30px;
   }
 }
 @media (max-height: 930px) {
