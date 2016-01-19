@@ -4956,13 +4956,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/portfolio-img\/JumpStreet-1.jpg": {
+	"\/images\/portfolio-img\/JumpStreet-1.JPG": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 92577,
-		"inputAbbreviatedPath": "\/images\/portfolio-img\/JumpStreet-1.jpg",
-		"outputAbbreviatedPath": "\/images\/portfolio-img\/JumpStreet-1.jpg",
+		"inputAbbreviatedPath": "\/images\/portfolio-img\/JumpStreet-1.JPG",
+		"outputAbbreviatedPath": "\/images\/portfolio-img\/JumpStreet-1.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
