@@ -10,12 +10,6 @@
         function(){ /*$(this).removeClass("active"); */}
     );
 
-    $(document).ready(function(){
-        $("button").click(function(){
-            $("p").slideToggle();
-        });
-    });
-
     $('.navbar-toggle-menu').click(function() {
         $('.site-content').toggleClass('push-left');
         $('.site-menu-mobile').toggleClass('push-open');
